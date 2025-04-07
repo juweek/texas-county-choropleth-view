@@ -1,10 +1,19 @@
-
 import { CountyData } from '@/types/county';
+import Papa from 'papaparse';
 
-// This simulates loading data from a CSV file, but we're hardcoding it for now
-export const loadCountyData = (): Promise<CountyData[]> => {
-  // Sample data as provided in the prompt
-  const data: CountyData[] = [
+// Load county data from CSV file
+export const loadCountyData = async (): Promise<CountyData[]> => {
+  try {
+    // This is where we would load the CSV file with county data
+    // For now, we'll use the hardcoded sample data
+    // In a production app, you'd use:
+    // const response = await fetch('/path/to/county-data.csv');
+    // const csvText = await response.text();
+    // const parsed = Papa.parse(csvText, { header: true });
+    // return parsed.data as CountyData[];
+    
+    // Sample data as provided in the prompt
+    const data: CountyData[] = [
     {
       "countyName": "Foard",
       "coordinates": {
@@ -188,5 +197,16 @@ export const loadCountyData = (): Promise<CountyData[]> => {
     }
   ];
 
-  return Promise.resolve(data);
+    return data;
+  } catch (error) {
+    console.error('Error loading county data:', error);
+    throw error;
+  }
+};
+
+// Function to match county names between GeoJSON and our data
+// GeoJSON properties may use a different format or naming convention
+export const normalizeCountyName = (name: string): string => {
+  // Remove "County" suffix if present and trim whitespace
+  return name.replace(/\s+County$/i, '').trim();
 };
