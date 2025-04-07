@@ -6,6 +6,7 @@ import { CountyData, DataType } from '@/types/county';
 import { Card } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Legend } from '@/components/Legend';
+import { texasStateBoundary, texasCountyBoundaries } from '@/utils/texasGeoJSON';
 
 interface TexasMapProps {
   counties: CountyData[];
@@ -17,12 +18,12 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
   const [dataType, setDataType] = useState<DataType>('temperature');
   const [selectedCounty, setSelectedCounty] = useState<CountyData | null>(null);
 
-  // Convert counties to GeoJSON features
+  // Convert counties to GeoJSON features for data points
   const createPointsGeoJSON = () => {
     return {
-      type: 'FeatureCollection',
+      type: "FeatureCollection" as const,
       features: counties.map((county) => ({
-        type: 'Feature',
+        type: "Feature" as const,
         properties: {
           countyName: county.countyName,
           temperature: county.data.temperature.value,
@@ -32,7 +33,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
           data: JSON.stringify(county)
         },
         geometry: {
-          type: 'Point',
+          type: "Point" as const,
           coordinates: [county.coordinates.longitude, county.coordinates.latitude]
         }
       }))
@@ -78,12 +79,46 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
       // Add navigation controls
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-      // Add county data as circle layer
-      const geojson = createPointsGeoJSON();
+      // Add Texas state boundary
+      map.current.addSource('texas-state', {
+        type: 'geojson',
+        data: texasStateBoundary
+      });
+
+      map.current.addLayer({
+        id: 'texas-state-line',
+        type: 'line',
+        source: 'texas-state',
+        paint: {
+          'line-color': '#000',
+          'line-width': 2,
+          'line-opacity': 0.7
+        }
+      });
+
+      // Add Texas county boundaries
+      map.current.addSource('texas-counties', {
+        type: 'geojson',
+        data: texasCountyBoundaries
+      });
+
+      map.current.addLayer({
+        id: 'texas-counties-line',
+        type: 'line',
+        source: 'texas-counties',
+        paint: {
+          'line-color': '#444',
+          'line-width': 1,
+          'line-opacity': 0.5
+        }
+      });
+
+      // Add county data points
+      const pointsGeoJSON = createPointsGeoJSON();
       
       map.current.addSource('counties', {
         type: 'geojson',
-        data: geojson
+        data: pointsGeoJSON
       });
 
       map.current.addLayer({
@@ -100,7 +135,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
             ['get', 'countyName'],
             ...counties.flatMap(county => [county.countyName, getColor(county)]),
             '#AAAAAA' // default color
-          ]
+          ] as maplibregl.CirclePaintProperty['circle-color']
         }
       });
 
@@ -159,7 +194,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
       ['get', 'countyName'],
       ...counties.flatMap(county => [county.countyName, getColor(county)]),
       '#AAAAAA' // default color
-    ]);
+    ] as maplibregl.CirclePaintProperty['circle-color']);
   }, [dataType, counties]);
 
   const formatTemperature = (celsius: number) => {
@@ -240,3 +275,4 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
 };
 
 export default TexasMap;
+

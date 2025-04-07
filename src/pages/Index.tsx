@@ -47,7 +47,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       <header className="bg-white shadow-sm py-4 px-6">
         <h1 className="text-2xl font-bold text-gray-800">Texas Counties Weather Map</h1>
-        <p className="text-gray-600">Interactive choropleth map showing weather data across Texas counties</p>
+        <p className="text-gray-600">Interactive choropleth map showing weather data across Texas counties with county and state boundaries</p>
       </header>
       
       <main className="flex-1">
