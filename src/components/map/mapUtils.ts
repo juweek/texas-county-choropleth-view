@@ -1,4 +1,3 @@
-
 import { CountyData, DataType } from '@/types/county';
 import { normalizeCountyName } from '@/services/countyService';
 
@@ -34,16 +33,13 @@ export const findCountyByName = (counties: CountyData[], name: string): CountyDa
 
 // Generate a fill color expression for maplibre
 export const generateFillColorExpression = (counties: CountyData[], dataType: DataType) => {
-  // Create a match expression for maplibre to color counties
-  const matchExpression = ['match', ['get', 'NAME']];
+  const matchExpression = ['match', ['get', 'COUNTY']];
   
-  // Add each county with its color
   counties.forEach(county => {
-    matchExpression.push(county.countyName, getColor(county, dataType));
+    // Add "County" to match the GeoJSON format
+    matchExpression.push(`${county.countyName} County`, getColor(county, dataType));
   });
   
-  // Default color for counties not in our dataset
   matchExpression.push('#CCCCCC');
-  
   return matchExpression;
 };

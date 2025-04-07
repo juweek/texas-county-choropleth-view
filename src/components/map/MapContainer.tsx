@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect } from 'react';
 import maplibregl from 'maplibre-gl';
 import { CountyData, DataType } from '@/types/county';
@@ -88,7 +87,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
           map.current.on('click', 'texas-counties-fill', (e) => {
             if (e.features && e.features[0] && e.features[0].properties) {
               const props = e.features[0].properties;
-              const countyName = props.NAME;
+              const countyName = props.COUNTY.replace(' County', '');
               const countyData = findCountyByName(counties, countyName);
               
               if (countyData) {

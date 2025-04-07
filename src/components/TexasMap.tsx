@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { CountyData, DataType } from '@/types/county';
 import MapContainer from './map/MapContainer';
@@ -12,6 +11,8 @@ interface TexasMapProps {
 const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
   const [dataType, setDataType] = useState<DataType>('temperature');
   const [selectedCounty, setSelectedCounty] = useState<CountyData | null>(null);
+  
+  console.log('Counties in TexasMap:', counties.length, counties.map(c => c.countyName));
   
   return (
     <div className="relative h-[calc(100vh-6rem)]">
