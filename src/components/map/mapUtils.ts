@@ -19,6 +19,31 @@ export const getColor = (county: CountyData, dataType: DataType): string => {
     if (visibility < 5000) return '#FF9966'; // Poor visibility
     if (visibility < 10000) return '#FFD166'; // Moderate visibility
     return '#64B6FF'; // Good visibility
+  } else if (dataType === 'alerts') {
+    // Check if county has alerts
+    if (!county.data.alerts || county.data.alerts.length === 0) {
+      return '#64B6FF'; // No alerts - blue
+    }
+    
+    // Find the most severe alert
+    let highestSeverity = 'minor';
+    county.data.alerts.forEach(alert => {
+      const severity = alert.severity?.toLowerCase();
+      if (severity === 'extreme') highestSeverity = 'extreme';
+      else if (severity === 'severe' && highestSeverity !== 'extreme') highestSeverity = 'severe';
+      else if (severity === 'moderate' && !['extreme', 'severe'].includes(highestSeverity)) highestSeverity = 'moderate';
+    });
+    
+    // Return color based on severity
+    switch (highestSeverity) {
+      case 'extreme':
+      case 'severe':
+        return '#FF0000'; // Red for severe alerts
+      case 'moderate':
+        return '#FFA500'; // Orange for moderate alerts
+      default:
+        return '#FFFF00'; // Yellow for minor alerts
+    }
   }
   return '#9CA3AF'; // Default gray
 };

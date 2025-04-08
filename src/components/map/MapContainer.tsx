@@ -8,12 +8,14 @@ interface MapContainerProps {
   counties: CountyData[];
   dataType: DataType;
   onCountySelect: (county: CountyData | null) => void;
+  onCountyHover: (county: CountyData | null) => void;
 }
 
 const MapContainer: React.FC<MapContainerProps> = ({ 
   counties, 
   dataType,
-  onCountySelect 
+  onCountySelect,
+  onCountyHover
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -35,6 +37,15 @@ const MapContainer: React.FC<MapContainerProps> = ({
       // Add navigation controls
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
+      // Create a popup but don't add it to the map yet
+      const popup = new maplibregl.Popup({
+        closeButton: false,
+        closeOnClick: false
+      });
+
+      // Variable to track the currently hovered county
+      let hoveredCountyId = null;
+
       // Load Texas counties GeoJSON from public directory
       fetch('/tx_counties.geojson')
         .then(response => response.json())
@@ -47,6 +58,16 @@ const MapContainer: React.FC<MapContainerProps> = ({
             data: geojsonData
           });
 
+          // Add a background dimming layer for non-Texas areas
+          map.current.addLayer({
+            id: 'non-texas-dimmer',
+            type: 'background',
+            paint: {
+              'background-color': '#ffffff',
+              'background-opacity': 0.7
+            }
+          });
+
           // Add Texas counties fill layer (choropleth)
           map.current.addLayer({
             id: 'texas-counties-fill',
@@ -54,7 +75,12 @@ const MapContainer: React.FC<MapContainerProps> = ({
             source: 'texas-counties',
             paint: {
               'fill-color': generateFillColorExpression(counties, dataType) as any,
-              'fill-opacity': 0.7
+              'fill-opacity': [
+                'case',
+                ['boolean', ['==', ['get', 'COUNTY'], ['literal', hoveredCountyId]], false],
+                0.9, // Hovered county opacity
+                0.7  // Normal opacity
+              ]
             }
           });
 
@@ -67,6 +93,23 @@ const MapContainer: React.FC<MapContainerProps> = ({
               'line-color': '#444',
               'line-width': 0.5,
               'line-opacity': 0.8
+            }
+          });
+
+          // Add hover effect layer
+          map.current.addLayer({
+            id: 'texas-counties-hover',
+            type: 'line',
+            source: 'texas-counties',
+            paint: {
+              'line-color': '#fff',
+              'line-width': 2,
+              'line-opacity': [
+                'case',
+                ['boolean', ['==', ['get', 'COUNTY'], ['literal', hoveredCountyId]], false],
+                1,
+                0
+              ]
             }
           });
 
@@ -99,13 +142,88 @@ const MapContainer: React.FC<MapContainerProps> = ({
             }
           });
           
-          // Change cursor on hover
-          map.current.on('mouseenter', 'texas-counties-fill', () => {
-            if (map.current) map.current.getCanvas().style.cursor = 'pointer';
+          // Handle mousemove over the counties layer
+          map.current.on('mousemove', 'texas-counties-fill', (e) => {
+            if (!map.current || !e.features || !e.features[0]) return;
+            
+            // Change cursor
+            map.current.getCanvas().style.cursor = 'pointer';
+            
+            // Get the county ID
+            const countyId = e.features[0].properties.COUNTY;
+            
+            // If we're entering a new county
+            if (hoveredCountyId !== countyId) {
+              // Update hover state
+              hoveredCountyId = countyId;
+              
+              // Update the filter for the hover effect
+              map.current.setFilter('texas-counties-hover', ['==', 'COUNTY', hoveredCountyId]);
+              
+              // Update the fill opacity expression
+              map.current.setPaintProperty('texas-counties-fill', 'fill-opacity', [
+                'case',
+                ['boolean', ['==', ['get', 'COUNTY'], ['literal', hoveredCountyId]], false],
+                0.9, // Hovered county opacity
+                0.7  // Normal opacity
+              ]);
+              
+              // Get county data for popup
+              const props = e.features[0].properties;
+              const countyName = props.COUNTY.replace(' County', '');
+              const countyData = findCountyByName(counties, countyName);
+              
+              // Update the hovered county in parent component
+              if (countyData) {
+                onCountyHover(countyData);
+              }
+              
+              // Create popup content
+              let popupContent = `<strong>${props.COUNTY}</strong>`;
+              if (countyData) {
+                const value = countyData[dataType];
+                const formattedValue = dataType === 'temperature' 
+                  ? `${value.toFixed(1)}°C` 
+                  : dataType === 'relativeHumidity' 
+                    ? `${value.toFixed(0)}%` 
+                    : value.toString();
+                
+                popupContent += `<br>${dataType}: ${formattedValue}`;
+              } else {
+                popupContent += '<br>No data available';
+              }
+              
+              // Position the popup at the cursor
+              popup.setLngLat(e.lngLat)
+                .setHTML(popupContent)
+                .addTo(map.current);
+            } else {
+              // Just update the popup position if we're still in the same county
+              popup.setLngLat(e.lngLat);
+            }
           });
           
+          // Handle mouseleave from the counties layer
           map.current.on('mouseleave', 'texas-counties-fill', () => {
-            if (map.current) map.current.getCanvas().style.cursor = '';
+            if (!map.current) return;
+            
+            // Reset cursor
+            map.current.getCanvas().style.cursor = '';
+            
+            // Reset hover state
+            hoveredCountyId = null;
+            
+            // Reset the filter
+            map.current.setFilter('texas-counties-hover', ['==', 'COUNTY', '']);
+            
+            // Reset the fill opacity
+            map.current.setPaintProperty('texas-counties-fill', 'fill-opacity', 0.7);
+            
+            // Remove popup
+            popup.remove();
+            
+            // Clear hovered county
+            onCountyHover(null);
           });
         })
         .catch(error => {
@@ -117,7 +235,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
       map.current?.remove();
       map.current = null;
     };
-  }, [counties, dataType, onCountySelect]);
+  }, [counties, dataType, onCountySelect, onCountyHover]);
 
   // Update colors when data type changes
   useEffect(() => {

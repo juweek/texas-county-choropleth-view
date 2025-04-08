@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
@@ -12,12 +11,13 @@ interface MapControlsProps {
 
 const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange }) => {
   return (
-    <Card className="absolute top-4 left-4 z-10 w-[300px] bg-white/90 backdrop-blur-sm">
+    <Card className="absolute top-4 left-4 z-10 w-[360px] bg-white/90 backdrop-blur-sm">
       <Tabs defaultValue={dataType} onValueChange={(value) => onDataTypeChange(value as DataType)}>
-        <TabsList className="w-full grid grid-cols-3">
+        <TabsList className="w-full grid grid-cols-4">
           <TabsTrigger value="temperature">Temperature</TabsTrigger>
           <TabsTrigger value="hazards">Hazards</TabsTrigger>
           <TabsTrigger value="visibility">Visibility</TabsTrigger>
+          <TabsTrigger value="alerts">Alerts</TabsTrigger>
         </TabsList>
         
         <TabsContent value="temperature" className="pt-4">
@@ -52,6 +52,18 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
               { color: '#FFD166', label: 'Moderate (5-10km)' },
               { color: '#64B6FF', label: 'Good (>10km)' },
               { color: '#9CA3AF', label: 'Data not available' }
+            ]} 
+          />
+        </TabsContent>
+        
+        <TabsContent value="alerts" className="pt-4">
+          <Legend 
+            title="Weather Alerts" 
+            items={[
+              { color: '#FF0000', label: 'Severe Alerts' },
+              { color: '#FFA500', label: 'Moderate Alerts' },
+              { color: '#FFFF00', label: 'Minor Alerts' },
+              { color: '#64B6FF', label: 'No Alerts' }
             ]} 
           />
         </TabsContent>
