@@ -416,12 +416,20 @@ def main():
     if len(counties) > 5:
         print(f"  ...and {len(counties) - 5} more")
     
-    # Confirm to proceed
-    proceed = input(f"Proceed with data collection for {len(counties)} counties? (y/n): ")
-    if proceed.lower() == 'y':
+    # Check if running in CI environment
+    is_ci = os.environ.get('CI') == 'true'
+    
+    # Skip confirmation in CI environment
+    if is_ci:
+        print("Running in CI environment - proceeding without confirmation")
         process_and_save(counties)
     else:
-        print("Operation cancelled.")
+        # Confirm to proceed
+        proceed = input(f"Proceed with data collection for {len(counties)} counties? (y/n): ")
+        if proceed.lower() == 'y':
+            process_and_save(counties)
+        else:
+            print("Operation cancelled.")
 
 if __name__ == "__main__":
     main()
