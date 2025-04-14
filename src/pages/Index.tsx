@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import TexasMap from '@/components/TexasMap';
 import { CountyData } from '@/types/county';
+import HeroSection from '@/components/HeroSection';
+import FeaturesSection from '@/components/FeaturesSection';
+import MapSection from '@/components/MapSection';
+import HowItWorksSection from '@/components/HowItWorksSection';
+import CTASection from '@/components/CTASection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const [counties, setCounties] = useState<CountyData[]>([]);
@@ -33,7 +38,12 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      <TexasMap counties={counties} />
+      <HeroSection />
+      <FeaturesSection />
+      <MapSection counties={counties} />
+      <HowItWorksSection />
+      <CTASection />
+      <Footer />
     </main>
   );
 }

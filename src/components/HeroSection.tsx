@@ -1,0 +1,66 @@
+import React from 'react';
+
+const HeroSection = () => {
+  const scrollToMap = () => {
+    const mapSection = document.getElementById('map-section');
+    if (mapSection) {
+      mapSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
+  return (
+    <section className="relative h-screen overflow-hidden">
+      {/* Background Video */}
+      <div className="absolute inset-0 w-full h-full">
+        <video 
+          className="absolute object-cover w-full h-full"
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+        >
+          <source src="/videos/houston-video.mp4" type="video/mp4" />
+          {/* Fallback image if video doesn't load */}
+          <img 
+            src="/images/placeholder-image.jpg" 
+            alt="Texas landscape" 
+            className="absolute object-cover w-full h-full" 
+          />
+        </video>
+        {/* Overlay to make text more readable */}
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      </div>
+      
+      {/* Content */}
+      <div className="relative h-full container mx-auto px-4 flex items-center">
+        <div className="max-w-2xl text-left text-white">
+          <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+            Texas Weather Explorer
+          </h1>
+          <p className="text-xl md:text-2xl mb-10 text-gray-100">
+            Discover real-time weather conditions across all counties in the Lone Star State.
+            Interactive mapping for temperature, precipitation, and more.
+          </p>
+          <button 
+            onClick={scrollToMap}
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg transition duration-300 text-lg"
+          >
+            Explore Map
+          </button>
+        </div>
+      </div>
+      
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection; 
