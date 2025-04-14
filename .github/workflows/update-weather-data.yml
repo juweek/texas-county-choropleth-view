@@ -28,7 +28,7 @@ jobs:
       
       - name: Run weather data collection script
         run: |
-          python src/texas-alerts.py --sample --include-alerts --output-dir ./public
+          python src/texas-alerts.py --county-file src/texas-counties.csv --include-alerts --output-dir ./public
       
       - name: Commit and push if changed
         run: |
