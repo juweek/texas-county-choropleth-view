@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Texas Weather Explorer</h3>
+            <h3 className="text-xl font-bold mb-4">Say hello to TDIS</h3>
             <p className="text-gray-400">
               Providing accurate weather data for all 254 Texas counties.
             </p>

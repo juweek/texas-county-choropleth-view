@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { CountyData } from '@/types/county';
 import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
+import TabbedRiskView from '@/components/TabbedRiskView';
 import MapSection from '@/components/MapSection';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import CTASection from '@/components/CTASection';
@@ -39,6 +40,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <HeroSection />
+      <TabbedRiskView />
       <FeaturesSection />
       <MapSection counties={counties} />
       <HowItWorksSection />

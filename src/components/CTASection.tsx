@@ -4,9 +4,9 @@ const CTASection = () => {
   return (
     <section className="py-16 bg-blue-600 text-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-6">Ready to Explore Texas Weather?</h2>
+        <h2 className="text-3xl font-bold mb-6">Want to keep updated on disasters in Texas?</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
-          Sign up for our newsletter to receive weekly weather updates and alerts for your county.
+          Sign up for our email-list to receive important TDIS updates and alerts for your county.
         </p>
         <div className="max-w-md mx-auto">
           <div className="flex flex-col sm:flex-row gap-4">
