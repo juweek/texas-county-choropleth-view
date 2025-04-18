@@ -46,7 +46,7 @@ const HeroSection = () => {
           </p>
           <button 
             onClick={scrollToMap}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg transition duration-300 text-lg"
+            className="bg-custom-blue hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg transition duration-300 text-lg"
           >
             Is Texas at risk for disaster?
           </button>
