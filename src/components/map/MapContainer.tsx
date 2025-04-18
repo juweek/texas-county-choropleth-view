@@ -3,6 +3,7 @@ import maplibregl from 'maplibre-gl';
 import { CountyData, DataType } from '@/types/county';
 import { findCountyByName, generateFillColorExpression } from './mapUtils';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import { getAssetPath } from '@/utils/paths';
 
 interface MapContainerProps {
   counties: CountyData[];
@@ -47,7 +48,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
       let hoveredCountyId = null;
 
       // Load Texas counties GeoJSON from public directory
-      fetch('/tx_counties.geojson')
+      fetch(getAssetPath('tx_counties.geojson'))
         .then(response => response.json())
         .then(geojsonData => {
           if (!map.current) return;

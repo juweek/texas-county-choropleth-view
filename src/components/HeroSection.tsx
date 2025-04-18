@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetPath } from '@/utils/paths';
 
 const HeroSection = () => {
   const scrollToMap = () => {
@@ -22,10 +23,10 @@ const HeroSection = () => {
           muted 
           playsInline
         >
-          <source src="/videos/houston-video.mp4" type="video/mp4" />
+          <source src={getAssetPath('videos/houston-video.mp4')} type="video/mp4" />
           {/* Fallback image if video doesn't load */}
           <img 
-            src="/images/placeholder-image.jpg" 
+            src={getAssetPath('images/placeholder-image.jpg')} 
             alt="Texas landscape" 
             className="absolute object-cover w-full h-full" 
           />

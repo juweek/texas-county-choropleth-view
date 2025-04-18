@@ -1,6 +1,6 @@
 export const getBasePath = (): string => {
-  // For local development vs production
-  return import.meta.env.DEV ? '' : '/texas-county-choropleth-view';
+  // In dev mode with Vite base path set, we need to include it
+  return import.meta.env.DEV ? '/texas-county-choropleth-view' : '';
 };
 
 export const getAssetPath = (assetPath: string): string => {
