@@ -7,6 +7,7 @@ import MapSection from '@/components/MapSection';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import { getAssetPath } from '@/utils/paths';
 
 export default function Home() {
   const [counties, setCounties] = useState<CountyData[]>([]);
@@ -17,7 +18,7 @@ export default function Home() {
     const fetchCountyData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/texas_counties_weather.json');
+        const response = await fetch(getAssetPath('texas_counties_weather.json'));
         if (!response.ok) {
           throw new Error('Failed to fetch county data');
         }
