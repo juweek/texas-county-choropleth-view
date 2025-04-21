@@ -1,7 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { getAssetPath } from '@/utils/paths';
 
 const HeroSection = () => {
+  const [scrollY, setScrollY] = useState(0);
+  const requestRef = useRef<number>();
+  const previousTimeRef = useRef<number>();
+  const videoRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const indicatorRef = useRef<HTMLDivElement>(null);
+
+  // Smooth animation loop using requestAnimationFrame
+  const animate = (time: number) => {
+    if (previousTimeRef.current !== undefined) {
+      // Get current scroll position
+      const currentScrollY = window.scrollY;
+      
+      // Update state with current scroll position
+      setScrollY(currentScrollY);
+      
+      // Apply transforms directly to DOM for smoother animation
+      if (videoRef.current) {
+        videoRef.current.style.transform = `translate3d(0, ${currentScrollY * 0.5}px, 0)`;
+      }
+      
+      if (contentRef.current) {
+        contentRef.current.style.transform = `translate3d(0, ${currentScrollY * 0.2}px, 0)`;
+      }
+      
+      if (indicatorRef.current) {
+        indicatorRef.current.style.transform = `translate3d(-50%, ${currentScrollY * -0.3}px, 0)`;
+      }
+    }
+    
+    previousTimeRef.current = time;
+    requestRef.current = requestAnimationFrame(animate);
+  };
+
+  useEffect(() => {
+    requestRef.current = requestAnimationFrame(animate);
+    return () => {
+      if (requestRef.current) {
+        cancelAnimationFrame(requestRef.current);
+      }
+    };
+  }, []);
+
   const scrollToMap = () => {
     const mapSection = document.getElementById('map-section');
     if (mapSection) {
@@ -13,9 +56,13 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen pt-20 bg-gradient-to-r from-blue-700 to-indigo-900 overflow-hidden">
-      {/* Background Video */}
-      <div className="absolute inset-0 w-full h-full">
+    <section className="relative h-screen pt-20 bg-gradient-to-r from-blue-700 to-indigo-900 overflow-hidden will-change-transform">
+      {/* Background Video with Parallax */}
+      <div 
+        ref={videoRef}
+        className="absolute inset-0 w-full h-full will-change-transform"
+        style={{ transform: `translate3d(0, ${scrollY * 0.5}px, 0)` }}
+      >
         <video 
           className="absolute object-cover w-full h-full"
           autoPlay 
@@ -35,8 +82,12 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       
-      {/* Content */}
-      <div className="relative h-full container mx-auto px-4 flex items-center">
+      {/* Content with different parallax speed */}
+      <div 
+        ref={contentRef}
+        className="relative h-full container mx-auto px-4 flex items-center will-change-transform"
+        style={{ transform: `translate3d(0, ${scrollY * 0.2}px, 0)` }}
+      >
         <div className="max-w-2xl text-left text-white">
           <h1 className="text-7xl md:text-7xl font-condensed-bold font-bold mb-8 leading-tight">
           Disaster support for a better Texas
@@ -53,8 +104,12 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* Scroll indicator with different parallax rate */}
+      <div 
+        ref={indicatorRef}
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce will-change-transform"
+        style={{ transform: `translate3d(-50%, ${scrollY * -0.3}px, 0)` }}
+      >
         <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>

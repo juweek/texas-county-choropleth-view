@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getAssetPath } from '@/utils/paths';
 
 interface TabItem {
   icon: string;
@@ -11,11 +12,16 @@ interface TabContent {
   items: TabItem[];
 }
 
-const TABS: string[] = ['HELP PEOPLE', 'PREPARE', 'PROTECT PROPERTY', 'COORDINATE'];
+const TABS: Array<{id: string, label: string, icon: string}> = [
+  {id: 'help-people', label: 'HELP PEOPLE', icon: '👥'},
+  {id: 'prepare', label: 'PREPARE', icon: '🛠️'},
+  {id: 'protect', label: 'PROTECT PROPERTY', icon: '🏠'},
+  {id: 'coordinate', label: 'COORDINATE', icon: '🤝'}
+];
 
 const tabContent: TabContent[] = [
   {
-    image: '/images/help-people.png', // placeholder
+    image: getAssetPath('images/temp_image_1.png'), // placeholder
     items: [
       { icon: '📞', title: 'Neque porro quisquam', description: 'Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.' },
       { icon: '📝', title: 'Lorem ipsum dolor sit amet', description: 'Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas ultrices.' },
@@ -23,7 +29,7 @@ const tabContent: TabContent[] = [
     ]
   },
   {
-    image: '/images/prepare.png',
+    image: getAssetPath('images/temp_image_2.png'),
     items: [
       { icon: '📞', title: 'Prepare tab 1', description: 'Some description about preparing 1.' },
       { icon: '📝', title: 'Prepare tab 2', description: 'Some description about preparing 2.' },
@@ -31,7 +37,7 @@ const tabContent: TabContent[] = [
     ]
   },
   {
-    image: '/images/protect.png',
+    image: getAssetPath('images/temp_image_1.png'),
     items: [
       { icon: '📞', title: 'Protect tab 1', description: 'Info about property protection 1.' },
       { icon: '📝', title: 'Protect tab 2', description: 'Info about property protection 2.' },
@@ -39,7 +45,7 @@ const tabContent: TabContent[] = [
     ]
   },
   {
-    image: '/images/coordinate.png',
+    image: getAssetPath('images/temp_image_2.png'),
     items: [
       { icon: '📞', title: 'Coordinate tab 1', description: 'Info about coordination 1.' },
       { icon: '📝', title: 'Coordinate tab 2', description: 'Info about coordination 2.' },
@@ -56,11 +62,16 @@ export default function TabbedRiskView(): JSX.Element {
       <div className="flex justify-center gap-6 border-b mb-6">
         {TABS.map((tab, idx) => (
           <button
-            key={tab}
-            className={`py-2 px-4 font-condensed-bold font-bold ${idx === activeTab ? 'border-b-2 border-black text-black' : 'text-gray-400'}`}
+            key={tab.id}
+            className={`py-3 px-6 font-condensed-bold font-bold flex flex-col items-center transition-colors duration-200 ${
+              idx === activeTab 
+                ? 'border-b-2 border-custom-blue text-custom-blue' 
+                : 'text-gray-500 hover:text-gray-700'
+            }`}
             onClick={() => setActiveTab(idx)}
           >
-            {tab}
+            <span className="text-2xl mb-2">{tab.icon}</span>
+            <span className="text-sm">{tab.label}</span>
           </button>
         ))}
       </div>
@@ -69,7 +80,7 @@ export default function TabbedRiskView(): JSX.Element {
         <div className="w-full md:w-1/2">
           <img 
             src={tabContent[activeTab].image} 
-            alt={`${TABS[activeTab]} visualization`} 
+            alt={`${TABS[activeTab].label} visualization`} 
             className="w-full rounded shadow" 
           />
         </div>
