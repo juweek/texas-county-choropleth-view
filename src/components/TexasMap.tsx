@@ -22,37 +22,44 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
   };
   
   return (
-    <div className="relative h-[calc(100vh-6rem)]" onMouseMove={handleMouseMove}>
-      {/* Map Controls */}
-      <MapControls 
-        dataType={dataType} 
-        onDataTypeChange={setDataType} 
-      />
-      
-      {/* County Details Card - for clicked county */}
-      {selectedCounty && (
-        <CountyDetailCard 
-          county={selectedCounty} 
-          position="fixed"
+    <div className="flex flex-col space-y-4">
+      {/* Map Controls - Full width at the top */}
+      <div className="w-full bg-white shadow-md rounded-md p-2">
+        <MapControls 
+          dataType={dataType} 
+          onDataTypeChange={setDataType} 
         />
-      )}
-      
-      {/* Hover Details Card - follows mouse */}
-      {hoveredCounty && !selectedCounty && (
-        <CountyDetailCard 
-          county={hoveredCounty} 
-          position="follow-cursor"
-          mousePosition={mousePosition}
-        />
-      )}
+      </div>
       
       {/* Map Container */}
-      <MapContainer 
-        counties={counties} 
-        dataType={dataType} 
-        onCountySelect={setSelectedCounty}
-        onCountyHover={setHoveredCounty}
-      />
+      <div className="relative h-[calc(100vh-12rem)]" onMouseMove={handleMouseMove}>
+        {/* County Details Card - for clicked county */}
+        {selectedCounty && (
+          <CountyDetailCard 
+            county={selectedCounty} 
+            position="fixed"
+          />
+        )}
+        
+        {/* Hover Details Card - follows mouse */}
+        {hoveredCounty && !selectedCounty && (
+          <CountyDetailCard 
+            county={hoveredCounty} 
+            position="follow-cursor"
+            mousePosition={mousePosition}
+          />
+        )}
+        
+        {/* Map Container */}
+        <MapContainer 
+          counties={counties} 
+          dataType={dataType} 
+          onCountySelect={setSelectedCounty}
+          onCountyHover={setHoveredCounty}
+          showStateOutlines={true}
+          initialZoom={5}
+        />
+      </div>
     </div>
   );
 };

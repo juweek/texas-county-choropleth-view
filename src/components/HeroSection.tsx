@@ -13,7 +13,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative h-screen pt-20 bg-gradient-to-r from-blue-700 to-indigo-900 overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video 
@@ -38,11 +38,11 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative h-full container mx-auto px-4 flex items-center">
         <div className="max-w-2xl text-left text-white">
-          <h1 className="text-6xl md:text-6xl font-condensed-bold font-bold mb-8 leading-tight">
-            TDIS is here to help
+          <h1 className="text-7xl md:text-7xl font-condensed-bold font-bold mb-8 leading-tight">
+          Disaster support for a better Texas
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-100 font-condensed-light font-light">
-          The Texas Disaster Information System (TDIS) is a tool for Texan communities with disaster recovery and mitigation. 
+          TDIS provides tools that empower communities across Texas to prepare, respond, and recover from disasters more effectively.  
           </p>
           <button 
             onClick={scrollToMap}

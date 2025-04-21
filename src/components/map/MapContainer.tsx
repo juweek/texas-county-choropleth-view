@@ -10,13 +10,17 @@ interface MapContainerProps {
   dataType: DataType;
   onCountySelect: (county: CountyData | null) => void;
   onCountyHover: (county: CountyData | null) => void;
+  showStateOutlines?: boolean;
+  initialZoom?: number;
 }
 
 const MapContainer: React.FC<MapContainerProps> = ({ 
   counties, 
   dataType,
   onCountySelect,
-  onCountyHover
+  onCountyHover,
+  showStateOutlines = false,
+  initialZoom = 5.5
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -29,7 +33,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
       container: mapContainer.current,
       style: 'https://demotiles.maplibre.org/style.json',
       center: [-99.5, 31.2], // Center on Texas
-      zoom: 5.5
+      zoom: initialZoom
     });
 
     map.current.on('load', () => {
@@ -46,6 +50,36 @@ const MapContainer: React.FC<MapContainerProps> = ({
 
       // Variable to track the currently hovered county
       let hoveredCountyId = null;
+
+      // Load US states GeoJSON if showStateOutlines is true
+      if (showStateOutlines) {
+        fetch(getAssetPath('us_states.geojson'))
+          .then(response => response.json())
+          .then(geojsonData => {
+            if (!map.current) return;
+            
+            // Add US states source
+            map.current.addSource('us-states', {
+              type: 'geojson',
+              data: geojsonData
+            });
+
+            // Add US states outline layer
+            map.current.addLayer({
+              id: 'us-states-line',
+              type: 'line',
+              source: 'us-states',
+              paint: {
+                'line-color': '#777',
+                'line-width': 1,
+                'line-opacity': 0.8
+              }
+            });
+          })
+          .catch(error => {
+            console.error('Error loading US states GeoJSON:', error);
+          });
+      }
 
       // Load Texas counties GeoJSON from public directory
       fetch(getAssetPath('tx_counties.geojson'))
@@ -236,7 +270,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
       map.current?.remove();
       map.current = null;
     };
-  }, [counties, dataType, onCountySelect, onCountyHover]);
+  }, [counties, dataType, onCountySelect, onCountyHover, showStateOutlines, initialZoom]);
 
   // Update colors when data type changes
   useEffect(() => {

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { CountyData } from '@/types/county';
+import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import TabbedRiskView from '@/components/TabbedRiskView';
 import MapSection from '@/components/MapSection';
-import HowItWorksSection from '@/components/HowItWorksSection';
+import ContactFormSection from '@/components/HowItWorksSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 import { getAssetPath } from '@/utils/paths';
@@ -39,14 +40,24 @@ export default function Home() {
   if (error) return <div className="flex justify-center items-center h-screen text-red-500">{error}</div>;
 
   return (
-    <main className="min-h-screen">
-      <HeroSection />
-      <TabbedRiskView />
-      <FeaturesSection />
-      <MapSection counties={counties} />
-      <HowItWorksSection />
-      <CTASection />
-      <Footer />
-    </main>
+    <>
+      <Navbar />
+      <main className="min-h-screen">
+        <HeroSection />
+        <div id="what-we-do">
+          <TabbedRiskView />
+        </div>
+        <div id="who-works-with-us">
+          <FeaturesSection />
+        </div>
+        <div id="current-risks">
+          <MapSection counties={counties} />
+        </div>
+        <div id="contact-us">
+          <ContactFormSection />
+        </div>
+        <CTASection />
+      </main>
+    </>
   );
 }
