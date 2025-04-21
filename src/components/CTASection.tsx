@@ -4,7 +4,7 @@ const CTASection = () => {
   return (
     <section className="py-16 bg-custom-blue text-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-6">Want to keep updated on disasters in Texas?</h2>
+        <h2 className="text-4xl font-condensed-bold font-bold text-center mb-12">Want to keep updated on disasters in Texas?</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
           Sign up for our email-list to receive important TDIS updates and alerts for your county.
         </p>

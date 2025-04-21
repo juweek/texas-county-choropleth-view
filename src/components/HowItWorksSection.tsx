@@ -28,7 +28,7 @@ const ContactFormSection = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
+        <h2 className="text-4xl font-condensed-bold font-bold text-center mb-12">Contact Us</h2>
         <div className="max-w-md mx-auto">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
@@ -78,7 +78,7 @@ const ContactFormSection = () => {
             
             <button
               type="submit"
-              className="w-full bg-custom-blue text-white py-2 px-4 rounded-md hover:bg-custom-blue/80 transition duration-300"
+              className="w-full bg-custom-blue text-white py-2 px-4 rounded-md hover:bg-custom-blue/80 transition duration-300 font-condensed-bold font-bold"
             >
               Send Message
             </button>

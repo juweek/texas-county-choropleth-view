@@ -38,15 +38,15 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative h-full container mx-auto px-4 flex items-center">
         <div className="max-w-2xl text-left text-white">
-          <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+          <h1 className="text-6xl md:text-6xl font-condensed-bold font-bold mb-8 leading-tight">
             TDIS is here to help
           </h1>
-          <p className="text-xl md:text-2xl mb-10 text-gray-100">
+          <p className="text-xl md:text-2xl mb-10 text-gray-100 font-condensed-light font-light">
           The Texas Disaster Information System (TDIS) is a tool for Texan communities with disaster recovery and mitigation. 
           </p>
           <button 
             onClick={scrollToMap}
-            className="bg-custom-blue hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-lg transition duration-300 text-lg"
+            className="bg-custom-blue hover:bg-blue-700 text-white font-condensed-bold font-bold py-4 px-10 rounded-lg transition duration-300 text-lg"
           >
             Is Texas at risk for disaster?
           </button>

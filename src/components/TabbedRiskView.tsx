@@ -57,7 +57,7 @@ export default function TabbedRiskView(): JSX.Element {
         {TABS.map((tab, idx) => (
           <button
             key={tab}
-            className={`py-2 px-4 font-semibold ${idx === activeTab ? 'border-b-2 border-black text-black' : 'text-gray-400'}`}
+            className={`py-2 px-4 font-condensed-bold font-bold ${idx === activeTab ? 'border-b-2 border-black text-black' : 'text-gray-400'}`}
             onClick={() => setActiveTab(idx)}
           >
             {tab}
@@ -81,7 +81,7 @@ export default function TabbedRiskView(): JSX.Element {
                 {item.icon}
               </div>
               <div>
-                <h3 className="font-semibold text-lg">{item.title}</h3>
+                <h3 className="font-condensed-bold font-bold text-lg">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.description}</p>
               </div>
             </div>

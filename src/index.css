@@ -1,6 +1,18 @@
+@import './styles/fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom utility classes for font weights */
+.font-condensed-bold {
+  font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.font-condensed-light {
+  font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+  font-weight: 300;
+}
 
 @layer base {
   :root {

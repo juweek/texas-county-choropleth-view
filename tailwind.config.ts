@@ -18,8 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Open Sans', 'sans-serif'],
+				'condensed': ['Open Sans Condensed', 'Open Sans', 'sans-serif'],
+				'condensed-bold': ['Open Sans Condensed', 'Open Sans', 'sans-serif'],
+				'condensed-light': ['Open Sans Condensed', 'Open Sans', 'sans-serif'],
+			},
+			fontWeight: {
+				'light': '300',
+				'bold': '700',
+			},
 			colors: {
-				'custom-blue': '#23323C',
+				'custom-blue': '#324755',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
