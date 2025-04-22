@@ -86,7 +86,7 @@ const Navbar = () => {
           {/* Navigation Links in Pill */}
           <nav>
             <div 
-              className={`bg-white/90 backdrop-blur-sm rounded-full shadow-md px-6 transition-all duration-300 ${
+              className={`bg-custom-blue/90 backdrop-blur-sm rounded-full shadow-md px-6 transition-all duration-300 ${
                 scrolled ? 'py-2' : 'py-3'
               }`}
             >
@@ -97,8 +97,8 @@ const Navbar = () => {
                       onClick={() => scrollToSection(section.id)}
                       className={`font-condensed-bold font-bold transition ${
                         activeSection === section.id 
-                          ? 'text-custom-blue' 
-                          : 'text-gray-600 hover:text-custom-blue'
+                          ? 'text-white' 
+                          : 'text-white hover:text-gray-600'
                       }`}
                     >
                       {section.label}

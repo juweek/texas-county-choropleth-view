@@ -44,7 +44,7 @@ export default function Home() {
       <Navbar />
       <main className="min-h-screen">
         <HeroSection />
-        <div id="what-we-do">
+        <div id="what-we-do" className="bg-custom-blue border-t-[3px] border-b-[3px] border-black">
           <TabbedRiskView />
         </div>
         <div id="who-works-with-us">

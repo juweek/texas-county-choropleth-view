@@ -92,8 +92,8 @@ const HeroSection = () => {
         className="relative h-full container mx-auto px-4 flex items-center will-change-transform"
         style={{ transform: `translate3d(0, ${scrollY * 0.2}px, 0)` }}
       >
-        <div className="max-w-2xl text-left text-white">
-          <h1 className="text-7xl md:text-7xl font-condensed-bold font-bold mb-8 leading-tight">
+        <div className="max-w-2xl text-left text-white ml-16">
+          <h1 className="text-8xl md:text-8xl font-condensed-bold font-bold mb-8 leading-tight">
           Disaster support for a better Texas
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-100 font-condensed-light font-light">
@@ -101,7 +101,7 @@ const HeroSection = () => {
           </p>
           <button 
             onClick={scrollToMap}
-            className="bg-custom-blue hover:bg-blue-700 text-white font-condensed-bold font-bold py-4 px-10 rounded-lg transition duration-300 text-lg"
+            className="bg-custom-blue hover:bg-blue-700 text-white font-condensed-bold font-bold py-4 px-10 rounded-full transition duration-300 text-lg"
           >
             Is Texas at risk for disaster?
           </button>
