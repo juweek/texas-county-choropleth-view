@@ -1,17 +1,53 @@
 import React, { useState, useEffect } from 'react';
+import { getAssetPath } from '@/utils/paths';
+
+// Define the section IDs for easier reference
+const SECTIONS = [
+  { id: 'what-we-do', label: 'What We Do' },
+  { id: 'who-works-with-us', label: 'Who Works With Us' },
+  { id: 'current-risks', label: 'Current Risk Alerts' },
+  { id: 'contact-us', label: 'Contact Us' }
+];
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
+      // Check if we've scrolled down enough to change the navbar appearance
       const isScrolled = window.scrollY > 50;
       if (isScrolled !== scrolled) {
         setScrolled(isScrolled);
       }
+
+      // Determine which section is currently in view
+      const scrollPosition = window.scrollY + window.innerHeight / 3;
+      
+      // Check each section from bottom to top (to handle overlap correctly)
+      for (let i = SECTIONS.length - 1; i >= 0; i--) {
+        const section = document.getElementById(SECTIONS[i].id);
+        if (section) {
+          const sectionTop = section.offsetTop;
+          const sectionBottom = sectionTop + section.offsetHeight;
+          
+          if (scrollPosition >= sectionTop && scrollPosition <= sectionBottom) {
+            setActiveSection(SECTIONS[i].id);
+            break;
+          }
+        }
+      }
+
+      // Set hero section as active when at the top
+      if (scrollPosition < window.innerHeight) {
+        setActiveSection('');
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
+    // Run once on mount to set initial active section
+    handleScroll();
+    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -21,68 +57,56 @@ const Navbar = () => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+      setActiveSection(id);
     }
   };
 
   return (
     <header 
-      className={`fixed top-0 left-0 w-full bg-white shadow-md z-50 transition-all duration-300 ${
-        scrolled ? 'py-2' : 'py-4'
+      className={`fixed top-0 left-0 w-full z-50 px-6 md:px-10 transition-all duration-300 ${
+        scrolled ? 'py-3' : 'py-5'
       }`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className={`transition-all duration-300 ${scrolled ? 'h-8' : 'h-10'}`}>
             <a href="/" className="flex items-center">
               <img 
-                src="/logo.svg" 
+                src={getAssetPath('images/tdis-logo.svg')} 
                 alt="TDIS Logo" 
-                className="h-full w-auto" 
+                className="w-auto mx-5 px-4" 
                 onError={(e) => {
                   e.currentTarget.src = 'https://via.placeholder.com/150x50?text=TDIS+Logo';
                 }}
               />
-              <span className="ml-2 text-xl font-condensed-bold font-bold text-custom-blue">TDIS</span>
             </a>
           </div>
 
-          {/* Navigation Links */}
-          <nav className={`transition-all duration-300 ${scrolled ? 'text-sm' : 'text-base'}`}>
-            <ul className="flex space-x-6">
-              <li>
-                <button 
-                  onClick={() => scrollToSection('what-we-do')}
-                  className="font-condensed-bold font-bold text-gray-600 hover:text-custom-blue transition"
-                >
-                  What We Do
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('who-works-with-us')}
-                  className="font-condensed-bold font-bold text-gray-600 hover:text-custom-blue transition"
-                >
-                  Who Works With Us
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('current-risks')}
-                  className="font-condensed-bold font-bold text-gray-600 hover:text-custom-blue transition"
-                >
-                  Current Risk Alerts
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection('contact-us')}
-                  className="font-condensed-bold font-bold text-gray-600 hover:text-custom-blue transition"
-                >
-                  Contact Us
-                </button>
-              </li>
-            </ul>
+          {/* Navigation Links in Pill */}
+          <nav>
+            <div 
+              className={`bg-white/90 backdrop-blur-sm rounded-full shadow-md px-6 transition-all duration-300 ${
+                scrolled ? 'py-2' : 'py-3'
+              }`}
+            >
+              <ul className={`flex space-x-6 transition-all duration-300 ${scrolled ? 'text-sm' : 'text-base'}`}>
+                {SECTIONS.map(section => (
+                  <li key={section.id}>
+                    <button 
+                      onClick={() => scrollToSection(section.id)}
+                      className={`font-condensed-bold font-bold transition ${
+                        activeSection === section.id 
+                          ? 'text-custom-blue' 
+                          : 'text-gray-600 hover:text-custom-blue'
+                      }`}
+                    >
+                      {section.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </nav>
         </div>
       </div>

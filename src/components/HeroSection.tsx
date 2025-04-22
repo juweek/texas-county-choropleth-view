@@ -8,6 +8,7 @@ const HeroSection = () => {
   const videoRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const indicatorRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   // Smooth animation loop using requestAnimationFrame
   const animate = (time: number) => {
@@ -56,7 +57,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen pt-20 bg-gradient-to-r from-blue-700 to-indigo-900 overflow-hidden will-change-transform">
+    <section 
+      ref={sectionRef}
+      className="relative h-screen pt-24 bg-gradient-to-r from-blue-700 to-indigo-900 overflow-hidden will-change-transform"
+    >
       {/* Background Video with Parallax */}
       <div 
         ref={videoRef}
