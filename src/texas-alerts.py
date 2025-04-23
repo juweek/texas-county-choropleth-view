@@ -8,6 +8,8 @@ import io
 import os
 import argparse
 import sys
+from datetime import datetime
+import pytz
 
 # Set up argument parser
 parser = argparse.ArgumentParser(description='Collect weather data for Texas counties')
@@ -368,6 +370,24 @@ def process_and_save(counties):
     # Save to CSV file
     csv_output = os.path.join(args.output_dir, "texas_counties_weather.csv")
     convert_to_csv(weather_data, csv_output)
+    
+    # Create and save timestamp file
+    # Get current time in Central Time Zone (CDT/CST)
+    central_tz = pytz.timezone('US/Central')
+    current_time = datetime.now(central_tz)
+    
+    # Format timestamp: "April 23, 2025 at 2:30 PM CDT"
+    timestamp = {
+        "last_updated": current_time.strftime("%B %d, %Y at %I:%M %p %Z"),
+        "timestamp_utc": datetime.now(pytz.UTC).isoformat()
+    }
+    
+    # Save timestamp to JSON file
+    timestamp_output = os.path.join(args.output_dir, "weather_timestamp.json")
+    with open(timestamp_output, "w") as f:
+        json.dump(timestamp, f, indent=2)
+    
+    print(f"Timestamp saved to: {timestamp_output}")
 
 def main():
     # Create output directory if it doesn't exist

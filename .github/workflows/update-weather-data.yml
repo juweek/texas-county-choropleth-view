@@ -31,7 +31,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas
+          pip install requests pandas pytz
 
       - name: Set up Git identity
         run: |
@@ -44,7 +44,7 @@ jobs:
 
       - name: Commit and push changes with retry
         run: |
-          git add public/texas_counties_weather.json public/texas_counties_weather.csv
+          git add public/texas_counties_weather.json public/texas_counties_weather.csv public/weather_timestamp.json
           if ! git diff --quiet && ! git diff --staged --quiet; then
             git commit -m "Update weather data [automated]"
             

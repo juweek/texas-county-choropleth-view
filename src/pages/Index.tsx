@@ -14,17 +14,32 @@ export default function Home() {
   const [counties, setCounties] = useState<CountyData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [lastUpdated, setLastUpdated] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchCountyData = async () => {
+    const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(getAssetPath('texas_counties_weather.json'));
-        if (!response.ok) {
+        
+        // Fetch county data
+        const countyResponse = await fetch(getAssetPath('texas_counties_weather.json'));
+        if (!countyResponse.ok) {
           throw new Error('Failed to fetch county data');
         }
-        const data = await response.json();
-        setCounties(data);
+        const countyData = await countyResponse.json();
+        setCounties(countyData);
+        
+        // Fetch timestamp data
+        try {
+          const timestampResponse = await fetch(getAssetPath('weather_timestamp.json'));
+          if (timestampResponse.ok) {
+            const timestampData = await timestampResponse.json();
+            setLastUpdated(timestampData.last_updated);
+          }
+        } catch (timestampErr) {
+          console.warn('Could not load timestamp data:', timestampErr);
+          // Don't set error state here, just log the warning
+        }
       } catch (err) {
         console.error('Error fetching county data:', err);
         setError('Failed to load county data');
@@ -33,7 +48,7 @@ export default function Home() {
       }
     };
 
-    fetchCountyData();
+    fetchData();
   }, []);
 
   if (loading) return <div className="flex justify-center items-center h-screen">Loading county data...</div>;
@@ -58,6 +73,13 @@ export default function Home() {
         </div>
         <CTASection />
       </main>
+      
+      {/* Add timestamp display */}
+      {lastUpdated && (
+        <div className="text-sm text-gray-600 p-2 text-center">
+          Data last updated: {lastUpdated}
+        </div>
+      )}
     </>
   );
 }
