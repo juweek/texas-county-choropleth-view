@@ -70,16 +70,18 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className={`transition-all duration-300 ${scrolled ? 'h-8' : 'h-10'}`}>
+          <div className={`transition-all duration-300 ${scrolled ? 'h-6' : 'h-8'}`}>
             <a href="/" className="flex items-center">
-              <img 
-                src={getAssetPath('images/tdis-logo.svg')} 
-                alt="TDIS Logo" 
-                className="w-auto mx-5 px-4" 
-                onError={(e) => {
-                  e.currentTarget.src = 'https://via.placeholder.com/150x50?text=TDIS+Logo';
-                }}
-              />
+              <div className="bg-white rounded-full py-2 px-4 shadow-md">
+                <img 
+                  src={getAssetPath('images/tdis-logo.svg')} 
+                  alt="TDIS Logo" 
+                  className="w-auto" 
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://via.placeholder.com/150x50?text=TDIS+Logo';
+                  }}
+                />
+              </div>
             </a>
           </div>
 

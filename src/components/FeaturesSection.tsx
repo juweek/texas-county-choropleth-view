@@ -152,7 +152,7 @@ const FeaturesSection = () => {
         }}
       ></div>
       
-      <div className="container mx-auto px-4 md:px-10 lg:px-16 relative z-10">
+      <div className="container mx-auto px-12 md:px-10 lg:px-24 relative z-10">
         {/* Title with fade and slide-in animation */}
         <h2 
           className={`text-5xl font-condensed-bold font-bold mb-12 text-white md:text-left transition-all duration-1000 transform ${

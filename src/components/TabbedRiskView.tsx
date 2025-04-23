@@ -63,7 +63,7 @@ export default function TabbedRiskView(): JSX.Element {
             onClick={() => setActiveTab(idx)}
           >
             <span className="text-2xl mb-2">{tab.icon}</span>
-            <span className="text-sm">{tab.label}</span>
+            <span className="text-md">{tab.label}</span>
           </button>
         ))}
       </div>
