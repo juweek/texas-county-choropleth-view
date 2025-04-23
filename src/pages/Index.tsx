@@ -84,11 +84,7 @@ export default function Home() {
       </main>
       
       <Footer />
-      
-      {/* Timestamp display for debugging */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white/80 p-2 text-center text-sm">
-        <strong>Debug:</strong> {lastUpdated ? `Data last updated: ${lastUpdated}` : 'No timestamp available'}
-      </div>
+    
 
       {/* If a county is selected, show its details in a fixed card */}
       {selectedCounty && (

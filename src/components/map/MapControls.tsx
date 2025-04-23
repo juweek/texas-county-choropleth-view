@@ -13,7 +13,7 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
   return (
     <div className="w-full">
       <Tabs defaultValue={dataType} onValueChange={(value) => onDataTypeChange(value as DataType)}>
-        <TabsList className="w-full grid grid-cols-4 mb-4">
+        <TabsList className="w-full grid grid-cols-4">
           <TabsTrigger value="temperature" className="font-condensed-bold font-bold">Temperature</TabsTrigger>
           <TabsTrigger value="hazards" className="font-condensed-bold font-bold">Hazards</TabsTrigger>
           <TabsTrigger value="visibility" className="font-condensed-bold font-bold">Visibility</TabsTrigger>
@@ -21,7 +21,7 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
         </TabsList>
         
         <div className="flex justify-center">
-          <TabsContent value="temperature" className="pt-2 w-full max-w-xl">
+          <TabsContent value="temperature" className="w-full max-w-xl">
             <Legend 
               title="Temperature" 
               items={[
@@ -34,7 +34,7 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
             />
           </TabsContent>
           
-          <TabsContent value="hazards" className="pt-2 w-full max-w-xl">
+          <TabsContent value="hazards" className="w-full max-w-xl">
             <Legend 
               title="Hazards" 
               items={[
@@ -44,7 +44,7 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
             />
           </TabsContent>
           
-          <TabsContent value="visibility" className="pt-2 w-full max-w-xl">
+          <TabsContent value="visibility" className="w-full max-w-xl">
             <Legend 
               title="Visibility" 
               items={[
@@ -57,7 +57,7 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
             />
           </TabsContent>
           
-          <TabsContent value="alerts" className="pt-2 w-full max-w-xl">
+          <TabsContent value="alerts" className="w-full max-w-xl">
             <Legend 
               title="Weather Alerts" 
               items={[

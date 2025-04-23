@@ -15,7 +15,7 @@ const MapSection: React.FC<MapSectionProps> = ({ counties, lastUpdated }) => {
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-10">
         Explore current weather conditions across the state. Click on a county for detailed information.
         </p>
-        <div className="bg-white p-4 rounded-lg shadow-md">
+        <div className="bg-white rounded-lg">
           <TexasMap counties={counties} lastUpdated={lastUpdated} />
         </div>
       </div>

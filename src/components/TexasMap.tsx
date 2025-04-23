@@ -24,9 +24,9 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties, lastUpdated }) => {
   };
   
   return (
-    <div className="flex flex-col space-y-4">
+    <div className="flex flex-col space-y-4 border border-gray-300">
       {/* Map Controls - Full width at the top */}
-      <div className="w-full bg-white shadow-md rounded-md p-2">
+      <div className="w-full bg-white rounded-sm border-b border-gray-300">
         <MapControls 
           dataType={dataType} 
           onDataTypeChange={setDataType} 

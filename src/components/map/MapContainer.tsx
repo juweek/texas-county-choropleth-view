@@ -31,7 +31,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
 
     map.current = new maplibregl.Map({
       container: mapContainer.current,
-      style: 'https://demotiles.maplibre.org/style.json',
+      style: 'https://api.maptiler.com/maps/backdrop/style.json?key=n8jpMekOIC6L0dhGpdyS',
       center: [-99.5, 31.2], // Center on Texas
       zoom: initialZoom
     });
@@ -216,14 +216,18 @@ const MapContainer: React.FC<MapContainerProps> = ({
               // Create popup content
               let popupContent = `<strong>${props.COUNTY}</strong>`;
               if (countyData) {
-                const value = countyData[dataType];
-                const formattedValue = dataType === 'temperature' 
-                  ? `${value.toFixed(1)}°C` 
-                  : dataType === 'relativeHumidity' 
-                    ? `${value.toFixed(0)}%` 
-                    : value.toString();
-                
-                popupContent += `<br>${dataType}: ${formattedValue}`;
+                if (dataType === 'temperature') {
+                  popupContent += `<br>Temperature: ${countyData.data.temperature.value.toFixed(1)}°C`;
+                } else if (dataType === 'visibility') {
+                  const visibility = countyData.data.visibility.value;
+                  popupContent += `<br>Visibility: ${visibility ? (visibility / 1609.34).toFixed(1) + ' miles' : 'Not available'}`;
+                } else if (dataType === 'hazards') {
+                  const hazards = countyData.data.hazards;
+                  popupContent += `<br>Hazards: ${hazards.length > 0 ? hazards.join(', ') : 'None'}`;
+                } else if (dataType === 'alerts') {
+                  const alerts = countyData.data.alerts || [];
+                  popupContent += `<br>Alerts: ${alerts.length > 0 ? alerts.length + ' active' : 'None'}`;
+                }
               } else {
                 popupContent += '<br>No data available';
               }
