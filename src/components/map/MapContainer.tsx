@@ -20,7 +20,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
   onCountySelect,
   onCountyHover,
   showStateOutlines = false,
-  initialZoom = 5.5
+  initialZoom = 10.5
 }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
@@ -33,7 +33,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
       container: mapContainer.current,
       style: 'https://api.maptiler.com/maps/backdrop/style.json?key=n8jpMekOIC6L0dhGpdyS',
       center: [-99.5, 31.2], // Center on Texas
-      zoom: initialZoom
+      zoom: 4.2
     });
 
     map.current.on('load', () => {
