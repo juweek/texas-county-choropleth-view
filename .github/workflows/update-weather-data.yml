@@ -41,6 +41,19 @@ jobs:
       - name: Run weather data collection script
         run: |
           python src/texas-alerts.py --county-file src/texas-counties.csv --include-alerts --output-dir ./public
+          
+      - name: Verify output files
+        run: |
+          echo "Checking public directory contents:"
+          ls -la ./public
+          
+          echo "Checking timestamp file:"
+          if [ -f "./public/weather_timestamp.json" ]; then
+            echo "Timestamp file exists"
+            cat ./public/weather_timestamp.json
+          else
+            echo "ERROR: Timestamp file does not exist!"
+          fi
 
       - name: Commit and push changes with retry
         run: |

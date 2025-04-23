@@ -1,4 +1,3 @@
-
 export interface CountyData {
   countyName: string;
   coordinates: {
@@ -27,7 +26,13 @@ export interface CountyData {
       unit: string | null;
       validTime: string | null;
     };
+    alerts?: Array<{
+      event: string;
+      headline: string;
+      severity: string;
+      description?: string;
+    }>;
   };
 }
 
-export type DataType = 'temperature' | 'hazards' | 'visibility';
+export type DataType = 'temperature' | 'hazards' | 'visibility' | 'alerts';

@@ -7,12 +7,14 @@ interface CountyDetailCardProps {
   county: CountyData;
   position: 'fixed' | 'follow-cursor';
   mousePosition?: { x: number; y: number };
+  lastUpdated?: string | null;
 }
 
 const CountyDetailCard: React.FC<CountyDetailCardProps> = ({ 
   county, 
   position, 
-  mousePosition = { x: 0, y: 0 } 
+  mousePosition = { x: 0, y: 0 },
+  lastUpdated = null
 }) => {
   const formatTemperature = (celsius: number) => {
     const fahrenheit = (celsius * 9/5) + 32;
@@ -77,7 +79,7 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
       };
 
   // Check if county has alerts
-  const hasAlerts = county.data.alerts && county.data.alerts.length > 0;
+  const hasAlerts = county.data?.alerts && county.data.alerts.length > 0;
 
   return (
     <Card 
@@ -93,7 +95,7 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
         <p>Precipitation Probability: {county.data.probabilityOfPrecipitation.value}%</p>
         
         {/* Alerts section */}
-        {hasAlerts && (
+        {hasAlerts && county.data.alerts && (
           <div className="mt-3">
             <p className="font-semibold">Active Alerts:</p>
             <div className="mt-1 space-y-2">
@@ -107,6 +109,13 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
                 </div>
               ))}
             </div>
+          </div>
+        )}
+        
+        {/* Timestamp section */}
+        {lastUpdated && (
+          <div className="mt-3 pt-2 border-t border-gray-200 text-xs text-gray-500">
+            Data last updated: {lastUpdated}
           </div>
         )}
       </div>

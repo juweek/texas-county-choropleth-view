@@ -4,9 +4,10 @@ import { CountyData } from '@/types/county';
 
 interface MapSectionProps {
   counties: CountyData[];
+  lastUpdated?: string | null;
 }
 
-const MapSection: React.FC<MapSectionProps> = ({ counties }) => {
+const MapSection: React.FC<MapSectionProps> = ({ counties, lastUpdated }) => {
   return (
     <section id="map-section" className="py-12 bg-gray-100">
       <div className="container mx-auto px-40 sm:px-20 md:px-40 lg:px-80">
@@ -15,7 +16,7 @@ const MapSection: React.FC<MapSectionProps> = ({ counties }) => {
         Explore current weather conditions across the state. Click on a county for detailed information.
         </p>
         <div className="bg-white p-4 rounded-lg shadow-md">
-          <TexasMap counties={counties} />
+          <TexasMap counties={counties} lastUpdated={lastUpdated} />
         </div>
       </div>
     </section>

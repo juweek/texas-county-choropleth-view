@@ -6,15 +6,17 @@ import CountyDetailCard from './map/CountyDetailCard';
 
 interface TexasMapProps {
   counties: CountyData[];
+  lastUpdated?: string | null;
 }
 
-const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
+const TexasMap: React.FC<TexasMapProps> = ({ counties, lastUpdated }) => {
   const [dataType, setDataType] = useState<DataType>('alerts');
   const [selectedCounty, setSelectedCounty] = useState<CountyData | null>(null);
   const [hoveredCounty, setHoveredCounty] = useState<CountyData | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
   console.log('Counties in TexasMap:', counties.length, counties.map(c => c.countyName));
+  console.log('Timestamp in TexasMap:', lastUpdated);
   
   // Track mouse position
   const handleMouseMove = (e: React.MouseEvent) => {
@@ -38,6 +40,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
           <CountyDetailCard 
             county={selectedCounty} 
             position="fixed"
+            lastUpdated={lastUpdated}
           />
         )}
         
@@ -47,6 +50,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties }) => {
             county={hoveredCounty} 
             position="follow-cursor"
             mousePosition={mousePosition}
+            lastUpdated={lastUpdated}
           />
         )}
         

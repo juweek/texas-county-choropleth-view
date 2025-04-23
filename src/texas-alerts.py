@@ -377,8 +377,11 @@ def process_and_save(counties):
     current_time = datetime.now(central_tz)
     
     # Format timestamp: "April 23, 2025 at 2:30 PM CDT"
+    formatted_time = current_time.strftime("%B %d, %Y at %I:%M %p %Z")
+    print(f"Creating timestamp with formatted time: {formatted_time}")
+    
     timestamp = {
-        "last_updated": current_time.strftime("%B %d, %Y at %I:%M %p %Z"),
+        "last_updated": formatted_time,
         "timestamp_utc": datetime.now(pytz.UTC).isoformat()
     }
     
@@ -388,6 +391,13 @@ def process_and_save(counties):
         json.dump(timestamp, f, indent=2)
     
     print(f"Timestamp saved to: {timestamp_output}")
+    # Verify the file was written
+    if os.path.exists(timestamp_output):
+        with open(timestamp_output, "r") as f:
+            verification = json.load(f)
+            print(f"Verification - timestamp file contents: {verification}")
+    else:
+        print(f"WARNING: Timestamp file was not created at {timestamp_output}")
 
 def main():
     # Create output directory if it doesn't exist
