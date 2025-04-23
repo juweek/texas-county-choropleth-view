@@ -23,25 +23,25 @@ const tabContent: TabContent[] = [
   {
     video: getAssetPath('videos/drip_video.mp4'), // placeholder
     items: [
-      { icon: '📞', title: 'Help People', description: 'The Digital Risk Infrastructure Program (DRIP) is a mobile friendly web application that helps county officials, emergency coordinators, and community members document and track flood damage imagery on the TDIS platform.' }
+      { icon: '', title: 'Help People', description: 'The Digital Risk Infrastructure Program (DRIP) is a mobile friendly web application that helps county officials, emergency coordinators, and community members document and track flood damage imagery on the TDIS platform.' }
     ]
   },
   {
     video: getAssetPath('videos/ramp_video.mp4'),
     items: [
-      { icon: '📞', title: 'Prepare', description: 'The Risk Assessment Mapping and Planning tool (RAMP) transforms complex hazard data into actionable insights. City and county officials can generate custom visualizations and export professional-quality maps, tables, and figures specific to their jurisdictions.' }
+      { icon: '', title: 'Prepare', description: 'The Risk Assessment Mapping and Planning tool (RAMP) transforms complex hazard data into actionable insights. City and county officials can generate custom visualizations and export professional-quality maps, tables, and figures specific to their jurisdictions.' }
     ]
   },
   {
     video: getAssetPath('videos/buyers_aware.mp4'),
     items: [
-      { icon: '📞', title: 'Protect Property', description: 'Buyers Aware simplifies disaster risk assessment for potential homebuyers through a single, comprehensive portal that provides property-specific risk information in an easy-to-understand format.' }
+      { icon: '', title: 'Protect Property', description: 'Buyers Aware simplifies disaster risk assessment for potential homebuyers through a single, comprehensive portal that provides property-specific risk information in an easy-to-understand format.' }
     ]
   },
   {
     video: getAssetPath('videos/buyers_aware.mp4'),
     items: [
-      { icon: '📞', title: 'Coordinate', description: 'In partnership with the Texas Water Development Board, our Model Management and Storage Solution (MS2) collects and processes complex flood models from regional engineers across Texas, creating a unified statewide flooding visualization system.' }
+      { icon: '', title: 'Coordinate', description: 'In partnership with the Texas Water Development Board, our Model Management and Storage Solution (MS2) collects and processes complex flood models from regional engineers across Texas, creating a unified statewide flooding visualization system.' }
     ]
   }
 ];
