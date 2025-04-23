@@ -13,8 +13,9 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
   return (
     <div className="w-full">
       <Tabs defaultValue={dataType} onValueChange={(value) => onDataTypeChange(value as DataType)}>
-        <TabsList className="w-full grid grid-cols-4">
+        <TabsList className="w-full grid grid-cols-5">
           <TabsTrigger value="temperature" className="font-condensed-bold font-bold">Temperature</TabsTrigger>
+          <TabsTrigger value="precipitation" className="font-condensed-bold font-bold">Precipitation</TabsTrigger>
           <TabsTrigger value="hazards" className="font-condensed-bold font-bold">Hazards</TabsTrigger>
           <TabsTrigger value="visibility" className="font-condensed-bold font-bold">Visibility</TabsTrigger>
           <TabsTrigger value="alerts" className="font-condensed-bold font-bold">Alerts</TabsTrigger>
@@ -30,6 +31,20 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
                 { color: '#FFD166', label: '10-20°C' },
                 { color: '#FF9966', label: '20-30°C' },
                 { color: '#FF5F5F', label: 'Above 30°C' }
+              ]} 
+            />
+          </TabsContent>
+          
+          <TabsContent value="precipitation" className="w-full max-w-xl">
+            <Legend 
+              title="Precipitation Probability" 
+              items={[
+                { color: '#FFFFFF', label: '0%' },
+                { color: '#E6F0FF', label: '1-20%' },
+                { color: '#B3D9FF', label: '21-40%' },
+                { color: '#80C2FF', label: '41-60%' },
+                { color: '#4DA6FF', label: '61-80%' },
+                { color: '#1A8CFF', label: '81-100%' }
               ]} 
             />
           </TabsContent>

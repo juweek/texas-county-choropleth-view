@@ -35,4 +35,4 @@ export interface CountyData {
   };
 }
 
-export type DataType = 'temperature' | 'hazards' | 'visibility' | 'alerts';
+export type DataType = 'temperature' | 'hazards' | 'visibility' | 'alerts' | 'precipitation';

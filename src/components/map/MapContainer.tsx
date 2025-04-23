@@ -42,12 +42,6 @@ const MapContainer: React.FC<MapContainerProps> = ({
       // Add navigation controls
       map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-      // Create a popup but don't add it to the map yet
-      const popup = new maplibregl.Popup({
-        closeButton: false,
-        closeOnClick: false
-      });
-
       // Variable to track the currently hovered county
       let hoveredCountyId = null;
 
@@ -99,7 +93,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
             type: 'background',
             paint: {
               'background-color': '#ffffff',
-              'background-opacity': 0.7
+              'background-opacity': 0.4
             }
           });
 
@@ -113,8 +107,8 @@ const MapContainer: React.FC<MapContainerProps> = ({
               'fill-opacity': [
                 'case',
                 ['boolean', ['==', ['get', 'COUNTY'], ['literal', hoveredCountyId]], false],
-                0.9, // Hovered county opacity
-                0.7  // Normal opacity
+                0.7, // Hovered county opacity
+                0.3  // Normal opacity - reduced for more transparency
               ]
             }
           });
@@ -126,8 +120,8 @@ const MapContainer: React.FC<MapContainerProps> = ({
             source: 'texas-counties',
             paint: {
               'line-color': '#444',
-              'line-width': 0.5,
-              'line-opacity': 0.8
+              'line-width': 0.08,
+              'line-opacity': 0.4
             }
           });
 
@@ -160,6 +154,93 @@ const MapContainer: React.FC<MapContainerProps> = ({
               'line-opacity': 1
             }
           });
+          
+          // Load city data for Texas
+          fetch(getAssetPath('tx_cities.geojson'))
+            .then(response => response.json())
+            .catch(() => {
+              console.log('City data not found, creating placeholder source');
+              // If the file doesn't exist, create an empty source
+              return { type: 'FeatureCollection', features: [] };
+            })
+            .then(cityData => {
+              if (!map.current) return;
+              
+              // Add city source (even if empty)
+              map.current.addSource('texas-cities', {
+                type: 'geojson',
+                data: cityData
+              });
+              
+              // Add city points layer
+              map.current.addLayer({
+                id: 'texas-city-points',
+                type: 'circle',
+                source: 'texas-cities',
+                paint: {
+                  'circle-radius': [
+                    'interpolate', ['linear'], ['zoom'],
+                    4, 3.5,  // Slightly larger dots at low zoom
+                    6, 4.5,
+                    8, 5.5,
+                    10, 6.5
+                  ],
+                  'circle-color': '#000',
+                  'circle-stroke-width': 1.5,
+                  'circle-stroke-color': '#fff'
+                },
+                // Show cities progressively based on population and zoom
+                filter: [
+                  'step',
+                  ['zoom'],
+                  ['>', ['get', 'POPULATION'], 500000],  // Zoom 0-4: Only major cities
+                  3, ['>', ['get', 'POPULATION'], 200000],  // Zoom 5-6: Larger cities
+                  7, ['>', ['get', 'POPULATION'], 100000],  // Zoom 7-8: Medium cities
+                  9, ['>', ['get', 'POPULATION'], 0]       // Zoom 9+: All cities
+                ]
+              });
+              
+              // Add city labels layer
+              map.current.addLayer({
+                id: 'texas-city-labels',
+                type: 'symbol',
+                source: 'texas-cities',
+                layout: {
+                  'text-field': ['get', 'NAME'],
+                  'text-font': ['Arial Unicode MS Regular'],
+                  'text-size': [
+                    'interpolate', ['linear'], ['zoom'],
+                    4, 10,  // Smaller at low zoom levels
+                    6, 12,
+                    8, 14,
+                    10, 16
+                  ],
+                  'text-allow-overlap': false,
+                  'text-variable-anchor': ['right', 'top', 'bottom', 'left'],
+                  'text-radial-offset': 0.5,
+                  'text-justify': 'auto',
+                  'text-max-width': 10,
+                  'icon-allow-overlap': true
+                },
+                paint: {
+                  'text-color': '#333',
+                  'text-halo-color': 'rgba(255, 255, 255, 0.9)',
+                  'text-halo-width': 2
+                },
+                // Use the same filter as the points layer
+                filter: [
+                  'step',
+                  ['zoom'],
+                  ['>', ['get', 'POPULATION'], 500000],  // Zoom 0-4: Only major cities
+                  3, ['>', ['get', 'POPULATION'], 200000],  // Zoom 5-6: Larger cities
+                  7, ['>', ['get', 'POPULATION'], 100000],  // Zoom 7-8: Medium cities
+                  9, ['>', ['get', 'POPULATION'], 0]       // Zoom 9+: All cities
+                ]
+              });
+            })
+            .catch(error => {
+              console.error('Error loading or processing city data:', error);
+            });
           
           // Add click event to show county details
           map.current.on('click', 'texas-counties-fill', (e) => {
@@ -199,8 +280,8 @@ const MapContainer: React.FC<MapContainerProps> = ({
               map.current.setPaintProperty('texas-counties-fill', 'fill-opacity', [
                 'case',
                 ['boolean', ['==', ['get', 'COUNTY'], ['literal', hoveredCountyId]], false],
-                0.9, // Hovered county opacity
-                0.7  // Normal opacity
+                0.7, // Hovered county opacity
+                0.4  // Normal opacity - reduced for more transparency
               ]);
               
               // Get county data for popup
@@ -212,33 +293,6 @@ const MapContainer: React.FC<MapContainerProps> = ({
               if (countyData) {
                 onCountyHover(countyData);
               }
-              
-              // Create popup content
-              let popupContent = `<strong>${props.COUNTY}</strong>`;
-              if (countyData) {
-                if (dataType === 'temperature') {
-                  popupContent += `<br>Temperature: ${countyData.data.temperature.value.toFixed(1)}°C`;
-                } else if (dataType === 'visibility') {
-                  const visibility = countyData.data.visibility.value;
-                  popupContent += `<br>Visibility: ${visibility ? (visibility / 1609.34).toFixed(1) + ' miles' : 'Not available'}`;
-                } else if (dataType === 'hazards') {
-                  const hazards = countyData.data.hazards;
-                  popupContent += `<br>Hazards: ${hazards.length > 0 ? hazards.join(', ') : 'None'}`;
-                } else if (dataType === 'alerts') {
-                  const alerts = countyData.data.alerts || [];
-                  popupContent += `<br>Alerts: ${alerts.length > 0 ? alerts.length + ' active' : 'None'}`;
-                }
-              } else {
-                popupContent += '<br>No data available';
-              }
-              
-              // Position the popup at the cursor
-              popup.setLngLat(e.lngLat)
-                .setHTML(popupContent)
-                .addTo(map.current);
-            } else {
-              // Just update the popup position if we're still in the same county
-              popup.setLngLat(e.lngLat);
             }
           });
           
@@ -256,10 +310,7 @@ const MapContainer: React.FC<MapContainerProps> = ({
             map.current.setFilter('texas-counties-hover', ['==', 'COUNTY', '']);
             
             // Reset the fill opacity
-            map.current.setPaintProperty('texas-counties-fill', 'fill-opacity', 0.7);
-            
-            // Remove popup
-            popup.remove();
+            map.current.setPaintProperty('texas-counties-fill', 'fill-opacity', 0.4);
             
             // Clear hovered county
             onCountyHover(null);

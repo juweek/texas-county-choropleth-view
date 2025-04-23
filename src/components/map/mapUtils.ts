@@ -10,6 +10,14 @@ export const getColor = (county: CountyData, dataType: DataType): string => {
     if (temp < 20) return '#FFD166'; // Warm yellow
     if (temp < 30) return '#FF9966'; // Orange
     return '#FF5F5F'; // Hot red
+  } else if (dataType === 'precipitation') {
+    const precipProbability = county.data.probabilityOfPrecipitation.value;
+    if (precipProbability === 0) return '#FFFFFF'; // White for 0%
+    if (precipProbability <= 20) return '#E6F0FF'; // Very light blue
+    if (precipProbability <= 40) return '#B3D9FF'; // Light blue
+    if (precipProbability <= 60) return '#80C2FF'; // Medium blue
+    if (precipProbability <= 80) return '#4DA6FF'; // Darker blue
+    return '#1A8CFF'; // Darkest blue for 81-100%
   } else if (dataType === 'hazards') {
     return county.data.hazards.length > 0 ? '#FF5F5F' : '#F7FCFD';
   } else if (dataType === 'visibility') {

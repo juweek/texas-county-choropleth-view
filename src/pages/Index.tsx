@@ -9,16 +9,12 @@ import ContactFormSection from '@/components/HowItWorksSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 import { getAssetPath } from '@/utils/paths';
-import CountyDetailCard from '@/components/map/CountyDetailCard';
 
 export default function Home() {
   const [counties, setCounties] = useState<CountyData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [lastUpdated, setLastUpdated] = useState<string | null>(null);
-  const [selectedCounty, setSelectedCounty] = useState<CountyData | null>(null);
-  const [hoveredCounty, setHoveredCounty] = useState<CountyData | null>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -82,28 +78,7 @@ export default function Home() {
         </div>
         <CTASection />
       </main>
-      
-      <Footer />
     
-
-      {/* If a county is selected, show its details in a fixed card */}
-      {selectedCounty && (
-        <CountyDetailCard
-          county={selectedCounty}
-          position="fixed"
-          lastUpdated={lastUpdated}
-        />
-      )}
-
-      {/* If hovering over a county (and it's not the selected one), show a details card that follows cursor */}
-      {hoveredCounty && hoveredCounty.countyName !== selectedCounty?.countyName && (
-        <CountyDetailCard
-          county={hoveredCounty}
-          position="follow-cursor"
-          mousePosition={mousePosition}
-          lastUpdated={lastUpdated}
-        />
-      )}
     </>
   );
 }

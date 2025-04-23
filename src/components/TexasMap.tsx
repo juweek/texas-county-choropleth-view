@@ -41,6 +41,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties, lastUpdated }) => {
             county={selectedCounty} 
             position="fixed"
             lastUpdated={lastUpdated}
+            activeTab={dataType}
           />
         )}
         
@@ -51,6 +52,7 @@ const TexasMap: React.FC<TexasMapProps> = ({ counties, lastUpdated }) => {
             position="follow-cursor"
             mousePosition={mousePosition}
             lastUpdated={lastUpdated}
+            activeTab={dataType}
           />
         )}
         
