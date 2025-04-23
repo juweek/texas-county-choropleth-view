@@ -21,6 +21,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0  # Needed for pull/rebase to work
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -37,17 +38,42 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-      - name: Pull latest changes with rebase
-        run: git pull --rebase origin main
-
       - name: Run weather data collection script
         run: |
           python src/texas-alerts.py --county-file src/texas-counties.csv --include-alerts --output-dir ./public
 
-      - name: Commit and push if changed
+      - name: Commit and push changes with retry
         run: |
           git add public/texas_counties_weather.json public/texas_counties_weather.csv
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update weather data [automated]" && git push origin main)
+          if ! git diff --quiet && ! git diff --staged --quiet; then
+            git commit -m "Update weather data [automated]"
+            
+            # Try to push with up to 3 retries
+            max_retries=3
+            retry_count=0
+            push_successful=false
+            
+            while [ $retry_count -lt $max_retries ] && [ "$push_successful" = false ]; do
+              # Pull with rebase before pushing
+              git pull --rebase origin main
+              
+              if git push origin main; then
+                push_successful=true
+                echo "Successfully pushed changes"
+              else
+                retry_count=$((retry_count+1))
+                if [ $retry_count -lt $max_retries ]; then
+                  echo "Push failed, retrying in 10 seconds (attempt $retry_count of $max_retries)..."
+                  sleep 10
+                else
+                  echo "Failed to push after $max_retries attempts"
+                  exit 1
+                fi
+              fi
+            done
+          else
+            echo "No changes detected, skipping commit"
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
