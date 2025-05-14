@@ -1,0 +1,37 @@
+name: Deploy Chatbot Frontend
+
+on:
+  push:
+    paths:
+      - 'src/components/Chatbot.tsx'
+      - 'src/chatbot.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Build and Deploy
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VITE_CHATBOT_API_URL: ${{ secrets.VITE_CHATBOT_API_URL }} 
