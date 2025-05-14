@@ -360,59 +360,61 @@ def process_and_save(counties):
     # Create output directories if they don't exist
     os.makedirs(args.output_dir, exist_ok=True)
     os.makedirs('public', exist_ok=True)
+    os.makedirs('dist', exist_ok=True)
     
     # Save to JSON files in both locations
     json_outputs = [
         os.path.join(args.output_dir, "texas_counties_weather.json"),
-        os.path.join('public', "texas_counties_weather.json")
+        os.path.join('public', "texas_counties_weather.json"),
+        os.path.join('dist', "texas_counties_weather.json")
     ]
-    
-    for json_output in json_outputs:
-        with open(json_output, "w") as f:
-            json.dump(weather_data, f, indent=2)
-        print(f"Data saved to JSON: {json_output}")
     
     # Save to CSV files in both locations
     csv_outputs = [
         os.path.join(args.output_dir, "texas_counties_weather.csv"),
-        os.path.join('public', "texas_counties_weather.csv")
+        os.path.join('public', "texas_counties_weather.csv"),
+        os.path.join('dist', "texas_counties_weather.csv")
     ]
     
-    for csv_output in csv_outputs:
-        convert_to_csv(weather_data, csv_output)
-    
-    # Create and save timestamp file in both locations
-    # Get current time in Central Time Zone (CDT/CST)
-    central_tz = pytz.timezone('US/Central')
-    current_time = datetime.now(central_tz)
-    
-    # Format timestamp: "April 23, 2025 at 2:30 PM CDT"
-    formatted_time = current_time.strftime("%B %d, %Y at %I:%M %p %Z")
-    print(f"Creating timestamp with formatted time: {formatted_time}")
-    
-    timestamp = {
-        "last_updated": formatted_time,
-        "timestamp_utc": datetime.now(pytz.UTC).isoformat()
-    }
-    
-    # Save timestamp to JSON files in both locations
+    # Save timestamp file in both locations
     timestamp_outputs = [
         os.path.join(args.output_dir, "weather_timestamp.json"),
-        os.path.join('public', "weather_timestamp.json")
+        os.path.join('public', "weather_timestamp.json"),
+        os.path.join('dist', "weather_timestamp.json")
     ]
     
-    for timestamp_output in timestamp_outputs:
-        with open(timestamp_output, "w") as f:
-            json.dump(timestamp, f, indent=2)
-        print(f"Timestamp saved to: {timestamp_output}")
+    # Save JSON data
+    for output_path in json_outputs:
+        with open(output_path, 'w') as f:
+            json.dump(weather_data, f, indent=2)
+        print(f"Data saved to JSON: {output_path}")
+    
+    # Save CSV data
+    for output_path in csv_outputs:
+        convert_to_csv(weather_data, output_path)
+    
+    # Save timestamp
+    for output_path in timestamp_outputs:
+        # Get current time in Central Time Zone (CDT/CST)
+        central_tz = pytz.timezone('US/Central')
+        current_time = datetime.now(central_tz)
         
-        # Verify the file was written
-        if os.path.exists(timestamp_output):
-            with open(timestamp_output, "r") as f:
-                verification = json.load(f)
-                print(f"Verification - timestamp file contents: {verification}")
-        else:
-            print(f"WARNING: Timestamp file was not created at {timestamp_output}")
+        # Format timestamp: "April 23, 2025 at 2:30 PM CDT"
+        formatted_time = current_time.strftime("%B %d, %Y at %I:%M %p %Z")
+        print(f"Creating timestamp with formatted time: {formatted_time}")
+        
+        timestamp_data = {
+            "last_updated": formatted_time,
+            "timestamp_utc": datetime.now(pytz.UTC).isoformat()
+        }
+        
+        with open(output_path, 'w') as f:
+            json.dump(timestamp_data, f, indent=2)
+        print(f"Timestamp saved to: {output_path}")
+        # Verify timestamp file contents
+        with open(output_path, 'r') as f:
+            saved_data = json.load(f)
+            print(f"Verification - timestamp file contents: {saved_data}")
 
 def main():
     # Create output directory if it doesn't exist
