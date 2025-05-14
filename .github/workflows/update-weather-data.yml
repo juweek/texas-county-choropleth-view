@@ -106,15 +106,30 @@ jobs:
           # Build the project
           npm run build
           
+          # Copy weather data files to dist
+          cp public/texas_counties_weather.json dist/
+          cp public/texas_counties_weather.csv dist/
+          cp public/weather_timestamp.json dist/
+          
           # Deploy to GitHub Pages
           npm run deploy
           
           # Verify the deployment
+          echo "Verifying dist directory contents:"
+          ls -la dist/
+          echo "Verifying weather data files:"
+          cat dist/weather_timestamp.json
+          
+          # Verify gh-pages branch
           echo "Verifying gh-pages branch contents:"
           git fetch origin gh-pages
+          git stash save "Temporary stash of weather data files"
           git checkout gh-pages
+          echo "Contents of gh-pages branch:"
           ls -la
-          cat weather_timestamp.json
+          git checkout main
+          git stash pop || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VITE_CHATBOT_API_URL: ${{ secrets.VITE_CHATBOT_API_URL }}
+
