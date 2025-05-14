@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tdis-chatbot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.chatbot:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+    healthCheckPath: /docs  # FastAPI's automatic documentation endpoint
+    autoDeploy: true  # Automatically deploy when changes are pushed
+    plan: free  # Start with the free tier 

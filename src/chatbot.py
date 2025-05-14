@@ -32,7 +32,11 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],  # Updated to match Vite's port
+    allow_origins=[
+        "http://localhost:8080",  # Local development
+        "https://juweek.github.io",  # GitHub Pages domain
+        "https://juweek.github.io/texas-county-choropleth-view"  # Full GitHub Pages URL
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
