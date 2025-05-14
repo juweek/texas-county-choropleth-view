@@ -57,7 +57,7 @@ jobs:
 
       - name: Commit and push to main branch
         run: |
-          git add public/texas_counties_weather.json public/texas_counties_weather.csv public/weather_timestamp.json
+          git add public/texas_counties_weather.json public/texas_counties_weather.csv public/weather_timestamp.json dist/texas_counties_weather.json dist/texas_counties_weather.csv dist/weather_timestamp.json
           if ! git diff --quiet && ! git diff --staged --quiet; then
             git commit -m "Update weather data [automated]"
             
