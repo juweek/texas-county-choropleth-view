@@ -22,29 +22,27 @@ export default function Home() {
       try {
         setLoading(true);
         
-        // Fetch county data
-        const countyResponse = await fetch(getAssetPath('texas_counties_weather.json'));
+        // Fetch county data with cache-busting
+        const timestamp = new Date().getTime();
+        const countyResponse = await fetch(`${getAssetPath('texas_counties_weather.json')}?t=${timestamp}`);
         if (!countyResponse.ok) {
           throw new Error('Failed to fetch county data');
         }
         const countyData = await countyResponse.json();
         setCounties(countyData);
         
-        // Fetch timestamp data
+        // Fetch timestamp data with cache-busting
         try {
-          const timestampResponse = await fetch(getAssetPath('weather_timestamp.json'));
+          const timestampResponse = await fetch(`${getAssetPath('weather_timestamp.json')}?t=${timestamp}`);
           if (timestampResponse.ok) {
             const timestampData = await timestampResponse.json();
             console.log('Timestamp data fetched:', timestampData);
             setLastUpdated(timestampData.last_updated);
-            
-            // Alert to debug
           } else {
             console.warn('Timestamp response not OK:', timestampResponse.status);
           }
         } catch (timestampErr) {
           console.warn('Could not load timestamp data:', timestampErr);
-          // Don't set error state here, just log the warning
         }
       } catch (err) {
         console.error('Error fetching county data:', err);

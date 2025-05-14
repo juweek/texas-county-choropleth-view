@@ -357,21 +357,31 @@ def process_and_save(counties):
     # Get weather data for all counties
     weather_data = get_all_counties_weather(counties, max_workers=args.max_workers, include_alerts=args.include_alerts)
     
-    # Create output directory if it doesn't exist
+    # Create output directories if they don't exist
     os.makedirs(args.output_dir, exist_ok=True)
+    os.makedirs('public', exist_ok=True)
     
-    # Save to JSON file
-    json_output = os.path.join(args.output_dir, "texas_counties_weather.json")
-    with open(json_output, "w") as f:
-        json.dump(weather_data, f, indent=2)
+    # Save to JSON files in both locations
+    json_outputs = [
+        os.path.join(args.output_dir, "texas_counties_weather.json"),
+        os.path.join('public', "texas_counties_weather.json")
+    ]
     
-    print(f"Data saved to JSON: {json_output}")
+    for json_output in json_outputs:
+        with open(json_output, "w") as f:
+            json.dump(weather_data, f, indent=2)
+        print(f"Data saved to JSON: {json_output}")
     
-    # Save to CSV file
-    csv_output = os.path.join(args.output_dir, "texas_counties_weather.csv")
-    convert_to_csv(weather_data, csv_output)
+    # Save to CSV files in both locations
+    csv_outputs = [
+        os.path.join(args.output_dir, "texas_counties_weather.csv"),
+        os.path.join('public', "texas_counties_weather.csv")
+    ]
     
-    # Create and save timestamp file
+    for csv_output in csv_outputs:
+        convert_to_csv(weather_data, csv_output)
+    
+    # Create and save timestamp file in both locations
     # Get current time in Central Time Zone (CDT/CST)
     central_tz = pytz.timezone('US/Central')
     current_time = datetime.now(central_tz)
@@ -385,19 +395,24 @@ def process_and_save(counties):
         "timestamp_utc": datetime.now(pytz.UTC).isoformat()
     }
     
-    # Save timestamp to JSON file
-    timestamp_output = os.path.join(args.output_dir, "weather_timestamp.json")
-    with open(timestamp_output, "w") as f:
-        json.dump(timestamp, f, indent=2)
+    # Save timestamp to JSON files in both locations
+    timestamp_outputs = [
+        os.path.join(args.output_dir, "weather_timestamp.json"),
+        os.path.join('public', "weather_timestamp.json")
+    ]
     
-    print(f"Timestamp saved to: {timestamp_output}")
-    # Verify the file was written
-    if os.path.exists(timestamp_output):
-        with open(timestamp_output, "r") as f:
-            verification = json.load(f)
-            print(f"Verification - timestamp file contents: {verification}")
-    else:
-        print(f"WARNING: Timestamp file was not created at {timestamp_output}")
+    for timestamp_output in timestamp_outputs:
+        with open(timestamp_output, "w") as f:
+            json.dump(timestamp, f, indent=2)
+        print(f"Timestamp saved to: {timestamp_output}")
+        
+        # Verify the file was written
+        if os.path.exists(timestamp_output):
+            with open(timestamp_output, "r") as f:
+                verification = json.load(f)
+                print(f"Verification - timestamp file contents: {verification}")
+        else:
+            print(f"WARNING: Timestamp file was not created at {timestamp_output}")
 
 def main():
     # Create output directory if it doesn't exist
