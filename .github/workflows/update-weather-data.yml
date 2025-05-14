@@ -101,8 +101,8 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
           npm run deploy
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
