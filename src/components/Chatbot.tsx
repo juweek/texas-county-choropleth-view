@@ -20,8 +20,15 @@ export default function Chatbot() {
   useEffect(() => {
     const checkConnection = async () => {
       try {
-        const response = await fetch(`${API_URL}/api/health`);
+        const response = await fetch(`${API_URL}/api/chat`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ text: "test" }),
+        });
         setIsConnected(response.ok);
+        console.log('Connection status:', response.ok ? 'Connected' : 'Disconnected');
       } catch (error) {
         setIsConnected(false);
         console.error('Connection check failed:', error);
