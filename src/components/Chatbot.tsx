@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface Message {
   id: number;
@@ -11,9 +11,25 @@ export default function Chatbot() {
   const [inputValue, setInputValue] = useState('');
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
+  const [isConnected, setIsConnected] = useState<boolean | null>(null);
 
   // Get API URL from environment variable or use localhost for development
   const API_URL = import.meta.env.VITE_CHATBOT_API_URL || 'http://localhost:8000';
+
+  // Check connection status when component mounts
+  useEffect(() => {
+    const checkConnection = async () => {
+      try {
+        const response = await fetch(`${API_URL}/api/health`);
+        setIsConnected(response.ok);
+      } catch (error) {
+        setIsConnected(false);
+        console.error('Connection check failed:', error);
+      }
+    };
+
+    checkConnection();
+  }, [API_URL]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -60,6 +76,7 @@ export default function Chatbot() {
       };
       setMessages(prev => [...prev, errorMessage]);
       console.error('Error:', error);
+      setIsConnected(false);
     } finally {
       setIsLoading(false);
     }
@@ -71,7 +88,14 @@ export default function Chatbot() {
     }`}>
       {/* Header */}
       <div className="p-4 bg-blue-600 text-white rounded-t-lg flex justify-between items-center cursor-pointer" onClick={() => setIsCollapsed(!isCollapsed)}>
-        <h3 className="text-lg font-semibold">TDIS Assistant</h3>
+        <div className="flex items-center space-x-2">
+          <h3 className="text-lg font-semibold">TDIS Assistant</h3>
+          {isConnected !== null && (
+            <div className="flex items-center space-x-1">
+              <div className={`w-2 h-2 rounded-full ${isConnected ? 'bg-green-400' : 'bg-red-400'}`}></div>
+            </div>
+          )}
+        </div>
         <button 
           className="text-white hover:text-gray-200 focus:outline-none"
           onClick={(e) => {
@@ -131,14 +155,14 @@ export default function Chatbot() {
                 type="text"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
-                placeholder="Type your message..."
+                placeholder={isConnected === false ? "Chatbot is currently offline" : "Type your message..."}
                 className="flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                disabled={isLoading}
+                disabled={isLoading || isConnected === false}
               />
               <button
                 type="submit"
                 className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
-                disabled={isLoading}
+                disabled={isLoading || isConnected === false}
               >
                 Send
               </button>

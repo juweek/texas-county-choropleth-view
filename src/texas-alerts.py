@@ -357,30 +357,37 @@ def process_and_save(counties):
     # Get weather data for all counties
     weather_data = get_all_counties_weather(counties, max_workers=args.max_workers, include_alerts=args.include_alerts)
     
+    # Get the root directory of the project
+    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    
     # Create output directories if they don't exist
     os.makedirs(args.output_dir, exist_ok=True)
     os.makedirs('public', exist_ok=True)
-    os.makedirs('dist', exist_ok=True)
+    os.makedirs(os.path.join(root_dir, 'dist'), exist_ok=True)
     
     # Save to JSON files in both locations
     json_outputs = [
         os.path.join(args.output_dir, "texas_counties_weather.json"),
         os.path.join('public', "texas_counties_weather.json"),
-        os.path.join('dist', "texas_counties_weather.json")
+        os.path.join(root_dir, 'public', "texas_counties_weather.json"),
+        os.path.join(root_dir, 'dist', "texas_counties_weather.json"),
+        
     ]
     
     # Save to CSV files in both locations
     csv_outputs = [
         os.path.join(args.output_dir, "texas_counties_weather.csv"),
         os.path.join('public', "texas_counties_weather.csv"),
-        os.path.join('dist', "texas_counties_weather.csv")
+        os.path.join(root_dir, 'public', "texas_counties_weather.csv"),
+        os.path.join(root_dir, 'dist', "texas_counties_weather.csv")
     ]
     
     # Save timestamp file in both locations
     timestamp_outputs = [
         os.path.join(args.output_dir, "weather_timestamp.json"),
         os.path.join('public', "weather_timestamp.json"),
-        os.path.join('dist', "weather_timestamp.json")
+        os.path.join(root_dir, 'public', "weather_timestamp.json"),
+        os.path.join(root_dir, 'dist', "weather_timestamp.json")
     ]
     
     # Save JSON data
