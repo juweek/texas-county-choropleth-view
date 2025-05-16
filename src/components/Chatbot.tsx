@@ -12,31 +12,54 @@ export default function Chatbot() {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [isConnected, setIsConnected] = useState<boolean | null>(null);
+  const [isDataLoaded, setIsDataLoaded] = useState<boolean>(false);
+  const [isDataLoading, setIsDataLoading] = useState<boolean>(false);
 
   // Get API URL from environment variable or use localhost for development
   const API_URL = import.meta.env.VITE_CHATBOT_API_URL || 'http://localhost:8000';
 
-  // Check connection status when component mounts
+  // Check connection status when component mounts and periodically while loading
   useEffect(() => {
     const checkConnection = async () => {
       try {
-        const response = await fetch(`${API_URL}/api/chat`, {
+        const response = await fetch(`${API_URL}/api/health`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ text: "test" }),
+          body: JSON.stringify({}),
         });
+        const data = await response.json();
         setIsConnected(response.ok);
-        console.log('Connection status:', response.ok ? 'Connected' : 'Disconnected');
+        setIsDataLoaded(data.data_loaded);
+        setIsDataLoading(data.data_loading);
+        console.log('Connection status:', response.ok ? 'Connected' : 'Disconnected', 
+                   'Data loaded:', data.data_loaded,
+                   'Data loading:', data.data_loading);
       } catch (error) {
         setIsConnected(false);
+        setIsDataLoaded(false);
+        setIsDataLoading(false);
         console.error('Connection check failed:', error);
       }
     };
 
+    // Initial check
     checkConnection();
-  }, [API_URL]);
+
+    // Only set up periodic checks if data is not loaded
+    let intervalId: NodeJS.Timeout | null = null;
+    if (!isDataLoaded) {
+      intervalId = setInterval(checkConnection, 30000); // Check every 30 seconds
+    }
+
+    // Cleanup interval on component unmount or when data is loaded
+    return () => {
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+    };
+  }, [API_URL, isDataLoaded]); // Add isDataLoaded to dependencies to stop checking when loaded
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
