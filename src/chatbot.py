@@ -11,7 +11,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 import openai
 import chromadb
 from datetime import datetime, timezone
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
@@ -23,35 +23,10 @@ if not OPENAI_API_KEY:
 
 CHROMA_COLLECTION_NAME = "tdis_alerts"
 
-# Base corpus that's always available
-BASE_CORPUS = """The Texas Disaster Information System (TDIS) is a comprehensive data platform for natural disaster management in Texas. It aims to streamline the ingestion, storage, processing, and utilization of disaster-related data, focusing on improving natural disaster preparedness, response, recovery, and mitigation efforts across the state.
+# TDIS Information
+TDIS_DESCRIPTION = """The Texas Disaster Information System (TDIS) is a comprehensive data platform for natural disaster management in Texas. It aims to streamline the ingestion, storage, processing, and utilization of disaster-related data, focusing on improving natural disaster preparedness, response, recovery, and mitigation efforts across the state.
 
-TDIS addresses the current challenges of fragmented, poorly maintained, and inaccessible disaster data in Texas by centralizing and organizing this information. This helps overcome limitations faced by responders, planners, and researchers in effectively supporting disaster resilience.
-
-Key Features:
-1. Centralized Data Management: TDIS consolidates disaster-related data from various sources into a single, accessible platform.
-2. Real-time Monitoring: The system provides up-to-date information about ongoing disasters and emergency situations.
-3. Data Analysis Tools: TDIS includes tools for analyzing disaster patterns and impacts.
-4. Resource Coordination: Helps coordinate disaster response resources across different agencies and organizations.
-5. Public Information: Provides accessible information to the public about disaster preparedness and response.
-
-Common Disaster Types in Texas:
-1. Hurricanes and Tropical Storms
-2. Flooding
-3. Wildfires
-4. Tornadoes
-5. Severe Thunderstorms
-6. Drought
-7. Winter Storms
-
-Emergency Response Resources:
-1. Texas Division of Emergency Management (TDEM)
-2. National Weather Service
-3. Local Emergency Management Offices
-4. American Red Cross
-5. FEMA
-
-For immediate emergency assistance, always call 911 or your local emergency services."""
+TDIS addresses the current challenges of fragmented, poorly maintained, and inaccessible disaster data in Texas by centralizing and organizing this information. This helps overcome limitations faced by responders, planners, and researchers in effectively supporting disaster resilience."""
 
 # --- SETUP FASTAPI ---
 app = FastAPI()
@@ -138,6 +113,39 @@ async def load_data():
         print(f"❌ Error loading data: {str(e)}")
         is_data_loaded = False
 
+# --- STEP 3: QUERY CHROMA + PASS TO GPT ---
+def answer_question(question):
+    # Step 3a: Find relevant documents
+    results = collection.query(query_texts=[question], n_results=3)
+
+    context = "\n".join(results["documents"][0])  # documents is a list-of-lists
+
+    # Step 3b: Format prompt
+    prompt = f"""You are a helpful TDIS (Texas Disaster Information System) assistant. Your primary role is to:
+1. Explain what TDIS is and its purpose
+2. Describe how TDIS works and its capabilities
+3. Provide information about current disaster alerts in Texas
+4. Help users understand disaster management in Texas
+
+TDIS Information:
+{TDIS_DESCRIPTION}
+
+Current Disaster Context:
+{context}
+
+
+Question:
+{question}
+
+Answer:"""
+
+    # Step 3c: Call GPT (OpenAI v1.x)
+    response = openai_client.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return response.choices[0].message.content.strip()
+
 # --- API ENDPOINTS ---
 @app.post("/api/health")
 async def health_check():
@@ -157,36 +165,8 @@ async def health_check():
 @app.post("/api/chat")
 async def chat_endpoint(question: Question):
     try:
-        # Always include the base corpus
-        context = BASE_CORPUS
-
-        # If data is loaded, include relevant alerts
-        if is_data_loaded:
-            results = collection.query(query_texts=[question.text], n_results=3)
-            if results["documents"][0]:  # If we have any relevant alerts
-                context += "\n\nCurrent Disaster Alerts:\n" + "\n".join(results["documents"][0])
-
-        # Format prompt
-        prompt = f"""You are a helpful TDIS (Texas Disaster Information System) assistant. Your primary role is to:
-1. Explain what TDIS is and its purpose
-2. Describe how TDIS works and its capabilities
-3. Provide information about disaster management in Texas
-4. Help users understand disaster preparedness and response
-
-Context:
-{context}
-
-Question:
-{question.text}
-
-Answer:"""
-
-        # Call GPT (OpenAI v1.x)
-        response = openai_client.chat.completions.create(
-            model="gpt-4-turbo",
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return {"response": response.choices[0].message.content.strip()}
+        answer = answer_question(question.text)
+        return {"response": answer}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

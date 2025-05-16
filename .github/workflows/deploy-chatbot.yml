@@ -31,7 +31,15 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
-          npm run deploy
+          # Try normal deploy first
+          npm run deploy || (
+            # If that fails, try to fix the branch and deploy again
+            git fetch origin gh-pages
+            git checkout gh-pages
+            git pull origin gh-pages
+            git checkout -
+            npm run deploy
+          )
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VITE_CHATBOT_API_URL: ${{ secrets.VITE_CHATBOT_API_URL }} 
