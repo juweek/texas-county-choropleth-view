@@ -8,7 +8,7 @@ import MapSection from '@/components/MapSection';
 import ContactFormSection from '@/components/HowItWorksSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
-import Chatbot from '@/components/Chatbot';
+// import Chatbot from '@/components/Chatbot';
 import { getAssetPath } from '@/utils/paths';
 
 export default function Home() {
@@ -76,7 +76,7 @@ export default function Home() {
           <ContactFormSection />
         </div>
         <CTASection />
-        <Chatbot />
+        {/* <Chatbot /> */}
       </main>
     </>
   );
