@@ -83,7 +83,7 @@ const HeroSection = () => {
           />
         </video>
         {/* Overlay to make text more readable */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
       </div>
       
       {/* Content with different parallax speed */}
@@ -92,12 +92,15 @@ const HeroSection = () => {
         className="relative h-full container mx-auto px-4 flex items-center will-change-transform"
         style={{ transform: `translate3d(0, ${scrollY * 0.2}px, 0)` }}
       >
-        <div className="max-w-2xl text-left text-white ml-16">
-          <h1 className="text-8xl md:text-8xl font-condensed-bold font-bold mb-8 leading-tight">
-          Disaster support for a better Texas
+        <div className="w-full text-left text-white pl-4 md:pl-8">
+          <h1 className="text-8xl md:text-[8rem] font-condensed-bold font-bold mb-6 leading-[0.85]">
+            Disaster Support
           </h1>
-          <p className="text-xl md:text-2xl mb-10 text-gray-100 font-condensed-light font-light">
-          TDIS provides tools that empower communities across Texas to prepare, respond, and recover from disasters more effectively.  
+          <h2 className="text-6xl md:text-7xl mb-8 leading-tight font-condensed-light w-full -mt-4">
+            for a better Texas
+          </h2>
+          <p className="text-xl md:text-3xl mb-10 text-gray-100 font-condensed-light font-light max-w-4xl">
+            TDIS provides tools that empower communities across Texas to prepare, respond, and recover from disasters more effectively.  
           </p>
           <button 
             onClick={scrollToMap}

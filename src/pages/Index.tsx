@@ -63,7 +63,20 @@ export default function Home() {
       <Navbar />
       <main className="min-h-screen">
         <HeroSection />
-        <div id="what-we-do" className="bg-custom-blue border-t-[2px] border-b-[3px] border-black shadow-[0_-10px_15px_-3px_rgba(0,0,0,0.1)]">
+        <div id="what-we-do" className="relative bg-custom-blue border-b-[3px] border-black shadow-[0_-10px_15px_-3px_rgba(0,0,0,0.1)]">
+          <div className="absolute top-0 left-0 w-full h-16 -mt-16">
+            <svg 
+              className="w-full h-full"
+              viewBox="0 0 1440 100" 
+              preserveAspectRatio="none"
+              fill="currentColor"
+            >
+              <path 
+                d="M0,0 C240,100 480,100 720,50 C960,0 1200,0 1440,50 L1440,100 L0,100 Z"
+                className="text-custom-blue"
+              />
+            </svg>
+          </div>
           <TabbedRiskView />
         </div>
         <div id="who-works-with-us">

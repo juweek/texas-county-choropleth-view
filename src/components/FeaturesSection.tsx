@@ -118,19 +118,23 @@ const FeaturesSection = () => {
   const cardData = [
     {
       title: "Public Sector Employees",
-      description: "TDIS equips emergency managers, city planners, and public officials with powerful tools to make data-informed decisions during all phases of disaster management."
+      description: "TDIS equips emergency managers, city planners, and public officials with powerful tools to make data-informed decisions during all phases of disaster management.",
+      icon: getAssetPath('images/public-sector-icon.svg')
     },
     {
       title: "Funders",
-      description: "As a state-level grant provider, your funding supports critical data systems that help communities prepare for and recover from emergencies more effectively."
+      description: "As a state-level grant provider, your funding supports critical data systems that help communities prepare for and recover from emergencies more effectively.",
+      icon: getAssetPath('images/funders-icon.svg')
     },
     {
       title: "Researchers/Academics",
-      description: "TDIS connects academic institutions with real-world challenges, facilitating research that improves disaster science and policy."
+      description: "TDIS connects academic institutions with real-world challenges, facilitating research that improves disaster science and policy.",
+      icon: getAssetPath('images/research-icon.svg')
     },
     {
       title: "Texans",
-      description: "Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis."
+      description: "Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis.",
+      icon: getAssetPath('images/texans-icon.svg')
     }
   ];
 
@@ -142,13 +146,13 @@ const FeaturesSection = () => {
       {/* Background image with parallax effect */}
       <div 
         ref={bgRef}
-        className="absolute inset-0 w-[150%] h-full will-change-transform -z-10"
+        className="absolute inset-0 w-[200%] h-full will-change-transform -z-10"
         style={{
           backgroundImage: `url(${getAssetPath('images/temp_image_3.jpg')})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'brightness(0.3)',
-          left: '-25%' // Start with the image shifted left to allow more movement space
+          left: '-50%' // Adjusted to match the wider width
         }}
       ></div>
       
@@ -180,6 +184,16 @@ const FeaturesSection = () => {
                 transitionDelay: `${index * 200}ms`
               }}
             >
+              <div className="mb-4">
+                <img 
+                  src={card.icon} 
+                  alt={`${card.title} icon`}
+                  className="w-12 h-12 brightness-0 invert"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://via.placeholder.com/48?text=Icon';
+                  }}
+                />
+              </div>
               <h3 className="text-xl font-condensed-bold font-bold mb-3 text-white">
                 {card.title}
               </h3>
