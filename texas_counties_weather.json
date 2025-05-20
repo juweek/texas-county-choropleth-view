@@ -176,7 +176,40 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT4H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -560,37 +593,26 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -956,25 +978,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/P1DT19H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT18H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/P2DT3H"
+        "validTime": "2025-05-20T00:00:00+00:00/P2DT2H"
       }
     }
   },
@@ -1221,15 +1243,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.6576f3893508a9450659a5945ee3e1d49597a577.002.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 24 at 4:00PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until Saturday afternoon.\n\n* IMPACTS...At 15.2 feet, Moderate lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Monday the stage was 14.1 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Monday was 14.2 feet.\n- Forecast...The river is expected to fall below flood stage\nearly Saturday morning and continue falling to 11.6 feet\nSaturday evening.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n14.1 feet on 11/29/2004.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 20 at 2:01AM CDT until May 24 at 4:00PM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Liberty affecting Liberty County.\n\n...The Flood Warning is cancelled for the following rivers in\nTexas...\n\nTrinity River at Riverside affecting San Jacinto, Trinity, Polk\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until Saturday afternoon.\n\n* IMPACTS...At 12.2 feet, Minor lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 1:30 AM CDT Tuesday the stage was 14.1 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 1:30 AM CDT Tuesday was 14.2 feet.\n- Forecast...The river is expected to rise to a crest of 14.1\nfeet this morning. It will then fall below flood stage early\nSaturday morning.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n14.1 feet on 11/29/2004.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
+          "effective": "2025-05-20T02:01:00-05:00",
+          "expires": "2025-05-20T20:15:00-05:00",
           "areaDesc": "Chambers, TX; Liberty, TX",
           "sameCodes": [
             "048071",
@@ -1306,37 +1328,43 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.781e67776bcd0d75b6723b31fa6603ac80c43206.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued May 20 at 2:01AM CDT until May 20 at 2:45AM CDT by NWS Fort Worth TX",
+          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Hunt County in north central Texas...\nHopkins County in north central Texas...\nRains County in north central Texas...\n\n* Until 245 AM CDT.\n\n* At 200 AM CDT, a severe thunderstorm was located near Cumby, or 13\nmiles southwest of Sulphur Springs, moving east at 50 mph.\n\nHAZARD...65 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will remain over mainly rural areas of\nsoutheastern Hunt, Hopkins and Rains Counties, including the\nfollowing locations... Martin Springs, Weaver, Lone Oak, Flora,\nRidgeway, Cornersville, Pine Forest, Hermits Cove, Dike, and Flats.\n\nThis includes Interstate 30 between mile markers 103 and 142.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-20T02:01:00-05:00",
+          "expires": "2025-05-20T02:45:00-05:00",
+          "areaDesc": "Hopkins, TX; Hunt, TX; Rains, TX",
+          "sameCodes": [
+            "048223",
+            "048231",
+            "048379"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -1587,7 +1615,40 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1654,7 +1715,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1751,44 +1845,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT21H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -1878,7 +1935,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT13H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1918,37 +2008,26 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -2359,54 +2438,26 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.d02af573e4e12cfd0ac00a19e2401298d0ca6299.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 20 at 12:57AM CDT until May 20 at 2:15AM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Rockwall County in north central Texas...\nHunt County in north central Texas...\nSouthern Collin County in north central Texas...\n\n* Until 215 AM CDT.\n\n* At 1256 AM CDT, a severe thunderstorm was located over Murphy, or\nnear Sachse, moving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nMurphy, Sachse, Wylie, and Lucas around 100 AM CDT.\nRockwall around 105 AM CDT.\nRoyse City around 115 AM CDT.\nCaddo Mills around 125 AM CDT.\nGreenville around 130 AM CDT.\nGreenville Club Lake around 140 AM CDT.\n\nOther locations impacted by this severe thunderstorm include\nNeylandville, Kellogg, St. Paul, Lake Ray Hubbard, Kingston, Cash,\nClinton, Union Valley, Lone Oak, and Fairlie.\n\nThis includes Interstate 30 between mile markers 65 and 109.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-20T00:57:00-05:00",
-          "expires": "2025-05-20T02:15:00-05:00",
-          "areaDesc": "Collin, TX; Hunt, TX; Rockwall, TX",
-          "sameCodes": [
-            "048085",
-            "048231",
-            "048397"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -2478,24 +2529,6 @@
             "048455",
             "048457"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.002.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 20 at 7:00PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until tomorrow evening.\n\n* IMPACTS...At 133.5 feet, Minor lowland flooding begins in the\nvicinity of the gage with water in the Green Rich Shores\nsubdivision. Backwater flooding up Wright's Creek impacts\nPlantation Drive in the Deep River Plantation subdivision.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Monday the stage was 133.6 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 7:30 PM CDT Monday was 134.3 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow morning and continue falling to 132.4 feet Saturday\nevening.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n133.7 feet on 03/10/2018.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
-          "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
-          "sameCodes": [
-            "048373",
-            "048407",
-            "048455",
-            "048471"
-          ]
         }
       ]
     }
@@ -2534,44 +2567,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/P2DT20H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -2631,7 +2627,40 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT4H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -2668,44 +2697,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT13H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -3112,15 +3104,31 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.91b34a7eb6ea61ad3bbd0c41899625769e406a5f.001.1",
-          "event": "Tornado Watch",
-          "headline": "Tornado Watch issued May 19 at 7:17PM CDT until May 20 at 2:00AM CDT by NWS Shreveport LA",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 297 IN\nEFFECT UNTIL 2 AM CDT TUESDAY FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 5 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nHEMPSTEAD             HOWARD                LITTLE RIVER\nMILLER                SEVIER\n\nIN OKLAHOMA THIS WATCH INCLUDES 1 COUNTY\n\nIN SOUTHEAST OKLAHOMA\n\nMCCURTAIN\n\nIN TEXAS THIS WATCH INCLUDES 2 COUNTIES\n\nIN NORTHEAST TEXAS\n\nBOWIE                 RED RIVER\n\nTHIS INCLUDES THE CITIES OF ASHDOWN, BOGATA, BROKEN BOW,\nCLARKSVILLE, DE QUEEN, DIERKS, HOPE, IDABEL, MINERAL SPRINGS,\nNASHVILLE, TEXARKANA, AND TEXARKANA.",
+          "id": "urn:oid:2.49.0.1.840.0.48a11b126c22391cb96b552ec6211573349d35a2.001.1",
+          "event": "Tornado Warning",
+          "headline": "Tornado Warning issued May 20 at 1:58AM CDT until May 20 at 2:45AM CDT by NWS Shreveport LA",
+          "description": "TORSHV\n\nThe National Weather Service in Shreveport has issued a\n\n* Tornado Warning for...\nSouthwestern McCurtain County in southeastern Oklahoma...\nNorthwestern Red River County in northeastern Texas...\n\n* Until 245 AM CDT.\n\n* At 158 AM CDT, a severe thunderstorm capable of producing a tornado\nwas located 8 miles west of Manchester, or 17 miles southeast of\nHugo, moving east at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nManchester around 205 AM CDT.\nIdabel around 230 AM CDT.\n\nOther locations impacted by this tornadic thunderstorm include\nRedland, Silver City, Kanawha, Farmers Hill, Garvin, Millerton,\nKiomatia, Albion, Woodland, and Golden.",
           "severity": "Extreme",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T02:45:00-05:00",
+          "areaDesc": "McCurtain, OK; Red River, TX",
+          "sameCodes": [
+            "040089",
+            "048387"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.001.2",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 UNTIL 8 AM CDT THIS MORNING WHICH REPLACES A PORTION OF\nTORNADO WATCH 297. THE NEW WATCH IS VALID FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THE NEW WATCH INCLUDES 5 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nHEMPSTEAD             HOWARD                LITTLE RIVER\nMILLER                SEVIER\n\nIN OKLAHOMA THE NEW WATCH INCLUDES 1 COUNTY\n\nIN SOUTHEAST OKLAHOMA\n\nMCCURTAIN\n\nIN TEXAS THE NEW WATCH INCLUDES 2 COUNTIES\n\nIN NORTHEAST TEXAS\n\nBOWIE                 RED RIVER\n\nTHIS INCLUDES THE CITIES OF ASHDOWN, BOGATA, BROKEN BOW,\nCLARKSVILLE, DE QUEEN, DIERKS, HOPE, IDABEL, MINERAL SPRINGS,\nNASHVILLE, TEXARKANA, AND TEXARKANA.",
+          "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-19T19:17:00-05:00",
-          "expires": "2025-05-20T02:00:00-05:00",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
           "areaDesc": "Hempstead, AR; Howard, AR; Little River, AR; Miller, AR; Sevier, AR; McCurtain, OK; Bowie, TX; Red River, TX",
           "sameCodes": [
             "005057",
@@ -3208,41 +3216,6 @@
         "validTime": "2025-05-19T23:00:00+00:00/PT1H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3224198443b4a7c5e6476c64c260ae3677090146.002.1",
           "event": "Flood Warning",
@@ -3881,37 +3854,43 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.781e67776bcd0d75b6723b31fa6603ac80c43206.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued May 20 at 2:01AM CDT until May 20 at 2:45AM CDT by NWS Fort Worth TX",
+          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Hunt County in north central Texas...\nHopkins County in north central Texas...\nRains County in north central Texas...\n\n* Until 245 AM CDT.\n\n* At 200 AM CDT, a severe thunderstorm was located near Cumby, or 13\nmiles southwest of Sulphur Springs, moving east at 50 mph.\n\nHAZARD...65 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will remain over mainly rural areas of\nsoutheastern Hunt, Hopkins and Rains Counties, including the\nfollowing locations... Martin Springs, Weaver, Lone Oak, Flora,\nRidgeway, Cornersville, Pine Forest, Hermits Cove, Dike, and Flats.\n\nThis includes Interstate 30 between mile markers 103 and 142.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-20T02:01:00-05:00",
+          "expires": "2025-05-20T02:45:00-05:00",
+          "areaDesc": "Hopkins, TX; Hunt, TX; Rains, TX",
+          "sameCodes": [
+            "048223",
+            "048231",
+            "048379"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -4045,37 +4024,26 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -4273,44 +4241,7 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4564,60 +4495,7 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.234e51d1fd912da9474568a498dc56eb073dcc15.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 20 at 12:59AM CDT until May 20 at 1:30AM CDT by NWS Fort Worth TX",
-          "description": "At 1258 AM CDT, a severe thunderstorm was located over Garland,\nmoving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThis severe storm will be near...\nRowlett, Dallas, and Garland around 105 AM CDT.\n\nOther locations impacted by this severe thunderstorm include Lavon\nLake, Buckingham, White Rock Lake, St. Paul, and Lake Ray Hubbard.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-20T00:59:00-05:00",
-          "expires": "2025-05-20T01:30:00-05:00",
-          "areaDesc": "Collin, TX; Dallas, TX",
-          "sameCodes": [
-            "048085",
-            "048113"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4774,44 +4652,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT2H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4931,7 +4772,40 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5001,54 +4875,58 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.d02af573e4e12cfd0ac00a19e2401298d0ca6299.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.170e6381a1a8ac30c29c494de417c9b25df80935.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 20 at 12:57AM CDT until May 20 at 2:15AM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Rockwall County in north central Texas...\nHunt County in north central Texas...\nSouthern Collin County in north central Texas...\n\n* Until 215 AM CDT.\n\n* At 1256 AM CDT, a severe thunderstorm was located over Murphy, or\nnear Sachse, moving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nMurphy, Sachse, Wylie, and Lucas around 100 AM CDT.\nRockwall around 105 AM CDT.\nRoyse City around 115 AM CDT.\nCaddo Mills around 125 AM CDT.\nGreenville around 130 AM CDT.\nGreenville Club Lake around 140 AM CDT.\n\nOther locations impacted by this severe thunderstorm include\nNeylandville, Kellogg, St. Paul, Lake Ray Hubbard, Kingston, Cash,\nClinton, Union Valley, Lone Oak, and Fairlie.\n\nThis includes Interstate 30 between mile markers 65 and 109.",
+          "headline": "Severe Thunderstorm Warning issued May 20 at 2:02AM CDT until May 20 at 2:15AM CDT by NWS Fort Worth TX",
+          "description": "At 202 AM CDT, a severe thunderstorm was located 7 miles south of\nCumby, or 14 miles south of Commerce, moving east at 45 mph.\n\nHAZARD...65 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nThis severe thunderstorm will remain over mainly rural areas of\nsoutheastern Hunt County, including the following locations... Lone\nOak.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-20T00:57:00-05:00",
+          "effective": "2025-05-20T02:02:00-05:00",
           "expires": "2025-05-20T02:15:00-05:00",
-          "areaDesc": "Collin, TX; Hunt, TX; Rockwall, TX",
+          "areaDesc": "Hunt, TX",
           "sameCodes": [
-            "048085",
-            "048231",
-            "048397"
+            "048231"
           ]
         },
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.781e67776bcd0d75b6723b31fa6603ac80c43206.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued May 20 at 2:01AM CDT until May 20 at 2:45AM CDT by NWS Fort Worth TX",
+          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Hunt County in north central Texas...\nHopkins County in north central Texas...\nRains County in north central Texas...\n\n* Until 245 AM CDT.\n\n* At 200 AM CDT, a severe thunderstorm was located near Cumby, or 13\nmiles southwest of Sulphur Springs, moving east at 50 mph.\n\nHAZARD...65 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will remain over mainly rural areas of\nsoutheastern Hunt, Hopkins and Rains Counties, including the\nfollowing locations... Martin Springs, Weaver, Lone Oak, Flora,\nRidgeway, Cornersville, Pine Forest, Hermits Cove, Dike, and Flats.\n\nThis includes Interstate 30 between mile markers 103 and 142.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-20T02:01:00-05:00",
+          "expires": "2025-05-20T02:45:00-05:00",
+          "areaDesc": "Hopkins, TX; Hunt, TX; Rains, TX",
+          "sameCodes": [
+            "048223",
+            "048231",
+            "048379"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -5202,7 +5080,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5442,7 +5353,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT13H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5483,25 +5427,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 12,
+        "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/P1DT19H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT18H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/P1DT11H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT10H"
       }
     }
   },
@@ -5543,32 +5487,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
-      "hazards": [
-        {
-          "phenomenon": "TO",
-          "significance": "A",
-          "eventNumber": 295,
-          "validTime": "2025-05-19T23:00:00+00:00/PT3H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 42,
+        "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/P2DT20H"
+        "validTime": "2025-05-20T00:00:00+00:00/P2DT19H"
       }
     }
   },
@@ -5599,27 +5536,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T22:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.002.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 20 at 7:00PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until tomorrow evening.\n\n* IMPACTS...At 133.5 feet, Minor lowland flooding begins in the\nvicinity of the gage with water in the Green Rich Shores\nsubdivision. Backwater flooding up Wright's Creek impacts\nPlantation Drive in the Deep River Plantation subdivision.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Monday the stage was 133.6 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 7:30 PM CDT Monday was 134.3 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow morning and continue falling to 132.4 feet Saturday\nevening.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n133.7 feet on 03/10/2018.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
-          "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
-          "sameCodes": [
-            "048373",
-            "048407",
-            "048455",
-            "048471"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -5847,20 +5764,20 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 36,
+        "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -5877,46 +5794,26 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 8,
+        "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T22:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.002.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 20 at 7:00PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until tomorrow evening.\n\n* IMPACTS...At 133.5 feet, Minor lowland flooding begins in the\nvicinity of the gage with water in the Green Rich Shores\nsubdivision. Backwater flooding up Wright's Creek impacts\nPlantation Drive in the Deep River Plantation subdivision.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Monday the stage was 133.6 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 7:30 PM CDT Monday was 134.3 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow morning and continue falling to 132.4 feet Saturday\nevening.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n133.7 feet on 03/10/2018.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
-          "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
-          "sameCodes": [
-            "048373",
-            "048407",
-            "048455",
-            "048471"
-          ]
-        }
-      ]
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
+      }
     }
   },
   {
@@ -5957,25 +5854,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 11,
+        "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT18H"
       },
       "visibility": {
         "value": 14468.002191650448,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       }
     }
   },
@@ -6013,44 +5910,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -6061,25 +5921,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/PT11H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT9H"
       }
     }
   },
@@ -6123,44 +5983,7 @@
         "value": 9656.064,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -6321,25 +6144,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 50,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT6H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/PT14H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT19H"
       }
     }
   },
@@ -6588,25 +6411,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35,
+        "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 9,
+        "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/P1DT19H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT18H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/P1DT11H"
+        "validTime": "2025-05-20T00:00:00+00:00/P1DT10H"
       }
     }
   },
@@ -6824,7 +6647,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -6857,30 +6713,30 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.003.1",
+          "id": "urn:oid:2.49.0.1.840.0.6576f3893508a9450659a5945ee3e1d49597a577.003.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 22 at 10:00AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Trinity River at Liberty.\n\n* WHEN...Until late Thursday morning.\n\n* IMPACTS...At 27.0 feet, Moderate lowland flooding begins as roads\ninto several outlying communities above Liberty are closed with\nresidents in 5 or 6 subdivisions cut off if not evacuated.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Monday the stage was 27.3 feet.\n- Bankfull stage is 21.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Monday was 27.6 feet.\n- Forecast...The river is expected to fall below flood stage\nlate Wednesday evening and continue falling to 22.8 feet\nSaturday evening.\n- Flood stage is 26.0 feet.\n- Flood History...This crest compares to a previous crest of\n27.4 feet on 11/27/2004.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 20 at 2:01AM CDT until May 22 at 10:00AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Liberty affecting Liberty County.\n\n...The Flood Warning is cancelled for the following rivers in\nTexas...\n\nTrinity River at Riverside affecting San Jacinto, Trinity, Polk\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Trinity River at Liberty.\n\n* WHEN...Until late Thursday morning.\n\n* IMPACTS...At 27.0 feet, Moderate lowland flooding begins as roads\ninto several outlying communities above Liberty are closed with\nresidents in 5 or 6 subdivisions cut off if not evacuated.\n\n* ADDITIONAL DETAILS...\n- At 1:15 AM CDT Tuesday the stage was 27.2 feet.\n- Bankfull stage is 21.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 1:15 AM CDT Tuesday was 27.6 feet.\n- Forecast...The river is expected to fall below flood stage\nlate tomorrow evening and continue falling to 22.8 feet\nSaturday evening.\n- Flood stage is 26.0 feet.\n- Flood History...This crest compares to a previous crest of\n27.1 feet on 12/16/1998.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
+          "effective": "2025-05-20T02:01:00-05:00",
+          "expires": "2025-05-20T20:15:00-05:00",
           "areaDesc": "Liberty, TX",
           "sameCodes": [
             "048291"
           ]
         },
         {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.6576f3893508a9450659a5945ee3e1d49597a577.002.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 24 at 4:00PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until Saturday afternoon.\n\n* IMPACTS...At 15.2 feet, Moderate lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Monday the stage was 14.1 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Monday was 14.2 feet.\n- Forecast...The river is expected to fall below flood stage\nearly Saturday morning and continue falling to 11.6 feet\nSaturday evening.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n14.1 feet on 11/29/2004.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 20 at 2:01AM CDT until May 24 at 4:00PM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Liberty affecting Liberty County.\n\n...The Flood Warning is cancelled for the following rivers in\nTexas...\n\nTrinity River at Riverside affecting San Jacinto, Trinity, Polk\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until Saturday afternoon.\n\n* IMPACTS...At 12.2 feet, Minor lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 1:30 AM CDT Tuesday the stage was 14.1 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 1:30 AM CDT Tuesday was 14.2 feet.\n- Forecast...The river is expected to rise to a crest of 14.1\nfeet this morning. It will then fall below flood stage early\nSaturday morning.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n14.1 feet on 11/29/2004.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
+          "effective": "2025-05-20T02:01:00-05:00",
+          "expires": "2025-05-20T20:15:00-05:00",
           "areaDesc": "Chambers, TX; Liberty, TX",
           "sameCodes": [
             "048071",
@@ -7151,37 +7007,41 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.ba53be2dd0ffd2331ee4d8adfd620f37beb020b7.001.1",
+          "event": "Tornado Warning",
+          "headline": "Tornado Warning issued May 20 at 1:57AM CDT until May 20 at 2:15AM CDT by NWS Fort Worth TX",
+          "description": "TORFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Tornado Warning for...\nNortheastern Lamar County in north central Texas...\n\n* Until 215 AM CDT.\n\n* At 157 AM CDT, a confirmed tornado was located 8 miles west of\nManchester, or 17 miles northeast of Paris, moving east at 45 mph.\n\nHAZARD...Damaging tornado and quarter size hail.\n\nSOURCE...Public confirmed tornado.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This tornadic thunderstorm will remain over mainly rural areas of\nnortheastern Lamar County, including the following locations...\nNovice.",
+          "severity": "Extreme",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-20T01:57:00-05:00",
+          "expires": "2025-05-20T02:15:00-05:00",
+          "areaDesc": "Lamar, TX",
+          "sameCodes": [
+            "048277"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -7235,24 +7095,6 @@
             "048455",
             "048457"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.46a7f8e8c572f0776c8c7b35c9dd77203b0c4b45.002.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 19 at 8:40PM CDT until May 20 at 7:00PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Chambers and Liberty\nCounties.\n\nTrinity River at Riverside affecting Walker, Trinity, Polk and\nSan Jacinto Counties.\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Moderate flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until tomorrow evening.\n\n* IMPACTS...At 133.5 feet, Minor lowland flooding begins in the\nvicinity of the gage with water in the Green Rich Shores\nsubdivision. Backwater flooding up Wright's Creek impacts\nPlantation Drive in the Deep River Plantation subdivision.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Monday the stage was 133.6 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 7:30 PM CDT Monday was 134.3 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow morning and continue falling to 132.4 feet Saturday\nevening.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n133.7 feet on 03/10/2018.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-19T20:40:00-05:00",
-          "expires": "2025-05-20T14:45:00-05:00",
-          "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
-          "sameCodes": [
-            "048373",
-            "048407",
-            "048455",
-            "048471"
-          ]
         }
       ]
     }
@@ -7300,70 +7142,26 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.234e51d1fd912da9474568a498dc56eb073dcc15.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 20 at 12:59AM CDT until May 20 at 1:30AM CDT by NWS Fort Worth TX",
-          "description": "At 1258 AM CDT, a severe thunderstorm was located over Garland,\nmoving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThis severe storm will be near...\nRowlett, Dallas, and Garland around 105 AM CDT.\n\nOther locations impacted by this severe thunderstorm include Lavon\nLake, Buckingham, White Rock Lake, St. Paul, and Lake Ray Hubbard.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-20T00:59:00-05:00",
-          "expires": "2025-05-20T01:30:00-05:00",
-          "areaDesc": "Collin, TX; Dallas, TX",
-          "sameCodes": [
-            "048085",
-            "048113"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.d02af573e4e12cfd0ac00a19e2401298d0ca6299.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 20 at 12:57AM CDT until May 20 at 2:15AM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Rockwall County in north central Texas...\nHunt County in north central Texas...\nSouthern Collin County in north central Texas...\n\n* Until 215 AM CDT.\n\n* At 1256 AM CDT, a severe thunderstorm was located over Murphy, or\nnear Sachse, moving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nMurphy, Sachse, Wylie, and Lucas around 100 AM CDT.\nRockwall around 105 AM CDT.\nRoyse City around 115 AM CDT.\nCaddo Mills around 125 AM CDT.\nGreenville around 130 AM CDT.\nGreenville Club Lake around 140 AM CDT.\n\nOther locations impacted by this severe thunderstorm include\nNeylandville, Kellogg, St. Paul, Lake Ray Hubbard, Kingston, Cash,\nClinton, Union Valley, Lone Oak, and Fairlie.\n\nThis includes Interstate 30 between mile markers 65 and 109.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-20T00:57:00-05:00",
-          "expires": "2025-05-20T02:15:00-05:00",
-          "areaDesc": "Collin, TX; Hunt, TX; Rockwall, TX",
-          "sameCodes": [
-            "048085",
-            "048231",
-            "048397"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -7697,7 +7495,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -8068,25 +7899,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT3H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/PT13H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT12H"
       }
     }
   },
@@ -8127,15 +7958,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.91b34a7eb6ea61ad3bbd0c41899625769e406a5f.001.1",
-          "event": "Tornado Watch",
-          "headline": "Tornado Watch issued May 19 at 7:17PM CDT until May 20 at 2:00AM CDT by NWS Shreveport LA",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 297 IN\nEFFECT UNTIL 2 AM CDT TUESDAY FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 5 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nHEMPSTEAD             HOWARD                LITTLE RIVER\nMILLER                SEVIER\n\nIN OKLAHOMA THIS WATCH INCLUDES 1 COUNTY\n\nIN SOUTHEAST OKLAHOMA\n\nMCCURTAIN\n\nIN TEXAS THIS WATCH INCLUDES 2 COUNTIES\n\nIN NORTHEAST TEXAS\n\nBOWIE                 RED RIVER\n\nTHIS INCLUDES THE CITIES OF ASHDOWN, BOGATA, BROKEN BOW,\nCLARKSVILLE, DE QUEEN, DIERKS, HOPE, IDABEL, MINERAL SPRINGS,\nNASHVILLE, TEXARKANA, AND TEXARKANA.",
-          "severity": "Extreme",
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.001.2",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 UNTIL 8 AM CDT THIS MORNING WHICH REPLACES A PORTION OF\nTORNADO WATCH 297. THE NEW WATCH IS VALID FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THE NEW WATCH INCLUDES 5 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nHEMPSTEAD             HOWARD                LITTLE RIVER\nMILLER                SEVIER\n\nIN OKLAHOMA THE NEW WATCH INCLUDES 1 COUNTY\n\nIN SOUTHEAST OKLAHOMA\n\nMCCURTAIN\n\nIN TEXAS THE NEW WATCH INCLUDES 2 COUNTIES\n\nIN NORTHEAST TEXAS\n\nBOWIE                 RED RIVER\n\nTHIS INCLUDES THE CITIES OF ASHDOWN, BOGATA, BROKEN BOW,\nCLARKSVILLE, DE QUEEN, DIERKS, HOPE, IDABEL, MINERAL SPRINGS,\nNASHVILLE, TEXARKANA, AND TEXARKANA.",
+          "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-19T19:17:00-05:00",
-          "expires": "2025-05-20T02:00:00-05:00",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
           "areaDesc": "Hempstead, AR; Howard, AR; Little River, AR; Miller, AR; Sevier, AR; McCurtain, OK; Bowie, TX; Red River, TX",
           "sameCodes": [
             "005057",
@@ -8188,37 +8019,26 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a1e95ca18134b33a5778f47c81a96d8ae5700f17.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:36AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
+          "description": "SEVERE THUNDERSTORM WATCH 299 REMAINS VALID UNTIL 5 AM CDT EARLY\nTHIS MORNING FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 10 COUNTIES\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DELTA                 FANNIN\nHOPKINS               HUNT                  KAUFMAN\nLAMAR                 RAINS                 ROCKWALL\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, BONHAM, CANTON, COMMERCE,\nCOOPER, EAST TAWAKONI, EDGEWOOD, EMORY, FORNEY, FRISCO,\nGRAND SALINE, GREENVILLE, HEATH, KAUFMAN, MCKINNEY, PARIS, PLANO,\nPOINT, ROCKWALL, SULPHUR SPRINGS, TERRELL, VAN, AND WILLS POINT.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
+          "effective": "2025-05-20T01:36:00-05:00",
           "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
+          "areaDesc": "Collin, TX; Delta, TX; Fannin, TX; Hopkins, TX; Hunt, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Van Zandt, TX",
           "sameCodes": [
-            "048035",
             "048085",
-            "048113",
             "048119",
-            "048121",
-            "048139",
-            "048143",
             "048147",
-            "048181",
-            "048217",
-            "048221",
             "048223",
             "048231",
-            "048251",
             "048257",
             "048277",
             "048379",
             "048397",
-            "048425",
-            "048439",
             "048467"
           ]
         }
@@ -8233,25 +8053,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 42,
+        "value": 25,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -8360,25 +8180,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15900.318904174776,
+        "value": 15819.85139721687,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T22:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       }
     }
   },
@@ -8390,25 +8210,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 39,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T23:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T23:00:00+00:00/PT11H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT10H"
       }
     }
   },
@@ -8420,25 +8240,25 @@
     },
     "data": {
       "temperature": {
-        "value": 37.22222222222222,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-19T21:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T21:00:00+00:00/PT2H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-19T21:00:00+00:00/PT4H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT8H"
       },
       "visibility": {
-        "value": 16012.972493041932,
+        "value": 15256.580383300736,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-19T21:00:00+00:00/PT1H"
+        "validTime": "2025-05-20T00:00:00+00:00/PT1H"
       }
     }
   },
@@ -8536,44 +8356,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -8880,7 +8663,40 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002802e595a433619a53e86ea997120f0d17ecf1.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued May 20 at 1:58AM CDT until May 20 at 8:00AM CDT by NWS Shreveport LA",
+          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n300 IN EFFECT UNTIL 8 AM CDT THIS MORNING FOR THE FOLLOWING AREAS\n\nIN ARKANSAS THIS WATCH INCLUDES 3 COUNTIES\n\nIN SOUTHWEST ARKANSAS\n\nCOLUMBIA              LAFAYETTE             NEVADA\n\nIN LOUISIANA THIS WATCH INCLUDES 3 PARISHES\n\nIN NORTHWEST LOUISIANA\n\nBOSSIER               CADDO                 WEBSTER\n\nIN TEXAS THIS WATCH INCLUDES 11 COUNTIES\n\nIN NORTHEAST TEXAS\n\nCAMP                  CASS                  FRANKLIN\nGREGG                 HARRISON              MARION\nMORRIS                SMITH                 TITUS\nUPSHUR                WOOD\n\nTHIS INCLUDES THE CITIES OF ATLANTA, BIG SANDY, BOSSIER CITY,\nBRADLEY, DAINGERFIELD, GILMER, HAWKINS, HUGHES SPRINGS,\nJEFFERSON, LEWISVILLE, LINDEN, LONE STAR, LONGVIEW, MAGNOLIA,\nMARSHALL, MINDEN, MINEOLA, MOUNT PLEASANT, MOUNT VERNON, NAPLES,\nOMAHA, PITTSBURG, PRESCOTT, QUEEN CITY, QUITMAN, SHREVEPORT,\nSPRINGHILL, STAMPS, TYLER, AND WINNSBORO.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-05-20T01:58:00-05:00",
+          "expires": "2025-05-20T08:00:00-05:00",
+          "areaDesc": "Columbia, AR; Lafayette, AR; Nevada, AR; Bossier, LA; Caddo, LA; Webster, LA; Camp, TX; Cass, TX; Franklin, TX; Gregg, TX; Harrison, TX; Marion, TX; Morris, TX; Smith, TX; Titus, TX; Upshur, TX; Wood, TX",
+          "sameCodes": [
+            "005027",
+            "005073",
+            "005099",
+            "022015",
+            "022017",
+            "022119",
+            "048063",
+            "048067",
+            "048159",
+            "048183",
+            "048203",
+            "048315",
+            "048343",
+            "048423",
+            "048449",
+            "048459",
+            "048499"
+          ]
+        }
+      ]
     }
   },
   {
@@ -9007,44 +8823,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-19T23:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a25c1eca4710e92ca10c2981894be5fb4cc97ffa.001.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued May 20 at 12:04AM CDT until May 20 at 5:00AM CDT by NWS Fort Worth TX",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n299 IN EFFECT UNTIL 5 AM CDT EARLY THIS MORNING FOR THE FOLLOWING\nAREAS\n\nIN TEXAS THIS WATCH INCLUDES 21 COUNTIES\n\nIN CENTRAL TEXAS\n\nBOSQUE                HILL\n\nIN NORTH CENTRAL TEXAS\n\nCOLLIN                DALLAS                DELTA\nDENTON                ELLIS                 ERATH\nFANNIN                GRAYSON               HOOD\nHOPKINS               HUNT                  JOHNSON\nKAUFMAN               LAMAR                 RAINS\nROCKWALL              SOMERVELL             TARRANT\nVAN ZANDT\n\nTHIS INCLUDES THE CITIES OF ALLEN, ARLINGTON, BONHAM, BURLESON,\nCANTON, CARROLLTON, CLEBURNE, CLIFTON, COMMERCE, COOPER, DALLAS,\nDENISON, DENTON, DUBLIN, EAST TAWAKONI, EDGEWOOD, EMORY, ENNIS,\nFLOWER MOUND, FORNEY, FORT WORTH, FRISCO, GLEN ROSE, GRANBURY,\nGRAND SALINE, GREENVILLE, HEATH, HILLSBORO, KAUFMAN, LEWISVILLE,\nMCKINNEY, MERIDIAN, MIDLOTHIAN, OAK TRAIL SHORES, PARIS, PLANO,\nPOINT, ROCKWALL, SHERMAN, STEPHENVILLE, SULPHUR SPRINGS, TERRELL,\nVALLEY MILLS, VAN, WAXAHACHIE, AND WILLS POINT.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-05-20T00:04:00-05:00",
-          "expires": "2025-05-20T05:00:00-05:00",
-          "areaDesc": "Bosque, TX; Collin, TX; Dallas, TX; Delta, TX; Denton, TX; Ellis, TX; Erath, TX; Fannin, TX; Grayson, TX; Hill, TX; Hood, TX; Hopkins, TX; Hunt, TX; Johnson, TX; Kaufman, TX; Lamar, TX; Rains, TX; Rockwall, TX; Somervell, TX; Tarrant, TX; Van Zandt, TX",
-          "sameCodes": [
-            "048035",
-            "048085",
-            "048113",
-            "048119",
-            "048121",
-            "048139",
-            "048143",
-            "048147",
-            "048181",
-            "048217",
-            "048221",
-            "048223",
-            "048231",
-            "048251",
-            "048257",
-            "048277",
-            "048379",
-            "048397",
-            "048425",
-            "048439",
-            "048467"
-          ]
-        }
-      ]
+      }
     }
   },
   {
