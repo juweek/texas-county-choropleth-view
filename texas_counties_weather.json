@@ -599,6 +599,25 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.bbc5ca1abfa1115d555314e17af6f915980c4bcc.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 23 at 8:53PM CDT until May 25 at 7:00PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nNeches River Near Diboll affecting Angelina, Houston, Trinity,\nTyler and Polk Counties.\n\nFor the Neches River...including Neches, Alto, Diboll, Rockland...\nMinor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Friday the stage was 12.5 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Friday was 12.7 feet.\n- Forecast...The river is expected to fall below flood stage\nSunday evening and continue falling to 10.9 feet Wednesday\nevening.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n12.6 feet on 03/24/1970.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-23T20:53:00-05:00",
+          "expires": "2025-05-24T21:00:00-05:00",
+          "areaDesc": "Angelina, TX; Houston, TX; Polk, TX; Trinity, TX; Tyler, TX",
+          "sameCodes": [
+            "048005",
+            "048225",
+            "048373",
+            "048455",
+            "048457"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.c90a46fd3f9160ffa7ce38219c00a103e2ac5a3a.001.1",
           "event": "Special Weather Statement",
           "headline": "Special Weather Statement issued May 23 at 3:37PM CDT by NWS Lake Charles LA",
@@ -632,25 +651,6 @@
             "048351",
             "048245",
             "048361"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a0644e8e7c40f6d3568fdba81c1718a6c7d666c4.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 23 at 8:58AM CDT until May 26 at 1:00PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nNeches River Near Diboll affecting Tyler, Houston, Trinity, Polk\nand Angelina Counties.\n\nFor the Neches River...including Diboll...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Monday afternoon.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 12.6 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 12.8 feet.\n- Forecast...The river will continue to slowly fall this\nafternoon. It will then fall below flood stage Sunday\nevening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-23T08:58:00-05:00",
-          "expires": "2025-05-24T09:00:00-05:00",
-          "areaDesc": "Angelina, TX; Houston, TX; Polk, TX; Trinity, TX; Tyler, TX",
-          "sameCodes": [
-            "048005",
-            "048225",
-            "048373",
-            "048455",
-            "048457"
           ]
         }
       ]
@@ -863,7 +863,24 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-23T19:00:00+00:00/P2DT22H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.e163c0149990ae25e4dbd51b3354ea1da6e4fa18.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued May 23 at 9:22PM CDT until May 23 at 10:00PM CDT by NWS Lubbock TX",
+          "description": "At 922 PM CDT, a severe thunderstorm was located near Justiceburg, or\n4 miles west of Lake Alan Henry, moving northeast at 35 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nLake Alan Henry and Justiceburg.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-23T21:22:00-05:00",
+          "expires": "2025-05-23T22:00:00-05:00",
+          "areaDesc": "Garza, TX",
+          "sameCodes": [
+            "048169"
+          ]
+        }
+      ]
     }
   },
   {
@@ -956,15 +973,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a0644e8e7c40f6d3568fdba81c1718a6c7d666c4.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.bbc5ca1abfa1115d555314e17af6f915980c4bcc.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 23 at 8:58AM CDT until May 26 at 1:00PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nNeches River Near Diboll affecting Tyler, Houston, Trinity, Polk\nand Angelina Counties.\n\nFor the Neches River...including Diboll...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Monday afternoon.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 12.6 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 12.8 feet.\n- Forecast...The river will continue to slowly fall this\nafternoon. It will then fall below flood stage Sunday\nevening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 23 at 8:53PM CDT until May 25 at 7:00PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nNeches River Near Diboll affecting Angelina, Houston, Trinity,\nTyler and Polk Counties.\n\nFor the Neches River...including Neches, Alto, Diboll, Rockland...\nMinor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Friday the stage was 12.5 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Friday was 12.7 feet.\n- Forecast...The river is expected to fall below flood stage\nSunday evening and continue falling to 10.9 feet Wednesday\nevening.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n12.6 feet on 03/24/1970.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-23T08:58:00-05:00",
-          "expires": "2025-05-24T09:00:00-05:00",
+          "effective": "2025-05-23T20:53:00-05:00",
+          "expires": "2025-05-24T21:00:00-05:00",
           "areaDesc": "Angelina, TX; Houston, TX; Polk, TX; Trinity, TX; Tyler, TX",
           "sameCodes": [
             "048005",
@@ -2135,15 +2152,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a0644e8e7c40f6d3568fdba81c1718a6c7d666c4.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.bbc5ca1abfa1115d555314e17af6f915980c4bcc.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 23 at 8:58AM CDT until May 26 at 1:00PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nNeches River Near Diboll affecting Tyler, Houston, Trinity, Polk\nand Angelina Counties.\n\nFor the Neches River...including Diboll...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Monday afternoon.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 12.6 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 12.8 feet.\n- Forecast...The river will continue to slowly fall this\nafternoon. It will then fall below flood stage Sunday\nevening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 23 at 8:53PM CDT until May 25 at 7:00PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nNeches River Near Diboll affecting Angelina, Houston, Trinity,\nTyler and Polk Counties.\n\nFor the Neches River...including Neches, Alto, Diboll, Rockland...\nMinor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Friday the stage was 12.5 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Friday was 12.7 feet.\n- Forecast...The river is expected to fall below flood stage\nSunday evening and continue falling to 10.9 feet Wednesday\nevening.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n12.6 feet on 03/24/1970.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-23T08:58:00-05:00",
-          "expires": "2025-05-24T09:00:00-05:00",
+          "effective": "2025-05-23T20:53:00-05:00",
+          "expires": "2025-05-24T21:00:00-05:00",
           "areaDesc": "Angelina, TX; Houston, TX; Polk, TX; Trinity, TX; Tyler, TX",
           "sameCodes": [
             "048005",
@@ -2576,15 +2593,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a0644e8e7c40f6d3568fdba81c1718a6c7d666c4.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.bbc5ca1abfa1115d555314e17af6f915980c4bcc.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 23 at 8:58AM CDT until May 26 at 1:00PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nNeches River Near Diboll affecting Tyler, Houston, Trinity, Polk\nand Angelina Counties.\n\nFor the Neches River...including Diboll...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Monday afternoon.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 12.6 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 12.8 feet.\n- Forecast...The river will continue to slowly fall this\nafternoon. It will then fall below flood stage Sunday\nevening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 23 at 8:53PM CDT until May 25 at 7:00PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nNeches River Near Diboll affecting Angelina, Houston, Trinity,\nTyler and Polk Counties.\n\nFor the Neches River...including Neches, Alto, Diboll, Rockland...\nMinor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Friday the stage was 12.5 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Friday was 12.7 feet.\n- Forecast...The river is expected to fall below flood stage\nSunday evening and continue falling to 10.9 feet Wednesday\nevening.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n12.6 feet on 03/24/1970.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-23T08:58:00-05:00",
-          "expires": "2025-05-24T09:00:00-05:00",
+          "effective": "2025-05-23T20:53:00-05:00",
+          "expires": "2025-05-24T21:00:00-05:00",
           "areaDesc": "Angelina, TX; Houston, TX; Polk, TX; Trinity, TX; Tyler, TX",
           "sameCodes": [
             "048005",
@@ -6193,15 +6210,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a0644e8e7c40f6d3568fdba81c1718a6c7d666c4.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.bbc5ca1abfa1115d555314e17af6f915980c4bcc.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued May 23 at 8:58AM CDT until May 26 at 1:00PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nNeches River Near Diboll affecting Tyler, Houston, Trinity, Polk\nand Angelina Counties.\n\nFor the Neches River...including Diboll...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Monday afternoon.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 12.6 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 12.8 feet.\n- Forecast...The river will continue to slowly fall this\nafternoon. It will then fall below flood stage Sunday\nevening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued May 23 at 8:53PM CDT until May 25 at 7:00PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nNeches River Near Diboll affecting Angelina, Houston, Trinity,\nTyler and Polk Counties.\n\nFor the Neches River...including Neches, Alto, Diboll, Rockland...\nMinor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Neches River near Diboll.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding occurs.  Expect\nflooded boat ramps and trails.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Friday the stage was 12.5 feet.\n- Bankfull stage is 12.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Friday was 12.7 feet.\n- Forecast...The river is expected to fall below flood stage\nSunday evening and continue falling to 10.9 feet Wednesday\nevening.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n12.6 feet on 03/24/1970.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-23T08:58:00-05:00",
-          "expires": "2025-05-24T09:00:00-05:00",
+          "effective": "2025-05-23T20:53:00-05:00",
+          "expires": "2025-05-24T21:00:00-05:00",
           "areaDesc": "Angelina, TX; Houston, TX; Polk, TX; Trinity, TX; Tyler, TX",
           "sameCodes": [
             "048005",
