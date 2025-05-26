@@ -9,25 +9,18 @@
       "temperature": {
         "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
-      "hazards": [
-        {
-          "phenomenon": "FA",
-          "significance": "A",
-          "eventNumber": null,
-          "validTime": "2025-05-26T07:00:00+00:00/PT11H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -74,25 +67,25 @@
     },
     "data": {
       "temperature": {
-        "value": 16.666666666666668,
+        "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15691.104,
+        "value": 15546.262794433578,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -134,25 +127,25 @@
     },
     "data": {
       "temperature": {
-        "value": 15.555555555555555,
+        "value": 15,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT8H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT7H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 13856.451287475511,
+        "value": 14677.217095825225,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -192,6 +185,42 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.94fc3ab970b6a5cf6723703efc75ecc379a65c9d.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:38AM CDT until May 30 at 2:12PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nWhite Oak Creek Near Talco affecting Morris, Franklin and Titus\nCounties.\n\nFor the White Oak Creek...including Talco...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White Oak Creek near Talco.\n\n* WHEN...From Wednesday evening to Friday afternoon.\n\n* IMPACTS...At 16.0 feet, Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 9:30 AM CDT Monday the stage was 3.4 feet.\n- Bankfull stage is 16.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday evening to a crest of 16.5 feet Thursday morning.\nIt will then fall below flood stage Thursday evening.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:38:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Franklin, TX; Morris, TX; Titus, TX",
+          "sameCodes": [
+            "048159",
+            "048343",
+            "048449"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.ca3205ea0a36acfb7c76c48a7bdb3b8f17114d37.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:36AM CDT until May 30 at 6:17AM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSulphur River Near Talco affecting Morris, Red River, Bowie,\nTitus and Franklin Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From late tonight to Friday morning.\n\n* IMPACTS...At 25.0 feet, Expect minor flooding of lowland areas\nwith a few secondary roadways closed. All cattle and equipment\nnearby the river should be moved to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 2.7 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight to a crest of 23.5 feet early Wednesday morning.\nIt will then fall below flood stage early Thursday afternoon.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:36:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
+          "sameCodes": [
+            "048037",
+            "048159",
+            "048343",
+            "048387",
+            "048449"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -252,42 +281,6 @@
             "048005",
             "048405",
             "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3a96861e3b38537e56862240622dcac623975564.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:28PM CDT until May 29 at 7:00AM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nSulphur River Near Talco affecting Franklin, Red River, Titus,\nMorris and Bowie Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From Tuesday evening to Thursday morning.\n\n* IMPACTS...At 20.0 feet, Expect minor lowland flooding of the\nheavily wooded floodplain. Ranchers that may have cattle and\nequipment in the river bottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Sunday the stage was 2.8 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday morning to a crest of 21.5 feet early\nWednesday afternoon. It will then fall below flood stage\nearly Thursday morning.\n- Flood stage is 20.0 feet.\n- Flood History...This crest compares to a previous crest of\n21.8 feet on 04/15/2014.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:28:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
-          "sameCodes": [
-            "048037",
-            "048159",
-            "048343",
-            "048387",
-            "048449"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.7dd852b878237e11f9360f362dec6ba28ba0db5c.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:27PM CDT until May 30 at 2:12PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nWhite Oak Creek Near Talco affecting Morris, Titus and Franklin\nCounties.\n\nFor the White Oak Creek...including Talco...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White Oak Creek near Talco.\n\n* WHEN...From Wednesday evening to Friday afternoon.\n\n* IMPACTS...At 16.0 feet, Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Sunday the stage was 3.2 feet.\n- Bankfull stage is 16.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday evening to a crest of 16.5 feet Thursday morning.\nIt will then fall below flood stage Thursday evening.\n- Flood stage is 16.0 feet.\n- Flood History...This crest compares to a previous crest of\n16.6 feet on 06/12/2010.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:27:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Franklin, TX; Morris, TX; Titus, TX",
-          "sameCodes": [
-            "048159",
-            "048343",
-            "048449"
           ]
         }
       ]
@@ -409,37 +402,37 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT5H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15852.039013915974,
+        "value": 15095.646904174775,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.771d6eddd5e0daecab4207efed5488e41e23ff71.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a8b0ba052fe9f65bb6c6505d28c8df9b6812798a.001.1",
           "event": "Rip Current Statement",
-          "headline": "Rip Current Statement issued May 26 at 3:34AM CDT until May 27 at 7:00AM CDT by NWS Houston/Galveston TX",
+          "headline": "Rip Current Statement issued May 26 at 9:39AM CDT until May 27 at 7:00AM CDT by NWS Houston/Galveston TX",
           "description": "* WHAT...Dangerous rip currents.\n\n* WHERE...Gulf-facing beaches, including the Matagorda\nPeninsula, Brazoria County beaches, Galveston Island and the\nBolivar Peninsula.\n\n* WHEN...Through Tuesday morning.\n\n* IMPACTS...Rip currents can sweep even the best swimmers away\nfrom shore into deeper water.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-05-26T03:34:00-05:00",
-          "expires": "2025-05-26T11:45:00-05:00",
+          "effective": "2025-05-26T09:39:00-05:00",
+          "expires": "2025-05-26T17:45:00-05:00",
           "areaDesc": "Matagorda Islands; Brazoria Islands; Galveston Island; Bolivar Peninsula",
           "sameCodes": [
             "048321",
@@ -458,20 +451,20 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 86,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT9H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT8H"
       },
       "visibility": {
         "value": null,
@@ -512,27 +505,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
-      "hazards": [
-        {
-          "phenomenon": "FA",
-          "significance": "A",
-          "eventNumber": null,
-          "validTime": "2025-05-26T07:00:00+00:00/PT11H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -609,37 +595,37 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT5H"
       },
       "relativeHumidity": {
         "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15884.225095825224,
+        "value": 15980.786411132844,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.771d6eddd5e0daecab4207efed5488e41e23ff71.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a8b0ba052fe9f65bb6c6505d28c8df9b6812798a.001.1",
           "event": "Rip Current Statement",
-          "headline": "Rip Current Statement issued May 26 at 3:34AM CDT until May 27 at 7:00AM CDT by NWS Houston/Galveston TX",
+          "headline": "Rip Current Statement issued May 26 at 9:39AM CDT until May 27 at 7:00AM CDT by NWS Houston/Galveston TX",
           "description": "* WHAT...Dangerous rip currents.\n\n* WHERE...Gulf-facing beaches, including the Matagorda\nPeninsula, Brazoria County beaches, Galveston Island and the\nBolivar Peninsula.\n\n* WHEN...Through Tuesday morning.\n\n* IMPACTS...Rip currents can sweep even the best swimmers away\nfrom shore into deeper water.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-05-26T03:34:00-05:00",
-          "expires": "2025-05-26T11:45:00-05:00",
+          "effective": "2025-05-26T09:39:00-05:00",
+          "expires": "2025-05-26T17:45:00-05:00",
           "areaDesc": "Matagorda Islands; Brazoria Islands; Galveston Island; Bolivar Peninsula",
           "sameCodes": [
             "048321",
@@ -718,25 +704,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15771.571506958067,
+        "value": 12923.031890258802,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -822,25 +808,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16045.160109741197,
+        "value": 15948.59879443358,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -852,20 +838,20 @@
     },
     "data": {
       "temperature": {
-        "value": 13.88888888888889,
+        "value": 14.444444444444445,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -901,27 +887,7 @@
         "value": 14645.031013915974,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-26T06:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.f327ddd44d57ace62399ae413d4625ed31ad6074.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 9:02AM CDT by NWS Lake Charles LA",
-          "description": "At 902 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Converse to near Macune to near\nCorrigan. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nJasper, Woodville, Colmesneil, Chester, Toledo Bend Dam, Ebenezer,\nRockland, Warren, Town Bluff, Burkeville, Hornbeck, Browndell,\nFarrsville, Mayflower, Spurger, Jamestown, Roganville, Harrisburg,\nIvanhoe, and Sam Rayburn Dam.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T09:02:00-05:00",
-          "expires": "2025-05-26T09:30:00-05:00",
-          "areaDesc": "Vernon; Tyler; Northern Jasper; Northern Newton",
-          "sameCodes": [
-            "022115",
-            "048457",
-            "048241",
-            "048351"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -932,20 +898,20 @@
     },
     "data": {
       "temperature": {
-        "value": 15.555555555555555,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -962,25 +928,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 15916.412712524489,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -992,20 +958,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 86,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT10H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT9H"
       },
       "visibility": {
         "value": null,
@@ -1048,23 +1014,23 @@
       "temperature": {
         "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -1134,36 +1100,6 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT1H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
-            "048073",
-            "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -1239,23 +1175,23 @@
       "temperature": {
         "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 14,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "visibility": {
-        "value": 15610.636493041933,
+        "value": 15465.795287475512,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -1327,25 +1263,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16012.972493041932,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -1387,20 +1323,20 @@
     },
     "data": {
       "temperature": {
-        "value": 15,
+        "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -1447,27 +1383,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
-      "hazards": [
-        {
-          "phenomenon": "FA",
-          "significance": "A",
-          "eventNumber": null,
-          "validTime": "2025-05-26T07:00:00+00:00/PT11H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -1484,25 +1413,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT5H"
       },
       "relativeHumidity": {
         "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT5H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15948.59879443358,
+        "value": 15900.318904174776,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -1516,18 +1445,18 @@
       "temperature": {
         "value": 15,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -1797,20 +1726,20 @@
     },
     "data": {
       "temperature": {
-        "value": 16.666666666666668,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -1829,23 +1758,23 @@
       "temperature": {
         "value": 16.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT7H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 17,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15417.51539721687,
+        "value": 15047.367013915973,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -1915,6 +1844,22 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT5H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.51419be955e2f2437b03166c0bd377e9e6aafcf5.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:23AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nSabine River Near Mineola affecting Smith and Wood Counties.\n\nFor the Sabine River...including Mineola...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sabine River near Mineola.\n\n* WHEN...From Wednesday evening until further notice.\n\n* IMPACTS...At 16.0 feet, Expect flooding of low river bottoms with\nsecondary roadways along with picnic and recreational areas\nbecoming inundated as well. Ranchers should move cattle and\nequipment to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 9:15 AM CDT Monday the stage was 9.9 feet.\n- Bankfull stage is 14.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate Wednesday evening and continue rising to 15.8 feet\nSaturday morning.\n- Flood stage is 14.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:23:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Smith, TX; Wood, TX",
+          "sameCodes": [
+            "048423",
+            "048499"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -2047,6 +1992,22 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.e6a566a1fdf2b4b3b44e3457cc479b2a76b9c789.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:39AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nBlack Cypress Bayou At Jefferson affecting Marion and Cass\nCounties.\n\nFor the Black Cypress Bayou...including Jefferson...Minor flooding\nis forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Black Cypress Bayou at Jefferson.\n\n* WHEN...From Wednesday afternoon until further notice.\n\n* IMPACTS...At 13.0 feet, Lowland flooding will affect mainly timber\nresources.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Monday the stage was 7.7 feet.\n- Bankfull stage is 13.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday afternoon and continue rising to a crest of\n14.0 feet Thursday evening.\n- Flood stage is 13.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:39:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Cass, TX; Marion, TX",
+          "sameCodes": [
+            "048067",
+            "048315"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued May 26 at 8:04AM CDT until May 27 at 7:00AM CDT by NWS Shreveport LA",
@@ -2121,23 +2082,23 @@
       "temperature": {
         "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15530.168986084027,
+        "value": 15160.02060278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -2271,25 +2232,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15160.02060278313,
+        "value": 15562.35660278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -2359,6 +2320,39 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT6H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.51419be955e2f2437b03166c0bd377e9e6aafcf5.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:23AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nSabine River Near Mineola affecting Smith and Wood Counties.\n\nFor the Sabine River...including Mineola...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sabine River near Mineola.\n\n* WHEN...From Wednesday evening until further notice.\n\n* IMPACTS...At 16.0 feet, Expect flooding of low river bottoms with\nsecondary roadways along with picnic and recreational areas\nbecoming inundated as well. Ranchers should move cattle and\nequipment to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 9:15 AM CDT Monday the stage was 9.9 feet.\n- Bankfull stage is 14.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate Wednesday evening and continue rising to 15.8 feet\nSaturday morning.\n- Flood stage is 14.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:23:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Smith, TX; Wood, TX",
+          "sameCodes": [
+            "048423",
+            "048499"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.0b18198340c9b5ac3c47c38bed4e56d78897d3d1.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:21AM CDT until May 30 at 3:00AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nMud Creek Near Jacksonville affecting Rusk, Smith and Cherokee\nCounties.\n\nFor the Mud Creek...including Jacksonville...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Mud Creek near Jacksonville.\n\n* WHEN...From Tuesday evening to late Thursday night.\n\n* IMPACTS...At 9.0 feet, Expect lowland flooding of timber resources\nalong with some farmland.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Monday the stage was 2.4 feet.\n- Bankfull stage is 9.0 feet.\n- Forecast...The river is expected to rise above flood stage\nTuesday evening to a crest of 9.4 feet Wednesday morning. It\nwill then fall below flood stage late Thursday morning.\n- Flood stage is 9.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:21:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Cherokee, TX; Rusk, TX; Smith, TX",
+          "sameCodes": [
+            "048073",
+            "048401",
+            "048423"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -2628,25 +2622,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT7H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 38,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 14773.778411132842,
+        "value": 14805.964493041933,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -2718,25 +2712,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.22222222222222,
+        "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT5H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT7H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "visibility": {
-        "value": 15514.076712524487,
+        "value": 15304.861808349551,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -2748,27 +2742,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
-      "hazards": [
-        {
-          "phenomenon": "FA",
-          "significance": "A",
-          "eventNumber": null,
-          "validTime": "2025-05-26T07:00:00+00:00/PT11H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -2908,36 +2895,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
-            "048073",
-            "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued May 26 at 8:04AM CDT until May 27 at 7:00AM CDT by NWS Shreveport LA",
@@ -2998,25 +2955,6 @@
             "048405",
             "048403"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3385ea354f97e72fc48a4f53387dd0ce73e31d0e.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued May 26 at 7:26AM CDT until May 26 at 10:00AM CDT by NWS Shreveport LA",
-          "description": "FFWSHV\n\nThe National Weather Service in Shreveport has extended the\n\n* Flash Flood Warning for...\nSouthern Bossier Parish in northwestern Louisiana...\nSouthern Caddo Parish in northwestern Louisiana...\nNorth Central De Soto Parish in northwestern Louisiana...\nEast Central Harrison County in northeastern Texas...\nNortheastern Panola County in northeastern Texas...\n\n* Until 1000 AM CDT.\n\n* At 726 AM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 2 and 2.5 inches of\nrain have fallen. Additional rainfall amounts of 1 to 1.5 inches\nare possible in the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nShreveport, Bossier City, Haughton, Greenwood, Blanchard, Waskom,\nStonewall, Fosters, Eastwood, Forbing, Cross Lake, Barksdale Air\nForce Base, Keithville, Ferguson, Robson, Taylortown, Sligo, Red\nChute, Bodcau and Frierson.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-05-26T07:26:00-05:00",
-          "expires": "2025-05-26T10:00:00-05:00",
-          "areaDesc": "Bossier, LA; Caddo, LA; De Soto, LA; Harrison, TX; Panola, TX",
-          "sameCodes": [
-            "022015",
-            "022017",
-            "022031",
-            "048203",
-            "048365"
-          ]
         }
       ]
     }
@@ -3059,25 +2997,25 @@
     },
     "data": {
       "temperature": {
-        "value": 15,
+        "value": 13.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT7H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 32,
+        "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 13792.077588867158,
+        "value": 14081.76,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -3199,23 +3137,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT5H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
         "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15996.878684692381,
+        "value": 15964.69260278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -3309,25 +3247,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT2H"
       }
     }
   },
@@ -3367,6 +3305,42 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.94fc3ab970b6a5cf6723703efc75ecc379a65c9d.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:38AM CDT until May 30 at 2:12PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nWhite Oak Creek Near Talco affecting Morris, Franklin and Titus\nCounties.\n\nFor the White Oak Creek...including Talco...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White Oak Creek near Talco.\n\n* WHEN...From Wednesday evening to Friday afternoon.\n\n* IMPACTS...At 16.0 feet, Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 9:30 AM CDT Monday the stage was 3.4 feet.\n- Bankfull stage is 16.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday evening to a crest of 16.5 feet Thursday morning.\nIt will then fall below flood stage Thursday evening.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:38:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Franklin, TX; Morris, TX; Titus, TX",
+          "sameCodes": [
+            "048159",
+            "048343",
+            "048449"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.ca3205ea0a36acfb7c76c48a7bdb3b8f17114d37.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:36AM CDT until May 30 at 6:17AM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSulphur River Near Talco affecting Morris, Red River, Bowie,\nTitus and Franklin Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From late tonight to Friday morning.\n\n* IMPACTS...At 25.0 feet, Expect minor flooding of lowland areas\nwith a few secondary roadways closed. All cattle and equipment\nnearby the river should be moved to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 2.7 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight to a crest of 23.5 feet early Wednesday morning.\nIt will then fall below flood stage early Thursday afternoon.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:36:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
+          "sameCodes": [
+            "048037",
+            "048159",
+            "048343",
+            "048387",
+            "048449"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -3427,42 +3401,6 @@
             "048005",
             "048405",
             "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3a96861e3b38537e56862240622dcac623975564.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:28PM CDT until May 29 at 7:00AM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nSulphur River Near Talco affecting Franklin, Red River, Titus,\nMorris and Bowie Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From Tuesday evening to Thursday morning.\n\n* IMPACTS...At 20.0 feet, Expect minor lowland flooding of the\nheavily wooded floodplain. Ranchers that may have cattle and\nequipment in the river bottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Sunday the stage was 2.8 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday morning to a crest of 21.5 feet early\nWednesday afternoon. It will then fall below flood stage\nearly Thursday morning.\n- Flood stage is 20.0 feet.\n- Flood History...This crest compares to a previous crest of\n21.8 feet on 04/15/2014.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:28:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
-          "sameCodes": [
-            "048037",
-            "048159",
-            "048343",
-            "048387",
-            "048449"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.7dd852b878237e11f9360f362dec6ba28ba0db5c.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:27PM CDT until May 30 at 2:12PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nWhite Oak Creek Near Talco affecting Morris, Titus and Franklin\nCounties.\n\nFor the White Oak Creek...including Talco...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White Oak Creek near Talco.\n\n* WHEN...From Wednesday evening to Friday afternoon.\n\n* IMPACTS...At 16.0 feet, Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Sunday the stage was 3.2 feet.\n- Bankfull stage is 16.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday evening to a crest of 16.5 feet Thursday morning.\nIt will then fall below flood stage Thursday evening.\n- Flood stage is 16.0 feet.\n- Flood History...This crest compares to a previous crest of\n16.6 feet on 06/12/2010.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:27:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Franklin, TX; Morris, TX; Titus, TX",
-          "sameCodes": [
-            "048159",
-            "048343",
-            "048449"
           ]
         }
       ]
@@ -3598,25 +3536,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT2H"
       }
     }
   },
@@ -3658,25 +3596,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT8H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT6H"
       }
     }
   },
@@ -3718,20 +3656,20 @@
     },
     "data": {
       "temperature": {
-        "value": 15.555555555555555,
+        "value": 13.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -3841,53 +3779,21 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.eab820d450c1b2fe8e5c009105bd6ffa27475d19.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.bd02ba7854350888c99b1188f81bb5fe7035a6ae.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:57AM CDT by NWS Shreveport LA",
-          "description": "At 856 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Coushatta to 6 miles east of\nPatroon to near Corrigan. Movement was east at 45 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLake End, Hemphill, Provencal, Belmont, Bellwood, Campti, Hanna, St.\nMaurice, Dodson, Clarence, Bronson, McElroy, Goldonna, Fisher,\nChestnut, Yellowpine, Clear Lake, Many, Marthaville, and Ashland.",
+          "headline": "Special Weather Statement issued May 26 at 9:42AM CDT by NWS Shreveport LA",
+          "description": "At 942 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 16 miles southwest of Jonesboro to 8 miles\nnorthwest of Natchitoches to 12 miles north of Toledo Bend Dam to\nnear Browndell. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nKisatchie, Cloutierville, Melrose, Provencal, Winnfield, Bellwood,\nCampti, Chopin, St. Maurice, Dodson, Clarence, Joyce, Goldonna,\nAtlanta, Fisher, Chestnut, Yellowpine, Clear Lake, Many, and Gorum.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-05-26T08:57:00-05:00",
-          "expires": "2025-05-26T09:45:00-05:00",
-          "areaDesc": "Red River; Sabine; Natchitoches; Winn; Angelina; San Augustine; Sabine",
+          "effective": "2025-05-26T09:42:00-05:00",
+          "expires": "2025-05-26T10:45:00-05:00",
+          "areaDesc": "Sabine; Natchitoches; Winn; Grant; Sabine",
           "sameCodes": [
-            "022081",
             "022085",
             "022069",
             "022127",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
-            "048073",
-            "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
+            "022043",
             "048403"
           ]
         },
@@ -3964,20 +3870,20 @@
     },
     "data": {
       "temperature": {
-        "value": 14.444444444444445,
+        "value": 13.333333333333334,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4022,57 +3928,6 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT5H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.eab820d450c1b2fe8e5c009105bd6ffa27475d19.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:57AM CDT by NWS Shreveport LA",
-          "description": "At 856 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Coushatta to 6 miles east of\nPatroon to near Corrigan. Movement was east at 45 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLake End, Hemphill, Provencal, Belmont, Bellwood, Campti, Hanna, St.\nMaurice, Dodson, Clarence, Bronson, McElroy, Goldonna, Fisher,\nChestnut, Yellowpine, Clear Lake, Many, Marthaville, and Ashland.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:57:00-05:00",
-          "expires": "2025-05-26T09:45:00-05:00",
-          "areaDesc": "Red River; Sabine; Natchitoches; Winn; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022081",
-            "022085",
-            "022069",
-            "022127",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
-            "048073",
-            "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -4146,25 +4001,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 26,
+        "value": 20,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15787.665315307619,
+        "value": 15369.235506958066,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -4204,6 +4059,42 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.ca3205ea0a36acfb7c76c48a7bdb3b8f17114d37.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:36AM CDT until May 30 at 6:17AM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSulphur River Near Talco affecting Morris, Red River, Bowie,\nTitus and Franklin Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From late tonight to Friday morning.\n\n* IMPACTS...At 25.0 feet, Expect minor flooding of lowland areas\nwith a few secondary roadways closed. All cattle and equipment\nnearby the river should be moved to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 2.7 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight to a crest of 23.5 feet early Wednesday morning.\nIt will then fall below flood stage early Thursday afternoon.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:36:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
+          "sameCodes": [
+            "048037",
+            "048159",
+            "048343",
+            "048387",
+            "048449"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.591029b9e8e37ba9a292c4be1c8927de1bbea3fc.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:29AM CDT until May 30 at 10:00PM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...Oklahoma...\n\nRed River Near Dekalb affecting Bowie, McCurtain and Red River\nCounties.\n\nFor the Red River...including Dekalb...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Red River near Dekalb.\n\n* WHEN...From Wednesday morning to Friday evening.\n\n* IMPACTS...At 24.5 feet, Flooding will continue to decrease along\nthe Red River, although bank erosion problems will continue.\nMinor overflow of low banks will continue, especially on the\nOklahoma side of the river.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Monday the stage was 21.5 feet.\n- Bankfull stage is 22.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday morning to a crest of 24.5 feet Wednesday evening.\nIt will then fall below flood stage early Friday morning.\n- Flood stage is 24.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:29:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "McCurtain, OK; Bowie, TX; Red River, TX",
+          "sameCodes": [
+            "040089",
+            "048037",
+            "048387"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -4264,25 +4155,6 @@
             "048005",
             "048405",
             "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3a96861e3b38537e56862240622dcac623975564.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:28PM CDT until May 29 at 7:00AM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nSulphur River Near Talco affecting Franklin, Red River, Titus,\nMorris and Bowie Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From Tuesday evening to Thursday morning.\n\n* IMPACTS...At 20.0 feet, Expect minor lowland flooding of the\nheavily wooded floodplain. Ranchers that may have cattle and\nequipment in the river bottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Sunday the stage was 2.8 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday morning to a crest of 21.5 feet early\nWednesday afternoon. It will then fall below flood stage\nearly Thursday morning.\n- Flood stage is 20.0 feet.\n- Flood History...This crest compares to a previous crest of\n21.8 feet on 04/15/2014.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:28:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
-          "sameCodes": [
-            "048037",
-            "048159",
-            "048343",
-            "048387",
-            "048449"
           ]
         }
       ]
@@ -4415,25 +4287,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT2H"
       }
     }
   },
@@ -4565,20 +4437,20 @@
     },
     "data": {
       "temperature": {
-        "value": 16.11111111111111,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4595,20 +4467,20 @@
     },
     "data": {
       "temperature": {
-        "value": 15.555555555555555,
+        "value": 15,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4625,25 +4497,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 51,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 14982.993315307618,
+        "value": 15433.609205566421,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -4655,20 +4527,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4739,25 +4611,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 72,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT10H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT8H"
       }
     }
   },
@@ -4799,20 +4671,20 @@
     },
     "data": {
       "temperature": {
-        "value": 15,
+        "value": 16.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4831,18 +4703,18 @@
       "temperature": {
         "value": 15,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 96,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4859,20 +4731,20 @@
     },
     "data": {
       "temperature": {
-        "value": 13.88888888888889,
+        "value": 13.333333333333334,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 96,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -4891,18 +4763,18 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT5H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT13H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT12H"
       },
       "visibility": {
         "value": null,
@@ -4943,37 +4815,37 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT6H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15916.412712524489,
+        "value": 15755.477698608354,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.771d6eddd5e0daecab4207efed5488e41e23ff71.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a8b0ba052fe9f65bb6c6505d28c8df9b6812798a.001.1",
           "event": "Rip Current Statement",
-          "headline": "Rip Current Statement issued May 26 at 3:34AM CDT until May 27 at 7:00AM CDT by NWS Houston/Galveston TX",
+          "headline": "Rip Current Statement issued May 26 at 9:39AM CDT until May 27 at 7:00AM CDT by NWS Houston/Galveston TX",
           "description": "* WHAT...Dangerous rip currents.\n\n* WHERE...Gulf-facing beaches, including the Matagorda\nPeninsula, Brazoria County beaches, Galveston Island and the\nBolivar Peninsula.\n\n* WHEN...Through Tuesday morning.\n\n* IMPACTS...Rip currents can sweep even the best swimmers away\nfrom shore into deeper water.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-05-26T03:34:00-05:00",
-          "expires": "2025-05-26T11:45:00-05:00",
+          "effective": "2025-05-26T09:39:00-05:00",
+          "expires": "2025-05-26T17:45:00-05:00",
           "areaDesc": "Matagorda Islands; Brazoria Islands; Galveston Island; Bolivar Peninsula",
           "sameCodes": [
             "048321",
@@ -5146,23 +5018,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT10H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT8H"
       }
     }
   },
@@ -5308,25 +5180,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT8H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT6H"
       }
     }
   },
@@ -5431,33 +5303,36 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
+          "id": "urn:oid:2.49.0.1.840.0.0b18198340c9b5ac3c47c38bed4e56d78897d3d1.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:21AM CDT until May 30 at 3:00AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nMud Creek Near Jacksonville affecting Rusk, Smith and Cherokee\nCounties.\n\nFor the Mud Creek...including Jacksonville...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Mud Creek near Jacksonville.\n\n* WHEN...From Tuesday evening to late Thursday night.\n\n* IMPACTS...At 9.0 feet, Expect lowland flooding of timber resources\nalong with some farmland.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Monday the stage was 2.4 feet.\n- Bankfull stage is 9.0 feet.\n- Forecast...The river is expected to rise above flood stage\nTuesday evening to a crest of 9.4 feet Wednesday morning. It\nwill then fall below flood stage late Thursday morning.\n- Flood stage is 9.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
           "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:21:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Cherokee, TX; Rusk, TX; Smith, TX",
           "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
             "048073",
             "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
+            "048423"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.c708460a8ab3e94d93fb4129377ae5547d051c4d.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:19AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nNeches River Near Neches affecting Anderson and Cherokee Counties.\n\nFor the Neches River...including Neches...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Neches River near Neches.\n\n* WHEN...From this evening until further notice.\n\n* IMPACTS...At 14.0 feet, Minor lowland flooding.  Move livestock\nand equipment to higher ground away from the river.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Monday the stage was 8.5 feet.\n- Bankfull stage is 12.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this evening and continue rising to a crest of 15.1 feet\nearly Friday morning.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:19:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Anderson, TX; Cherokee, TX",
+          "sameCodes": [
+            "048001",
+            "048073"
           ]
         },
         {
@@ -5627,23 +5502,23 @@
       "temperature": {
         "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15497.982904174776,
+        "value": 15079.553095825224,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -5687,23 +5562,23 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT10H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT8H"
       }
     }
   },
@@ -5775,25 +5650,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15964.69260278313,
+        "value": 15916.412712524489,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -5994,25 +5869,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 16.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 39,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15449.703013915972,
+        "value": 15353.141698608355,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -6052,57 +5927,6 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT1H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.eab820d450c1b2fe8e5c009105bd6ffa27475d19.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:57AM CDT by NWS Shreveport LA",
-          "description": "At 856 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Coushatta to 6 miles east of\nPatroon to near Corrigan. Movement was east at 45 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLake End, Hemphill, Provencal, Belmont, Bellwood, Campti, Hanna, St.\nMaurice, Dodson, Clarence, Bronson, McElroy, Goldonna, Fisher,\nChestnut, Yellowpine, Clear Lake, Many, Marthaville, and Ashland.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:57:00-05:00",
-          "expires": "2025-05-26T09:45:00-05:00",
-          "areaDesc": "Red River; Sabine; Natchitoches; Winn; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022081",
-            "022085",
-            "022069",
-            "022127",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
-            "048073",
-            "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -6243,25 +6067,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 34,
+        "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15755.477698608354,
+        "value": 15449.703013915972,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -6677,27 +6501,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
       },
-      "hazards": [
-        {
-          "phenomenon": "FA",
-          "significance": "A",
-          "eventNumber": null,
-          "validTime": "2025-05-26T07:00:00+00:00/PT11H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6742,6 +6559,22 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT5H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.2a65f1c2147704295a0df1c06efc4c198f04852b.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:25AM CDT until May 31 at 6:00PM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nRabbit Creek At Kilgore affecting Rusk and Gregg Counties.\n\nFor the Rabbit Creek...including Kilgore...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Rabbit Creek at Kilgore.\n\n* WHEN...From this morning to Saturday evening.\n\n* IMPACTS...At 14.0 feet, Expect about one hundred acres to flood.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 12.2 feet.\n- Bankfull stage is 10.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:45 AM CDT Monday was 12.2 feet.\n- Forecast...The river is expected to rise to a crest of 13.5\nfeet this evening. It will then fall below flood stage Friday\nmorning.\n- Flood stage is 10.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:25:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Gregg, TX; Rusk, TX",
+          "sameCodes": [
+            "048183",
+            "048401"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -6815,25 +6648,25 @@
     },
     "data": {
       "temperature": {
-        "value": 16.11111111111111,
+        "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT5H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 8,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15771.571506958067,
+        "value": 15353.141698608355,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -6864,27 +6697,7 @@
         "value": 13421.929205566421,
         "unit": "wmoUnit:m",
         "validTime": "2025-05-26T06:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.f327ddd44d57ace62399ae413d4625ed31ad6074.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 9:02AM CDT by NWS Lake Charles LA",
-          "description": "At 902 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Converse to near Macune to near\nCorrigan. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nJasper, Woodville, Colmesneil, Chester, Toledo Bend Dam, Ebenezer,\nRockland, Warren, Town Bluff, Burkeville, Hornbeck, Browndell,\nFarrsville, Mayflower, Spurger, Jamestown, Roganville, Harrisburg,\nIvanhoe, and Sam Rayburn Dam.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T09:02:00-05:00",
-          "expires": "2025-05-26T09:30:00-05:00",
-          "areaDesc": "Vernon; Tyler; Northern Jasper; Northern Newton",
-          "sameCodes": [
-            "022115",
-            "048457",
-            "048241",
-            "048351"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -6932,25 +6745,25 @@
     },
     "data": {
       "temperature": {
-        "value": 15.555555555555555,
+        "value": 15,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT7H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 29,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 12375.855452087468,
+        "value": 13325.367890258804,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -6962,25 +6775,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT6H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/P1DT10H"
+        "validTime": "2025-05-26T08:00:00+00:00/P1DT8H"
       }
     }
   },
@@ -6992,20 +6805,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT11H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": null,
@@ -7105,6 +6918,42 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.94fc3ab970b6a5cf6723703efc75ecc379a65c9d.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:38AM CDT until May 30 at 2:12PM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nWhite Oak Creek Near Talco affecting Morris, Franklin and Titus\nCounties.\n\nFor the White Oak Creek...including Talco...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White Oak Creek near Talco.\n\n* WHEN...From Wednesday evening to Friday afternoon.\n\n* IMPACTS...At 16.0 feet, Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 9:30 AM CDT Monday the stage was 3.4 feet.\n- Bankfull stage is 16.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday evening to a crest of 16.5 feet Thursday morning.\nIt will then fall below flood stage Thursday evening.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:38:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Franklin, TX; Morris, TX; Titus, TX",
+          "sameCodes": [
+            "048159",
+            "048343",
+            "048449"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.ca3205ea0a36acfb7c76c48a7bdb3b8f17114d37.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:36AM CDT until May 30 at 6:17AM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSulphur River Near Talco affecting Morris, Red River, Bowie,\nTitus and Franklin Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From late tonight to Friday morning.\n\n* IMPACTS...At 25.0 feet, Expect minor flooding of lowland areas\nwith a few secondary roadways closed. All cattle and equipment\nnearby the river should be moved to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 2.7 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight to a crest of 23.5 feet early Wednesday morning.\nIt will then fall below flood stage early Thursday afternoon.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:36:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
+          "sameCodes": [
+            "048037",
+            "048159",
+            "048343",
+            "048387",
+            "048449"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued May 26 at 8:04AM CDT until May 27 at 7:00AM CDT by NWS Shreveport LA",
@@ -7165,42 +7014,6 @@
             "048405",
             "048403"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3a96861e3b38537e56862240622dcac623975564.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:28PM CDT until May 29 at 7:00AM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nSulphur River Near Talco affecting Franklin, Red River, Titus,\nMorris and Bowie Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From Tuesday evening to Thursday morning.\n\n* IMPACTS...At 20.0 feet, Expect minor lowland flooding of the\nheavily wooded floodplain. Ranchers that may have cattle and\nequipment in the river bottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Sunday the stage was 2.8 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday morning to a crest of 21.5 feet early\nWednesday afternoon. It will then fall below flood stage\nearly Thursday morning.\n- Flood stage is 20.0 feet.\n- Flood History...This crest compares to a previous crest of\n21.8 feet on 04/15/2014.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:28:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
-          "sameCodes": [
-            "048037",
-            "048159",
-            "048343",
-            "048387",
-            "048449"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.7dd852b878237e11f9360f362dec6ba28ba0db5c.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:27PM CDT until May 30 at 2:12PM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nWhite Oak Creek Near Talco affecting Morris, Titus and Franklin\nCounties.\n\nFor the White Oak Creek...including Talco...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White Oak Creek near Talco.\n\n* WHEN...From Wednesday evening to Friday afternoon.\n\n* IMPACTS...At 16.0 feet, Expect minor lowland flooding of creek\nbottoms. Ranchers that may have cattle and equipment in the creek\nbottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Sunday the stage was 3.2 feet.\n- Bankfull stage is 16.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday evening to a crest of 16.5 feet Thursday morning.\nIt will then fall below flood stage Thursday evening.\n- Flood stage is 16.0 feet.\n- Flood History...This crest compares to a previous crest of\n16.6 feet on 06/12/2010.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:27:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Franklin, TX; Morris, TX; Titus, TX",
-          "sameCodes": [
-            "048159",
-            "048343",
-            "048449"
-          ]
         }
       ]
     }
@@ -7215,23 +7028,23 @@
       "temperature": {
         "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT9H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT8H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 35,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 13904.732712524488,
+        "value": 14805.964493041933,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -7340,25 +7153,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 16029.066301391646,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -8025,33 +7838,36 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
+          "id": "urn:oid:2.49.0.1.840.0.2a65f1c2147704295a0df1c06efc4c198f04852b.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:25AM CDT until May 31 at 6:00PM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nRabbit Creek At Kilgore affecting Rusk and Gregg Counties.\n\nFor the Rabbit Creek...including Kilgore...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Rabbit Creek at Kilgore.\n\n* WHEN...From this morning to Saturday evening.\n\n* IMPACTS...At 14.0 feet, Expect about one hundred acres to flood.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 12.2 feet.\n- Bankfull stage is 10.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:45 AM CDT Monday was 12.2 feet.\n- Forecast...The river is expected to rise to a crest of 13.5\nfeet this evening. It will then fall below flood stage Friday\nmorning.\n- Flood stage is 10.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
           "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:25:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Gregg, TX; Rusk, TX",
           "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
+            "048183",
+            "048401"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.0b18198340c9b5ac3c47c38bed4e56d78897d3d1.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:21AM CDT until May 30 at 3:00AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nMud Creek Near Jacksonville affecting Rusk, Smith and Cherokee\nCounties.\n\nFor the Mud Creek...including Jacksonville...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Mud Creek near Jacksonville.\n\n* WHEN...From Tuesday evening to late Thursday night.\n\n* IMPACTS...At 9.0 feet, Expect lowland flooding of timber resources\nalong with some farmland.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Monday the stage was 2.4 feet.\n- Bankfull stage is 9.0 feet.\n- Forecast...The river is expected to rise above flood stage\nTuesday evening to a crest of 9.4 feet Wednesday morning. It\nwill then fall below flood stage late Thursday morning.\n- Flood stage is 9.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:21:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Cherokee, TX; Rusk, TX; Smith, TX",
+          "sameCodes": [
             "048073",
             "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
+            "048423"
           ]
         },
         {
@@ -8909,36 +8725,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.51eee0bf67db74146a39d862792b3e1dda111881.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 8:16AM CDT by NWS Shreveport LA",
-          "description": "At 815 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Eastwood to near Logansport to 6 miles\nnorthwest of Apple Springs. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nFront, Grand Bayou, Stonewall, Fillmore, Bodcau, Edgefield, Chireno,\nRedland, Crichton, Lilbert, Keithville, Noles Landing, Alto,\nMartinsville, Mc Dade, Trawick, Burke, Evelyn, Sexton, and Princeton.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T08:16:00-05:00",
-          "expires": "2025-05-26T09:15:00-05:00",
-          "areaDesc": "Caddo; Bossier; Webster; Claiborne; De Soto; Red River; Bienville; Sabine; Cherokee; Rusk; Panola; Nacogdoches; Shelby; Angelina; San Augustine; Sabine",
-          "sameCodes": [
-            "022017",
-            "022015",
-            "022119",
-            "022027",
-            "022031",
-            "022081",
-            "022013",
-            "022085",
-            "048073",
-            "048401",
-            "048365",
-            "048347",
-            "048419",
-            "048005",
-            "048405",
-            "048403"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued May 26 at 8:04AM CDT until May 27 at 7:00AM CDT by NWS Shreveport LA",
@@ -9123,24 +8909,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.f327ddd44d57ace62399ae413d4625ed31ad6074.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued May 26 at 9:02AM CDT by NWS Lake Charles LA",
-          "description": "At 902 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Converse to near Macune to near\nCorrigan. Movement was southeast at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nJasper, Woodville, Colmesneil, Chester, Toledo Bend Dam, Ebenezer,\nRockland, Warren, Town Bluff, Burkeville, Hornbeck, Browndell,\nFarrsville, Mayflower, Spurger, Jamestown, Roganville, Harrisburg,\nIvanhoe, and Sam Rayburn Dam.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-05-26T09:02:00-05:00",
-          "expires": "2025-05-26T09:30:00-05:00",
-          "areaDesc": "Vernon; Tyler; Northern Jasper; Northern Newton",
-          "sameCodes": [
-            "022115",
-            "048457",
-            "048241",
-            "048351"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.8f3a399c9dbe24116d03d1266a7619816070c7ec.001.1",
           "event": "Flood Warning",
           "headline": "Flood Warning issued May 25 at 8:53PM CDT by NWS Lake Charles LA",
@@ -9245,23 +9013,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT5H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
         "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 15948.59879443358,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -9364,18 +9132,18 @@
       "temperature": {
         "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -9714,6 +9482,22 @@
         "validTime": "2025-05-26T07:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.e6a566a1fdf2b4b3b44e3457cc479b2a76b9c789.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:39AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nBlack Cypress Bayou At Jefferson affecting Marion and Cass\nCounties.\n\nFor the Black Cypress Bayou...including Jefferson...Minor flooding\nis forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Black Cypress Bayou at Jefferson.\n\n* WHEN...From Wednesday afternoon until further notice.\n\n* IMPACTS...At 13.0 feet, Lowland flooding will affect mainly timber\nresources.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Monday the stage was 7.7 feet.\n- Bankfull stage is 13.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday afternoon and continue rising to a crest of\n14.0 feet Thursday evening.\n- Flood stage is 13.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:39:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Cass, TX; Marion, TX",
+          "sameCodes": [
+            "048067",
+            "048315"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
@@ -10274,6 +10058,42 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.ca3205ea0a36acfb7c76c48a7bdb3b8f17114d37.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:36AM CDT until May 30 at 6:17AM CDT by NWS Shreveport LA",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSulphur River Near Talco affecting Morris, Red River, Bowie,\nTitus and Franklin Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From late tonight to Friday morning.\n\n* IMPACTS...At 25.0 feet, Expect minor flooding of lowland areas\nwith a few secondary roadways closed. All cattle and equipment\nnearby the river should be moved to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Monday the stage was 2.7 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight to a crest of 23.5 feet early Wednesday morning.\nIt will then fall below flood stage early Thursday afternoon.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-26T09:36:00-05:00",
+          "expires": "2025-05-27T09:45:00-05:00",
+          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
+          "sameCodes": [
+            "048037",
+            "048159",
+            "048343",
+            "048387",
+            "048449"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.591029b9e8e37ba9a292c4be1c8927de1bbea3fc.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:29AM CDT until May 30 at 10:00PM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...Oklahoma...\n\nRed River Near Dekalb affecting Bowie, McCurtain and Red River\nCounties.\n\nFor the Red River...including Dekalb...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Red River near Dekalb.\n\n* WHEN...From Wednesday morning to Friday evening.\n\n* IMPACTS...At 24.5 feet, Flooding will continue to decrease along\nthe Red River, although bank erosion problems will continue.\nMinor overflow of low banks will continue, especially on the\nOklahoma side of the river.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Monday the stage was 21.5 feet.\n- Bankfull stage is 22.0 feet.\n- Forecast...The river is expected to rise above flood stage\nWednesday morning to a crest of 24.5 feet Wednesday evening.\nIt will then fall below flood stage early Friday morning.\n- Flood stage is 24.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:29:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "McCurtain, OK; Bowie, TX; Red River, TX",
+          "sameCodes": [
+            "040089",
+            "048037",
+            "048387"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.3dfe8c36f67e2ad6980ac9e771c6e93f5b3acfae.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued May 26 at 8:04AM CDT until May 27 at 7:00AM CDT by NWS Shreveport LA",
@@ -10333,25 +10153,6 @@
             "048005",
             "048405",
             "048403"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3a96861e3b38537e56862240622dcac623975564.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued May 25 at 9:28PM CDT until May 29 at 7:00AM CDT by NWS Shreveport LA",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nSulphur River Near Talco affecting Franklin, Red River, Titus,\nMorris and Bowie Counties.\n\nFor the Sulphur River...including Talco...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Sulphur River near Talco.\n\n* WHEN...From Tuesday evening to Thursday morning.\n\n* IMPACTS...At 20.0 feet, Expect minor lowland flooding of the\nheavily wooded floodplain. Ranchers that may have cattle and\nequipment in the river bottoms should move them to higher ground.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Sunday the stage was 2.8 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly Wednesday morning to a crest of 21.5 feet early\nWednesday afternoon. It will then fall below flood stage\nearly Thursday morning.\n- Flood stage is 20.0 feet.\n- Flood History...This crest compares to a previous crest of\n21.8 feet on 04/15/2014.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-25T21:28:00-05:00",
-          "expires": "2025-05-26T21:30:00-05:00",
-          "areaDesc": "Bowie, TX; Franklin, TX; Morris, TX; Red River, TX; Titus, TX",
-          "sameCodes": [
-            "048037",
-            "048159",
-            "048343",
-            "048387",
-            "048449"
           ]
         }
       ]
@@ -10485,6 +10286,22 @@
         "validTime": "2025-05-26T05:00:00+00:00/PT2H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.c708460a8ab3e94d93fb4129377ae5547d051c4d.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued May 26 at 9:19AM CDT by NWS Shreveport LA",
+          "description": "...The National Weather Service in Shreveport has issued a Flood\nWarning for the following rivers in Texas...\n\nNeches River Near Neches affecting Anderson and Cherokee Counties.\n\nFor the Neches River...including Neches...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Neches River near Neches.\n\n* WHEN...From this evening until further notice.\n\n* IMPACTS...At 14.0 feet, Minor lowland flooding.  Move livestock\nand equipment to higher ground away from the river.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Monday the stage was 8.5 feet.\n- Bankfull stage is 12.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this evening and continue rising to a crest of 15.1 feet\nearly Friday morning.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-26T09:19:00-05:00",
+          "expires": "2025-05-27T09:30:00-05:00",
+          "areaDesc": "Anderson, TX; Cherokee, TX",
+          "sameCodes": [
+            "048001",
+            "048073"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.27d466166171daef411a7ac86713abb6020e79df.001.1",
           "event": "Flood Watch",
@@ -10735,25 +10552,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT12H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT10H"
       }
     }
   },
@@ -10931,25 +10748,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 52,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15127.832986084028,
+        "value": 14355.34860278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -11067,23 +10884,23 @@
       "temperature": {
         "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT7H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 59,
+        "value": 27,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 15707.197808349552,
+        "value": 15240.488109741196,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T09:00:00+00:00/PT1H"
       }
     }
   },
@@ -11095,25 +10912,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15948.59879443358,
+        "value": 15932.504986084026,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -11274,25 +11091,6 @@
             "048405",
             "048403"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3385ea354f97e72fc48a4f53387dd0ce73e31d0e.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued May 26 at 7:26AM CDT until May 26 at 10:00AM CDT by NWS Shreveport LA",
-          "description": "FFWSHV\n\nThe National Weather Service in Shreveport has extended the\n\n* Flash Flood Warning for...\nSouthern Bossier Parish in northwestern Louisiana...\nSouthern Caddo Parish in northwestern Louisiana...\nNorth Central De Soto Parish in northwestern Louisiana...\nEast Central Harrison County in northeastern Texas...\nNortheastern Panola County in northeastern Texas...\n\n* Until 1000 AM CDT.\n\n* At 726 AM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 2 and 2.5 inches of\nrain have fallen. Additional rainfall amounts of 1 to 1.5 inches\nare possible in the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nShreveport, Bossier City, Haughton, Greenwood, Blanchard, Waskom,\nStonewall, Fosters, Eastwood, Forbing, Cross Lake, Barksdale Air\nForce Base, Keithville, Ferguson, Robson, Taylortown, Sligo, Red\nChute, Bodcau and Frierson.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-05-26T07:26:00-05:00",
-          "expires": "2025-05-26T10:00:00-05:00",
-          "areaDesc": "Bossier, LA; Caddo, LA; De Soto, LA; Harrison, TX; Panola, TX",
-          "sameCodes": [
-            "022015",
-            "022017",
-            "022031",
-            "048203",
-            "048365"
-          ]
         }
       ]
     }
@@ -11335,25 +11133,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 15771.571506958067,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
@@ -11365,20 +11163,20 @@
     },
     "data": {
       "temperature": {
-        "value": 14.444444444444445,
+        "value": 13.333333333333334,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -11464,18 +11262,18 @@
       "temperature": {
         "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T07:00:00+00:00/PT3H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T07:00:00+00:00/PT2H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -11556,25 +11354,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-26T06:00:00+00:00/PT4H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15916.412712524489,
+        "value": 14130.039890258802,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-26T06:00:00+00:00/PT1H"
+        "validTime": "2025-05-26T08:00:00+00:00/PT1H"
       }
     }
   },
