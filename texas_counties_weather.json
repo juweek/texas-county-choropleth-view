@@ -67,14 +67,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -87,28 +87,48 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT8H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT7H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.aac554b9124e00068ca260d1803cae89de744acf.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.002366a3a38c1e909db4acd958e3cd9fe4767685.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 29 at 3:55PM CDT until May 29 at 4:30PM CDT by NWS Lubbock TX",
-          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lubbock County in northwestern Texas...\nEastern Hockley County in northwestern Texas...\n\n* Until 430 PM CDT.\n\n* At 354 PM CDT, a severe thunderstorm was located 7 miles southeast\nof Levelland, moving east at 20 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nLubbock, Levelland, Wolfforth, Reese Center, Smyer, Ropesville, and\nOpdyke West.",
+          "headline": "Severe Thunderstorm Warning issued May 29 at 4:58PM CDT until May 29 at 5:45PM CDT by NWS Lubbock TX",
+          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lubbock County in northwestern Texas...\nNorthwestern Lynn County in northwestern Texas...\nTerry County in northwestern Texas...\nSoutheastern Hockley County in northwestern Texas...\n\n* Until 545 PM CDT.\n\n* At 457 PM CDT, a severe thunderstorm was located 7 miles north of\nBrownfield, moving southeast at 20 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR BROWNFIELD AND MEADOW.\n\nHAZARD...Three inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\n* Locations impacted include...\nBrownfield, Locketville, Meadow, Ropesville, and New Home.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-29T15:55:00-05:00",
-          "expires": "2025-05-29T16:30:00-05:00",
-          "areaDesc": "Hockley, TX; Lubbock, TX",
+          "effective": "2025-05-29T16:58:00-05:00",
+          "expires": "2025-05-29T17:45:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
           "sameCodes": [
             "048219",
-            "048303"
+            "048303",
+            "048305",
+            "048445"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f82b961523a07e03297716050845d32c577daed4.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued May 29 at 4:37PM CDT until May 29 at 5:30PM CDT by NWS Lubbock TX",
+          "description": "Strong to severe thunderstorms moving slowly southeast will likely\ncause some minor flooding because of intense rainfall rates.\n\n* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of northwest Texas, including the following\ncounties, Hockley, Lubbock, Lynn and Terry.\n\n* WHEN...Until 530 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 437 PM CDT, Doppler radar indicated strong to severe\nthunderstorms producing very heavy rain. Minor flooding is\nongoing or expected to begin shortly in the advisory area. Up\nto 1 inch of rain has fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBrownfield, Locketville, Meadow and Ropesville.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-29T16:37:00-05:00",
+          "expires": "2025-05-29T17:30:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
+          "sameCodes": [
+            "048219",
+            "048303",
+            "048305",
+            "048445"
           ]
         },
         {
@@ -177,23 +197,23 @@
       "temperature": {
         "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15675.010191650448,
+        "value": 6710.96460278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -205,25 +225,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 402.336,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -313,20 +333,20 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -403,14 +423,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -423,12 +443,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P1DT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/P1D"
       },
       "alerts": [
         {
@@ -778,20 +798,20 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -868,25 +888,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT15H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT14H"
       }
     }
   },
@@ -898,14 +918,14 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -918,12 +938,12 @@
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT9H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       },
       "alerts": [
         {
@@ -990,14 +1010,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1010,12 +1030,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -1052,21 +1072,6 @@
             "048461",
             "048475",
             "048495"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.e0d5cfad8415c497689fa73b55b797665fa22191.002.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 29 at 3:32PM CDT until May 29 at 4:15PM CDT by NWS Midland/Odessa TX",
-          "description": "At 332 PM CDT, a severe thunderstorm was located 18 miles south of\nOrla, or 20 miles northwest of Toyah, moving east at 20 mph.\n\nHAZARD...60 mph wind gusts and half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nThis severe thunderstorm will remain over mainly rural areas of west\ncentral Reeves County.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-29T15:32:00-05:00",
-          "expires": "2025-05-29T16:15:00-05:00",
-          "areaDesc": "Reeves, TX",
-          "sameCodes": [
-            "048389"
           ]
         }
       ]
@@ -1490,25 +1495,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15980.786411132844,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       }
     }
   },
@@ -1550,25 +1555,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT6H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT20H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT19H"
       }
     }
   },
@@ -1610,25 +1615,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11152.753643737757,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT14H"
       }
     }
   },
@@ -1640,25 +1645,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16029.066301391646,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       }
     }
   },
@@ -1670,25 +1675,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P1DT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT3H"
       }
     }
   },
@@ -1760,14 +1765,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 89,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1780,12 +1785,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -1835,25 +1840,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT9H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT20H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT19H"
       }
     }
   },
@@ -1955,25 +1960,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.22222222222222,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 11361.968547912531,
+        "value": 11040.100054870598,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -2045,14 +2050,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2065,12 +2070,12 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT9H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       },
       "alerts": [
         {
@@ -2167,25 +2172,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       }
     }
   },
@@ -2197,25 +2202,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT14H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT13H"
       }
     }
   },
@@ -2257,25 +2262,25 @@
     },
     "data": {
       "temperature": {
-        "value": 16.11111111111111,
+        "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15835.94520556642,
+        "value": 14081.76,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -2476,25 +2481,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT6H"
       },
       "visibility": {
-        "value": 2591.043863021827,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -2628,14 +2633,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2648,12 +2653,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT13H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT12H"
       },
       "alerts": [
         {
@@ -2823,25 +2828,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 13,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 14500.18980834955,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT13H"
       }
     }
   },
@@ -2883,25 +2888,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT15H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT14H"
       },
       "alerts": [
         {
@@ -2966,14 +2971,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2986,12 +2991,12 @@
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT9H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       },
       "alerts": [
         {
@@ -3028,25 +3033,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 12713.817753478954,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT17H"
       },
       "alerts": [
         {
@@ -3197,14 +3202,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3217,12 +3222,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P1DT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/P1D"
       },
       "alerts": [
         {
@@ -3409,25 +3414,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT9H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       },
       "visibility": {
-        "value": 11732.117698608354,
+        "value": 10959.632547912532,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -3439,20 +3444,20 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -3529,14 +3534,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3547,14 +3552,14 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT11H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT10H"
       },
       "alerts": [
         {
@@ -3694,20 +3699,20 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3874,14 +3879,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3894,12 +3899,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -4069,25 +4074,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 12697.7239451294,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT19H"
       },
       "alerts": [
         {
@@ -4165,14 +4170,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4185,28 +4190,48 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16077.34619165045,
+        "value": 15932.504986084026,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.aac554b9124e00068ca260d1803cae89de744acf.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.002366a3a38c1e909db4acd958e3cd9fe4767685.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 29 at 3:55PM CDT until May 29 at 4:30PM CDT by NWS Lubbock TX",
-          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lubbock County in northwestern Texas...\nEastern Hockley County in northwestern Texas...\n\n* Until 430 PM CDT.\n\n* At 354 PM CDT, a severe thunderstorm was located 7 miles southeast\nof Levelland, moving east at 20 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* Locations impacted include...\nLubbock, Levelland, Wolfforth, Reese Center, Smyer, Ropesville, and\nOpdyke West.",
+          "headline": "Severe Thunderstorm Warning issued May 29 at 4:58PM CDT until May 29 at 5:45PM CDT by NWS Lubbock TX",
+          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lubbock County in northwestern Texas...\nNorthwestern Lynn County in northwestern Texas...\nTerry County in northwestern Texas...\nSoutheastern Hockley County in northwestern Texas...\n\n* Until 545 PM CDT.\n\n* At 457 PM CDT, a severe thunderstorm was located 7 miles north of\nBrownfield, moving southeast at 20 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR BROWNFIELD AND MEADOW.\n\nHAZARD...Three inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\n* Locations impacted include...\nBrownfield, Locketville, Meadow, Ropesville, and New Home.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-05-29T15:55:00-05:00",
-          "expires": "2025-05-29T16:30:00-05:00",
-          "areaDesc": "Hockley, TX; Lubbock, TX",
+          "effective": "2025-05-29T16:58:00-05:00",
+          "expires": "2025-05-29T17:45:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
           "sameCodes": [
             "048219",
-            "048303"
+            "048303",
+            "048305",
+            "048445"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f82b961523a07e03297716050845d32c577daed4.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued May 29 at 4:37PM CDT until May 29 at 5:30PM CDT by NWS Lubbock TX",
+          "description": "Strong to severe thunderstorms moving slowly southeast will likely\ncause some minor flooding because of intense rainfall rates.\n\n* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of northwest Texas, including the following\ncounties, Hockley, Lubbock, Lynn and Terry.\n\n* WHEN...Until 530 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 437 PM CDT, Doppler radar indicated strong to severe\nthunderstorms producing very heavy rain. Minor flooding is\nongoing or expected to begin shortly in the advisory area. Up\nto 1 inch of rain has fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBrownfield, Locketville, Meadow and Ropesville.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-29T16:37:00-05:00",
+          "expires": "2025-05-29T17:30:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
+          "sameCodes": [
+            "048219",
+            "048303",
+            "048305",
+            "048445"
           ]
         },
         {
@@ -4243,25 +4268,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       }
     }
   },
@@ -4333,14 +4358,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4353,12 +4378,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT13H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT12H"
       },
       "alerts": [
         {
@@ -4498,14 +4523,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4516,14 +4541,14 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT12H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT11H"
       },
       "alerts": [
         {
@@ -4575,23 +4600,23 @@
       "temperature": {
         "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 10718.230794433579,
+        "value": 9720.437698608355,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -4603,25 +4628,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT14H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT13H"
       }
     }
   },
@@ -4693,25 +4718,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 14757.68460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT9H"
       }
     }
   },
@@ -4753,14 +4778,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4773,12 +4798,12 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT11H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT10H"
       },
       "alerts": [
         {
@@ -4830,23 +4855,23 @@
       "temperature": {
         "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 788.5785753478953,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -4978,14 +5003,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4998,12 +5023,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -5085,23 +5110,23 @@
       "temperature": {
         "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11152.753643737757,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT13H"
       }
     }
   },
@@ -5113,14 +5138,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5133,12 +5158,12 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT8H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT7H"
       },
       "alerts": [
         {
@@ -5237,23 +5262,23 @@
       "temperature": {
         "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15578.450411132842,
+        "value": 16077.34619165045,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -5327,20 +5352,20 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -5357,14 +5382,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5377,12 +5402,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -5432,25 +5457,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 1174.8211506958066,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -5462,25 +5487,25 @@
     },
     "data": {
       "temperature": {
-        "value": 16.11111111111111,
+        "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 13759.891506958067,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       }
     }
   },
@@ -5664,20 +5689,20 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6122,25 +6147,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT9H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT8H"
       }
     }
   },
@@ -6244,25 +6269,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT15H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT14H"
       }
     }
   },
@@ -6274,14 +6299,14 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6292,14 +6317,14 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT12H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT11H"
       },
       "alerts": [
         {
@@ -6579,25 +6604,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15240.488109741196,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT6H"
       }
     }
   },
@@ -6751,14 +6776,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 83,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6769,14 +6794,14 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT11H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT10H"
       },
       "alerts": [
         {
@@ -6856,14 +6881,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6874,31 +6899,16 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c6adc0e8ffb566e62f99b541f51c597b657085de.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued May 29 at 4:01PM CDT until May 29 at 4:30PM CDT by NWS Midland/Odessa TX",
-          "description": "At 401 PM CDT, a severe thunderstorm was located 20 miles southeast\nof McKittrick Canyon, or 20 miles east of Pine Springs, moving east\nat 20 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nThis severe thunderstorm will remain over mainly rural areas of\nnortheastern Culberson County.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-05-29T16:01:00-05:00",
-          "expires": "2025-05-29T16:30:00-05:00",
-          "areaDesc": "Culberson, TX",
-          "sameCodes": [
-            "048109"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.2c2f43e52dc5c54d4750e375f3b3bc766b68613b.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -6946,14 +6956,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6966,12 +6976,12 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT2H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT12H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT11H"
       },
       "alerts": [
         {
@@ -7053,23 +7063,23 @@
       "temperature": {
         "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 7950.159452087469,
+        "value": 14484.096,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -7141,25 +7151,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT15H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT14H"
       },
       "alerts": [
         {
@@ -7189,14 +7199,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7209,12 +7219,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -7294,14 +7304,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7314,12 +7324,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P1DT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/P1D"
       },
       "alerts": [
         {
@@ -7608,23 +7618,23 @@
       "temperature": {
         "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 13550.67660278313,
+        "value": 12166.640547912531,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -7726,20 +7736,20 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7846,25 +7856,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 12697.7239451294,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT16H"
       }
     }
   },
@@ -7906,14 +7916,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7926,14 +7936,50 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16077.34619165045,
+        "value": 15948.59879443358,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002366a3a38c1e909db4acd958e3cd9fe4767685.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued May 29 at 4:58PM CDT until May 29 at 5:45PM CDT by NWS Lubbock TX",
+          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lubbock County in northwestern Texas...\nNorthwestern Lynn County in northwestern Texas...\nTerry County in northwestern Texas...\nSoutheastern Hockley County in northwestern Texas...\n\n* Until 545 PM CDT.\n\n* At 457 PM CDT, a severe thunderstorm was located 7 miles north of\nBrownfield, moving southeast at 20 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR BROWNFIELD AND MEADOW.\n\nHAZARD...Three inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\n* Locations impacted include...\nBrownfield, Locketville, Meadow, Ropesville, and New Home.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-29T16:58:00-05:00",
+          "expires": "2025-05-29T17:45:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
+          "sameCodes": [
+            "048219",
+            "048303",
+            "048305",
+            "048445"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f82b961523a07e03297716050845d32c577daed4.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued May 29 at 4:37PM CDT until May 29 at 5:30PM CDT by NWS Lubbock TX",
+          "description": "Strong to severe thunderstorms moving slowly southeast will likely\ncause some minor flooding because of intense rainfall rates.\n\n* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of northwest Texas, including the following\ncounties, Hockley, Lubbock, Lynn and Terry.\n\n* WHEN...Until 530 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 437 PM CDT, Doppler radar indicated strong to severe\nthunderstorms producing very heavy rain. Minor flooding is\nongoing or expected to begin shortly in the advisory area. Up\nto 1 inch of rain has fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBrownfield, Locketville, Meadow and Ropesville.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-29T16:37:00-05:00",
+          "expires": "2025-05-29T17:30:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
+          "sameCodes": [
+            "048219",
+            "048303",
+            "048305",
+            "048445"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.d56a43e1915a405caa1ca5ccdc695a04b6f22293.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -8045,14 +8091,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8065,14 +8111,50 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15111.740712524488,
+        "value": 15369.235506958066,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.002366a3a38c1e909db4acd958e3cd9fe4767685.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued May 29 at 4:58PM CDT until May 29 at 5:45PM CDT by NWS Lubbock TX",
+          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lubbock County in northwestern Texas...\nNorthwestern Lynn County in northwestern Texas...\nTerry County in northwestern Texas...\nSoutheastern Hockley County in northwestern Texas...\n\n* Until 545 PM CDT.\n\n* At 457 PM CDT, a severe thunderstorm was located 7 miles north of\nBrownfield, moving southeast at 20 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR BROWNFIELD AND MEADOW.\n\nHAZARD...Three inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\n* Locations impacted include...\nBrownfield, Locketville, Meadow, Ropesville, and New Home.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-05-29T16:58:00-05:00",
+          "expires": "2025-05-29T17:45:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
+          "sameCodes": [
+            "048219",
+            "048303",
+            "048305",
+            "048445"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f82b961523a07e03297716050845d32c577daed4.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued May 29 at 4:37PM CDT until May 29 at 5:30PM CDT by NWS Lubbock TX",
+          "description": "Strong to severe thunderstorms moving slowly southeast will likely\ncause some minor flooding because of intense rainfall rates.\n\n* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of northwest Texas, including the following\ncounties, Hockley, Lubbock, Lynn and Terry.\n\n* WHEN...Until 530 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 437 PM CDT, Doppler radar indicated strong to severe\nthunderstorms producing very heavy rain. Minor flooding is\nongoing or expected to begin shortly in the advisory area. Up\nto 1 inch of rain has fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBrownfield, Locketville, Meadow and Ropesville.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-05-29T16:37:00-05:00",
+          "expires": "2025-05-29T17:30:00-05:00",
+          "areaDesc": "Hockley, TX; Lubbock, TX; Lynn, TX; Terry, TX",
+          "sameCodes": [
+            "048219",
+            "048303",
+            "048305",
+            "048445"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.d56a43e1915a405caa1ca5ccdc695a04b6f22293.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -8199,14 +8281,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 83,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8219,12 +8301,12 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P2D"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT23H"
       },
       "alerts": [
         {
@@ -8442,25 +8524,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT20H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT19H"
       },
       "alerts": [
         {
@@ -8737,14 +8819,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8755,14 +8837,14 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT11H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT10H"
       },
       "alerts": [
         {
@@ -8902,14 +8984,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8922,12 +9004,12 @@
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT10H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT9H"
       },
       "alerts": [
         {
@@ -9054,25 +9136,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16045.160109741197,
+        "value": 16061.252383300736,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       }
     }
   },
@@ -9174,25 +9256,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 14484.096,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT13H"
       }
     }
   },
@@ -9204,25 +9286,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T14:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T15:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T14:00:00+00:00/P1DT4H"
+        "validTime": "2025-05-29T15:00:00+00:00/P1DT3H"
       }
     }
   },
@@ -9506,20 +9588,20 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9596,25 +9678,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT1H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-05-29T15:00:00+00:00/PT3H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-05-29T15:00:00+00:00/PT13H"
+        "validTime": "2025-05-29T16:00:00+00:00/PT12H"
       }
     }
   }
