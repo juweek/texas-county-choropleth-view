@@ -69,23 +69,23 @@
       "temperature": {
         "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       }
     }
   },
@@ -127,25 +127,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.22222222222222,
+        "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       }
     }
   },
@@ -185,6 +185,29 @@
         "validTime": "2025-06-11T05:00:00+00:00/PT6H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
+          "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
+            "048499",
+            "048459",
+            "048423",
+            "048183",
+            "048401"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.b020d716c4831f160a032279cf6c2065df6c6ccc.001.1",
           "event": "Flood Watch",
@@ -283,15 +306,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.8de6256cbee5eb7ef730246c48bd82d09edb6b02.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.aeb81092d80e07cc8955dc90f394173923fd22a1.001.1",
           "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued June 11 at 7:09AM CDT until June 11 at 8:30AM CDT by NWS Fort Worth TX",
-          "description": "At 709 AM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between 2\nand 5 inches of rain have fallen. Additional rainfall amounts up to\n1 inch are forecast. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets, and underpasses as well as other poor\ndrainage and low lying areas.\n\nSome locations that will experience flash flooding include...\nCorsicana, Mexia, Mart, Hubbard, Coolidge, Blooming Grove, Dawson,\nAngus, Navarro, Navarro Mills Lake, Lake Mexia, Lake Halbert,\nRichland-Chambers Reservoir, Frost, Retreat, Oak Valley, Mildred,\nMount Calm, Tehuacana and Malone.",
+          "headline": "Flash Flood Warning issued June 11 at 8:19AM CDT until June 11 at 10:30AM CDT by NWS Fort Worth TX",
+          "description": "FFWFWD\n\nThe National Weather Service in Fort Worth has extended the\n\n* Flash Flood Warning for...\nSoutheastern Hill County in central Texas...\nNorthwestern Limestone County in central Texas...\nSouthwestern Navarro County in north central Texas...\n\n* Until 1030 AM CDT.\n\n* At 819 AM CDT, emergency management reported flash flooding from\nthunderstorms across the warned area. Between 2 and 6 inches of\nrain have fallen, and additional amounts up to half an inch are\nforecast. Flash flooding is already occurring.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Emergency management reported.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets, and underpasses as well as other\npoor drainage and low lying areas.\n\n* Some locations that will experience flash flooding include...\nCorsicana, Mexia, Mart, Hubbard, Coolidge, Blooming Grove, Dawson,\nAngus, Navarro, Navarro Mills Lake, Lake Mexia, Lake Halbert,\nRichland-Chambers Reservoir, Frost, Retreat, Oak Valley, Mildred,\nMount Calm, Tehuacana and Malone.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Likely",
-          "effective": "2025-06-11T07:09:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
+          "effective": "2025-06-11T08:19:00-05:00",
+          "expires": "2025-06-11T10:30:00-05:00",
           "areaDesc": "Hill, TX; Limestone, TX; Navarro, TX",
           "sameCodes": [
             "048217",
@@ -423,44 +446,24 @@
       "temperature": {
         "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 86,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.de813a45524b248679eeb24f256996b1921184e4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:02AM CDT by NWS Brownsville TX",
-          "description": "At 801 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Kenedy County Sheriffs Office to\nSebastian. Movement was east at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nRaymondville, Lyford, Armstrong, Arroyo City, Port Mansfield, Lasara,\nSarita, San Perlita, Port Mansfield Airport, and Jose Borrego Middle\nSchool.\n\nThis includes the following highways...\nInterstate Highway 69 E between mile markers 39 and 51.\nUS Highway 77 between mile markers 712 and 762.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:02:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Inland Kenedy; Southern Hidalgo; Inland Willacy; Coastal Kenedy; Coastal Willacy; Coastal Cameron; Kenedy Island; Willacy Island",
-          "sameCodes": [
-            "048261",
-            "048215",
-            "048489",
-            "048061"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -520,26 +523,7 @@
         "value": 15707.197808349552,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T05:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c4dd4c69e8c62e869ebd71f7b296d31f7e96ccbf.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:09AM CDT by NWS Corpus Christi TX",
-          "description": "At 709 AM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms near Seadrift, moving north at 15 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPort Lavaca, Seadrift, Alamo Beach, Green Lake, Long Mott, and\nMagnolia Beach.\n\nThis includes US Highway 87 between mile markers 828 and 840.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T07:09:00-05:00",
-          "expires": "2025-06-11T08:15:00-05:00",
-          "areaDesc": "Victoria; Inland Calhoun; Coastal Refugio; Coastal Calhoun",
-          "sameCodes": [
-            "048469",
-            "048057",
-            "048391"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -689,27 +673,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T06:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b81b0781d0099a0549c4174ec70f07a22650c6a4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:03AM CDT by NWS Houston/Galveston TX",
-          "description": "At 803 AM CDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout over Blessing, or 12 miles north of\nPalacios, moving north at 45 mph.\n\nHAZARD...Funnels and wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nNorthwestern Bay City, El Campo, Wharton, Eagle Lake, South Texas\nNuclear Plant, East Bernard, Pierce, Blessing, Markham, Boling-Iago,\nEgypt, Midfield, Hungerford, and Danevang.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:03:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Colorado; Wharton; Inland Jackson; Inland Matagorda; Coastal Jackson; Coastal Matagorda",
-          "sameCodes": [
-            "048089",
-            "048481",
-            "048239",
-            "048321"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -811,20 +775,20 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT21H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT20H"
       },
       "visibility": {
         "value": null,
@@ -841,25 +805,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT6H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15996.878684692381,
+        "value": 10251.521095825225,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       }
     }
   },
@@ -871,20 +835,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT9H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT8H"
       },
       "visibility": {
         "value": null,
@@ -962,20 +926,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -1132,23 +1096,23 @@
       "temperature": {
         "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT4H"
       }
     }
   },
@@ -1331,18 +1295,18 @@
       "temperature": {
         "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT9H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT8H"
       },
       "visibility": {
         "value": null,
@@ -1467,20 +1431,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1815,20 +1779,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT9H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT8H"
       },
       "visibility": {
         "value": null,
@@ -1845,25 +1809,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -1934,22 +1898,25 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.f05cf9e8ff7c4cb274264d95c63e51e98a68229a.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:44AM CDT by NWS Shreveport LA",
-          "description": "At 744 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Canton to near Maydelle. Movement was\nnortheast at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nTyler, Jacksonville, Kilgore, Whitehouse, Mineola, Lindale, Overton,\nBullard, Troup, Quitman, Big Sandy, Hawkins, New London, Arp, Lake\nFork Reservoir, Pleasant Grove, Hainesville, Golden, Mount Selman,\nand Hoard.",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-06-11T07:44:00-05:00",
-          "expires": "2025-06-11T08:45:00-05:00",
-          "areaDesc": "Wood; Upshur; Smith; Gregg; Cherokee; Rusk",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
           "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
             "048499",
             "048459",
             "048423",
             "048183",
-            "048073",
             "048401"
           ]
         },
@@ -2129,23 +2096,23 @@
       "temperature": {
         "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT7H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       }
     }
   },
@@ -2362,22 +2329,25 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.f05cf9e8ff7c4cb274264d95c63e51e98a68229a.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:44AM CDT by NWS Shreveport LA",
-          "description": "At 744 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Canton to near Maydelle. Movement was\nnortheast at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nTyler, Jacksonville, Kilgore, Whitehouse, Mineola, Lindale, Overton,\nBullard, Troup, Quitman, Big Sandy, Hawkins, New London, Arp, Lake\nFork Reservoir, Pleasant Grove, Hainesville, Golden, Mount Selman,\nand Hoard.",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-06-11T07:44:00-05:00",
-          "expires": "2025-06-11T08:45:00-05:00",
-          "areaDesc": "Wood; Upshur; Smith; Gregg; Cherokee; Rusk",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
           "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
             "048499",
             "048459",
             "048423",
             "048183",
-            "048073",
             "048401"
           ]
         },
@@ -2600,25 +2570,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT4H"
       }
     }
   },
@@ -2692,23 +2662,23 @@
       "temperature": {
         "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P3DT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/P3DT2H"
       }
     }
   },
@@ -2974,25 +2944,25 @@
     },
     "data": {
       "temperature": {
-        "value": 16.666666666666668,
+        "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       }
     }
   },
@@ -3329,6 +3299,29 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
+          "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
+            "048499",
+            "048459",
+            "048423",
+            "048183",
+            "048401"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.b020d716c4831f160a032279cf6c2065df6c6ccc.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued June 11 at 2:53AM CDT until June 12 at 7:00PM CDT by NWS Shreveport LA",
@@ -3426,15 +3419,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.8de6256cbee5eb7ef730246c48bd82d09edb6b02.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.aeb81092d80e07cc8955dc90f394173923fd22a1.001.1",
           "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued June 11 at 7:09AM CDT until June 11 at 8:30AM CDT by NWS Fort Worth TX",
-          "description": "At 709 AM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between 2\nand 5 inches of rain have fallen. Additional rainfall amounts up to\n1 inch are forecast. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets, and underpasses as well as other poor\ndrainage and low lying areas.\n\nSome locations that will experience flash flooding include...\nCorsicana, Mexia, Mart, Hubbard, Coolidge, Blooming Grove, Dawson,\nAngus, Navarro, Navarro Mills Lake, Lake Mexia, Lake Halbert,\nRichland-Chambers Reservoir, Frost, Retreat, Oak Valley, Mildred,\nMount Calm, Tehuacana and Malone.",
+          "headline": "Flash Flood Warning issued June 11 at 8:19AM CDT until June 11 at 10:30AM CDT by NWS Fort Worth TX",
+          "description": "FFWFWD\n\nThe National Weather Service in Fort Worth has extended the\n\n* Flash Flood Warning for...\nSoutheastern Hill County in central Texas...\nNorthwestern Limestone County in central Texas...\nSouthwestern Navarro County in north central Texas...\n\n* Until 1030 AM CDT.\n\n* At 819 AM CDT, emergency management reported flash flooding from\nthunderstorms across the warned area. Between 2 and 6 inches of\nrain have fallen, and additional amounts up to half an inch are\nforecast. Flash flooding is already occurring.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Emergency management reported.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets, and underpasses as well as other\npoor drainage and low lying areas.\n\n* Some locations that will experience flash flooding include...\nCorsicana, Mexia, Mart, Hubbard, Coolidge, Blooming Grove, Dawson,\nAngus, Navarro, Navarro Mills Lake, Lake Mexia, Lake Halbert,\nRichland-Chambers Reservoir, Frost, Retreat, Oak Valley, Mildred,\nMount Calm, Tehuacana and Malone.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Likely",
-          "effective": "2025-06-11T07:09:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
+          "effective": "2025-06-11T08:19:00-05:00",
+          "expires": "2025-06-11T10:30:00-05:00",
           "areaDesc": "Hill, TX; Limestone, TX; Navarro, TX",
           "sameCodes": [
             "048217",
@@ -3537,26 +3530,7 @@
         "value": 16045.160109741197,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T05:00:00+00:00/PT2H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c4dd4c69e8c62e869ebd71f7b296d31f7e96ccbf.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:09AM CDT by NWS Corpus Christi TX",
-          "description": "At 709 AM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms near Seadrift, moving north at 15 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPort Lavaca, Seadrift, Alamo Beach, Green Lake, Long Mott, and\nMagnolia Beach.\n\nThis includes US Highway 87 between mile markers 828 and 840.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T07:09:00-05:00",
-          "expires": "2025-06-11T08:15:00-05:00",
-          "areaDesc": "Victoria; Inland Calhoun; Coastal Refugio; Coastal Calhoun",
-          "sameCodes": [
-            "048469",
-            "048057",
-            "048391"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -3687,14 +3661,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3707,34 +3681,13 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT12H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT11H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.41c7663e658ec8f0d8735dc7de5565252a373fe7.001.1",
-          "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued June 11 at 7:52AM CDT until June 11 at 9:00AM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Visibility a quarter mile or less in dense fog.\n\n* WHERE...Armstrong, Deaf Smith, Oldham, Palo Duro Canyon, Potter,\nand Randall Counties.\n\n* WHEN...Until 9 AM CDT this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-06-11T07:52:00-05:00",
-          "expires": "2025-06-11T09:00:00-05:00",
-          "areaDesc": "Oldham; Potter; Deaf Smith; Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048359",
-            "048375",
-            "048117",
-            "048381",
-            "048011"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -3878,14 +3831,14 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT6H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3898,34 +3851,13 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT12H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT11H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.41c7663e658ec8f0d8735dc7de5565252a373fe7.001.1",
-          "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued June 11 at 7:52AM CDT until June 11 at 9:00AM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Visibility a quarter mile or less in dense fog.\n\n* WHERE...Armstrong, Deaf Smith, Oldham, Palo Duro Canyon, Potter,\nand Randall Counties.\n\n* WHEN...Until 9 AM CDT this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-06-11T07:52:00-05:00",
-          "expires": "2025-06-11T09:00:00-05:00",
-          "areaDesc": "Oldham; Potter; Deaf Smith; Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048359",
-            "048375",
-            "048117",
-            "048381",
-            "048011"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4065,25 +3997,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 14468.002191650448,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       }
     }
   },
@@ -4116,6 +4048,29 @@
         "validTime": "2025-06-11T05:00:00+00:00/PT6H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
+          "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
+            "048499",
+            "048459",
+            "048423",
+            "048183",
+            "048401"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.bd713e01a7315c144fb4ed7467696a694b966603.001.1",
           "event": "Flood Warning",
@@ -4387,20 +4342,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT9H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT8H"
       },
       "visibility": {
         "value": null,
@@ -4417,14 +4372,14 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -4437,34 +4392,13 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT3H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT2H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.41c7663e658ec8f0d8735dc7de5565252a373fe7.001.1",
-          "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued June 11 at 7:52AM CDT until June 11 at 9:00AM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Visibility a quarter mile or less in dense fog.\n\n* WHERE...Armstrong, Deaf Smith, Oldham, Palo Duro Canyon, Potter,\nand Randall Counties.\n\n* WHEN...Until 9 AM CDT this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-06-11T07:52:00-05:00",
-          "expires": "2025-06-11T09:00:00-05:00",
-          "areaDesc": "Oldham; Potter; Deaf Smith; Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048359",
-            "048375",
-            "048117",
-            "048381",
-            "048011"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4475,25 +4409,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT4H"
       }
     }
   },
@@ -4505,46 +4439,26 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 95,
+        "value": 96,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.de813a45524b248679eeb24f256996b1921184e4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:02AM CDT by NWS Brownsville TX",
-          "description": "At 801 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Kenedy County Sheriffs Office to\nSebastian. Movement was east at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nRaymondville, Lyford, Armstrong, Arroyo City, Port Mansfield, Lasara,\nSarita, San Perlita, Port Mansfield Airport, and Jose Borrego Middle\nSchool.\n\nThis includes the following highways...\nInterstate Highway 69 E between mile markers 39 and 51.\nUS Highway 77 between mile markers 712 and 762.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:02:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Inland Kenedy; Southern Hidalgo; Inland Willacy; Coastal Kenedy; Coastal Willacy; Coastal Cameron; Kenedy Island; Willacy Island",
-          "sameCodes": [
-            "048261",
-            "048215",
-            "048489",
-            "048061"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4645,20 +4559,20 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT9H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT8H"
       },
       "visibility": {
         "value": null,
@@ -4675,20 +4589,20 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1D"
+        "validTime": "2025-06-11T07:00:00+00:00/PT23H"
       },
       "visibility": {
         "value": null,
@@ -4705,20 +4619,20 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 16.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT15H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -4737,44 +4651,24 @@
       "temperature": {
         "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.de813a45524b248679eeb24f256996b1921184e4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:02AM CDT by NWS Brownsville TX",
-          "description": "At 801 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Kenedy County Sheriffs Office to\nSebastian. Movement was east at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nRaymondville, Lyford, Armstrong, Arroyo City, Port Mansfield, Lasara,\nSarita, San Perlita, Port Mansfield Airport, and Jose Borrego Middle\nSchool.\n\nThis includes the following highways...\nInterstate Highway 69 E between mile markers 39 and 51.\nUS Highway 77 between mile markers 712 and 762.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:02:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Inland Kenedy; Southern Hidalgo; Inland Willacy; Coastal Kenedy; Coastal Willacy; Coastal Cameron; Kenedy Island; Willacy Island",
-          "sameCodes": [
-            "048261",
-            "048215",
-            "048489",
-            "048061"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4804,27 +4698,7 @@
         "value": 15932.504986084026,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T06:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b81b0781d0099a0549c4174ec70f07a22650c6a4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:03AM CDT by NWS Houston/Galveston TX",
-          "description": "At 803 AM CDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout over Blessing, or 12 miles north of\nPalacios, moving north at 45 mph.\n\nHAZARD...Funnels and wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nNorthwestern Bay City, El Campo, Wharton, Eagle Lake, South Texas\nNuclear Plant, East Bernard, Pierce, Blessing, Markham, Boling-Iago,\nEgypt, Midfield, Hungerford, and Danevang.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:03:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Colorado; Wharton; Inland Jackson; Inland Matagorda; Coastal Jackson; Coastal Matagorda",
-          "sameCodes": [
-            "048089",
-            "048481",
-            "048239",
-            "048321"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -5146,25 +5020,7 @@
         "value": 15385.32931530762,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T05:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.63d5b56b3e3dd94ccf615dc61bff929b062fd149.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:45AM CDT by NWS Corpus Christi TX",
-          "description": "At 745 AM CDT, Doppler radar was tracking a strong thunderstorm over\nPort Aransas, moving north at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPort Aransas.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T07:45:00-05:00",
-          "expires": "2025-06-11T08:15:00-05:00",
-          "areaDesc": "Aransas Islands; Nueces Islands",
-          "sameCodes": [
-            "048007",
-            "048355"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -5319,26 +5175,6 @@
         "validTime": "2025-06-11T05:00:00+00:00/PT1H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.f05cf9e8ff7c4cb274264d95c63e51e98a68229a.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:44AM CDT by NWS Shreveport LA",
-          "description": "At 744 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Canton to near Maydelle. Movement was\nnortheast at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nTyler, Jacksonville, Kilgore, Whitehouse, Mineola, Lindale, Overton,\nBullard, Troup, Quitman, Big Sandy, Hawkins, New London, Arp, Lake\nFork Reservoir, Pleasant Grove, Hainesville, Golden, Mount Selman,\nand Hoard.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T07:44:00-05:00",
-          "expires": "2025-06-11T08:45:00-05:00",
-          "areaDesc": "Wood; Upshur; Smith; Gregg; Cherokee; Rusk",
-          "sameCodes": [
-            "048499",
-            "048459",
-            "048423",
-            "048183",
-            "048073",
-            "048401"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.b020d716c4831f160a032279cf6c2065df6c6ccc.001.1",
           "event": "Flood Watch",
@@ -5527,25 +5363,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT6H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT5H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -5757,25 +5593,7 @@
         "value": 15884.225095825224,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T05:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.63d5b56b3e3dd94ccf615dc61bff929b062fd149.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:45AM CDT by NWS Corpus Christi TX",
-          "description": "At 745 AM CDT, Doppler radar was tracking a strong thunderstorm over\nPort Aransas, moving north at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPort Aransas.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T07:45:00-05:00",
-          "expires": "2025-06-11T08:15:00-05:00",
-          "areaDesc": "Aransas Islands; Nueces Islands",
-          "sameCodes": [
-            "048007",
-            "048355"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -5902,25 +5720,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT4H"
       }
     }
   },
@@ -6087,23 +5905,23 @@
       "temperature": {
         "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT4H"
       }
     }
   },
@@ -6203,6 +6021,29 @@
         "validTime": "2025-06-11T05:00:00+00:00/PT6H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
+          "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
+            "048499",
+            "048459",
+            "048423",
+            "048183",
+            "048401"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.b020d716c4831f160a032279cf6c2065df6c6ccc.001.1",
           "event": "Flood Watch",
@@ -6612,22 +6453,25 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.f05cf9e8ff7c4cb274264d95c63e51e98a68229a.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:44AM CDT by NWS Shreveport LA",
-          "description": "At 744 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Canton to near Maydelle. Movement was\nnortheast at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nTyler, Jacksonville, Kilgore, Whitehouse, Mineola, Lindale, Overton,\nBullard, Troup, Quitman, Big Sandy, Hawkins, New London, Arp, Lake\nFork Reservoir, Pleasant Grove, Hainesville, Golden, Mount Selman,\nand Hoard.",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-06-11T07:44:00-05:00",
-          "expires": "2025-06-11T08:45:00-05:00",
-          "areaDesc": "Wood; Upshur; Smith; Gregg; Cherokee; Rusk",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
           "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
             "048499",
             "048459",
             "048423",
             "048183",
-            "048073",
             "048401"
           ]
         },
@@ -6681,25 +6525,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.22222222222222,
+        "value": 16.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       }
     }
   },
@@ -6711,25 +6555,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16029.066301391646,
+        "value": 10138.867506958068,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       }
     }
   },
@@ -6827,25 +6671,25 @@
     },
     "data": {
       "temperature": {
-        "value": 16.666666666666668,
+        "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       }
     }
   },
@@ -6887,20 +6731,20 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 86,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7044,25 +6888,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -7281,20 +7125,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7436,6 +7280,22 @@
         "validTime": "2025-06-11T04:00:00+00:00/PT7H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b4c7ea2a9fc70e6107fa9495a9af9a07dd2630be.002.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 11 at 8:25AM CDT by NWS Fort Worth TX",
+          "description": "...The National Weather Service in Fort Worth TX has issued a Flood\nWarning for the following rivers in Texas...\n\nNavasota River Above Groesbeck affecting Limestone County.\n\nNavasota River Near Easterly affecting Leon and Robertson\nCounties.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Navasota River near Easterly.\n\n* WHEN...From late tonight until further notice.\n\n* IMPACTS...At 23.0 feet, Moderate lowland flooding below Easterly\nis expected.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Wednesday the stage was 9.4 feet.\n- Bankfull stage is 17.0 feet.\n- Flood stage is 19.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight and continue rising to a crest of 21.5 feet\nearly Friday afternoon.",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-11T08:25:00-05:00",
+          "expires": "2025-06-12T02:30:00-05:00",
+          "areaDesc": "Leon, TX; Robertson, TX",
+          "sameCodes": [
+            "048289",
+            "048395"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.904c59a6f131f88d517aaa1af0edf2ede03d1f03.001.1",
           "event": "Flood Watch",
@@ -7827,25 +7687,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.22222222222222,
+        "value": 16.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       }
     }
   },
@@ -7889,23 +7749,23 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T03:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15835.94520556642,
+        "value": 15578.450411132842,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       }
     }
   },
@@ -7946,22 +7806,25 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.f05cf9e8ff7c4cb274264d95c63e51e98a68229a.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:44AM CDT by NWS Shreveport LA",
-          "description": "At 744 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Canton to near Maydelle. Movement was\nnortheast at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nTyler, Jacksonville, Kilgore, Whitehouse, Mineola, Lindale, Overton,\nBullard, Troup, Quitman, Big Sandy, Hawkins, New London, Arp, Lake\nFork Reservoir, Pleasant Grove, Hainesville, Golden, Mount Selman,\nand Hoard.",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-06-11T07:44:00-05:00",
-          "expires": "2025-06-11T08:45:00-05:00",
-          "areaDesc": "Wood; Upshur; Smith; Gregg; Cherokee; Rusk",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
           "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
             "048499",
             "048459",
             "048423",
             "048183",
-            "048073",
             "048401"
           ]
         },
@@ -8297,25 +8160,25 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       }
     }
   },
@@ -8327,25 +8190,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T03:00:00+00:00/PT4H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT4H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15224.394301391645,
+        "value": 14709.404712524489,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       }
     }
   },
@@ -8447,20 +8310,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT12H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT11H"
       },
       "visibility": {
         "value": null,
@@ -8596,22 +8459,25 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.f05cf9e8ff7c4cb274264d95c63e51e98a68229a.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.4f0c478257c31bc2fa19c22c0f2317fc90418389.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:44AM CDT by NWS Shreveport LA",
-          "description": "At 744 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Canton to near Maydelle. Movement was\nnortheast at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nTyler, Jacksonville, Kilgore, Whitehouse, Mineola, Lindale, Overton,\nBullard, Troup, Quitman, Big Sandy, Hawkins, New London, Arp, Lake\nFork Reservoir, Pleasant Grove, Hainesville, Golden, Mount Selman,\nand Hoard.",
+          "headline": "Special Weather Statement issued June 11 at 8:36AM CDT by NWS Shreveport LA",
+          "description": "At 835 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Como to near Hawkins to near Arp. Movement\nwas north at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLongview, Kilgore, White Oak, Gladewater, Gilmer, Mineola, Pittsburg,\nWinnsboro, Hagansport, Leesburg, Mount Vernon, Overton, Quitman, Big\nSandy, Hawkins, Bogata, New London, Arp, Clarksville City, and East\nMountain.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-06-11T07:44:00-05:00",
-          "expires": "2025-06-11T08:45:00-05:00",
-          "areaDesc": "Wood; Upshur; Smith; Gregg; Cherokee; Rusk",
+          "effective": "2025-06-11T08:36:00-05:00",
+          "expires": "2025-06-11T09:30:00-05:00",
+          "areaDesc": "Red River; Franklin; Titus; Camp; Wood; Upshur; Smith; Gregg; Rusk",
           "sameCodes": [
+            "048387",
+            "048159",
+            "048449",
+            "048063",
             "048499",
             "048459",
             "048423",
             "048183",
-            "048073",
             "048401"
           ]
         },
@@ -8942,25 +8808,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T03:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT11H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT7H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15610.636493041933,
+        "value": 9495.129753478954,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       }
     }
   },
@@ -9141,25 +9007,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT4H"
       }
     }
   },
@@ -9201,20 +9067,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT15H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -9231,20 +9097,20 @@
     },
     "data": {
       "temperature": {
-        "value": 16.666666666666668,
+        "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT15H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -9263,44 +9129,24 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 95,
+        "value": 96,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.de813a45524b248679eeb24f256996b1921184e4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:02AM CDT by NWS Brownsville TX",
-          "description": "At 801 AM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Kenedy County Sheriffs Office to\nSebastian. Movement was east at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nRaymondville, Lyford, Armstrong, Arroyo City, Port Mansfield, Lasara,\nSarita, San Perlita, Port Mansfield Airport, and Jose Borrego Middle\nSchool.\n\nThis includes the following highways...\nInterstate Highway 69 E between mile markers 39 and 51.\nUS Highway 77 between mile markers 712 and 762.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:02:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Inland Kenedy; Southern Hidalgo; Inland Willacy; Coastal Kenedy; Coastal Willacy; Coastal Cameron; Kenedy Island; Willacy Island",
-          "sameCodes": [
-            "048261",
-            "048215",
-            "048489",
-            "048061"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -9341,14 +9187,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -9361,34 +9207,13 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT15H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.41c7663e658ec8f0d8735dc7de5565252a373fe7.001.1",
-          "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued June 11 at 7:52AM CDT until June 11 at 9:00AM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Visibility a quarter mile or less in dense fog.\n\n* WHERE...Armstrong, Deaf Smith, Oldham, Palo Duro Canyon, Potter,\nand Randall Counties.\n\n* WHEN...Until 9 AM CDT this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-06-11T07:52:00-05:00",
-          "expires": "2025-06-11T09:00:00-05:00",
-          "areaDesc": "Oldham; Potter; Deaf Smith; Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048359",
-            "048375",
-            "048117",
-            "048381",
-            "048011"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -9399,20 +9224,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9507,20 +9332,20 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT18H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT17H"
       },
       "visibility": {
         "value": null,
@@ -9539,23 +9364,23 @@
       "temperature": {
         "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P3DT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/P3DT2H"
       }
     }
   },
@@ -9596,15 +9421,30 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.8de6256cbee5eb7ef730246c48bd82d09edb6b02.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.b4c7ea2a9fc70e6107fa9495a9af9a07dd2630be.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 11 at 8:25AM CDT until June 13 at 10:00PM CDT by NWS Fort Worth TX",
+          "description": "...The National Weather Service in Fort Worth TX has issued a Flood\nWarning for the following rivers in Texas...\n\nNavasota River Above Groesbeck affecting Limestone County.\n\nNavasota River Near Easterly affecting Leon and Robertson\nCounties.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Navasota River above Groesbeck.\n\n* WHEN...Until late Friday evening.\n\n* IMPACTS...At 10.0 feet, Moderate overbank flow is expected, with\nflooding occurring along the left bank.\n\n* ADDITIONAL DETAILS...\n- At 8:10 AM CDT Wednesday the stage was 6.4 feet.\n- Bankfull stage is 7.0 feet.\n- Flood stage is 7.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this morning to a crest of 9.8 feet late tonight. It\nwill then fall below flood stage late Friday morning.",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-11T08:25:00-05:00",
+          "expires": "2025-06-12T02:30:00-05:00",
+          "areaDesc": "Limestone, TX",
+          "sameCodes": [
+            "048293"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.aeb81092d80e07cc8955dc90f394173923fd22a1.001.1",
           "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued June 11 at 7:09AM CDT until June 11 at 8:30AM CDT by NWS Fort Worth TX",
-          "description": "At 709 AM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between 2\nand 5 inches of rain have fallen. Additional rainfall amounts up to\n1 inch are forecast. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets, and underpasses as well as other poor\ndrainage and low lying areas.\n\nSome locations that will experience flash flooding include...\nCorsicana, Mexia, Mart, Hubbard, Coolidge, Blooming Grove, Dawson,\nAngus, Navarro, Navarro Mills Lake, Lake Mexia, Lake Halbert,\nRichland-Chambers Reservoir, Frost, Retreat, Oak Valley, Mildred,\nMount Calm, Tehuacana and Malone.",
+          "headline": "Flash Flood Warning issued June 11 at 8:19AM CDT until June 11 at 10:30AM CDT by NWS Fort Worth TX",
+          "description": "FFWFWD\n\nThe National Weather Service in Fort Worth has extended the\n\n* Flash Flood Warning for...\nSoutheastern Hill County in central Texas...\nNorthwestern Limestone County in central Texas...\nSouthwestern Navarro County in north central Texas...\n\n* Until 1030 AM CDT.\n\n* At 819 AM CDT, emergency management reported flash flooding from\nthunderstorms across the warned area. Between 2 and 6 inches of\nrain have fallen, and additional amounts up to half an inch are\nforecast. Flash flooding is already occurring.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Emergency management reported.\n\nIMPACT...Flooding of small creeks and streams, urban areas,\nhighways, streets, and underpasses as well as other\npoor drainage and low lying areas.\n\n* Some locations that will experience flash flooding include...\nCorsicana, Mexia, Mart, Hubbard, Coolidge, Blooming Grove, Dawson,\nAngus, Navarro, Navarro Mills Lake, Lake Mexia, Lake Halbert,\nRichland-Chambers Reservoir, Frost, Retreat, Oak Valley, Mildred,\nMount Calm, Tehuacana and Malone.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Likely",
-          "effective": "2025-06-11T07:09:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
+          "effective": "2025-06-11T08:19:00-05:00",
+          "expires": "2025-06-11T10:30:00-05:00",
           "areaDesc": "Hill, TX; Limestone, TX; Navarro, TX",
           "sameCodes": [
             "048217",
@@ -9709,23 +9549,23 @@
       "temperature": {
         "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT6H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT5H"
       }
     }
   },
@@ -9887,25 +9727,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15256.580383300736,
+        "value": 12906.939616699265,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T03:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       }
     }
   },
@@ -9975,6 +9815,22 @@
         "validTime": "2025-06-11T04:00:00+00:00/PT7H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b4c7ea2a9fc70e6107fa9495a9af9a07dd2630be.002.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 11 at 8:25AM CDT by NWS Fort Worth TX",
+          "description": "...The National Weather Service in Fort Worth TX has issued a Flood\nWarning for the following rivers in Texas...\n\nNavasota River Above Groesbeck affecting Limestone County.\n\nNavasota River Near Easterly affecting Leon and Robertson\nCounties.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Navasota River near Easterly.\n\n* WHEN...From late tonight until further notice.\n\n* IMPACTS...At 23.0 feet, Moderate lowland flooding below Easterly\nis expected.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Wednesday the stage was 9.4 feet.\n- Bankfull stage is 17.0 feet.\n- Flood stage is 19.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate tonight and continue rising to a crest of 21.5 feet\nearly Friday afternoon.",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-11T08:25:00-05:00",
+          "expires": "2025-06-12T02:30:00-05:00",
+          "areaDesc": "Leon, TX; Robertson, TX",
+          "sameCodes": [
+            "048289",
+            "048395"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.904c59a6f131f88d517aaa1af0edf2ede03d1f03.001.1",
           "event": "Flood Watch",
@@ -10481,27 +10337,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T06:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b81b0781d0099a0549c4174ec70f07a22650c6a4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:03AM CDT by NWS Houston/Galveston TX",
-          "description": "At 803 AM CDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout over Blessing, or 12 miles north of\nPalacios, moving north at 45 mph.\n\nHAZARD...Funnels and wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nNorthwestern Bay City, El Campo, Wharton, Eagle Lake, South Texas\nNuclear Plant, East Bernard, Pierce, Blessing, Markham, Boling-Iago,\nEgypt, Midfield, Hungerford, and Danevang.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:03:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Colorado; Wharton; Inland Jackson; Inland Matagorda; Coastal Jackson; Coastal Matagorda",
-          "sameCodes": [
-            "048089",
-            "048481",
-            "048239",
-            "048321"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -10822,25 +10658,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT5H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -10998,25 +10834,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT7H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT6H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/P1DT3H"
+        "validTime": "2025-06-11T08:00:00+00:00/P1DT2H"
       }
     }
   },
@@ -11287,14 +11123,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT3H"
       },
       "hazards": [
         {
@@ -11307,34 +11143,13 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT9H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT8H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.41c7663e658ec8f0d8735dc7de5565252a373fe7.001.1",
-          "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued June 11 at 7:52AM CDT until June 11 at 9:00AM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Visibility a quarter mile or less in dense fog.\n\n* WHERE...Armstrong, Deaf Smith, Oldham, Palo Duro Canyon, Potter,\nand Randall Counties.\n\n* WHEN...Until 9 AM CDT this morning.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-06-11T07:52:00-05:00",
-          "expires": "2025-06-11T09:00:00-05:00",
-          "areaDesc": "Oldham; Potter; Deaf Smith; Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048359",
-            "048375",
-            "048117",
-            "048381",
-            "048011"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -11450,26 +11265,7 @@
         "value": 14355.34860278313,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T05:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c4dd4c69e8c62e869ebd71f7b296d31f7e96ccbf.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 7:09AM CDT by NWS Corpus Christi TX",
-          "description": "At 709 AM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms near Seadrift, moving north at 15 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPort Lavaca, Seadrift, Alamo Beach, Green Lake, Long Mott, and\nMagnolia Beach.\n\nThis includes US Highway 87 between mile markers 828 and 840.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T07:09:00-05:00",
-          "expires": "2025-06-11T08:15:00-05:00",
-          "areaDesc": "Victoria; Inland Calhoun; Coastal Refugio; Coastal Calhoun",
-          "sameCodes": [
-            "048469",
-            "048057",
-            "048391"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -11480,20 +11276,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T06:00:00+00:00/PT3H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T06:00:00+00:00/P1DT6H"
+        "validTime": "2025-06-11T07:00:00+00:00/P1DT5H"
       },
       "visibility": {
         "value": null,
@@ -11615,27 +11411,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-11T06:00:00+00:00/PT1H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b81b0781d0099a0549c4174ec70f07a22650c6a4.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 11 at 8:03AM CDT by NWS Houston/Galveston TX",
-          "description": "At 803 AM CDT, Doppler radar was tracking a strong thunderstorm\ncapable of producing a landspout over Blessing, or 12 miles north of\nPalacios, moving north at 45 mph.\n\nHAZARD...Funnels and wind gusts up to 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible. Gusty winds\ncould knock down tree limbs and blow around unsecured\nobjects.\n\nLocations impacted include...\nNorthwestern Bay City, El Campo, Wharton, Eagle Lake, South Texas\nNuclear Plant, East Bernard, Pierce, Blessing, Markham, Boling-Iago,\nEgypt, Midfield, Hungerford, and Danevang.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-11T08:03:00-05:00",
-          "expires": "2025-06-11T08:30:00-05:00",
-          "areaDesc": "Colorado; Wharton; Inland Jackson; Inland Matagorda; Coastal Jackson; Coastal Matagorda",
-          "sameCodes": [
-            "048089",
-            "048481",
-            "048239",
-            "048321"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -11676,20 +11452,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 86,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT1H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -11799,23 +11575,23 @@
       "temperature": {
         "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-11T07:00:00+00:00/PT2H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-11T07:00:00+00:00/PT4H"
+        "validTime": "2025-06-11T08:00:00+00:00/PT3H"
       }
     }
   }
