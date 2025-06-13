@@ -67,25 +67,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -129,23 +129,23 @@
       "temperature": {
         "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -317,6 +317,38 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.dc024329f7cde47df29987276e529d1df6608c47.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:41AM CDT until June 15 at 1:56AM CDT by NWS Houston/Galveston TX",
+          "description": "...The National Weather Service in Houston/Galveston TX has issued a\nFlood Warning for the following rivers in Texas...\n\nSan Bernard River near Sweeny affecting Brazoria County.\n\nFor the San Bernard River...including Sweeny, East Bernard, Boling...\nModerate flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...San Bernard River near Sweeny.\n\n* WHEN...From this morning to early Sunday morning.\n\n* IMPACTS...At 9.0 feet, Water is over the mid level walkway at the\nPhillips Terminal near Sweeny.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM CDT Friday the stage was 6.6 feet.\n- Bankfull stage is 5.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this morning to a crest of 9.3 feet this evening. It\nwill then fall below flood stage early tomorrow afternoon.\n- Flood stage is 7.0 feet.\n- Flood History...This crest compares to a previous crest of\n10.1 feet on 07/08/2024.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-13T09:41:00-05:00",
+          "expires": "2025-06-14T03:45:00-05:00",
+          "areaDesc": "Brazoria, TX",
+          "sameCodes": [
+            "048039"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.ea4a39ba23d1d67bcbf2fbf72872d79b929f8647.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:25AM CDT until June 15 at 5:00AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSan Bernard River near Boling affecting Brazoria, Wharton and\nFort Bend Counties.\n\nFor the San Bernard River...including Sweeny, East Bernard, Boling...\nModerate flooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...San Bernard River near Boling.\n\n* WHEN...Until early Sunday morning.\n\n* IMPACTS...At 25.0 feet, Moderate lowland flooding continues with\nsignificant backwater flooding up Peach Creek and minor backwater\nflooding up West Bernard Creek in Wharton County. Backwater\nflooding up Snake Creek threatens low-lying areas in the Tierra\nGrande subdivision.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 23.8 feet.\n- Bankfull stage is 14.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 23.9 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow afternoon and continue falling to 4.7 feet Wednesday\nmorning.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n23.8 feet on 06/03/1992.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-06-13T09:25:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
+          "areaDesc": "Brazoria, TX; Fort Bend, TX; Wharton, TX",
+          "sameCodes": [
+            "048039",
+            "048157",
+            "048481"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.55d0001b7603f32d2b05c42c609e46f239674e5e.002.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued June 13 at 2:39AM CDT until June 13 at 7:00PM CDT by NWS Houston/Galveston TX",
@@ -332,23 +364,6 @@
             "048321",
             "048039"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.003.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 14 at 5:00AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...San Bernard River near Boling.\n\n* WHEN...Until early Saturday morning.\n\n* IMPACTS...At 22.0 feet, Moderate lowland flooding begins upstream\nfrom the gage with significant backwater flooding up Peach Creek\nin Wharton County inundating low-lying areas. Minor backwater\nflooding up Snake Creek in Fort Bend County begins.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Thursday the stage was 22.2 feet.\n- Bankfull stage is 14.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Thursday was 22.2 feet.\n- Forecast...The river is expected to rise to a crest of 22.7\nfeet just after midnight tonight. It will then fall below\nflood stage tomorrow afternoon.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n22.8 feet on 05/20/2000.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
-          "areaDesc": "Brazoria, TX; Fort Bend, TX; Wharton, TX",
-          "sameCodes": [
-            "048039",
-            "048157",
-            "048481"
-          ]
         }
       ]
     }
@@ -363,18 +378,18 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 89,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -443,15 +458,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.3090d35060d4c252d45eb3211256f8f505b26690.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.0b5281ea4c632ee06f3bb862ef78b0be00bc1c7d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:41PM CDT until June 15 at 6:48PM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River Near Bloomington affecting Refugio, Victoria and\nCalhoun Counties.\n\nFor the Guadalupe River...including Victoria, Bloomington...Moderate\nflooding is forecast.\n\n* WHAT...Minor flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River near Bloomington.\n\n* WHEN...From this evening to Sunday evening.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding occurs, with the\nriver reaching well into the flood plain. Any oil tank batteries,\npump jacks, and secondary roads near the river may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:00 PM CDT Thursday the stage was 20.4 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river will continue to rise to a crest near\n24.2 feet by Friday evening, remaining above flood stage\nthrough Saturday night.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:46AM CDT by NWS Corpus Christi TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River Near Bloomington affecting Victoria, Refugio and\nCalhoun Counties.\n\nFor the Guadalupe River...including Victoria, Bloomington...Moderate\nflooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River near Bloomington.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding occurs, with the\nriver reaching well into the flood plain. Any oil tank batteries,\npump jacks, and secondary roads near the river may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Friday the stage was 24.4 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river will rise to 25.0 feet late this\nevening. It will then fall slightly over the next couple of\ndays do minor flood stage and remain nearly steady into early\nnext week.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:41:00-05:00",
-          "expires": "2025-06-13T12:45:00-05:00",
+          "effective": "2025-06-13T09:46:00-05:00",
+          "expires": "2025-06-14T01:00:00-05:00",
           "areaDesc": "Calhoun, TX; Refugio, TX; Victoria, TX",
           "sameCodes": [
             "048057",
@@ -639,15 +654,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.003.1",
+          "id": "urn:oid:2.49.0.1.840.0.ea4a39ba23d1d67bcbf2fbf72872d79b929f8647.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 14 at 5:00AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...San Bernard River near Boling.\n\n* WHEN...Until early Saturday morning.\n\n* IMPACTS...At 22.0 feet, Moderate lowland flooding begins upstream\nfrom the gage with significant backwater flooding up Peach Creek\nin Wharton County inundating low-lying areas. Minor backwater\nflooding up Snake Creek in Fort Bend County begins.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Thursday the stage was 22.2 feet.\n- Bankfull stage is 14.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Thursday was 22.2 feet.\n- Forecast...The river is expected to rise to a crest of 22.7\nfeet just after midnight tonight. It will then fall below\nflood stage tomorrow afternoon.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n22.8 feet on 05/20/2000.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:25AM CDT until June 15 at 5:00AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSan Bernard River near Boling affecting Brazoria, Wharton and\nFort Bend Counties.\n\nFor the San Bernard River...including Sweeny, East Bernard, Boling...\nModerate flooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...San Bernard River near Boling.\n\n* WHEN...Until early Sunday morning.\n\n* IMPACTS...At 25.0 feet, Moderate lowland flooding continues with\nsignificant backwater flooding up Peach Creek and minor backwater\nflooding up West Bernard Creek in Wharton County. Backwater\nflooding up Snake Creek threatens low-lying areas in the Tierra\nGrande subdivision.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 23.8 feet.\n- Bankfull stage is 14.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 23.9 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow afternoon and continue falling to 4.7 feet Wednesday\nmorning.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n23.8 feet on 06/03/1992.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:25:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Brazoria, TX; Fort Bend, TX; Wharton, TX",
           "sameCodes": [
             "048039",
@@ -656,15 +671,15 @@
           ]
         },
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.f402a614c5b5bec8f8014a2c2e8bf1fa91434769.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 14 at 8:50AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Major flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Tres Palacios River near Midfield.\n\n* WHEN...Until Saturday morning.\n\n* IMPACTS...At 29.0 feet, Major lowland flooding begins as both\napproaches to the FM 456 bridge are cut off and water is over the\nroad on FM 1468 near Clemville, FM 2431 east of Midfield, and FM\n2853 southeast of Blessing with several homes in the El Dorado\nCountry subdivision upstream and Oak Grove and Tres Palacios Oaks\ndownstream flooded.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 29.3 feet.\n- Bankfull stage is 15.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 29.3 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow evening and continue falling to 5.2 feet Tuesday\nevening.\n- Flood stage is 24.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.3 feet on 07/09/2024.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:24AM CDT until June 14 at 11:35PM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nTres Palacios River near Midfield affecting Matagorda and Wharton\nCounties.\n\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Major flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Tres Palacios River near Midfield.\n\n* WHEN...Until late tomorrow evening.\n\n* IMPACTS...At 29.0 feet, Major lowland flooding begins as both\napproaches to the FM 456 bridge are cut off and water is over the\nroad on FM 1468 near Clemville, FM 2431 east of Midfield, and FM\n2853 southeast of Blessing with several homes in the El Dorado\nCountry subdivision upstream and Oak Grove and Tres Palacios Oaks\ndownstream flooded.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 29.2 feet.\n- Bankfull stage is 15.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 29.4 feet.\n- Forecast...The river is expected to fall below flood stage\nlate tomorrow morning and continue falling to 6.3 feet\nWednesday morning.\n- Flood stage is 24.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.3 feet on 07/09/2024.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:24:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Matagorda, TX; Wharton, TX",
           "sameCodes": [
             "048321",
@@ -731,7 +746,26 @@
         "value": 14532.375890258803,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-13T06:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.4a58c36fe5103a313b78999e9733edd81ee6e5b9.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:33AM CDT by NWS Houston/Galveston TX",
+          "description": "...The National Weather Service in Houston/Galveston TX has issued a\nFlood Warning for the following rivers in Texas...\n\nNavasota River near Normangee affecting Brazos, Madison and\nGrimes Counties.\n\nFor the Navasota River...including Normangee...Major flooding is\nforecast.\n\n* WHAT...Major flooding is forecast.\n\n* WHERE...Navasota River near Normangee.\n\n* WHEN...From this evening until further notice.\n\n* IMPACTS...At 20.0 feet, Major lowland flooding begins with massive\ninundation of the floodplain as the river is close to 2 miles wide\nand OSR become inundated one half mile on the right bank and 1.5\nmiles on the left bank.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Friday the stage was 13.2 feet.\n- Bankfull stage is 12.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this evening and continue rising to a crest of 22.6 feet\nlate tomorrow evening.\n- Flood stage is 15.0 feet.\n- Flood History...This crest compares to a previous crest of\n22.7 feet on 05/01/2009.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-13T09:33:00-05:00",
+          "expires": "2025-06-14T03:45:00-05:00",
+          "areaDesc": "Brazos, TX; Grimes, TX; Madison, TX",
+          "sameCodes": [
+            "048041",
+            "048185",
+            "048313"
+          ]
+        }
+      ]
     }
   },
   {
@@ -864,18 +898,18 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
         "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -984,23 +1018,23 @@
       "temperature": {
         "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -1321,27 +1355,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.52da4ba6f6f1554151d106e7e2475b27c4b4c1d8.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 13 at 8:49AM CDT by NWS Norman OK",
-          "description": "At 848 AM CDT, Doppler radar was tracking the leading edge of winds\nfrom strong thunderstorms along a line extending from 5 miles north\nof Loveland to 6 miles northeast of Grandfield to 4 miles south of\nWalters. Movement was south at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nBurkburnett, Walters, Grandfield, Randlett, Devol, Loveland,\nCookietown, Taylor, and Charlie.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-13T08:49:00-05:00",
-          "expires": "2025-06-13T09:15:00-05:00",
-          "areaDesc": "Tillman; Cotton; Wichita; Clay",
-          "sameCodes": [
-            "040141",
-            "040033",
-            "048485",
-            "048077"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -1381,6 +1395,22 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.103ef3f7f897375d2f10bdf8f6b7c1f5b0d47019.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:29AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 12.2 feet, Minor lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 13.8 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 13.8 feet.\n- Forecast...The river is expected to fall to 12.8 feet\nWednesday morning.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n13.8 feet on 11/18/1998.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-06-13T09:29:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
+          "areaDesc": "Chambers, TX; Liberty, TX",
+          "sameCodes": [
+            "048071",
+            "048291"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.55d0001b7603f32d2b05c42c609e46f239674e5e.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued June 13 at 2:39AM CDT until June 13 at 7:00PM CDT by NWS Houston/Galveston TX",
@@ -1396,22 +1426,6 @@
             "048167",
             "048291",
             "048201"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.005.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 15.2 feet, Moderate lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 13.8 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 13.8 feet.\n- Forecast...The river is expected to rise to a crest of 13.8\nfeet just after midnight tonight.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n13.8 feet on 11/18/1998.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
-          "areaDesc": "Chambers, TX; Liberty, TX",
-          "sameCodes": [
-            "048071",
-            "048291"
           ]
         }
       ]
@@ -1653,25 +1667,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -1887,25 +1901,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -2226,25 +2240,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -2322,22 +2336,6 @@
             "048175",
             "048255"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.04eeb667f2aed3b5fcd7089f02e2906ce585319e.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 13 at 7:21PM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nColeto Creek At Arnold Road Crossing affecting Goliad and\nVictoria Counties.\n\nFor the Coleto Creek...including Arnold Road Crossing, Highway 59,\nVictoria...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Coleto Creek at Arnold Road Crossing.\n\n* WHEN...Until tomorrow evening.\n\n* IMPACTS...At 16.0 feet, Minor lowland flooding. Flooding of\nsecondary roads and low bridges.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Thursday the stage was 15.4 feet.\n- Bankfull stage is 14.0 feet.\n- Forecast...The river will continue to rise to a crest of 15.7\nfeet just after midnight tonight. It will then fall below\nflood stage early Friday morning.\n- Flood stage is 15.0 feet.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T12:15:00-05:00",
-          "areaDesc": "Goliad, TX; Victoria, TX",
-          "sameCodes": [
-            "048175",
-            "048469"
-          ]
         }
       ]
     }
@@ -2350,25 +2348,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -2549,25 +2547,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 16.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -2649,15 +2647,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.004.1",
+          "id": "urn:oid:2.49.0.1.840.0.340fa93cd95e3df119ff70fcdd4e1dec245deb5d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 135.0 feet, Minor lowland flooding continues as\nsignificant backwater up Thomas Lake floods the lowest areas in\nthe Green Rich Shore Subdivision in Walker County with the boat\nramp completely inundated. The lowest lying areas in the Deep\nRiver Plantation Subdivision and FM 980 northwest of Riverside are\nthreatened.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 134.2 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 134.2 feet.\n- Forecast...The river is expected to rise to 134.7 feet Monday\nmorning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n134.7 feet on 05/14/1958.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:26AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Riverside affecting San Jacinto, Polk, Trinity\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 134.0 feet, Minor lowland flooding continues with the\nboat ramp in the Deep River Plantation Subdivision in Walker\nCounty inundated. Backwater flooding up Thomas Lake in Walker\nCounty floods the boat ramp in the Green Rich Shores Subdivision\nin Walker County.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 134.9 feet.\n- Bankfull stage is 132.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 134.9 feet.\n- Forecast...The river is expected to rise to 135.6 feet\nTuesday morning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n135.6 feet on 02/14/2010.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:26:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
           "sameCodes": [
             "048373",
@@ -2874,15 +2872,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.3090d35060d4c252d45eb3211256f8f505b26690.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.0b5281ea4c632ee06f3bb862ef78b0be00bc1c7d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:41PM CDT until June 15 at 6:48PM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River Near Bloomington affecting Refugio, Victoria and\nCalhoun Counties.\n\nFor the Guadalupe River...including Victoria, Bloomington...Moderate\nflooding is forecast.\n\n* WHAT...Minor flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River near Bloomington.\n\n* WHEN...From this evening to Sunday evening.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding occurs, with the\nriver reaching well into the flood plain. Any oil tank batteries,\npump jacks, and secondary roads near the river may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:00 PM CDT Thursday the stage was 20.4 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river will continue to rise to a crest near\n24.2 feet by Friday evening, remaining above flood stage\nthrough Saturday night.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:46AM CDT by NWS Corpus Christi TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River Near Bloomington affecting Victoria, Refugio and\nCalhoun Counties.\n\nFor the Guadalupe River...including Victoria, Bloomington...Moderate\nflooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River near Bloomington.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding occurs, with the\nriver reaching well into the flood plain. Any oil tank batteries,\npump jacks, and secondary roads near the river may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Friday the stage was 24.4 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river will rise to 25.0 feet late this\nevening. It will then fall slightly over the next couple of\ndays do minor flood stage and remain nearly steady into early\nnext week.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:41:00-05:00",
-          "expires": "2025-06-13T12:45:00-05:00",
+          "effective": "2025-06-13T09:46:00-05:00",
+          "expires": "2025-06-14T01:00:00-05:00",
           "areaDesc": "Calhoun, TX; Refugio, TX; Victoria, TX",
           "sameCodes": [
             "048057",
@@ -3293,25 +3291,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -3661,25 +3659,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -3693,18 +3691,18 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT5H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 11,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3903,18 +3901,18 @@
       "temperature": {
         "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT3H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -3960,6 +3958,22 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.f402a614c5b5bec8f8014a2c2e8bf1fa91434769.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:24AM CDT until June 14 at 11:35PM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nTres Palacios River near Midfield affecting Matagorda and Wharton\nCounties.\n\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Major flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Tres Palacios River near Midfield.\n\n* WHEN...Until late tomorrow evening.\n\n* IMPACTS...At 29.0 feet, Major lowland flooding begins as both\napproaches to the FM 456 bridge are cut off and water is over the\nroad on FM 1468 near Clemville, FM 2431 east of Midfield, and FM\n2853 southeast of Blessing with several homes in the El Dorado\nCountry subdivision upstream and Oak Grove and Tres Palacios Oaks\ndownstream flooded.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 29.2 feet.\n- Bankfull stage is 15.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 29.4 feet.\n- Forecast...The river is expected to fall below flood stage\nlate tomorrow morning and continue falling to 6.3 feet\nWednesday morning.\n- Flood stage is 24.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.3 feet on 07/09/2024.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-06-13T09:24:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
+          "areaDesc": "Matagorda, TX; Wharton, TX",
+          "sameCodes": [
+            "048321",
+            "048481"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.55d0001b7603f32d2b05c42c609e46f239674e5e.002.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued June 13 at 2:39AM CDT until June 13 at 7:00PM CDT by NWS Houston/Galveston TX",
@@ -3974,22 +3988,6 @@
             "048239",
             "048321",
             "048039"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 14 at 8:50AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Major flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Tres Palacios River near Midfield.\n\n* WHEN...Until Saturday morning.\n\n* IMPACTS...At 29.0 feet, Major lowland flooding begins as both\napproaches to the FM 456 bridge are cut off and water is over the\nroad on FM 1468 near Clemville, FM 2431 east of Midfield, and FM\n2853 southeast of Blessing with several homes in the El Dorado\nCountry subdivision upstream and Oak Grove and Tres Palacios Oaks\ndownstream flooded.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 29.3 feet.\n- Bankfull stage is 15.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 29.3 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow evening and continue falling to 5.2 feet Tuesday\nevening.\n- Flood stage is 24.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.3 feet on 07/09/2024.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
-          "areaDesc": "Matagorda, TX; Wharton, TX",
-          "sameCodes": [
-            "048321",
-            "048481"
           ]
         }
       ]
@@ -4404,25 +4402,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -4573,7 +4571,26 @@
         "value": 14709.404712524489,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-13T06:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.4a58c36fe5103a313b78999e9733edd81ee6e5b9.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:33AM CDT by NWS Houston/Galveston TX",
+          "description": "...The National Weather Service in Houston/Galveston TX has issued a\nFlood Warning for the following rivers in Texas...\n\nNavasota River near Normangee affecting Brazos, Madison and\nGrimes Counties.\n\nFor the Navasota River...including Normangee...Major flooding is\nforecast.\n\n* WHAT...Major flooding is forecast.\n\n* WHERE...Navasota River near Normangee.\n\n* WHEN...From this evening until further notice.\n\n* IMPACTS...At 20.0 feet, Major lowland flooding begins with massive\ninundation of the floodplain as the river is close to 2 miles wide\nand OSR become inundated one half mile on the right bank and 1.5\nmiles on the left bank.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Friday the stage was 13.2 feet.\n- Bankfull stage is 12.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this evening and continue rising to a crest of 22.6 feet\nlate tomorrow evening.\n- Flood stage is 15.0 feet.\n- Flood History...This crest compares to a previous crest of\n22.7 feet on 05/01/2009.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-13T09:33:00-05:00",
+          "expires": "2025-06-14T03:45:00-05:00",
+          "areaDesc": "Brazos, TX; Grimes, TX; Madison, TX",
+          "sameCodes": [
+            "048041",
+            "048185",
+            "048313"
+          ]
+        }
+      ]
     }
   },
   {
@@ -4674,25 +4691,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -4794,25 +4811,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -5208,25 +5225,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -5329,25 +5346,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -5391,18 +5408,18 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT3H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT11H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": null,
@@ -5517,25 +5534,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -5659,15 +5676,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.004.1",
+          "id": "urn:oid:2.49.0.1.840.0.340fa93cd95e3df119ff70fcdd4e1dec245deb5d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 135.0 feet, Minor lowland flooding continues as\nsignificant backwater up Thomas Lake floods the lowest areas in\nthe Green Rich Shore Subdivision in Walker County with the boat\nramp completely inundated. The lowest lying areas in the Deep\nRiver Plantation Subdivision and FM 980 northwest of Riverside are\nthreatened.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 134.2 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 134.2 feet.\n- Forecast...The river is expected to rise to 134.7 feet Monday\nmorning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n134.7 feet on 05/14/1958.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:26AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Riverside affecting San Jacinto, Polk, Trinity\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 134.0 feet, Minor lowland flooding continues with the\nboat ramp in the Deep River Plantation Subdivision in Walker\nCounty inundated. Backwater flooding up Thomas Lake in Walker\nCounty floods the boat ramp in the Green Rich Shores Subdivision\nin Walker County.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 134.9 feet.\n- Bankfull stage is 132.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 134.9 feet.\n- Forecast...The river is expected to rise to 135.6 feet\nTuesday morning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n135.6 feet on 02/14/2010.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:26:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
           "sameCodes": [
             "048373",
@@ -5689,18 +5706,18 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT5H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 92,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT9H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT8H"
       },
       "visibility": {
         "value": null,
@@ -5934,27 +5951,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.52da4ba6f6f1554151d106e7e2475b27c4b4c1d8.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued June 13 at 8:49AM CDT by NWS Norman OK",
-          "description": "At 848 AM CDT, Doppler radar was tracking the leading edge of winds\nfrom strong thunderstorms along a line extending from 5 miles north\nof Loveland to 6 miles northeast of Grandfield to 4 miles south of\nWalters. Movement was south at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nBurkburnett, Walters, Grandfield, Randlett, Devol, Loveland,\nCookietown, Taylor, and Charlie.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-06-13T08:49:00-05:00",
-          "expires": "2025-06-13T09:15:00-05:00",
-          "areaDesc": "Tillman; Cotton; Wichita; Clay",
-          "sameCodes": [
-            "040141",
-            "040033",
-            "048485",
-            "048077"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -5987,15 +5984,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.004.1",
+          "id": "urn:oid:2.49.0.1.840.0.340fa93cd95e3df119ff70fcdd4e1dec245deb5d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 135.0 feet, Minor lowland flooding continues as\nsignificant backwater up Thomas Lake floods the lowest areas in\nthe Green Rich Shore Subdivision in Walker County with the boat\nramp completely inundated. The lowest lying areas in the Deep\nRiver Plantation Subdivision and FM 980 northwest of Riverside are\nthreatened.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 134.2 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 134.2 feet.\n- Forecast...The river is expected to rise to 134.7 feet Monday\nmorning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n134.7 feet on 05/14/1958.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:26AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Riverside affecting San Jacinto, Polk, Trinity\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 134.0 feet, Minor lowland flooding continues with the\nboat ramp in the Deep River Plantation Subdivision in Walker\nCounty inundated. Backwater flooding up Thomas Lake in Walker\nCounty floods the boat ramp in the Green Rich Shores Subdivision\nin Walker County.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 134.9 feet.\n- Bankfull stage is 132.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 134.9 feet.\n- Forecast...The river is expected to rise to 135.6 feet\nTuesday morning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n135.6 feet on 02/14/2010.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:26:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
           "sameCodes": [
             "048373",
@@ -6183,25 +6180,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -6637,25 +6634,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -7069,6 +7066,37 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.103ef3f7f897375d2f10bdf8f6b7c1f5b0d47019.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:29AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 12.2 feet, Minor lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 13.8 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 13.8 feet.\n- Forecast...The river is expected to fall to 12.8 feet\nWednesday morning.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n13.8 feet on 11/18/1998.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-06-13T09:29:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
+          "areaDesc": "Chambers, TX; Liberty, TX",
+          "sameCodes": [
+            "048071",
+            "048291"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.64ab170528bae885b619c78c46ff5944bd5ccfd2.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:28AM CDT until June 16 at 1:00PM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Liberty.\n\n* WHEN...Until early Monday afternoon.\n\n* IMPACTS...At 26.5 feet, Roads into some outlying communities above\nthe gage can have up to one foot of water over them.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 26.3 feet.\n- Bankfull stage is 21.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 26.5 feet.\n- Forecast...The river is expected to fall below flood stage\nearly Monday morning and continue falling to 25.7 feet\nWednesday morning.\n- Flood stage is 26.0 feet.\n- Flood History...This crest compares to a previous crest of\n26.3 feet on 04/23/2024.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-06-13T09:28:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
+          "areaDesc": "Liberty, TX",
+          "sameCodes": [
+            "048291"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.55d0001b7603f32d2b05c42c609e46f239674e5e.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued June 13 at 2:39AM CDT until June 13 at 7:00PM CDT by NWS Houston/Galveston TX",
@@ -7084,37 +7112,6 @@
             "048167",
             "048291",
             "048201"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.002.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 15 at 1:00AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Liberty.\n\n* WHEN...Until early Sunday morning.\n\n* IMPACTS...At 26.5 feet, Roads into some outlying communities above\nthe gage can have up to one foot of water over them.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Thursday the stage was 26.4 feet.\n- Bankfull stage is 21.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Thursday was 26.5 feet.\n- Forecast...The river is expected to fall below flood stage\nearly Saturday afternoon and continue falling to 25.5 feet\nTuesday evening.\n- Flood stage is 26.0 feet.\n- Flood History...This crest compares to a previous crest of\n26.5 feet on 12/31/2001.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
-          "areaDesc": "Liberty, TX",
-          "sameCodes": [
-            "048291"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.005.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River near Moss Bluff.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 15.2 feet, Moderate lowland flooding begins in the\nvicinity of the gage.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 13.8 feet.\n- Bankfull stage is 9.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 13.8 feet.\n- Forecast...The river is expected to rise to a crest of 13.8\nfeet just after midnight tonight.\n- Flood stage is 12.2 feet.\n- Flood History...This crest compares to a previous crest of\n13.8 feet on 11/18/1998.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
-          "areaDesc": "Chambers, TX; Liberty, TX",
-          "sameCodes": [
-            "048071",
-            "048291"
           ]
         }
       ]
@@ -7443,15 +7440,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.004.1",
+          "id": "urn:oid:2.49.0.1.840.0.340fa93cd95e3df119ff70fcdd4e1dec245deb5d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 135.0 feet, Minor lowland flooding continues as\nsignificant backwater up Thomas Lake floods the lowest areas in\nthe Green Rich Shore Subdivision in Walker County with the boat\nramp completely inundated. The lowest lying areas in the Deep\nRiver Plantation Subdivision and FM 980 northwest of Riverside are\nthreatened.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Thursday the stage was 134.2 feet.\n- Bankfull stage is 133.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 PM CDT Thursday was 134.2 feet.\n- Forecast...The river is expected to rise to 134.7 feet Monday\nmorning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n134.7 feet on 05/14/1958.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:26AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Riverside affecting San Jacinto, Polk, Trinity\nand Walker Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Riverside.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 134.0 feet, Minor lowland flooding continues with the\nboat ramp in the Deep River Plantation Subdivision in Walker\nCounty inundated. Backwater flooding up Thomas Lake in Walker\nCounty floods the boat ramp in the Green Rich Shores Subdivision\nin Walker County.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM CDT Friday the stage was 134.9 feet.\n- Bankfull stage is 132.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM CDT Friday was 134.9 feet.\n- Forecast...The river is expected to rise to 135.6 feet\nTuesday morning. Additional rises are possible thereafter.\n- Flood stage is 133.5 feet.\n- Flood History...This crest compares to a previous crest of\n135.6 feet on 02/14/2010.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:26:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Polk, TX; San Jacinto, TX; Trinity, TX; Walker, TX",
           "sameCodes": [
             "048373",
@@ -7578,25 +7575,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -7698,20 +7695,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7750,15 +7747,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.424564ae612b2ca60885d4f59af97cd23094b8c0.003.1",
+          "id": "urn:oid:2.49.0.1.840.0.ea4a39ba23d1d67bcbf2fbf72872d79b929f8647.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 14 at 5:00AM CDT by NWS Houston/Galveston TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nTrinity River at Liberty affecting Liberty County.\n\nTres Palacios River near Midfield affecting Wharton and Matagorda\nCounties.\n\nTrinity River at Riverside affecting Trinity, Polk, Walker and\nSan Jacinto Counties.\n\nTrinity River near Moss Bluff affecting Liberty and Chambers\nCounties.\n\nSan Bernard River near Boling affecting Wharton, Brazoria and\nFort Bend Counties.\n\nFor the Trinity River...including Crockett, Riverside, Romayor,\nGoodrich, Moss Bluff, Liberty...Minor flooding is forecast.\nFor the Tres Palacios River...including Midfield...Moderate flooding\nis forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...San Bernard River near Boling.\n\n* WHEN...Until early Saturday morning.\n\n* IMPACTS...At 22.0 feet, Moderate lowland flooding begins upstream\nfrom the gage with significant backwater flooding up Peach Creek\nin Wharton County inundating low-lying areas. Minor backwater\nflooding up Snake Creek in Fort Bend County begins.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM CDT Thursday the stage was 22.2 feet.\n- Bankfull stage is 14.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM CDT Thursday was 22.2 feet.\n- Forecast...The river is expected to rise to a crest of 22.7\nfeet just after midnight tonight. It will then fall below\nflood stage tomorrow afternoon.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n22.8 feet on 05/20/2000.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:25AM CDT until June 15 at 5:00AM CDT by NWS Houston/Galveston TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSan Bernard River near Boling affecting Brazoria, Wharton and\nFort Bend Counties.\n\nFor the San Bernard River...including Sweeny, East Bernard, Boling...\nModerate flooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...San Bernard River near Boling.\n\n* WHEN...Until early Sunday morning.\n\n* IMPACTS...At 25.0 feet, Moderate lowland flooding continues with\nsignificant backwater flooding up Peach Creek and minor backwater\nflooding up West Bernard Creek in Wharton County. Backwater\nflooding up Snake Creek threatens low-lying areas in the Tierra\nGrande subdivision.\n\n* ADDITIONAL DETAILS...\n- At 8:15 AM CDT Friday the stage was 23.8 feet.\n- Bankfull stage is 14.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 AM CDT Friday was 23.9 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow afternoon and continue falling to 4.7 feet Wednesday\nmorning.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n23.8 feet on 06/03/1992.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T15:15:00-05:00",
+          "effective": "2025-06-13T09:25:00-05:00",
+          "expires": "2025-06-14T03:30:00-05:00",
           "areaDesc": "Brazoria, TX; Fort Bend, TX; Wharton, TX",
           "sameCodes": [
             "048039",
@@ -7915,25 +7912,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -8022,25 +8019,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -8836,25 +8833,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -8958,23 +8955,23 @@
       "temperature": {
         "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   },
@@ -9299,65 +9296,34 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.d1d39e8755aefac479384cd0d79116136414603f.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.dc6ea0b8d15d3a9e4ca783a2de40c8efb63451cf.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:51PM CDT until June 14 at 3:00AM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nGarcitas Creek Near Inez affecting Victoria County.\n\nFor the Garcitas Creek...including Inez...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Garcitas Creek near Inez.\n\n* WHEN...Until early Saturday morning.\n\n* IMPACTS...At 20.0 feet, Minor lowland flooding of crop and\npasturland occurs. Secondary roads and bridges begin to flood.\nLivestock begin to become isolated.\n\n* ADDITIONAL DETAILS...\n- At 9:15 PM CDT Thursday the stage was 16.0 feet.\n- Bankfull stage is 10.0 feet.\n- Forecast...The river is expected to rise above flood stage\njust after midnight tonight to a crest of 21.0 feet by early\nFriday morning. It will then fall below flood stage Saturday\nmorning.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:46AM CDT until June 14 at 10:30PM CDT by NWS Corpus Christi TX",
+          "description": "...Forecast flooding changed from Minor to Moderate severity and\nincreased in duration for the following rivers in Texas...\n\nGarcitas Creek Near Inez affecting Victoria County.\n\nFor the Garcitas Creek...including Inez...Moderate flooding is\nforecast.\n\n* WHAT...Moderate flooding is forecast.\n\n* WHERE...Garcitas Creek near Inez.\n\n* WHEN...Until late tomorrow evening.\n\n* IMPACTS...At 22.0 feet, Moderate flooding occurs, causing\nsignificant crop damage. Pastureland floods and isolates livestock\nin cut off areas. Secondary roads and low bridges are flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:15 AM CDT Friday the stage was 19.4 feet.\n- Bankfull stage is 10.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this morning to a crest of 22.3 feet late this\nafternoon. It will then fall below flood stage tomorrow\nmorning.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:51:00-05:00",
-          "expires": "2025-06-13T13:00:00-05:00",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-13T09:46:00-05:00",
+          "expires": "2025-06-14T01:00:00-05:00",
           "areaDesc": "Victoria, TX",
           "sameCodes": [
             "048469"
           ]
         },
         {
-          "id": "urn:oid:2.49.0.1.840.0.3090d35060d4c252d45eb3211256f8f505b26690.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.0b5281ea4c632ee06f3bb862ef78b0be00bc1c7d.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:41PM CDT until June 15 at 6:48PM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River Near Bloomington affecting Refugio, Victoria and\nCalhoun Counties.\n\nFor the Guadalupe River...including Victoria, Bloomington...Moderate\nflooding is forecast.\n\n* WHAT...Minor flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River near Bloomington.\n\n* WHEN...From this evening to Sunday evening.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding occurs, with the\nriver reaching well into the flood plain. Any oil tank batteries,\npump jacks, and secondary roads near the river may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:00 PM CDT Thursday the stage was 20.4 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river will continue to rise to a crest near\n24.2 feet by Friday evening, remaining above flood stage\nthrough Saturday night.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued June 13 at 9:46AM CDT by NWS Corpus Christi TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River Near Bloomington affecting Victoria, Refugio and\nCalhoun Counties.\n\nFor the Guadalupe River...including Victoria, Bloomington...Moderate\nflooding is forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River near Bloomington.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding occurs, with the\nriver reaching well into the flood plain. Any oil tank batteries,\npump jacks, and secondary roads near the river may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Friday the stage was 24.4 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river will rise to 25.0 feet late this\nevening. It will then fall slightly over the next couple of\ndays do minor flood stage and remain nearly steady into early\nnext week.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-06-12T21:41:00-05:00",
-          "expires": "2025-06-13T12:45:00-05:00",
+          "effective": "2025-06-13T09:46:00-05:00",
+          "expires": "2025-06-14T01:00:00-05:00",
           "areaDesc": "Calhoun, TX; Refugio, TX; Victoria, TX",
           "sameCodes": [
             "048057",
             "048391",
-            "048469"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.bae4c0967e3f14503b6d95e10ebc930a3c128811.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:34PM CDT until June 13 at 10:15PM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River At Victoria affecting Victoria County.\n\nFor the Guadalupe River...including Victoria, Bloomington...Minor\nflooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Guadalupe River at Victoria.\n\n* WHEN...Until late tomorrow evening.\n\n* IMPACTS...At 21.0 feet, Minor lowland flooding occurs, as the flow\nexceeds the east bank into low areas of Riverside Park.\n\n* ADDITIONAL DETAILS...\n- At 9:15 PM CDT Thursday the stage was 20.9 feet.\n- Bankfull stage is 21.0 feet.\n- Forecast...The river will continue to rise a crest of around\n21.7 feet just after midnight tonight. The river is then\nforecast to fall below flood stage Friday morning.\n- Flood stage is 21.0 feet.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:34:00-05:00",
-          "expires": "2025-06-13T12:45:00-05:00",
-          "areaDesc": "Victoria, TX",
-          "sameCodes": [
-            "048469"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.04eeb667f2aed3b5fcd7089f02e2906ce585319e.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued June 12 at 9:12PM CDT until June 13 at 7:21PM CDT by NWS Corpus Christi TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nColeto Creek At Arnold Road Crossing affecting Goliad and\nVictoria Counties.\n\nFor the Coleto Creek...including Arnold Road Crossing, Highway 59,\nVictoria...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Coleto Creek at Arnold Road Crossing.\n\n* WHEN...Until tomorrow evening.\n\n* IMPACTS...At 16.0 feet, Minor lowland flooding. Flooding of\nsecondary roads and low bridges.\n\n* ADDITIONAL DETAILS...\n- At 8:45 PM CDT Thursday the stage was 15.4 feet.\n- Bankfull stage is 14.0 feet.\n- Forecast...The river will continue to rise to a crest of 15.7\nfeet just after midnight tonight. It will then fall below\nflood stage early Friday morning.\n- Flood stage is 15.0 feet.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-06-12T21:12:00-05:00",
-          "expires": "2025-06-13T12:15:00-05:00",
-          "areaDesc": "Goliad, TX; Victoria, TX",
-          "sameCodes": [
-            "048175",
             "048469"
           ]
         }
@@ -9518,20 +9484,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 89,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT11H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": null,
@@ -9597,7 +9563,26 @@
         "value": 14934.711890258803,
         "unit": "wmoUnit:m",
         "validTime": "2025-06-13T06:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.4a58c36fe5103a313b78999e9733edd81ee6e5b9.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued June 13 at 9:33AM CDT by NWS Houston/Galveston TX",
+          "description": "...The National Weather Service in Houston/Galveston TX has issued a\nFlood Warning for the following rivers in Texas...\n\nNavasota River near Normangee affecting Brazos, Madison and\nGrimes Counties.\n\nFor the Navasota River...including Normangee...Major flooding is\nforecast.\n\n* WHAT...Major flooding is forecast.\n\n* WHERE...Navasota River near Normangee.\n\n* WHEN...From this evening until further notice.\n\n* IMPACTS...At 20.0 feet, Major lowland flooding begins with massive\ninundation of the floodplain as the river is close to 2 miles wide\nand OSR become inundated one half mile on the right bank and 1.5\nmiles on the left bank.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CDT Friday the stage was 13.2 feet.\n- Bankfull stage is 12.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this evening and continue rising to a crest of 22.6 feet\nlate tomorrow evening.\n- Flood stage is 15.0 feet.\n- Flood History...This crest compares to a previous crest of\n22.7 feet on 05/01/2009.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-06-13T09:33:00-05:00",
+          "expires": "2025-06-14T03:45:00-05:00",
+          "areaDesc": "Brazos, TX; Grimes, TX; Madison, TX",
+          "sameCodes": [
+            "048041",
+            "048185",
+            "048313"
+          ]
+        }
+      ]
     }
   },
   {
@@ -9608,25 +9593,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT1H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-06-13T08:00:00+00:00/PT4H"
+        "validTime": "2025-06-13T09:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-06-13T08:00:00+00:00/P3DT2H"
+        "validTime": "2025-06-13T09:00:00+00:00/P3DT1H"
       }
     }
   }
