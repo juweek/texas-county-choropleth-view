@@ -37,25 +37,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 46,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       }
     }
   },
@@ -67,25 +67,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9495.129753478954,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT11H"
       }
     }
   },
@@ -97,26 +97,53 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "FA",
+          "significance": "A",
+          "eventNumber": null,
+          "validTime": "2025-07-03T19:00:00+00:00/PT17H"
+        }
+      ],
       "probabilityOfPrecipitation": {
-        "value": 46,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 14548.469698608355,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
-      }
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.001.1",
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bexar, Gillespie, Kendall and Llano.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-07-03T19:58:00-05:00",
+          "expires": "2025-07-04T07:00:00-05:00",
+          "areaDesc": "Llano; Gillespie; Kendall; Bexar",
+          "sameCodes": [
+            "048299",
+            "048171",
+            "048259",
+            "048029"
+          ]
+        }
+      ]
     }
   },
   {
@@ -127,25 +154,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 9495.129753478954,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -217,25 +244,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 31,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT14H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT13H"
       }
     }
   },
@@ -247,20 +274,20 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -337,32 +364,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 41,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 14516.283616699264,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT14H"
       },
       "alerts": [
         {
@@ -418,23 +445,23 @@
       "temperature": {
         "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 19,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/P1DT20H"
+        "validTime": "2025-07-03T18:00:00+00:00/P1DT19H"
       }
     }
   },
@@ -446,25 +473,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 23,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT17H"
       }
     }
   },
@@ -476,25 +503,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 32,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT17H"
       }
     }
   },
@@ -508,23 +535,23 @@
       "temperature": {
         "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 72,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 53,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT15H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT14H"
       }
     }
   },
@@ -566,25 +593,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 21,
+        "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT5H"
       }
     }
   },
@@ -626,25 +653,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT10H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT9H"
       }
     }
   },
@@ -688,23 +715,23 @@
       "temperature": {
         "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT5H"
       }
     }
   },
@@ -716,20 +743,20 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -836,25 +863,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 9495.129753478954,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -866,25 +893,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 21,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT17H"
       }
     }
   },
@@ -896,32 +923,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 25,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/P1DT20H"
+        "validTime": "2025-07-03T18:00:00+00:00/P1DT19H"
       },
       "alerts": [
         {
@@ -975,25 +1002,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 24,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT18H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT17H"
       }
     }
   },
@@ -1065,14 +1092,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1083,25 +1110,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 37,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT9H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT7H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -1126,20 +1153,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 42,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -1156,25 +1183,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 19,
+        "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT18H"
       },
       "alerts": [
         {
@@ -1354,25 +1381,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -1414,25 +1441,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 7950.159452087469,
+        "value": 9495.129753478954,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -1444,14 +1471,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -1462,25 +1489,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 49,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -1597,23 +1624,23 @@
       "temperature": {
         "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 7950.159452087469,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       }
     }
   },
@@ -1625,32 +1652,32 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 40,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT6H"
       },
       "alerts": [
         {
@@ -1734,25 +1761,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT16H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT15H"
       }
     }
   },
@@ -1764,32 +1791,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 42,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 12697.7239451294,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -1933,25 +1960,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 45,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -1963,25 +1990,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -1993,26 +2020,53 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "FA",
+          "significance": "A",
+          "eventNumber": null,
+          "validTime": "2025-07-03T19:00:00+00:00/PT17H"
+        }
+      ],
       "probabilityOfPrecipitation": {
-        "value": 36,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
-      }
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.001.1",
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bexar, Gillespie, Kendall and Llano.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-07-03T19:58:00-05:00",
+          "expires": "2025-07-04T07:00:00-05:00",
+          "areaDesc": "Llano; Gillespie; Kendall; Bexar",
+          "sameCodes": [
+            "048299",
+            "048171",
+            "048259",
+            "048029"
+          ]
+        }
+      ]
     }
   },
   {
@@ -2053,25 +2107,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -2083,20 +2137,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 31,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -2143,34 +2197,50 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.549d0c980d7f8a282cedf67924dc27b9778b265d.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 3 at 8:08PM CDT until July 3 at 11:15PM CDT by NWS Midland/Odessa TX",
+          "description": "FFWMAF\n\nThe National Weather Service in Midland/Odessa has issued a\n\n* Flash Flood Warning for...\nSouthwestern Brewster County in southwestern Texas...\nSoutheastern Presidio County in southwestern Texas...\n\n* Until 1115 PM CDT.\n\n* At 808 PM CDT, Doppler radar and satellite indicated thunderstorms\nproducing heavy rain across the warned area. Flash flooding is\nongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nLajitas, Terlingua, Study Butte, Chisos Basin, Castolon, Big Bend\nNational Park, Persimmon Gap, Terlingua Ranch Airport, Terlingua\nRanch Lodge, Barton Warnock Environmental Educational Center and\nSantiago Peak.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-03T20:08:00-05:00",
+          "expires": "2025-07-03T23:15:00-05:00",
+          "areaDesc": "Brewster, TX; Presidio, TX",
+          "sameCodes": [
+            "048043",
+            "048377"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.8e90e7e18575828da02acec5055bc63decc4a103.001.1",
           "event": "Flood Warning",
@@ -2297,14 +2367,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -2315,25 +2385,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 49,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -2358,25 +2428,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       }
     }
   },
@@ -2418,25 +2488,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT17H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT16H"
       },
       "alerts": [
         {
@@ -2731,32 +2801,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 19,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT13H"
       },
       "alerts": [
         {
@@ -2882,25 +2952,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 26,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT21H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT19H"
       }
     }
   },
@@ -3081,25 +3151,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 7950.159452087469,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -3141,14 +3211,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3159,25 +3229,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 69,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -3304,25 +3374,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT20H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT18H"
       }
     }
   },
@@ -3334,32 +3404,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 27,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT16H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT15H"
       },
       "alerts": [
         {
@@ -3413,25 +3483,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 43,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -3535,23 +3605,23 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 14484.096,
+        "value": 12681.630904174775,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -3563,20 +3633,20 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -3593,25 +3663,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 50,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT11H"
       }
     }
   },
@@ -3697,30 +3767,30 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 56,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 9559.503452087469,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -3866,18 +3936,18 @@
       "temperature": {
         "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3896,23 +3966,23 @@
       "temperature": {
         "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 25,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/P1DT20H"
+        "validTime": "2025-07-03T18:00:00+00:00/P1DT19H"
       }
     }
   },
@@ -3924,25 +3994,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 50,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       }
     }
   },
@@ -3984,25 +4054,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -4042,6 +4112,23 @@
         "validTime": "2025-07-03T14:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.d22b84b9aa66561902bfb1a9bc59d706b09c6951.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 3 at 8:21PM CDT until July 3 at 10:15PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Mason, McCulloch and San Saba.\n\n* WHEN...Until 1015 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 820 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1.5 and 2 inches of\nrain have fallen.\n- Additional rainfall amounts of 0.5 to 1 inch are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nSan Saba, Richland Springs, Algerita, Cherokee, Sloan,\nPontotoc, Fredonia, Voca, Camp San Saba, Katemcy, Camp Air,\nChappel, Grit, Streeter, Long Mountain, Harkeyville, Spring\nCreek, Us-190 Near The San Saba-Lampasas County Line and The\nIntersection Of Highway 29 And Ranch Road 1222.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-03T20:21:00-05:00",
+          "expires": "2025-07-03T22:15:00-05:00",
+          "areaDesc": "McCulloch, TX; Mason, TX; San Saba, TX",
+          "sameCodes": [
+            "048307",
+            "048319",
+            "048411"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3fb27345852d5f6dfb8cc06ffcb1d5e61b05d0c6.001.1",
           "event": "Flood Watch",
@@ -4086,32 +4173,32 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 22,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/P1DT20H"
+        "validTime": "2025-07-03T18:00:00+00:00/P1DT19H"
       },
       "alerts": [
         {
@@ -4387,25 +4474,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 7934.065643737756,
+        "value": 9495.129753478954,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -4417,32 +4504,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 26,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT5H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT4H"
       },
       "alerts": [
         {
@@ -4568,25 +4655,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 72,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 16,
+        "value": 27,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/P1DT20H"
+        "validTime": "2025-07-03T19:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -4598,32 +4685,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 17,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -4677,25 +4764,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT5H"
       }
     }
   },
@@ -4767,32 +4854,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 34,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -4846,25 +4933,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 9479.0359451294,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -4906,25 +4993,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 57,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -4966,25 +5053,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9495.129753478954,
+        "value": 7950.159452087469,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -4996,25 +5083,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 38,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT17H"
       }
     }
   },
@@ -5026,32 +5113,32 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 29,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 14484.096,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -5225,14 +5312,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5243,25 +5330,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 66,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -5286,32 +5373,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 34,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -5365,20 +5452,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 48,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -5425,25 +5512,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -5455,25 +5542,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT12H"
       }
     }
   },
@@ -5515,25 +5602,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 61,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -5617,20 +5704,20 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -5647,32 +5734,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT15H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT14H"
       },
       "alerts": [
         {
@@ -5756,25 +5843,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 7934.065643737756,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       }
     }
   },
@@ -5960,43 +6047,26 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 32.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 21,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT6H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c6ce269eb6b119a5e01d485eb33349fd15ebb785.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued July 3 at 7:15PM CDT until July 3 at 8:30PM CDT by NWS Houston/Galveston TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...A portion of southeast Texas, including the following\ncounty, Walker.\n\n* WHEN...Until 830 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 715 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1 and 2 inches of rain\nhave fallen.\n- Some locations that will experience flooding include...\nHuntsville.\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-03T19:15:00-05:00",
-          "expires": "2025-07-03T20:30:00-05:00",
-          "areaDesc": "Walker, TX",
-          "sameCodes": [
-            "048471"
-          ]
-        }
-      ]
+        "validTime": "2025-07-03T18:00:00+00:00/PT5H"
+      }
     }
   },
   {
@@ -6009,18 +6079,18 @@
       "temperature": {
         "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6067,14 +6137,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6085,25 +6155,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 67,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT7H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -6130,23 +6200,23 @@
       "temperature": {
         "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
         "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 41,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT17H"
       }
     }
   },
@@ -6248,20 +6318,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 40,
+        "value": 24,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6278,25 +6348,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 21,
+        "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT15H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT14H"
       }
     }
   },
@@ -6308,14 +6378,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6326,25 +6396,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 55,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -6429,26 +6499,53 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "FA",
+          "significance": "A",
+          "eventNumber": null,
+          "validTime": "2025-07-03T19:00:00+00:00/PT17H"
+        }
+      ],
       "probabilityOfPrecipitation": {
-        "value": 32,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
-      }
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.001.1",
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bexar, Gillespie, Kendall and Llano.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-07-03T19:58:00-05:00",
+          "expires": "2025-07-04T07:00:00-05:00",
+          "areaDesc": "Llano; Gillespie; Kendall; Bexar",
+          "sameCodes": [
+            "048299",
+            "048171",
+            "048259",
+            "048029"
+          ]
+        }
+      ]
     }
   },
   {
@@ -6489,25 +6586,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -6549,25 +6646,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 32.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT12H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT11H"
       }
     }
   },
@@ -6609,32 +6706,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 47,
+        "value": 27,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -6688,26 +6785,53 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT4H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT4H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "FA",
+          "significance": "A",
+          "eventNumber": null,
+          "validTime": "2025-07-03T19:00:00+00:00/PT17H"
+        }
+      ],
       "probabilityOfPrecipitation": {
-        "value": 43,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT10H"
-      }
+        "validTime": "2025-07-03T19:00:00+00:00/PT8H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.001.1",
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bexar, Gillespie, Kendall and Llano.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-07-03T19:58:00-05:00",
+          "expires": "2025-07-04T07:00:00-05:00",
+          "areaDesc": "Llano; Gillespie; Kendall; Bexar",
+          "sameCodes": [
+            "048299",
+            "048171",
+            "048259",
+            "048029"
+          ]
+        }
+      ]
     }
   },
   {
@@ -6838,20 +6962,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 95,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 22,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6868,25 +6992,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 79,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 7950.159452087469,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -6898,25 +7022,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT11H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT10H"
       },
       "alerts": [
         {
@@ -7092,32 +7216,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 24,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -7201,32 +7325,32 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 19,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -7280,32 +7404,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT7H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT6H"
       },
       "alerts": [
         {
@@ -7419,25 +7543,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 50,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT12H"
       },
       "alerts": [
         {
@@ -7467,25 +7591,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 12697.7239451294,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -7527,32 +7651,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 26,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/P1DT20H"
+        "validTime": "2025-07-03T18:00:00+00:00/P1DT19H"
       },
       "alerts": [
         {
@@ -7636,32 +7760,32 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 16,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT14H"
       },
       "alerts": [
         {
@@ -7715,25 +7839,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 16061.252383300736,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -7795,25 +7919,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT16H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT15H"
       },
       "alerts": [
         {
@@ -7874,20 +7998,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7934,25 +8058,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT5H"
       }
     }
   },
@@ -7964,25 +8088,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 24,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT21H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT19H"
       }
     }
   },
@@ -8054,20 +8178,20 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -8084,25 +8208,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 40,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT14H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT13H"
       }
     }
   },
@@ -8234,25 +8358,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -8294,14 +8418,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8312,25 +8436,25 @@
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 62,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.919fb78f1a1d336938abfc10dbbf44fd4da84ba6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.13a79076749c30a486f98417050a1a1b2a0ee8f3.002.1",
           "event": "Flood Watch",
-          "headline": "Flood Watch issued July 3 at 1:18PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Through Friday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Watch issued July 3 at 7:58PM CDT until July 4 at 7:00AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Locally heavy rainfall could cause flash flooding across\nportions of South Central Texas. Rainfall amounts of 1 to 3 inches\nwith isolated amounts of 5 to 7 inches are possible across the\nFlood Watch area.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera, Edwards, Kerr, Kinney, Medina, Real, Uvalde and\nVal Verde.\n\n* WHEN...Until 7 AM CDT Friday.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- A moist tropical airmass combined with a slow moving storm\nsystem will bring rounds of scattered to widespread showers\nand storms with heavy rain rates possible.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2025-07-03T13:18:00-05:00",
+          "effective": "2025-07-03T19:58:00-05:00",
           "expires": "2025-07-04T07:00:00-05:00",
           "areaDesc": "Val Verde; Edwards; Real; Kerr; Bandera; Kinney; Uvalde; Medina",
           "sameCodes": [
@@ -8355,25 +8479,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9495.129753478954,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT11H"
       }
     }
   },
@@ -8387,23 +8511,23 @@
       "temperature": {
         "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 35,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT19H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT17H"
       }
     }
   },
@@ -8487,32 +8611,32 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 42,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT6H"
       },
       "alerts": [
         {
@@ -8566,25 +8690,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 22,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT16H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT15H"
       }
     }
   },
@@ -8668,25 +8792,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT9H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT8H"
       }
     }
   },
@@ -8698,25 +8822,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 22,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT5H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT4H"
       }
     }
   },
@@ -8877,6 +9001,23 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.d22b84b9aa66561902bfb1a9bc59d706b09c6951.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 3 at 8:21PM CDT until July 3 at 10:15PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Mason, McCulloch and San Saba.\n\n* WHEN...Until 1015 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 820 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1.5 and 2 inches of\nrain have fallen.\n- Additional rainfall amounts of 0.5 to 1 inch are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nSan Saba, Richland Springs, Algerita, Cherokee, Sloan,\nPontotoc, Fredonia, Voca, Camp San Saba, Katemcy, Camp Air,\nChappel, Grit, Streeter, Long Mountain, Harkeyville, Spring\nCreek, Us-190 Near The San Saba-Lampasas County Line and The\nIntersection Of Highway 29 And Ranch Road 1222.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-03T20:21:00-05:00",
+          "expires": "2025-07-03T22:15:00-05:00",
+          "areaDesc": "McCulloch, TX; Mason, TX; San Saba, TX",
+          "sameCodes": [
+            "048307",
+            "048319",
+            "048411"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.3fb27345852d5f6dfb8cc06ffcb1d5e61b05d0c6.001.1",
           "event": "Flood Watch",
           "headline": "Flood Watch issued July 3 at 1:30PM CDT until July 4 at 7:00AM CDT by NWS San Angelo TX",
@@ -8992,25 +9133,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 39,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT17H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT16H"
       }
     }
   },
@@ -9084,30 +9225,30 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 46,
+        "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 9495.129753478954,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -9189,6 +9330,23 @@
         "validTime": "2025-07-03T14:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.d22b84b9aa66561902bfb1a9bc59d706b09c6951.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 3 at 8:21PM CDT until July 3 at 10:15PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Mason, McCulloch and San Saba.\n\n* WHEN...Until 1015 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 820 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1.5 and 2 inches of\nrain have fallen.\n- Additional rainfall amounts of 0.5 to 1 inch are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nSan Saba, Richland Springs, Algerita, Cherokee, Sloan,\nPontotoc, Fredonia, Voca, Camp San Saba, Katemcy, Camp Air,\nChappel, Grit, Streeter, Long Mountain, Harkeyville, Spring\nCreek, Us-190 Near The San Saba-Lampasas County Line and The\nIntersection Of Highway 29 And Ranch Road 1222.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-03T20:21:00-05:00",
+          "expires": "2025-07-03T22:15:00-05:00",
+          "areaDesc": "McCulloch, TX; Mason, TX; San Saba, TX",
+          "sameCodes": [
+            "048307",
+            "048319",
+            "048411"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3fb27345852d5f6dfb8cc06ffcb1d5e61b05d0c6.001.1",
           "event": "Flood Watch",
@@ -9293,25 +9451,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 7934.065643737756,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT8H"
       }
     }
   },
@@ -9323,25 +9481,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT4H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   },
@@ -9413,25 +9571,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 9511.22279443358,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       }
     }
   },
@@ -9443,25 +9601,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT5H"
       }
     }
   },
@@ -9503,25 +9661,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 31,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT18H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT16H"
       }
     }
   },
@@ -9563,34 +9721,50 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-03T17:00:00+00:00/PT13H"
+          "validTime": "2025-07-03T18:00:00+00:00/PT12H"
         }
       ],
       "probabilityOfPrecipitation": {
-        "value": 35,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.549d0c980d7f8a282cedf67924dc27b9778b265d.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 3 at 8:08PM CDT until July 3 at 11:15PM CDT by NWS Midland/Odessa TX",
+          "description": "FFWMAF\n\nThe National Weather Service in Midland/Odessa has issued a\n\n* Flash Flood Warning for...\nSouthwestern Brewster County in southwestern Texas...\nSoutheastern Presidio County in southwestern Texas...\n\n* Until 1115 PM CDT.\n\n* At 808 PM CDT, Doppler radar and satellite indicated thunderstorms\nproducing heavy rain across the warned area. Flash flooding is\nongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nLajitas, Terlingua, Study Butte, Chisos Basin, Castolon, Big Bend\nNational Park, Persimmon Gap, Terlingua Ranch Airport, Terlingua\nRanch Lodge, Barton Warnock Environmental Educational Center and\nSantiago Peak.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-03T20:08:00-05:00",
+          "expires": "2025-07-03T23:15:00-05:00",
+          "areaDesc": "Brewster, TX; Presidio, TX",
+          "sameCodes": [
+            "048043",
+            "048377"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.ac11a20b8813db9edbb92aaa408397133ad8a45f.001.1",
           "event": "Flood Warning",
@@ -9672,25 +9846,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 30,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT16H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT15H"
       }
     }
   },
@@ -9852,25 +10026,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 33,
+        "value": 25,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT17H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT16H"
       }
     }
   },
@@ -9954,20 +10128,20 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT2H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -10014,25 +10188,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 32.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 25,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T17:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T17:00:00+00:00/PT6H"
+        "validTime": "2025-07-03T18:00:00+00:00/PT5H"
       }
     }
   },
@@ -10044,25 +10218,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT1H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-03T18:00:00+00:00/PT3H"
+        "validTime": "2025-07-03T19:00:00+00:00/PT2H"
       }
     }
   }
