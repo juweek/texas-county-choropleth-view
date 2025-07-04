@@ -39,30 +39,30 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -121,25 +121,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -153,32 +153,47 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 99,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 9479.0359451294,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b84db021be76a86a5fb487850e5c03c70ebc6fd8.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 4 at 3:00PM CDT until July 4 at 6:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nWestern Llano County in south central Texas...\n\n* Until 600 PM CDT.\n\n* At 300 PM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between\n3 and 7 inches of rain have fallen. Additional rainfall amounts up\nto 1 inch are possible in the warned area. Flash flooding is\nongoing.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nCastell, Valley Spring, Prairie Mountain, Field Creek and\nEnchanted Rock State Natural Area.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-04T15:00:00-05:00",
+          "expires": "2025-07-04T18:00:00-05:00",
+          "areaDesc": "Llano, TX",
+          "sameCodes": [
+            "048299"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.7dfce42604d3310c92231d0de95f4e6e8e96c222.001.1",
           "event": "Flood Warning",
@@ -189,21 +204,6 @@
           "certainty": "Likely",
           "effective": "2025-07-04T13:56:00-05:00",
           "expires": "2025-07-05T08:00:00-05:00",
-          "areaDesc": "Llano, TX",
-          "sameCodes": [
-            "048299"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.59e4a65c510853aa07fcf2d969e1469bda0e6e60.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 1:10PM CDT until July 4 at 4:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nWestern Llano County in south central Texas...\n\n* Until 400 PM CDT.\n\n* At 110 PM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between\n3 and 6 inches of rain have fallen. Additional rainfall amounts up\nto 1 inch are possible in the warned area. Flash flooding is\nongoing.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nCastell, Valley Spring, Prairie Mountain, Field Creek and\nEnchanted Rock State Natural Area.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T13:10:00-05:00",
-          "expires": "2025-07-04T16:00:00-05:00",
           "areaDesc": "Llano, TX",
           "sameCodes": [
             "048299"
@@ -247,25 +247,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT20H"
       }
     }
   },
@@ -367,20 +367,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -517,25 +517,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT23H"
       }
     }
   },
@@ -549,23 +549,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 14548.469698608355,
+        "value": 14451.908383300735,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       }
     }
   },
@@ -667,20 +667,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -697,25 +697,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 10,
+        "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 11088.379945129402,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT16H"
       }
     }
   },
@@ -727,20 +727,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -787,20 +787,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -907,25 +907,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -937,25 +937,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -1027,25 +1027,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT10H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT9H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -1057,20 +1057,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1089,30 +1089,30 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT5H"
       },
       "alerts": [
         {
@@ -1213,20 +1213,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1295,15 +1295,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.798f0151e3839200408558c8b29421ba9318dfe6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.97f2aea6f18334c08d7c56c5e06d05bdb20edc86.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 8:38AM CDT until July 6 at 11:18PM CDT by NWS San Angelo TX",
-          "description": "...The National Weather Service in San Angelo TX has issued a Flood\nWarning for the following rivers in Texas...\n\nColorado River Near San Saba affecting Lampasas and San Saba\nCounties.\n\nFor the Colorado River...including Silver, Robert Lee, Ballinger,\nStacy, Winchell, San Saba...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Colorado River near San Saba.\n\n* WHEN...From Saturday afternoon to late Sunday evening.\n\n* IMPACTS...At 34.0 feet, Moderate flooding will occur. Secondary\nroads and low water crossings will be flooded and impassible\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Friday the stage was 2.3 feet.\n- Bankfull stage is 25.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly tomorrow afternoon to a crest of 33.7 feet early Sunday\nmorning. It will then fall below flood stage late Sunday\nmorning.\n- Flood stage is 30.0 feet.\n- Flood History...This crest compares to a previous crest of\n34.1 feet on 05/19/1955.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued July 4 at 2:05PM CDT until July 7 at 5:05AM CDT by NWS San Angelo TX",
+          "description": "...Forecast flooding changed from Minor to Moderate severity and\nincreased in duration for the following rivers in Texas...\n\nColorado River Near San Saba affecting San Saba and Lampasas\nCounties.\n\nFor the Colorado River...including Silver, Robert Lee, Ballinger,\nStacy, Winchell, San Saba...Moderate flooding is forecast.\n\n* WHAT...Moderate flooding is forecast.\n\n* WHERE...Colorado River near San Saba.\n\n* WHEN...From Saturday afternoon to early Monday morning.\n\n* IMPACTS...At 38.0 feet, Major flooding will occur. Roads and low\nwater crossings will be flooded and impassible.\n\n* ADDITIONAL DETAILS...\n- At 1:35 PM CDT Friday the stage was 4.8 feet.\n- Bankfull stage is 25.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly tomorrow afternoon to a crest of 37.8 feet early Sunday\nmorning. It will then fall below flood stage Sunday\nafternoon.\n- Flood stage is 30.0 feet.\n- Flood History...This crest compares to a previous crest of\n37.3 feet on 05/14/1957.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-07-04T08:38:00-05:00",
-          "expires": "2025-07-04T20:45:00-05:00",
+          "effective": "2025-07-04T14:05:00-05:00",
+          "expires": "2025-07-05T02:15:00-05:00",
           "areaDesc": "Lampasas, TX; San Saba, TX",
           "sameCodes": [
             "048281",
@@ -1383,23 +1383,23 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -1429,20 +1429,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1459,25 +1459,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -1491,32 +1491,93 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 7934.065643737756,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.5fb6fb60269fcb63b923564ff370db9efaa469b6.003.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:15PM CDT until July 5 at 7:17AM CDT by NWS Austin/San Antonio TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River At Comfort affecting Kendall County.\n\nGuadalupe River at Hunt affecting Kerr County.\n\nGuadalupe River Near Spring Branch affecting Comal County.\n\n...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River At Kerrville affecting Kerr County.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River at Hunt.\n\n* WHEN...Until tomorrow morning.\n\n* IMPACTS...At 15.0 feet, Moderate lowland flooding puts a few feet\nof water over the Highway 39 bridge near Hunt. Numerous secondary\nroads and bridges are flooded and very dangerous.\n\n* ADDITIONAL DETAILS...\n- At 4:35 AM CDT Friday the stage was 29.5 feet.\n- Bankfull stage is 10.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 4:35 AM CDT Friday was 29.5 feet.\n- Forecast...The river is expected to fall below flood stage\nlate this evening.\n- Flood stage is 10.0 feet.\n- Flood History...This crest compares to a previous crest of\n28.4 feet on 07/17/1987.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-07-04T14:15:00-05:00",
+          "expires": "2025-07-05T07:30:00-05:00",
+          "areaDesc": "Kerr, TX",
+          "sameCodes": [
+            "048265"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.5fb6fb60269fcb63b923564ff370db9efaa469b6.002.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:15PM CDT until July 5 at 4:46AM CDT by NWS Austin/San Antonio TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River At Comfort affecting Kendall County.\n\nGuadalupe River at Hunt affecting Kerr County.\n\nGuadalupe River Near Spring Branch affecting Comal County.\n\n...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River At Kerrville affecting Kerr County.\n\n* WHAT...Minor flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River at Kerrville.\n\n* WHEN...Until late tonight.\n\n* IMPACTS...At 20.0 feet, Major flooding threatens structures near\nthe river in Kerrville and evacuations are probable below\nKerrville.\n\n* ADDITIONAL DETAILS...\n- At 1:45 PM CDT Friday the stage was 11.8 feet.\n- Bankfull stage is 7.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 1:45 PM CDT Friday was 23.4 feet.\n- Forecast...The river will remain near 20 feet before slowly\nfalling below flood stage tomorrow morning.\n- Flood stage is 9.0 feet.\n- Flood History...This crest compares to a previous crest of\n17.9 feet on 11/23/2000.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-07-04T14:15:00-05:00",
+          "expires": "2025-07-05T05:00:00-05:00",
+          "areaDesc": "Kerr, TX",
+          "sameCodes": [
+            "048265"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.ec4963929cafa8859c4f389a2eb6d399ec94c979.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 4 at 2:12PM CDT until July 4 at 5:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nEast Central Kerr County in south central Texas...\n\n* Until 500 PM CDT.\n\n* At 212 PM CDT, Automated rain gauges indicate a large and deadly\nflood wave is moving down the Guadalupe River. Flash flooding is\nalready occurring.\n\nThis is a FLASH FLOOD EMERGENCY for the Guadalupe River from Hunt\nthrough Kerrville and Center Point. This is a PARTICULARLY\nDANGEROUS SITUATION. SEEK HIGHER GROUND NOW!\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...This is a PARTICULARLY DANGEROUS SITUATION. Residents\nin campers should SEEK HIGHER GROUND NOW! Life\nthreatening flash flooding along the Guadalupe River\nis expected to continue.\n\n* Some locations that will experience flash flooding include...\nThe Guadalupe River at Hunt, Kerrville, and Center Point.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:12:00-05:00",
+          "expires": "2025-07-04T17:00:00-05:00",
+          "areaDesc": "Kerr, TX",
+          "sameCodes": [
+            "048265"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b91376b7a76fd85bc675ff6d5ff49cc0c831375b.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 4 at 2:03PM CDT until July 4 at 5:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nNorthwestern Bandera County in south central Texas...\nCentral Kerr County in south central Texas...\n\n* Until 500 PM CDT.\n\n* At 203 PM CDT, local law enforcement reported thunderstorms\nproducing heavy rain in Numerous low water crossings as well as\nthe Guadalupe River. Between 6 and 12 inches of rain have fallen.\nAdditional rainfall amounts up to 1 inch are possible in the\nwarned area. Flash flooding is already occurring.\n\nThis is a FLASH FLOOD EMERGENCY for South-Central Kerr County,\nincluding Hunt. This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW!\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW! Life threatening flash flooding of\nlow water crossings, small creeks and streams, and the\nGuadalupe River.\n\n* Some locations that will experience flash flooding include...\nKerrville, Ingram, Hunt, Waltonia, Kerr Wildlife Management Area\nand Lost Maples State Natural Area.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:03:00-05:00",
+          "expires": "2025-07-04T17:00:00-05:00",
+          "areaDesc": "Bandera, TX; Kerr, TX",
+          "sameCodes": [
+            "048019",
+            "048265"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.82395c866a03eda2de96e9d6f9e1db18aea28cbc.001.1",
           "event": "Flash Flood Warning",
@@ -1550,22 +1611,6 @@
           ]
         },
         {
-          "id": "urn:oid:2.49.0.1.840.0.0d832397614ad5eda6ca280bdf01bc476bbe9038.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued July 4 at 1:08PM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Urban and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Kerr and Real.\n\n* WHEN...Until 300 PM CDT.\n\n* IMPACTS...Dangerous flows over low-water crossings. Water over\nroadways.\n\n* ADDITIONAL DETAILS...\n- At 108 PM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. This will cause\nurban and small stream flooding. Between 2 and 5 inches of\nrain have fallen.\n- Some locations that will experience flooding include...\nLost Maples State Natural Area, Vance and Prade Ranch.\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-04T13:08:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Kerr, TX; Real, TX",
-          "sameCodes": [
-            "048265",
-            "048385"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.d17dd17118d350b5e2b9ebadd4d98b3de8726ea6.001.1",
           "event": "Flood Advisory",
           "headline": "Flood Advisory issued July 4 at 1:00PM CDT until July 4 at 4:00PM CDT by NWS Austin/San Antonio TX",
@@ -1577,52 +1622,6 @@
           "expires": "2025-07-04T16:00:00-05:00",
           "areaDesc": "Kerr, TX",
           "sameCodes": [
-            "048265"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.6895cdb0002406e7f6552065283c504f09a6b210.002.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 11:39AM CDT until July 5 at 4:47AM CDT by NWS Austin/San Antonio TX",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River At Comfort affecting Kendall County.\n\nGuadalupe River At Kerrville affecting Kerr County.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River at Kerrville.\n\n* WHEN...Until late this evening.\n\n* IMPACTS...At 17.0 feet, Flow reaches the first floor of a resort\nand restaurant upstream left bank. Near the USGS 1:10 year flood.\n\n* ADDITIONAL DETAILS...\n- At 10:45 AM CDT Friday the stage was 13.1 feet.\n- Bankfull stage is 7.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 10:45 AM CDT Friday was 36.58 feet.\n- Forecast...The river will remain above flood stage with a\nmaximum value of 16.7 feet through this afternoon. It will\nthen fall below the flood stage of 9.0 feet this evening.\n- Flood stage is 9.0 feet.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-07-04T11:39:00-05:00",
-          "expires": "2025-07-05T05:00:00-05:00",
-          "areaDesc": "Kerr, TX",
-          "sameCodes": [
-            "048265"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.fd69be08faf9725352ec63cc769bc41ff858e457.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:38AM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nEast Central Kerr County in south central Texas...\n\n* Until 300 PM CDT.\n\n* At 1138 AM CDT, Automated rain gauges indicate a large and deadly\nflood wave is moving down the Guadalupe River. Flash flooding is\nalready occurring.\n\nThis is a FLASH FLOOD EMERGENCY for the Guadalupe River from Hunt\nthrough Kerrvile and Center Point. This is a PARTICULARLY\nDANGEROUS SITUATION. SEEK HIGHER GROUND NOW!\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...This is a PARTICULARLY DANGEROUS SITUATION. Residents\nin campers should SEEK HIGHER GROUND NOW! Life\nthreatening flash flooding along the Guadalupe River\nis expected to continue.\n\n* Some locations that will experience flash flooding include...\nKerrville, Ingram, Hunt, Kerrville-Schreiner Park, Waltonia and\nCenter Point.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:38:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Kerr, TX",
-          "sameCodes": [
-            "048265"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.75baa81b4d91c762f6e0e90cc9a19aab62273677.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:28AM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nNorthwestern Bandera County in south central Texas...\nCentral Kerr County in south central Texas...\n\n* Until 300 PM CDT.\n\n* At 1128 AM CDT, Local law enforcement reported thunderstorms\nproducing heavy rain in Numerous low water crossings as well as\nthe Guadalupe River. Between 6 and 12 inches of rain have fallen.\nAdditional rainfall amounts of 1 to 3 inches are possible in the\nwarned area. Flash flooding is already occurring.\n\nThis is a FLASH FLOOD EMERGENCY for South-Central Kerr County,\nincluding Hunt. This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW!\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW! Life threatening flash flooding of\nlow water crossings, small creeks and streams, urban\nareas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nKerrville, Ingram, Hunt, Waltonia, Kerr Wildlife Management Area\nand Lost Maples State Natural Area.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:28:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Bandera, TX; Kerr, TX",
-          "sameCodes": [
-            "048019",
             "048265"
           ]
         },
@@ -1651,21 +1650,6 @@
             "048463",
             "048325",
             "048029"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.45850090aa066d7908a9817cef5241ae81bf28a9.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 6:03AM CDT until July 5 at 3:48AM CDT by NWS Austin/San Antonio TX",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River at Hunt affecting Kerr County.\n\n* WHAT...Major flooding is occurring and major flooding is forecast.\n\n* WHERE...Guadalupe River at Hunt.\n\n* WHEN...Until late tonight.\n\n* ADDITIONAL DETAILS...\n- At 4:35 AM CDT Friday the stage was 29.5 feet.\n- Bankfull stage is 10.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 4:35 AM CDT Friday was 29.5 feet.\n- Forecast...The river will oscillate above flood stage with a\nmaximum value of 34.1 feet this morning. It will fall below\nflood stage late this afternoon.\n- Flood stage is 10.0 feet.\n- Flood History...No available flood history.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-07-04T06:03:00-05:00",
-          "expires": "2025-07-05T00:15:00-05:00",
-          "areaDesc": "Kerr, TX",
-          "sameCodes": [
-            "048265"
           ]
         }
       ]
@@ -1769,25 +1753,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT20H"
       }
     }
   },
@@ -2011,23 +1995,23 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 95,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 14468.002191650448,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       }
     }
   },
@@ -2039,25 +2023,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT3H"
       }
     }
   },
@@ -2071,32 +2055,62 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.5b377b114af0d84dbbbf4b4e1474371fcd395f9b.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 4 at 2:46PM CDT until July 4 at 5:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Urban and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounty, Kendall.\n\n* WHEN...Until 500 PM CDT.\n\n* IMPACTS...Dangerous flows over low-water crossings. Water over\nroadways.\n\n* ADDITIONAL DETAILS...\n- At 246 PM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. This will cause\nurban and small stream flooding. Between 2 and 4 inches of\nrain have fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBoerne, Comfort, Waring, Welfare, Sisterdale, Nelson City,\nOld Tunnel State Park, Bankersmith, Kronkosky State Natural\nArea and Crown.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:46:00-05:00",
+          "expires": "2025-07-04T17:00:00-05:00",
+          "areaDesc": "Kendall, TX",
+          "sameCodes": [
+            "048259"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.5fb6fb60269fcb63b923564ff370db9efaa469b6.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:15PM CDT until July 5 at 8:47AM CDT by NWS Austin/San Antonio TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River At Comfort affecting Kendall County.\n\nGuadalupe River at Hunt affecting Kerr County.\n\nGuadalupe River Near Spring Branch affecting Comal County.\n\n...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River At Kerrville affecting Kerr County.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Guadalupe River at Comfort.\n\n* WHEN...Until tomorrow morning.\n\n* IMPACTS...At 28.0 feet, Major flooding reaches the lowest\nresidences above Center Point to near Comfort. Numerous secondary\nand primary roads are flooded making low bridges and crossings\nextremely dangerous. Water approaches a mobile home park in Center\nPoint. As the Guadalupe River backs up Cypress Creek in the west\npart of Comfort, additional flow in Cypress creek floods homes.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-07-04T14:15:00-05:00",
+          "expires": "2025-07-05T08:15:00-05:00",
+          "areaDesc": "Kendall, TX",
+          "sameCodes": [
+            "048259"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.6984f0acf6f60e6ab0ae38234527c1a98bc33845.001.1",
           "event": "Flood Advisory",
@@ -2144,36 +2158,6 @@
           "areaDesc": "Comal, TX; Kendall, TX",
           "sameCodes": [
             "048091",
-            "048259"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.6895cdb0002406e7f6552065283c504f09a6b210.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 11:39AM CDT until July 5 at 7:10AM CDT by NWS Austin/San Antonio TX",
-          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River At Comfort affecting Kendall County.\n\nGuadalupe River At Kerrville affecting Kerr County.\n\n* WHAT...Major flooding is occurring and major flooding is forecast.\n\n* WHERE...Guadalupe River at Comfort.\n\n* WHEN...Until tomorrow morning.\n\n* IMPACTS...At 35.0 feet, Disastrous flooding damages many homes\nabove Center Point to below Comfort. Roads, bridges, and crossings\nare extremely dangerous to motorists entering the Guadalupe River\nchannel. Residents of flood prone areas below Kerrville to below\nComfort should prepare to evacuate as emergency officials assess\nthe threat.\n\n* ADDITIONAL DETAILS...\n- At 10:45 AM CDT Friday the stage was 34.8 feet.\n- Bankfull stage is 10.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 10:45 AM CDT Friday was 34.8 feet.\n- Forecast...The river will remain above flood stage with a\nmaximum value of 33.5 feet through this afternoon. It will\nthen fall below flood stage tonight.\n- Flood stage is 21.0 feet.\n- Flood History...This crest compares to a previous crest of\n34.9 feet on 09/16/1915.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-07-04T11:39:00-05:00",
-          "expires": "2025-07-05T05:45:00-05:00",
-          "areaDesc": "Kendall, TX",
-          "sameCodes": [
-            "048259"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.01a939f5691651b7638425cb3e21665e74b9585a.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:02AM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has issued a\n\n* Flash Flood Warning for...\nWestern Kendall County in south central Texas...\n\n* Until 300 PM CDT.\n\n* At 1102 AM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between\n1 and 3 inches of rain have fallen. Additional rainfall amounts of\n1 to 2 inches are possible in the warned area. Flash flooding is\nongoing or expected to begin shortly.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nBoerne, Comfort, Waring, Welfare, Sisterdale, Nelson City, Old\nTunnel State Park, Bankersmith, Kronkosky State Natural Area and\nCrown.\n\nA Flash Flood Emergency remains in effect for areas along the\nGuadalupe River.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:02:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Kendall, TX",
-          "sameCodes": [
             "048259"
           ]
         },
@@ -2245,25 +2229,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -2444,32 +2428,64 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
         "value": 96,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 6276.441753478953,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f25c173ea1ba775a99a03e6b04c093dce1a1aed9.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 4 at 2:32PM CDT until July 4 at 5:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera and Real.\n\n* WHEN...Until 500 PM CDT.\n\n* IMPACTS...Dangerous flows over low-water crossings. Water over\nroadways.\n\n* ADDITIONAL DETAILS...\n- At 232 PM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. Minor flooding is\nongoing or expected to begin shortly in the advisory area.\nBetween 2 and 4 inches of rain have fallen.\n- Some locations that will experience flooding include...\nMedina, Bandera, Leakey, Tarpley, Vanderpool, Utopia, Hill\nCountry State Natural Area, Lost Maples State Natural Area,\nRio Frio, Tuff and Lake Medina Shores.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:32:00-05:00",
+          "expires": "2025-07-04T17:00:00-05:00",
+          "areaDesc": "Bandera, TX; Real, TX",
+          "sameCodes": [
+            "048019",
+            "048385"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b91376b7a76fd85bc675ff6d5ff49cc0c831375b.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 4 at 2:03PM CDT until July 4 at 5:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nNorthwestern Bandera County in south central Texas...\nCentral Kerr County in south central Texas...\n\n* Until 500 PM CDT.\n\n* At 203 PM CDT, local law enforcement reported thunderstorms\nproducing heavy rain in Numerous low water crossings as well as\nthe Guadalupe River. Between 6 and 12 inches of rain have fallen.\nAdditional rainfall amounts up to 1 inch are possible in the\nwarned area. Flash flooding is already occurring.\n\nThis is a FLASH FLOOD EMERGENCY for South-Central Kerr County,\nincluding Hunt. This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW!\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW! Life threatening flash flooding of\nlow water crossings, small creeks and streams, and the\nGuadalupe River.\n\n* Some locations that will experience flash flooding include...\nKerrville, Ingram, Hunt, Waltonia, Kerr Wildlife Management Area\nand Lost Maples State Natural Area.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:03:00-05:00",
+          "expires": "2025-07-04T17:00:00-05:00",
+          "areaDesc": "Bandera, TX; Kerr, TX",
+          "sameCodes": [
+            "048019",
+            "048265"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.3b9777850849daa30988afd49c43a4af946857b3.001.1",
           "event": "Flash Flood Warning",
@@ -2480,38 +2496,6 @@
           "certainty": "Likely",
           "effective": "2025-07-04T13:20:00-05:00",
           "expires": "2025-07-04T16:00:00-05:00",
-          "areaDesc": "Bandera, TX; Kerr, TX",
-          "sameCodes": [
-            "048019",
-            "048265"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.94b0dc82bd3ca84ada944f8323a1d9b340ceeea9.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 1:14PM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nSouthern Bandera County in south central Texas...\nSoutheastern Real County in south central Texas...\n\n* Until 300 PM CDT.\n\n* At 114 PM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between\n2 and 4 inches of rain have fallen. Additional rainfall amounts up\nto 1 inch are possible in the warned area. Flash flooding is\nalready occurring.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nMedina, Bandera, Leakey, Tarpley, Vanderpool, Utopia, Hill Country\nState Natural Area, Lost Maples State Natural Area, Rio Frio, Tuff\nand Lake Medina Shores.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T13:14:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Bandera, TX; Real, TX",
-          "sameCodes": [
-            "048019",
-            "048385"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.75baa81b4d91c762f6e0e90cc9a19aab62273677.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:28AM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nNorthwestern Bandera County in south central Texas...\nCentral Kerr County in south central Texas...\n\n* Until 300 PM CDT.\n\n* At 1128 AM CDT, Local law enforcement reported thunderstorms\nproducing heavy rain in Numerous low water crossings as well as\nthe Guadalupe River. Between 6 and 12 inches of rain have fallen.\nAdditional rainfall amounts of 1 to 3 inches are possible in the\nwarned area. Flash flooding is already occurring.\n\nThis is a FLASH FLOOD EMERGENCY for South-Central Kerr County,\nincluding Hunt. This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW!\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK\nHIGHER GROUND NOW! Life threatening flash flooding of\nlow water crossings, small creeks and streams, urban\nareas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nKerrville, Ingram, Hunt, Waltonia, Kerr Wildlife Management Area\nand Lost Maples State Natural Area.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:28:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
           "areaDesc": "Bandera, TX; Kerr, TX",
           "sameCodes": [
             "048019",
@@ -2571,25 +2555,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -2739,15 +2723,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.57955b58de68baf5f38089c8cae17080807143ec.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9d643b5eeb5c38d9b6ef9739e980eaa2b32a9a0c.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 9:09AM CDT until July 4 at 3:00PM CDT by NWS San Angelo TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Coke and Tom Green.\n\n* WHEN...Until 300 PM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Several\nstructures are flooded and some sand bagging operations are\ncontinuing. Numerous roads remain closed due to flooding.\nLow-water crossings are inundated with water and may not be\npassable.\n\n* ADDITIONAL DETAILS...\n- At 907 AM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Up to 15 inches of rain have fallen over some\nparts of the warned area. Flooding is ongoing, and expected\nto continue for several hours as runoff continues from this\nheavy rainfall.\n- Some locations that will experience flooding include...\nSan Angelo, O.c. Fisher Reservoir, Grape Creek, San Angelo\nState Park, Goodfellow Air Force Base, Orient, Carlsbad, Lake\nNasworthy, Veribest, Twin Buttes Reservoir, Wall, Water\nValley, Tankersley, Mereta, Vancourt, Harriet, The\nIntersection Of Highway 208 And Ranch Road 2662 and Us-67\nNear The Irion-Tom Green County Line.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued July 4 at 2:56PM CDT until July 4 at 9:00PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Coke and Tom Green.\n\n* WHEN...Until 900 PM CDT Friday.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Numerous roads\nremain closed due to flooding. Low-water crossings are inundated\nwith water and may not be passable. It will take several hours for\nall the water from these storms to work through local drainage\nsystems in urban areas.\n\n* ADDITIONAL DETAILS...\n- At 255 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Flooding is ongoing or expected to begin\nshortly in the warned area. Anywhere between 4 and 15 inches\nof rain have fallen over the area over the past 12 hours or\nso.\n- Some locations that will experience flooding include...\nSan Angelo, Robert Lee, Christoval, O.c. Fisher Reservoir,\nGoodfellow Air Force Base, San Angelo State Park, Lake\nNasworthy, Grape Creek, Twin Buttes Reservoir, Wall,\nVeribest, Orient, Carlsbad, Tankersley, Knickerbocker,\nVancourt, Mereta, Water Valley, E.V. Spence Reservoir Near\nPaint Creek Recreation Area and Harriet.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-07-04T09:09:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
+          "effective": "2025-07-04T14:56:00-05:00",
+          "expires": "2025-07-04T21:00:00-05:00",
           "areaDesc": "Coke, TX; Tom Green, TX",
           "sameCodes": [
             "048081",
@@ -3010,25 +2994,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 89,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       }
     }
   },
@@ -3040,20 +3024,20 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3132,18 +3116,18 @@
       "temperature": {
         "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3209,25 +3193,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -3271,30 +3255,30 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 14468.002191650448,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -3413,25 +3397,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 95,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 12810.378301391645,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       }
     }
   },
@@ -3475,23 +3459,23 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 86,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -3533,20 +3517,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3563,20 +3547,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3595,23 +3579,23 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT3H"
       }
     }
   },
@@ -3623,20 +3607,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3655,23 +3639,23 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 98,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       }
     }
   },
@@ -3796,20 +3780,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3826,20 +3810,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3856,20 +3840,20 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT9H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT8H"
       },
       "visibility": {
         "value": null,
@@ -3886,20 +3870,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 89,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT16H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT15H"
       },
       "visibility": {
         "value": null,
@@ -3948,30 +3932,30 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 98,
+        "value": 99,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -4044,23 +4028,23 @@
       "temperature": {
         "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -4121,6 +4105,36 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.0f38932f05a0e9c33e8c86a741616cd76375f8ce.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:09PM CDT until July 5 at 5:52AM CDT by NWS San Angelo TX",
+          "description": "...Observed flooding changed from Moderate to Major severity and\nincreased in duration for the following rivers in Texas...\n\nLlano River Near Mason affecting Mason County.\n\nFor the Llano River...including Junction, Mason...Moderate flooding\nis forecast.\n\n* WHAT...Major flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Llano River near Mason.\n\n* WHEN...Until late tonight.\n\n* IMPACTS...At 28.0 feet, Major lowland flooding will occur. Roads\nand low water crossings will be flooded and impassible.\n\n* ADDITIONAL DETAILS...\n- At 2:00 PM CDT Friday the stage was 29.7 feet.\n- Bankfull stage is 11.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 2:00 PM CDT Friday was 29.7 feet.\n- Forecast...The river is expected to fall below flood stage\nlate this afternoon and continue falling to 7.0 feet early\nWednesday afternoon.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n31.3 feet on 06/13/2008.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:09:00-05:00",
+          "expires": "2025-07-05T02:15:00-05:00",
+          "areaDesc": "Mason, TX",
+          "sameCodes": [
+            "048319"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.88fae263772e563f1c0d6b4cfa39a853f4d025ce.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued July 4 at 2:06PM CDT until July 4 at 5:15PM CDT by NWS San Angelo TX",
+          "description": "FFWSJT\n\nThe National Weather Service in San Angelo has issued a\n\n* Flash Flood Warning for...\nMason County in west central Texas...\n\n* Until 515 PM CDT.\n\n* At 205 PM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 4 and 10 inches of rain\nhave fallen over the past several hours. Additional rainfall\namounts up to 2 inches are possible in the next few hours in the\nwarned area, and will only exacerbate the ongoing flooding. Flash\nflooding is ongoing or expected to begin shortly.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nMason, Art, Grit, Hedwigs Hill, Streeter, Hilda, Katemcy, Camp\nAir, Fredonia, Loyal Valley, Long Mountain, Pontotoc, Koockville,\nThe Intersection Of Highway 29 And Ranch Road 1222 and Us-87 Near\nThe Mason-Gillespie County Line.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:06:00-05:00",
+          "expires": "2025-07-04T17:15:00-05:00",
+          "areaDesc": "Mason, TX",
+          "sameCodes": [
+            "048319"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.feb96c99dfbf688ec2032a4107727c4efc7d69c2.001.1",
           "event": "Flash Flood Warning",
           "headline": "Flash Flood Warning issued July 4 at 1:19PM CDT until July 4 at 4:30PM CDT by NWS San Angelo TX",
@@ -4130,21 +4144,6 @@
           "certainty": "Likely",
           "effective": "2025-07-04T13:19:00-05:00",
           "expires": "2025-07-04T16:30:00-05:00",
-          "areaDesc": "Mason, TX",
-          "sameCodes": [
-            "048319"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.bab06dea3e1bddef1e38d4ec3b25d70cbdc19a28.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 12:34PM CDT until July 5 at 5:16AM CDT by NWS San Angelo TX",
-          "description": "...Forecast flooding changed from Minor to Moderate severity and\nincreased in duration for the following rivers in Texas...\n\nLlano River Near Mason affecting Mason County.\n\nFor the Llano River...including Junction, Mason...Moderate flooding\nis forecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Llano River near Mason.\n\n* WHEN...Until late tonight.\n\n* IMPACTS...At 24.0 feet, Moderate lowland flooding will occur.\nSecondary roads and low water crossings will be flooded and\nimpassible.\n\n* ADDITIONAL DETAILS...\n- At 12:15 PM CDT Friday the stage was 24.8 feet.\n- Bankfull stage is 11.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 12:15 PM CDT Friday was 24.8 feet.\n- Forecast...The river is expected to rise to a crest of 25.3\nfeet this afternoon. It will then fall below flood stage late\nthis afternoon.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n25.2 feet on 12/31/1984.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-04T12:34:00-05:00",
-          "expires": "2025-07-05T00:45:00-05:00",
           "areaDesc": "Mason, TX",
           "sameCodes": [
             "048319"
@@ -4168,23 +4167,6 @@
             "048327",
             "048413",
             "048451"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.ea2b991dbab21576e3f55dd3113b2d424983c721.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:03AM CDT until July 4 at 2:15PM CDT by NWS San Angelo TX",
-          "description": "FFWSJT\n\nThe National Weather Service in San Angelo has issued a\n\n* Flash Flood Warning for...\nMason County in west central Texas...\nSoutheastern Menard County in west central Texas...\nSouthwestern San Saba County in west central Texas...\n\n* Until 215 PM CDT.\n\n* At 1102 AM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Up to 2 inches of rain have\nfallen on already saturated grounds, with an additional inch of\nrainfall possible in the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nSan Saba, Mason, Richland Springs, Algerita, Cherokee, Katemcy,\nFredonia, Camp Air, Art, Grit, Hedwigs Hill, Streeter, Pontotoc,\nHilda, Long Mountain, Loyal Valley, Hext, Saline, Sloan and\nKoockville.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:03:00-05:00",
-          "expires": "2025-07-04T14:15:00-05:00",
-          "areaDesc": "Mason, TX; Menard, TX; San Saba, TX",
-          "sameCodes": [
-            "048319",
-            "048327",
-            "048411"
           ]
         },
         {
@@ -4473,25 +4455,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -4565,23 +4547,23 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 89,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -4743,25 +4725,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT5H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       }
     }
   },
@@ -4805,23 +4787,23 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -4863,25 +4845,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -4893,25 +4875,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       }
     }
   },
@@ -5075,23 +5057,23 @@
       "temperature": {
         "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -5193,25 +5175,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -5223,25 +5205,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11088.379945129402,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT19H"
       }
     }
   },
@@ -5283,25 +5265,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT20H"
       }
     }
   },
@@ -5343,20 +5325,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -5433,25 +5415,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT20H"
       }
     }
   },
@@ -5492,17 +5474,18 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.0efb005f00c6876bea2bf61a1889a63ff36bdc58.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9d643b5eeb5c38d9b6ef9739e980eaa2b32a9a0c.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 11:26AM CDT until July 5 at 1:45AM CDT by NWS San Angelo TX",
-          "description": "...The National Weather Service in San Angelo TX has issued a Flood\nWarning for the following rivers in Texas...\n\nNorth Concho River Near Carlsbad affecting Tom Green County.\n\nFor the North Concho River...including Sterling City, Carlsbad...\nMinor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...North Concho River near Carlsbad.\n\n* WHEN...From this morning to just after midnight tonight.\n\n* IMPACTS...At 12.0 feet, Minor lowland flooding will occur to ranch\nland along the river. Secondary roads and low water crossings will\nbe flooded.\n\n* ADDITIONAL DETAILS...\n- At 10:30 AM CDT Friday the stage was 12.2 feet.\n- Bankfull stage is 10.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 10:30 AM CDT Friday was 12.4 feet.\n- Forecast...The river is expected to rise to a crest of 12.2\nfeet this afternoon. It will then fall below flood stage this\nafternoon.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of\n12.6 feet on 04/30/1966.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued July 4 at 2:56PM CDT until July 4 at 9:00PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Coke and Tom Green.\n\n* WHEN...Until 900 PM CDT Friday.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Numerous roads\nremain closed due to flooding. Low-water crossings are inundated\nwith water and may not be passable. It will take several hours for\nall the water from these storms to work through local drainage\nsystems in urban areas.\n\n* ADDITIONAL DETAILS...\n- At 255 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Flooding is ongoing or expected to begin\nshortly in the warned area. Anywhere between 4 and 15 inches\nof rain have fallen over the area over the past 12 hours or\nso.\n- Some locations that will experience flooding include...\nSan Angelo, Robert Lee, Christoval, O.c. Fisher Reservoir,\nGoodfellow Air Force Base, San Angelo State Park, Lake\nNasworthy, Grape Creek, Twin Buttes Reservoir, Wall,\nVeribest, Orient, Carlsbad, Tankersley, Knickerbocker,\nVancourt, Mereta, Water Valley, E.V. Spence Reservoir Near\nPaint Creek Recreation Area and Harriet.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-07-04T11:26:00-05:00",
-          "expires": "2025-07-04T23:30:00-05:00",
-          "areaDesc": "Tom Green, TX",
+          "effective": "2025-07-04T14:56:00-05:00",
+          "expires": "2025-07-04T21:00:00-05:00",
+          "areaDesc": "Coke, TX; Tom Green, TX",
           "sameCodes": [
+            "048081",
             "048451"
           ]
         },
@@ -5523,22 +5506,6 @@
             "048319",
             "048327",
             "048413",
-            "048451"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.57955b58de68baf5f38089c8cae17080807143ec.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 9:09AM CDT until July 4 at 3:00PM CDT by NWS San Angelo TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounties, Coke and Tom Green.\n\n* WHEN...Until 300 PM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Several\nstructures are flooded and some sand bagging operations are\ncontinuing. Numerous roads remain closed due to flooding.\nLow-water crossings are inundated with water and may not be\npassable.\n\n* ADDITIONAL DETAILS...\n- At 907 AM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Up to 15 inches of rain have fallen over some\nparts of the warned area. Flooding is ongoing, and expected\nto continue for several hours as runoff continues from this\nheavy rainfall.\n- Some locations that will experience flooding include...\nSan Angelo, O.c. Fisher Reservoir, Grape Creek, San Angelo\nState Park, Goodfellow Air Force Base, Orient, Carlsbad, Lake\nNasworthy, Veribest, Twin Buttes Reservoir, Wall, Water\nValley, Tankersley, Mereta, Vancourt, Harriet, The\nIntersection Of Highway 208 And Ranch Road 2662 and Us-67\nNear The Irion-Tom Green County Line.\n- http://www.weather.gov/safety/flood",
-          "severity": "Severe",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-04T09:09:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Coke, TX; Tom Green, TX",
-          "sameCodes": [
-            "048081",
             "048451"
           ]
         },
@@ -5610,6 +5577,21 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.fd1b6e8be23452ea62f3324958888d1fb03b0c53.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:09PM CDT until July 4 at 5:15PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounty, Menard.\n\n* WHEN...Until 515 PM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Numerous roads\nremain closed due to flooding. Low-water crossings are inundated\nwith water and may not be passable. It will take several hours for\nall the water from these storms to work through local drainage\nsystems in urban areas.\n\n* ADDITIONAL DETAILS...\n- At 209 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Flooding is ongoing or expected to begin\nshortly in the warned area. Up to 10 inches of rain have\nfallen over the past several hours.\n- Some locations that will experience flooding include...\nSaline, Hext, The Intersection Of Us-83 And Ranch Road 1773,\nUs-83 Near The Kimble-Menard County Line, Us-377 Near The\nKimble-Menard County Line and Erna.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:09:00-05:00",
+          "expires": "2025-07-04T17:15:00-05:00",
+          "areaDesc": "Menard, TX",
+          "sameCodes": [
+            "048327"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.2bc7dbf5e33e3eae1e7c6b7f1492e67667819413.001.1",
           "event": "Flood Warning",
           "headline": "Flood Warning issued July 4 at 11:10AM CDT until July 4 at 5:15PM CDT by NWS San Angelo TX",
@@ -5627,23 +5609,6 @@
             "048327",
             "048413",
             "048451"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.ea2b991dbab21576e3f55dd3113b2d424983c721.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:03AM CDT until July 4 at 2:15PM CDT by NWS San Angelo TX",
-          "description": "FFWSJT\n\nThe National Weather Service in San Angelo has issued a\n\n* Flash Flood Warning for...\nMason County in west central Texas...\nSoutheastern Menard County in west central Texas...\nSouthwestern San Saba County in west central Texas...\n\n* Until 215 PM CDT.\n\n* At 1102 AM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Up to 2 inches of rain have\nfallen on already saturated grounds, with an additional inch of\nrainfall possible in the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nSan Saba, Mason, Richland Springs, Algerita, Cherokee, Katemcy,\nFredonia, Camp Air, Art, Grit, Hedwigs Hill, Streeter, Pontotoc,\nHilda, Long Mountain, Loyal Valley, Hext, Saline, Sloan and\nKoockville.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:03:00-05:00",
-          "expires": "2025-07-04T14:15:00-05:00",
-          "areaDesc": "Mason, TX; Menard, TX; San Saba, TX",
-          "sameCodes": [
-            "048319",
-            "048327",
-            "048411"
           ]
         },
         {
@@ -5745,20 +5710,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -5805,32 +5770,32 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 95,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT5H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
       },
       "alerts": [
         {
@@ -5871,25 +5836,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 92,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       }
     }
   },
@@ -6053,30 +6018,30 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -6177,32 +6142,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "alerts": [
         {
@@ -6273,25 +6238,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -6333,25 +6298,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 8,
+        "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT19H"
       }
     }
   },
@@ -6423,34 +6388,49 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 99,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT5H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.0c77ca88779840c2e466c6bf1e3b6b68a4e7799f.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 4 at 2:15PM CDT until July 4 at 4:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Urban and small stream flooding caused by excessive\nrainfall continues.\n\n* WHERE...A portion of south central Texas, including the following\ncounty, Gillespie.\n\n* WHEN...Until 400 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nDangerous flows over low-water crossings.\n\n* ADDITIONAL DETAILS...\n- At 215 PM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. This will cause\nurban and small stream flooding. Between 2 and 4 inches of\nrain have fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nFredericksburg, Stonewall, Rocky Hill, Blumenthal, Eckert,\nCain City, Willow City, Luckenbach, Crabapple, Grapetown,\nEnchanted Rock State Natural Area, LBJ State Park, Albert and\nLBJ National Historical Park.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:15:00-05:00",
+          "expires": "2025-07-04T16:00:00-05:00",
+          "areaDesc": "Gillespie, TX",
+          "sameCodes": [
+            "048171"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.4e44091f8aa3baf792e37d8505158c6bf65ddac3.001.1",
           "event": "Flood Advisory",
@@ -6461,21 +6441,6 @@
           "certainty": "Likely",
           "effective": "2025-07-04T13:05:00-05:00",
           "expires": "2025-07-04T16:00:00-05:00",
-          "areaDesc": "Gillespie, TX",
-          "sameCodes": [
-            "048171"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.5271c303d7f144fc1f223ff40375fe1c9b488386.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued July 4 at 10:29AM CDT until July 4 at 2:30PM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Urban and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounty, Gillespie.\n\n* WHEN...Until 230 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nDangerous flows over low-water crossings.\n\n* ADDITIONAL DETAILS...\n- At 1029 AM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. This will cause\nurban and small stream flooding. Between 1 and 2 inches of\nrain have fallen.\n- Additional rainfall amounts up to 1 inch are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nFredericksburg, Stonewall, Rocky Hill, Blumenthal, Eckert,\nCain City, Willow City, Luckenbach, Crabapple, Grapetown,\nEnchanted Rock State Natural Area, LBJ State Park, Albert and\nLBJ National Historical Park.\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-04T10:29:00-05:00",
-          "expires": "2025-07-04T14:30:00-05:00",
           "areaDesc": "Gillespie, TX",
           "sameCodes": [
             "048171"
@@ -6669,25 +6634,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 12746.00460278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -6699,25 +6664,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT16H"
       },
       "alerts": [
         {
@@ -6915,18 +6880,18 @@
       "temperature": {
         "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 20,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -7005,23 +6970,23 @@
       "temperature": {
         "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT9H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT8H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -7095,23 +7060,23 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "alerts": [
         {
@@ -7261,25 +7226,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11088.379945129402,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT19H"
       },
       "alerts": [
         {
@@ -7482,23 +7447,23 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT3H"
       }
     }
   },
@@ -7512,23 +7477,23 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 89,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-04T13:00:00+00:00/P1DT18H"
       }
     }
   },
@@ -7540,20 +7505,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -7570,20 +7535,20 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT6H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -7600,20 +7565,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7662,18 +7627,18 @@
       "temperature": {
         "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT6H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -7690,20 +7655,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -7750,20 +7715,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -7780,25 +7745,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       }
     }
   },
@@ -7842,61 +7807,45 @@
       "temperature": {
         "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 99,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "FA",
           "significance": "A",
           "eventNumber": null,
-          "validTime": "2025-07-04T12:00:00+00:00/PT12H"
+          "validTime": "2025-07-04T13:00:00+00:00/PT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 9656.064,
+        "value": 7934.065643737756,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.94b0dc82bd3ca84ada944f8323a1d9b340ceeea9.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 1:14PM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "FFWEWX\n\nThe National Weather Service in Austin/San Antonio has extended the\n\n* Flash Flood Warning for...\nSouthern Bandera County in south central Texas...\nSoutheastern Real County in south central Texas...\n\n* Until 300 PM CDT.\n\n* At 114 PM CDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between\n2 and 4 inches of rain have fallen. Additional rainfall amounts up\nto 1 inch are possible in the warned area. Flash flooding is\nalready occurring.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nMedina, Bandera, Leakey, Tarpley, Vanderpool, Utopia, Hill Country\nState Natural Area, Lost Maples State Natural Area, Rio Frio, Tuff\nand Lake Medina Shores.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T13:14:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Bandera, TX; Real, TX",
-          "sameCodes": [
-            "048019",
-            "048385"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.0d832397614ad5eda6ca280bdf01bc476bbe9038.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.f25c173ea1ba775a99a03e6b04c093dce1a1aed9.001.1",
           "event": "Flood Advisory",
-          "headline": "Flood Advisory issued July 4 at 1:08PM CDT until July 4 at 3:00PM CDT by NWS Austin/San Antonio TX",
-          "description": "* WHAT...Urban and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Kerr and Real.\n\n* WHEN...Until 300 PM CDT.\n\n* IMPACTS...Dangerous flows over low-water crossings. Water over\nroadways.\n\n* ADDITIONAL DETAILS...\n- At 108 PM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. This will cause\nurban and small stream flooding. Between 2 and 5 inches of\nrain have fallen.\n- Some locations that will experience flooding include...\nLost Maples State Natural Area, Vance and Prade Ranch.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Advisory issued July 4 at 2:32PM CDT until July 4 at 5:00PM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Bandera and Real.\n\n* WHEN...Until 500 PM CDT.\n\n* IMPACTS...Dangerous flows over low-water crossings. Water over\nroadways.\n\n* ADDITIONAL DETAILS...\n- At 232 PM CDT, Doppler radar and automated rain gauges\nindicated heavy rain due to thunderstorms. Minor flooding is\nongoing or expected to begin shortly in the advisory area.\nBetween 2 and 4 inches of rain have fallen.\n- Some locations that will experience flooding include...\nMedina, Bandera, Leakey, Tarpley, Vanderpool, Utopia, Hill\nCountry State Natural Area, Lost Maples State Natural Area,\nRio Frio, Tuff and Lake Medina Shores.\n- http://www.weather.gov/safety/flood",
           "severity": "Minor",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-07-04T13:08:00-05:00",
-          "expires": "2025-07-04T15:00:00-05:00",
-          "areaDesc": "Kerr, TX; Real, TX",
+          "effective": "2025-07-04T14:32:00-05:00",
+          "expires": "2025-07-04T17:00:00-05:00",
+          "areaDesc": "Bandera, TX; Real, TX",
           "sameCodes": [
-            "048265",
+            "048019",
             "048385"
           ]
         },
@@ -7938,25 +7887,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 100,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -7968,25 +7917,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 96,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 14468.002191650448,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       }
     }
   },
@@ -8227,25 +8176,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 12746.00460278313,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT15H"
       }
     }
   },
@@ -8436,50 +8385,48 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.ea2b991dbab21576e3f55dd3113b2d424983c721.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued July 4 at 11:03AM CDT until July 4 at 2:15PM CDT by NWS San Angelo TX",
-          "description": "FFWSJT\n\nThe National Weather Service in San Angelo has issued a\n\n* Flash Flood Warning for...\nMason County in west central Texas...\nSoutheastern Menard County in west central Texas...\nSouthwestern San Saba County in west central Texas...\n\n* Until 215 PM CDT.\n\n* At 1102 AM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Up to 2 inches of rain have\nfallen on already saturated grounds, with an additional inch of\nrainfall possible in the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nSan Saba, Mason, Richland Springs, Algerita, Cherokee, Katemcy,\nFredonia, Camp Air, Art, Grit, Hedwigs Hill, Streeter, Pontotoc,\nHilda, Long Mountain, Loyal Valley, Hext, Saline, Sloan and\nKoockville.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:03:00-05:00",
-          "expires": "2025-07-04T14:15:00-05:00",
-          "areaDesc": "Mason, TX; Menard, TX; San Saba, TX",
-          "sameCodes": [
-            "048319",
-            "048327",
-            "048411"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.798f0151e3839200408558c8b29421ba9318dfe6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.d5cfce37597f36c01b9392498d945a9fc4809c42.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 8:38AM CDT until July 6 at 11:18PM CDT by NWS San Angelo TX",
-          "description": "...The National Weather Service in San Angelo TX has issued a Flood\nWarning for the following rivers in Texas...\n\nColorado River Near San Saba affecting Lampasas and San Saba\nCounties.\n\nFor the Colorado River...including Silver, Robert Lee, Ballinger,\nStacy, Winchell, San Saba...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Colorado River near San Saba.\n\n* WHEN...From Saturday afternoon to late Sunday evening.\n\n* IMPACTS...At 34.0 feet, Moderate flooding will occur. Secondary\nroads and low water crossings will be flooded and impassible\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Friday the stage was 2.3 feet.\n- Bankfull stage is 25.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly tomorrow afternoon to a crest of 33.7 feet early Sunday\nmorning. It will then fall below flood stage late Sunday\nmorning.\n- Flood stage is 30.0 feet.\n- Flood History...This crest compares to a previous crest of\n34.1 feet on 05/19/1955.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued July 4 at 2:41PM CDT until July 4 at 5:15PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounty, San Saba.\n\n* WHEN...Until 515 PM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Numerous roads\nremain closed due to flooding. Low-water crossings are inundated\nwith water and may not be passable. It will take several hours for\nall the water from these storms to work through local drainage\nsystems in urban areas.\n\n* ADDITIONAL DETAILS...\n- At 240 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Flooding is ongoing or expected to begin\nshortly in the warned area. Between 4 and 15 inches of rain\nhave fallen over the past several hours.\n- Additional rainfall amounts up to 1 inch are possible in the\nwarned area.\n- Some locations that will experience flooding include...\nSan Saba, Richland Springs, Algerita, Cherokee, Sloan,\nChappel, Bend, Hall, Harkeyville and Us-190 Near The\nMcculloch-San Saba County Line.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-07-04T08:38:00-05:00",
-          "expires": "2025-07-04T20:45:00-05:00",
-          "areaDesc": "Lampasas, TX; San Saba, TX",
+          "effective": "2025-07-04T14:41:00-05:00",
+          "expires": "2025-07-04T17:15:00-05:00",
+          "areaDesc": "San Saba, TX",
           "sameCodes": [
-            "048281",
             "048411"
           ]
         },
         {
-          "id": "urn:oid:2.49.0.1.840.0.2d243477316ad2c9f0cc75efe7c012aea64cd7c2.003.1",
+          "id": "urn:oid:2.49.0.1.840.0.cfb0da7b96db8877dab47f63987c94d8f2e819d1.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 8:38AM CDT until July 7 at 6:43AM CDT by NWS San Angelo TX",
-          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nConcho River At Paint Rock affecting Concho County.\n\n...The Flood Warning is extended for the following rivers in Texas...\n\nSan Saba River Near Brady affecting McCulloch County.\n\nSan Saba River At San Saba affecting San Saba County.\n\nFor the San Saba River...including Brady, Menard, San Saba...Major\nflooding is forecast.\n\n* WHAT...Major flooding is forecast.\n\n* WHERE...San Saba River at San Saba.\n\n* WHEN...From this afternoon to Monday morning.\n\n* IMPACTS...At 31.0 feet, Major flooding will occur. Roads and low\nwater crossings will be flooded.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM CDT Friday the stage was 14.6 feet.\n- Bankfull stage is 20.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this afternoon to a crest of 32.4 feet tomorrow morning.\nIt will then fall below flood stage Sunday evening.\n- Flood stage is 24.0 feet.\n- Flood History...This crest compares to a previous crest of\n31.0 feet on 09/13/1952.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued July 4 at 2:09PM CDT until July 7 at 5:06PM CDT by NWS San Angelo TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSan Saba River At San Saba affecting San Saba County.\n\nFor the San Saba River...including Brady, Menard, San Saba...Major\nflooding is forecast.\n\n* WHAT...Minor flooding is occurring and major flooding is forecast.\n\n* WHERE...San Saba River at San Saba.\n\n* WHEN...From this afternoon to Monday afternoon.\n\n* IMPACTS...At 31.0 feet, Major flooding will occur. Roads and low\nwater crossings will be flooded.\n\n* ADDITIONAL DETAILS...\n- At 1:00 PM CDT Friday the stage was 25.9 feet.\n- Bankfull stage is 20.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 1:00 PM CDT Friday was 25.9 feet.\n- Forecast...The river is expected to rise to a crest of 32.6\nfeet tomorrow morning. It will then fall below flood stage\nearly Monday morning.\n- Flood stage is 24.0 feet.\n- Flood History...This crest compares to a previous crest of\n31.0 feet on 09/13/1952.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-07-04T08:38:00-05:00",
-          "expires": "2025-07-04T20:45:00-05:00",
+          "effective": "2025-07-04T14:09:00-05:00",
+          "expires": "2025-07-05T02:15:00-05:00",
           "areaDesc": "San Saba, TX",
           "sameCodes": [
+            "048411"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.97f2aea6f18334c08d7c56c5e06d05bdb20edc86.001.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:05PM CDT until July 7 at 5:05AM CDT by NWS San Angelo TX",
+          "description": "...Forecast flooding changed from Minor to Moderate severity and\nincreased in duration for the following rivers in Texas...\n\nColorado River Near San Saba affecting San Saba and Lampasas\nCounties.\n\nFor the Colorado River...including Silver, Robert Lee, Ballinger,\nStacy, Winchell, San Saba...Moderate flooding is forecast.\n\n* WHAT...Moderate flooding is forecast.\n\n* WHERE...Colorado River near San Saba.\n\n* WHEN...From Saturday afternoon to early Monday morning.\n\n* IMPACTS...At 38.0 feet, Major flooding will occur. Roads and low\nwater crossings will be flooded and impassible.\n\n* ADDITIONAL DETAILS...\n- At 1:35 PM CDT Friday the stage was 4.8 feet.\n- Bankfull stage is 25.0 feet.\n- Forecast...The river is expected to rise above flood stage\nearly tomorrow afternoon to a crest of 37.8 feet early Sunday\nmorning. It will then fall below flood stage Sunday\nafternoon.\n- Flood stage is 30.0 feet.\n- Flood History...This crest compares to a previous crest of\n37.3 feet on 05/14/1957.\n- http://www.weather.gov/safety/flood",
+          "severity": "Severe",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-04T14:05:00-05:00",
+          "expires": "2025-07-05T02:15:00-05:00",
+          "areaDesc": "Lampasas, TX; San Saba, TX",
+          "sameCodes": [
+            "048281",
             "048411"
           ]
         },
@@ -8723,15 +8670,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.77759b5c01c07032fbce5378956fc75b40d0d3a0.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.bb91f3457b1230051436ff5d15ae60f63a7a032f.001.1",
           "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 11:25AM CDT until July 5 at 5:33PM CDT by NWS San Angelo TX",
-          "description": "...Forecast flooding changed from Moderate to Major severity and\nincreased in duration for the following rivers in Texas...\n\nSan Saba River Near Brady affecting McCulloch County.\n\nFor the San Saba River...including Brady, Menard, San Saba...Major\nflooding is forecast.\n\n* WHAT...Major flooding is occurring and major flooding is forecast.\nThis approaches the flood of record.\n\n* WHERE...San Saba River near Brady.\n\n* WHEN...Until tomorrow afternoon.\n\n* IMPACTS...At 28.0 feet, Major lowland flooding will occur. No\naccess to the picnic area at rest stop on US HWY 87. Utility pole\nat the rest area are partially inundated and possibly damaged.\n\n* ADDITIONAL DETAILS...\n- At 11:00 AM CDT Friday the stage was 28.2 feet.\n- Bankfull stage is 16.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 11:00 AM CDT Friday was 28.2 feet.\n- Forecast...The river will fall below flood stage late tonight\nto 3.6 feet Sunday evening. It will then rise to 3.9 feet\nearly Monday morning. It will fall to 2.9 feet early Tuesday\nmorning. It will then rise to 3.1 feet Tuesday evening. It\nwill fall again and remain below flood stage.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.1 feet on 07/23/1938.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Warning issued July 4 at 2:05PM CDT until July 5 at 4:56PM CDT by NWS San Angelo TX",
+          "description": "...The Flood Warning continues for the following rivers in Texas...\n\nSan Saba River Near Brady affecting McCulloch County.\n\nFor the San Saba River...including Brady, Menard, San Saba...Major\nflooding is forecast.\n\n* WHAT...Major flooding is occurring and and will fall to moderate\nflood stage by late this evening. This has surpassed the record\nflood stage.\n\n* WHERE...San Saba River near Brady.\n\n* WHEN...Until tomorrow afternoon.\n\n* IMPACTS...At 28.0 feet, Major lowland flooding will occur. No\naccess to the picnic area at rest stop on US HWY 87. Utility pole\nat the rest area are partially inundated and possibly damaged.\n\n* ADDITIONAL DETAILS...\n- At 1:00 PM CDT Friday the stage was 29.7 feet.\n- Bankfull stage is 16.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 1:00 PM CDT Friday was 29.7 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow morning and continue falling to below action stage\nby tomorrow afternoon.\n- Flood stage is 18.0 feet.\n- Flood History...This crest compares to a previous crest of\n29.1 feet on 07/23/1938.\n- http://www.weather.gov/safety/flood",
           "severity": "Severe",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:25:00-05:00",
-          "expires": "2025-07-04T23:30:00-05:00",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-07-04T14:05:00-05:00",
+          "expires": "2025-07-05T02:15:00-05:00",
           "areaDesc": "McCulloch, TX",
           "sameCodes": [
             "048307"
@@ -8858,23 +8805,23 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       }
     }
   },
@@ -8888,25 +8835,40 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT4H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 95,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT7H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.5fb6fb60269fcb63b923564ff370db9efaa469b6.004.1",
+          "event": "Flood Warning",
+          "headline": "Flood Warning issued July 4 at 2:15PM CDT until July 6 at 12:56AM CDT by NWS Austin/San Antonio TX",
+          "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nGuadalupe River At Comfort affecting Kendall County.\n\nGuadalupe River at Hunt affecting Kerr County.\n\nGuadalupe River Near Spring Branch affecting Comal County.\n\n...The Flood Warning continues for the following rivers in Texas...\n\nGuadalupe River At Kerrville affecting Kerr County.\n\n* WHAT...Moderate flooding is forecast.\n\n* WHERE...Guadalupe River near Spring Branch.\n\n* WHEN...From late tonight to early Sunday morning.\n\n* IMPACTS...At 36.0 feet, Moderate lowland flooding reaches\nsecondary roads and low bridges in the flood plain. Recreatonists\nshould evacuate the river banks because of dangerous turbulent\nflow. Low sections of Guadalupe River State Park have tables,\ntrash cans, and equipment damaged. Lowest homes in Kendall County\nto Canyon Lake flood.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-07-04T14:15:00-05:00",
+          "expires": "2025-07-05T08:15:00-05:00",
+          "areaDesc": "Comal, TX",
+          "sameCodes": [
+            "048091"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.6984f0acf6f60e6ab0ae38234527c1a98bc33845.001.1",
           "event": "Flood Advisory",
@@ -8939,21 +8901,6 @@
           "sameCodes": [
             "048091",
             "048259"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.3d04e49019ba34bc279969c10e1262432acfc507.001.1",
-          "event": "Flood Warning",
-          "headline": "Flood Warning issued July 4 at 11:39AM CDT until July 5 at 10:45PM CDT by NWS Austin/San Antonio TX",
-          "description": "...Forecast flooding changed from Minor to Moderate severity and\nincreased in duration for the following rivers in Texas...\n\nGuadalupe River Near Spring Branch affecting Comal County.\n\n* WHAT...Moderate flooding is forecast.\n\n* WHERE...Guadalupe River near Spring Branch.\n\n* WHEN...From late tonight to late tomorrow evening.\n\n* IMPACTS...At 36.0 feet, Moderate lowland flooding reaches\nsecondary roads and low bridges in the flood plain. Recreatonists\nshould evacuate the river banks because of dangerous turbulent\nflow. Low sections of Guadalupe River State Park have tables,\ntrash cans, and equipment damaged. Lowest homes in Kendall County\nto Canyon Lake flood.",
-          "severity": "Severe",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-07-04T11:39:00-05:00",
-          "expires": "2025-07-05T05:45:00-05:00",
-          "areaDesc": "Comal, TX",
-          "sameCodes": [
-            "048091"
           ]
         }
       ]
@@ -9027,25 +8974,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       }
     }
   },
@@ -9117,25 +9064,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 92,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       }
     }
   },
@@ -9269,20 +9216,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9361,18 +9308,18 @@
       "temperature": {
         "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9516,20 +9463,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9606,25 +9553,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-04T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-04T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-04T14:00:00+00:00/PT22H"
       }
     }
   }
