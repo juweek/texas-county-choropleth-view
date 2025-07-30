@@ -67,25 +67,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -127,25 +127,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -157,32 +157,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -334,6 +334,23 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.61875d32afbe40379ad17ce56310ff676eafdb37.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:35PM CDT by NWS Houston/Galveston TX",
+          "description": "AQAHGX\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued an\nOzone Action Day for the Houston, Galveston, and Brazoria area for\nThursday, July 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone pollution in the Houston, Galveston, and\nsurrounding areas on Thursday. You can help prevent ozone pollution by\nsharing a ride, walking, riding a bicycle, taking your lunch to work,\navoiding drive through lanes, conserving energy and keeping your vehicle\nproperly tuned.\n\nFor more information on ozone:\nOzone: The Facts www.tceq.texas.gov/airquality/monops/ozonefacts.html\nEPA AirNow: www.airnow.gov/?city=Houston&state=TX&country=USA\nTake Care of Texas:\nwww.takecareoftexas.org/conservation-tips/keep-our-air-clean",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:35:00-05:00",
+          "expires": "2025-07-31T18:45:00-05:00",
+          "areaDesc": "Inland Harris; Inland Brazoria; Inland Galveston; Coastal Harris; Coastal Brazoria; Coastal Galveston; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+          "sameCodes": [
+            "048201",
+            "048039",
+            "048167"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.9fa9cd26616540844b3345862a3790c7848ee40e.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued July 29 at 2:31PM CDT by NWS Houston/Galveston TX",
@@ -361,20 +378,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT6H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -502,6 +519,23 @@
         "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.61875d32afbe40379ad17ce56310ff676eafdb37.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:35PM CDT by NWS Houston/Galveston TX",
+          "description": "AQAHGX\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued an\nOzone Action Day for the Houston, Galveston, and Brazoria area for\nThursday, July 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone pollution in the Houston, Galveston, and\nsurrounding areas on Thursday. You can help prevent ozone pollution by\nsharing a ride, walking, riding a bicycle, taking your lunch to work,\navoiding drive through lanes, conserving energy and keeping your vehicle\nproperly tuned.\n\nFor more information on ozone:\nOzone: The Facts www.tceq.texas.gov/airquality/monops/ozonefacts.html\nEPA AirNow: www.airnow.gov/?city=Houston&state=TX&country=USA\nTake Care of Texas:\nwww.takecareoftexas.org/conservation-tips/keep-our-air-clean",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:35:00-05:00",
+          "expires": "2025-07-31T18:45:00-05:00",
+          "areaDesc": "Inland Harris; Inland Brazoria; Inland Galveston; Coastal Harris; Coastal Brazoria; Coastal Galveston; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+          "sameCodes": [
+            "048201",
+            "048039",
+            "048167"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.9fa9cd26616540844b3345862a3790c7848ee40e.001.1",
           "event": "Air Quality Alert",
@@ -723,14 +757,14 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -743,7 +777,7 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -820,14 +854,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -840,7 +874,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -917,20 +951,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 98,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT23H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT22H"
       },
       "visibility": {
         "value": null,
@@ -1007,32 +1041,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT23H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT22H"
       },
       "alerts": [
         {
@@ -1089,25 +1123,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT17H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT16H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1241,12 +1275,12 @@
       "temperature": {
         "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1259,7 +1293,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1396,20 +1430,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1648,14 +1682,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -1668,7 +1702,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1715,25 +1749,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT11H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1775,32 +1809,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -1916,32 +1950,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1D"
+        "validTime": "2025-07-30T13:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -1998,25 +2032,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -2104,6 +2138,33 @@
         "validTime": "2025-07-30T11:00:00+00:00/P2DT20H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
@@ -2236,32 +2297,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -2494,25 +2555,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT3H"
       }
     }
   },
@@ -2584,25 +2645,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -2704,32 +2765,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -2816,25 +2877,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -2892,6 +2953,33 @@
         "validTime": "2025-07-30T11:00:00+00:00/P2DT20H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
@@ -3054,32 +3142,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 12778.191452087469,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -3316,14 +3404,14 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3336,7 +3424,7 @@
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3413,32 +3501,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT6H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT17H"
       },
       "alerts": [
         {
@@ -3495,14 +3583,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3515,7 +3603,7 @@
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3562,32 +3650,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 20,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT6H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT22H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT21H"
       },
       "alerts": [
         {
@@ -3644,25 +3732,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT20H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT19H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -3674,32 +3762,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -3832,6 +3920,33 @@
         "validTime": "2025-07-30T11:00:00+00:00/P2DT20H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
@@ -4065,6 +4180,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.002.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued July 30 at 12:20PM CDT until July 30 at 7:00PM CDT by NWS Fort Worth TX",
@@ -4122,14 +4264,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4142,7 +4284,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -4189,14 +4331,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4209,7 +4351,7 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -4256,25 +4398,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT3H"
       }
     }
   },
@@ -4286,20 +4428,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 98,
+        "value": 86,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -4408,12 +4550,12 @@
       "temperature": {
         "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4426,7 +4568,7 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -4473,20 +4615,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -4503,20 +4645,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -4533,20 +4675,20 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": null,
@@ -4949,32 +5091,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1D"
+        "validTime": "2025-07-30T13:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -5078,6 +5220,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued July 30 at 12:20PM CDT until July 30 at 7:00PM CDT by NWS Fort Worth TX",
@@ -5149,25 +5318,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5406,6 +5575,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued July 30 at 12:20PM CDT until July 30 at 7:00PM CDT by NWS Fort Worth TX",
@@ -5507,25 +5703,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5537,32 +5733,32 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 11265.408,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT19H"
       },
       "alerts": [
         {
@@ -5679,25 +5875,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5769,32 +5965,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -5927,6 +6123,33 @@
         "validTime": "2025-07-30T11:00:00+00:00/P2DT20H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
@@ -6119,32 +6342,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -6201,25 +6424,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -6291,25 +6514,25 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -6351,20 +6574,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT16H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT15H"
       },
       "visibility": {
         "value": null,
@@ -6411,32 +6634,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "alerts": [
         {
@@ -6493,25 +6716,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -6624,6 +6847,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.002.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued July 30 at 12:20PM CDT until July 30 at 7:00PM CDT by NWS Fort Worth TX",
@@ -6711,20 +6961,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 95,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT8H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": null,
@@ -7261,25 +7511,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -7351,32 +7601,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -7570,6 +7820,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued July 30 at 12:20PM CDT until July 30 at 7:00PM CDT by NWS Fort Worth TX",
@@ -7760,25 +8037,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -7910,20 +8187,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -8019,7 +8296,25 @@
         "value": 15675.010191650448,
         "unit": "wmoUnit:m",
         "validTime": "2025-07-30T12:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.08b2ee0243a01838b313e15d21cd6911a58a40f5.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued July 30 at 1:26PM MDT until July 30 at 4:30PM MDT by NWS El Paso Tx/Santa Teresa NM",
+          "description": "* WHAT...Arroyo and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...Portions of south central New Mexico, including the\nfollowing county, Otero and western Texas, including the following\ncounty, Hudspeth.\n\n* WHEN...Until 430 PM MDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nSome low-water crossings may become impassable.\n\n* ADDITIONAL DETAILS...\n- At 126 PM MDT, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause arroyo and small stream\nflooding. Up to 1 inch of rain has fallen.\n- Additional rainfall of up to 0.5 to 1 inch is expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that may experience flooding include...\nCornudas Mountains.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-07-30T13:26:00-06:00",
+          "expires": "2025-07-30T16:30:00-06:00",
+          "areaDesc": "Otero, NM; Hudspeth, TX",
+          "sameCodes": [
+            "035035",
+            "048229"
+          ]
+        }
+      ]
     }
   },
   {
@@ -8030,32 +8325,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT23H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT22H"
       },
       "alerts": [
         {
@@ -8172,32 +8467,32 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/PT22H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT21H"
       },
       "alerts": [
         {
@@ -8524,6 +8819,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued July 30 at 12:20PM CDT until July 30 at 7:00PM CDT by NWS Fort Worth TX",
@@ -8655,25 +8977,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 52,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT11H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/PT4H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT3H"
       }
     }
   },
@@ -8715,14 +9037,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8735,7 +9057,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -8782,20 +9104,20 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -8812,20 +9134,20 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 86,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": null,
@@ -8872,14 +9194,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8892,7 +9214,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -8939,20 +9261,20 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT6H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -8969,14 +9291,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8989,12 +9311,12 @@
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1D"
+        "validTime": "2025-07-30T13:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -9041,20 +9363,20 @@
     },
     "data": {
       "temperature": {
-        "value": 19.444444444444443,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9071,25 +9393,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT11H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -9161,25 +9483,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT14H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT13H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -9393,6 +9715,23 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.61875d32afbe40379ad17ce56310ff676eafdb37.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:35PM CDT by NWS Houston/Galveston TX",
+          "description": "AQAHGX\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued an\nOzone Action Day for the Houston, Galveston, and Brazoria area for\nThursday, July 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone pollution in the Houston, Galveston, and\nsurrounding areas on Thursday. You can help prevent ozone pollution by\nsharing a ride, walking, riding a bicycle, taking your lunch to work,\navoiding drive through lanes, conserving energy and keeping your vehicle\nproperly tuned.\n\nFor more information on ozone:\nOzone: The Facts www.tceq.texas.gov/airquality/monops/ozonefacts.html\nEPA AirNow: www.airnow.gov/?city=Houston&state=TX&country=USA\nTake Care of Texas:\nwww.takecareoftexas.org/conservation-tips/keep-our-air-clean",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:35:00-05:00",
+          "expires": "2025-07-31T18:45:00-05:00",
+          "areaDesc": "Inland Harris; Inland Brazoria; Inland Galveston; Coastal Harris; Coastal Brazoria; Coastal Galveston; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+          "sameCodes": [
+            "048201",
+            "048039",
+            "048167"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.9fa9cd26616540844b3345862a3790c7848ee40e.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued July 29 at 2:31PM CDT by NWS Houston/Galveston TX",
@@ -9450,14 +9789,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -9470,12 +9809,12 @@
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1D"
+        "validTime": "2025-07-30T13:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -9568,6 +9907,33 @@
         "validTime": "2025-07-30T11:00:00+00:00/P2DT20H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.679fb432b0aca6237226ab3980f6ba2144dee0c4.001.1",
           "event": "Heat Advisory",
@@ -9952,6 +10318,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.2eb4a0584a675a46ae2b9cb06129c3a6de61b52f.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued July 29 at 2:29PM CDT by NWS Fort Worth TX",
@@ -10062,25 +10455,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT20H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT19H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -10182,25 +10575,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT17H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT16H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -10302,32 +10695,32 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-07-30T12:00:00+00:00/P1DT12H"
+          "validTime": "2025-07-30T13:00:00+00:00/P1DT11H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -10444,14 +10837,14 @@
     },
     "data": {
       "temperature": {
-        "value": 17.22222222222222,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 93,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -10464,7 +10857,7 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -10540,6 +10933,33 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.edde524bbf47d535ba50947b92ae50d7b3d067c9.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued July 30 at 2:38PM CDT by NWS Fort Worth TX",
+          "description": "AQAFWD\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued\nan Ozone Action Day for the Dallas-Fort Worth area for Thursday,\nJuly 31, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone air pollution in the Dallas-Fort Worth area\non Thursday. You can help prevent ozone pollution by sharing a\nride, walking, riding a bicycle, taking your lunch to work,\navoiding drive-through lanes, conserving energy, and keeping your\nvehicle properly tuned.\n\nFor more information on ozone:\n\nOzone: The Facts (www.tceq.texas.gov/goto/ozonefacts)\n\nAir North Texas: (www.airnorthtexas.org)\n\nEPA Air Now\n(www.airnow.gov/index.cfm?action.local_state&STATEID=45&TAB=0)\n\nTake care of Texas (www.takecareoftexas.org)\n\nNorth Central Texas Council of Governments Air Quality\n(www.nctcog.org/trans/air/index.asp)",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-07-30T14:38:00-05:00",
+          "expires": "2025-07-31T17:45:00-05:00",
+          "areaDesc": "Wise; Denton; Collin; Hunt; Parker; Tarrant; Dallas; Rockwall; Kaufman; Hood; Johnson; Ellis; Henderson",
+          "sameCodes": [
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048221",
+            "048251",
+            "048139",
+            "048213"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.2eb4a0584a675a46ae2b9cb06129c3a6de61b52f.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued July 29 at 2:29PM CDT by NWS Fort Worth TX",
@@ -10607,14 +11027,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T12:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -10627,7 +11047,7 @@
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T12:00:00+00:00/PT3H"
+        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -10764,20 +11184,20 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 89,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT21H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT20H"
       },
       "visibility": {
         "value": null,
@@ -10854,25 +11274,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT1H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-07-30T13:00:00+00:00/PT2H"
+        "validTime": "2025-07-30T14:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-07-30T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-07-30T14:00:00+00:00/P1DT17H"
       }
     }
   }
