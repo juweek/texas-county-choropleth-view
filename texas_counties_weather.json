@@ -37,25 +37,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT16H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT10H"
       },
       "visibility": {
-        "value": 14484.096,
+        "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT5H"
       }
     }
   },
@@ -67,25 +67,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT13H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -97,25 +97,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -127,25 +127,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT11H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -206,7 +206,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -247,20 +291,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -296,7 +340,62 @@
         "value": null,
         "unit": null,
         "validTime": null
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.3337b0959fc72a8310eb931153089e729b61363f.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:54AM CDT until August 7 at 8:00PM CDT by NWS Norman OK",
+          "description": "* WHAT...Heat index values between 105 to 110 degrees expected.\n\n* WHERE...Portions of central, east central, northern, northwest,\nsoutheast, southern, and southwest Oklahoma and northern Texas.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:54:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Harper; Woods; Alfalfa; Grant; Kay; Woodward; Major; Garfield; Noble; Kingfisher; Logan; Payne; Canadian; Oklahoma; Lincoln; Grady; McClain; Cleveland; Pottawatomie; Seminole; Hughes; Tillman; Comanche; Stephens; Garvin; Murray; Pontotoc; Coal; Cotton; Jefferson; Carter; Johnston; Atoka; Love; Marshall; Bryan; Wichita; Archer; Clay",
+          "sameCodes": [
+            "040059",
+            "040151",
+            "040003",
+            "040053",
+            "040071",
+            "040153",
+            "040093",
+            "040047",
+            "040103",
+            "040073",
+            "040083",
+            "040119",
+            "040017",
+            "040109",
+            "040081",
+            "040051",
+            "040087",
+            "040027",
+            "040125",
+            "040133",
+            "040063",
+            "040141",
+            "040031",
+            "040137",
+            "040049",
+            "040099",
+            "040123",
+            "040029",
+            "040033",
+            "040067",
+            "040019",
+            "040069",
+            "040005",
+            "040085",
+            "040095",
+            "040013",
+            "048485",
+            "048009",
+            "048077"
+          ]
+        }
+      ]
     }
   },
   {
@@ -309,23 +408,23 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 15337.047890258802,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -397,25 +496,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 12697.7239451294,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/PT6H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       }
     }
   },
@@ -427,25 +526,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT10H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/PT7H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       }
     }
   },
@@ -506,7 +605,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -547,14 +690,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -567,7 +710,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -644,20 +787,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -706,18 +849,18 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 92,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT9H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT8H"
       },
       "visibility": {
         "value": null,
@@ -764,25 +907,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15610.636493041933,
+        "value": 13775.985315307618,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -824,25 +967,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P2DT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/P2DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -854,25 +997,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT10H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -966,32 +1109,32 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
           "phenomenon": "HT",
           "significance": "Y",
           "eventNumber": null,
-          "validTime": "2025-08-06T09:00:00+00:00/P3DT18H"
+          "validTime": "2025-08-06T10:00:00+00:00/P3DT17H"
         }
       ],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT12H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/P1DT16H"
+        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
       },
       "alerts": [
         {
@@ -1021,14 +1164,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1041,7 +1184,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT18H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT17H"
       },
       "visibility": {
         "value": null,
@@ -1088,25 +1231,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT7H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -1137,7 +1280,62 @@
         "value": null,
         "unit": null,
         "validTime": null
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.3337b0959fc72a8310eb931153089e729b61363f.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:54AM CDT until August 7 at 8:00PM CDT by NWS Norman OK",
+          "description": "* WHAT...Heat index values between 105 to 110 degrees expected.\n\n* WHERE...Portions of central, east central, northern, northwest,\nsoutheast, southern, and southwest Oklahoma and northern Texas.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:54:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Harper; Woods; Alfalfa; Grant; Kay; Woodward; Major; Garfield; Noble; Kingfisher; Logan; Payne; Canadian; Oklahoma; Lincoln; Grady; McClain; Cleveland; Pottawatomie; Seminole; Hughes; Tillman; Comanche; Stephens; Garvin; Murray; Pontotoc; Coal; Cotton; Jefferson; Carter; Johnston; Atoka; Love; Marshall; Bryan; Wichita; Archer; Clay",
+          "sameCodes": [
+            "040059",
+            "040151",
+            "040003",
+            "040053",
+            "040071",
+            "040153",
+            "040093",
+            "040047",
+            "040103",
+            "040073",
+            "040083",
+            "040119",
+            "040017",
+            "040109",
+            "040081",
+            "040051",
+            "040087",
+            "040027",
+            "040125",
+            "040133",
+            "040063",
+            "040141",
+            "040031",
+            "040137",
+            "040049",
+            "040099",
+            "040123",
+            "040029",
+            "040033",
+            "040067",
+            "040019",
+            "040069",
+            "040005",
+            "040085",
+            "040095",
+            "040013",
+            "048485",
+            "048009",
+            "048077"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1178,20 +1376,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT18H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT17H"
       },
       "visibility": {
         "value": null,
@@ -1227,7 +1425,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1317,7 +1559,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1328,25 +1614,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 92,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -1355,36 +1641,6 @@
     "coordinates": {
       "latitude": 35.8385577,
       "longitude": -100.8135689
-    },
-    "data": {
-      "temperature": {
-        "value": 23.333333333333332,
-        "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
-      },
-      "relativeHumidity": {
-        "value": 66,
-        "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
-      },
-      "hazards": [],
-      "probabilityOfPrecipitation": {
-        "value": 0,
-        "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT18H"
-      },
-      "visibility": {
-        "value": null,
-        "unit": null,
-        "validTime": null
-      }
-    }
-  },
-  {
-    "countyName": "Crosby",
-    "coordinates": {
-      "latitude": 33.61459873,
-      "longitude": -101.2998612
     },
     "data": {
       "temperature": {
@@ -1401,12 +1657,42 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT17H"
+      },
+      "visibility": {
+        "value": null,
+        "unit": null,
+        "validTime": null
+      }
+    }
+  },
+  {
+    "countyName": "Crosby",
+    "coordinates": {
+      "latitude": 33.61459873,
+      "longitude": -101.2998612
+    },
+    "data": {
+      "temperature": {
+        "value": 22.22222222222222,
+        "unit": "wmoUnit:degC",
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
+      },
+      "relativeHumidity": {
+        "value": 71,
+        "unit": "wmoUnit:percent",
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
+      },
+      "hazards": [],
+      "probabilityOfPrecipitation": {
+        "value": 0,
+        "unit": "wmoUnit:percent",
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -1418,25 +1704,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 95,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -1497,7 +1783,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1538,25 +1868,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT17H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT16H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -1655,6 +1985,48 @@
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
@@ -1802,7 +2174,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1832,7 +2248,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1843,25 +2303,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -1873,25 +2333,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT5H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -1903,25 +2363,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT5H"
       }
     }
   },
@@ -1935,23 +2395,23 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15063.459287475513,
+        "value": 11201.034301391646,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -1963,25 +2423,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT13H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -2142,25 +2602,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT7H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -2172,25 +2632,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -2230,6 +2690,48 @@
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
@@ -2420,23 +2922,23 @@
       "temperature": {
         "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT5H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT4H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -2538,25 +3040,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -2568,14 +3070,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2588,7 +3090,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT12H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT11H"
       },
       "visibility": {
         "value": null,
@@ -2695,14 +3197,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2715,7 +3217,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT9H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
       },
       "visibility": {
         "value": null,
@@ -2792,25 +3294,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P2DT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/P2DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -2852,25 +3354,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -2910,6 +3412,48 @@
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
@@ -2978,25 +3522,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -3038,25 +3582,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 65,
+        "value": 83,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT16H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -3097,6 +3641,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -3134,20 +3720,20 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT6H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -3164,14 +3750,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 52,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3184,7 +3770,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -3231,25 +3817,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT5H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -3261,20 +3847,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 96,
+        "value": 99,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3291,25 +3877,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -3381,20 +3967,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -3411,14 +3997,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "hazards": [
         {
@@ -3431,7 +4017,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -3478,14 +4064,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3498,7 +4084,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -3547,18 +4133,18 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 92,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -3605,25 +4191,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -3654,7 +4240,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -3665,25 +4295,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 95,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -3774,7 +4404,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -3787,23 +4461,23 @@
       "temperature": {
         "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT4H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15127.832986084028,
+        "value": 10830.885150695824,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -3934,6 +4608,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -3971,25 +4687,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT19H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -4061,25 +4777,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 72,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -4153,23 +4869,23 @@
       "temperature": {
         "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 14661.123287475511,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -4209,6 +4925,48 @@
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
@@ -4277,25 +5035,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -4337,25 +5095,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -4397,25 +5155,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P2DT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/P2DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -4427,25 +5185,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -4517,25 +5275,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15852.039013915974,
+        "value": 13953.01260278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -4575,6 +5333,48 @@
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
@@ -4643,25 +5443,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P3DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P3DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -4763,25 +5563,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT11H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -4853,25 +5653,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -4913,20 +5713,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -5003,25 +5803,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -5122,6 +5922,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -5191,18 +6033,18 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 95,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -5221,23 +6063,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 15932.504986084026,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -5249,25 +6091,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 91,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -5279,25 +6121,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 98,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -5358,7 +6200,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5371,23 +6257,23 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15176.114411132843,
+        "value": 14001.292493041934,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -5418,7 +6304,62 @@
         "value": null,
         "unit": null,
         "validTime": null
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.3337b0959fc72a8310eb931153089e729b61363f.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:54AM CDT until August 7 at 8:00PM CDT by NWS Norman OK",
+          "description": "* WHAT...Heat index values between 105 to 110 degrees expected.\n\n* WHERE...Portions of central, east central, northern, northwest,\nsoutheast, southern, and southwest Oklahoma and northern Texas.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:54:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Harper; Woods; Alfalfa; Grant; Kay; Woodward; Major; Garfield; Noble; Kingfisher; Logan; Payne; Canadian; Oklahoma; Lincoln; Grady; McClain; Cleveland; Pottawatomie; Seminole; Hughes; Tillman; Comanche; Stephens; Garvin; Murray; Pontotoc; Coal; Cotton; Jefferson; Carter; Johnston; Atoka; Love; Marshall; Bryan; Wichita; Archer; Clay",
+          "sameCodes": [
+            "040059",
+            "040151",
+            "040003",
+            "040053",
+            "040071",
+            "040153",
+            "040093",
+            "040047",
+            "040103",
+            "040073",
+            "040083",
+            "040119",
+            "040017",
+            "040109",
+            "040081",
+            "040051",
+            "040087",
+            "040027",
+            "040125",
+            "040133",
+            "040063",
+            "040141",
+            "040031",
+            "040137",
+            "040049",
+            "040099",
+            "040123",
+            "040029",
+            "040033",
+            "040067",
+            "040019",
+            "040069",
+            "040005",
+            "040085",
+            "040095",
+            "040013",
+            "048485",
+            "048009",
+            "048077"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5459,25 +6400,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -5538,7 +6479,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5549,25 +6534,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 86,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT7H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -5598,7 +6583,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5609,25 +6638,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -5759,25 +6788,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -5847,6 +6876,48 @@
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
@@ -5934,7 +7005,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5977,23 +7092,23 @@
       "temperature": {
         "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -6125,20 +7240,20 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT6H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -6260,25 +7375,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT12H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/P1DT16H"
+        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
       },
       "alerts": [
         {
@@ -6368,25 +7483,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -6460,23 +7575,23 @@
       "temperature": {
         "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15852.039013915974,
+        "value": 11136.66060278313,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -6567,7 +7682,51 @@
         "value": 14484.096,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/PT1H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -6637,6 +7796,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -6704,25 +7905,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15369.235506958066,
+        "value": 15707.197808349552,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -6734,25 +7935,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT19H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -6764,25 +7965,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 65,
+        "value": 88,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -6796,18 +7997,18 @@
       "temperature": {
         "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT18H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT17H"
       },
       "visibility": {
         "value": null,
@@ -6824,14 +8025,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6844,7 +8045,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -6891,20 +8092,20 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6951,14 +8152,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6971,7 +8172,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -7020,18 +8221,18 @@
       "temperature": {
         "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT6H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": null,
@@ -7078,14 +8279,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "hazards": [
         {
@@ -7098,7 +8299,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT15H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT14H"
       },
       "visibility": {
         "value": null,
@@ -7145,25 +8346,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P2DT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/P2DT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -7205,25 +8406,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -7235,25 +8436,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P2DT8H"
+        "validTime": "2025-08-06T11:00:00+00:00/P2DT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -7265,25 +8466,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 12697.7239451294,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/PT5H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       }
     }
   },
@@ -7564,6 +8765,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -7751,25 +8994,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 15675.010191650448,
+        "value": 14822.058301391646,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -7870,6 +9113,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -7926,7 +9211,51 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-06T04:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        }
+      ]
     }
   },
   {
@@ -7937,25 +9266,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P3DT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/P3DT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -7967,25 +9296,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT13H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT7H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -8057,25 +9386,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/P2DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P2DT19H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   },
@@ -8119,23 +9448,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 15948.59879443358,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       }
     }
   },
@@ -8147,25 +9476,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 94,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT10H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT4H"
       },
       "visibility": {
-        "value": 16093.44,
+        "value": 11265.408,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/PT6H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT3H"
       }
     }
   },
@@ -8177,25 +9506,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T05:00:00+00:00/PT7H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T05:00:00+00:00/P1DT20H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT20H"
       }
     }
   },
@@ -8296,14 +9625,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8316,7 +9645,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT12H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT13H"
       },
       "visibility": {
         "value": null,
@@ -8392,6 +9721,48 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.b717f887df75e050850cc7c2ec9532a46b825a50.001.1",
+          "event": "Heat Advisory",
+          "headline": "Heat Advisory issued August 6 at 11:55AM CDT until August 7 at 8:00PM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Heat index values up to 109 expected.\n\n* WHERE...Portions of North Texas as well as Navarro and Henderson\ncounties.\n\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n\n* IMPACTS...Hot temperatures and high humidity will increase the\nrisk for heat-related illnesses to occur, particularly for those\nworking or participating in outdoor activities.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-06T11:55:00-05:00",
+          "expires": "2025-08-07T02:00:00-05:00",
+          "areaDesc": "Montague; Cooke; Grayson; Fannin; Lamar; Young; Jack; Wise; Denton; Collin; Hunt; Delta; Hopkins; Stephens; Palo Pinto; Parker; Tarrant; Dallas; Rockwall; Kaufman; Van Zandt; Rains; Hood; Somervell; Johnson; Ellis; Henderson; Navarro",
+          "sameCodes": [
+            "048337",
+            "048097",
+            "048181",
+            "048147",
+            "048277",
+            "048503",
+            "048237",
+            "048497",
+            "048121",
+            "048085",
+            "048231",
+            "048119",
+            "048223",
+            "048429",
+            "048363",
+            "048367",
+            "048439",
+            "048113",
+            "048397",
+            "048257",
+            "048467",
+            "048379",
+            "048221",
+            "048425",
+            "048251",
+            "048139",
+            "048213",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.43bfcadd59f632b3db0fb6c23d06f04aa7a4ef02.001.1",
           "event": "Air Quality Alert",
           "headline": "Air Quality Alert issued August 5 at 2:18PM CDT by NWS Fort Worth TX",
@@ -8431,23 +9802,23 @@
       "temperature": {
         "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT4H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 97,
+        "value": 100,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15095.646904174775,
+        "value": 12617.25720556642,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -8459,14 +9830,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8479,7 +9850,7 @@
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT18H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT16H"
       },
       "visibility": {
         "value": null,
@@ -8616,20 +9987,20 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 86,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -8646,25 +10017,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
         "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT3H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       },
       "visibility": {
-        "value": 15079.553095825224,
+        "value": 15369.235506958066,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T09:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
       }
     }
   },
@@ -8706,25 +10077,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 61,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT1H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-06T10:00:00+00:00/PT11H"
+        "validTime": "2025-08-06T11:00:00+00:00/PT10H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-06T10:00:00+00:00/P1DT15H"
+        "validTime": "2025-08-06T11:00:00+00:00/P1DT14H"
       }
     }
   }
