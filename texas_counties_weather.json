@@ -103,23 +103,23 @@
       "temperature": {
         "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -131,25 +131,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 32.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 35,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 10,
+        "value": 24,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       }
     }
   },
@@ -161,25 +161,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 35,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT5H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT4H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -191,26 +191,44 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 11,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
-      }
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.564dec20d5da356ac157e92cb4561e70e997b158.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued August 11 at 10:07PM CDT until August 11 at 11:45PM CDT by NWS Lubbock TX",
+          "description": "At 1007 PM CDT, Doppler radar and automated rain gauges indicated\nslow-moving thunderstorms producing heavy rain across the warned\narea. Up to 4 inches of rain have fallen. Additional rainfall\namounts up to 1 inch are possible in the warned area. Flash flooding\nis ongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nVigo Park.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-08-11T22:07:00-05:00",
+          "expires": "2025-08-11T23:45:00-05:00",
+          "areaDesc": "Briscoe, TX; Swisher, TX",
+          "sameCodes": [
+            "048045",
+            "048437"
+          ]
+        }
+      ]
     }
   },
   {
@@ -311,20 +329,20 @@
     },
     "data": {
       "temperature": {
-        "value": 37.22222222222222,
+        "value": 36.666666666666664,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 16,
+        "value": 27,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -527,23 +545,23 @@
       "temperature": {
         "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/PT17H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT16H"
       }
     }
   },
@@ -555,25 +573,25 @@
     },
     "data": {
       "temperature": {
-        "value": 36.111111111111114,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -634,7 +652,39 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-11T16:00:00+00:00/P1DT15H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.5fa71dd935e4aa572a7196fb643de47121f20b10.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 11 at 10:17PM CDT by NWS Fort Worth TX",
+          "description": "At 1017 PM CDT, Doppler radar was tracking a strong thunderstorm near\nCoffee Mill Lake, or 11 miles east of Bonham. This storm was nearly\nstationary.\n\nHAZARD...Winds in excess of 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nHoney Grove, Dodd City, Crockett Lake, Coffee Mill Lake, Windom,\nLannius, Lamasco, Carson, Allens Point, and Allens Chapel.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-11T22:17:00-05:00",
+          "expires": "2025-08-11T22:45:00-05:00",
+          "areaDesc": "Fannin",
+          "sameCodes": [
+            "048147"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.01eb0c37aca7412528e33c80a0cf67cf5940a9aa.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 11 at 10:07PM CDT until August 12 at 1:00AM CDT by NWS Fort Worth TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of north central Texas, including the following\ncounty, Fannin.\n\n* WHEN...Until 100 AM CDT.\n\n* IMPACTS...Water over roadways.\n\n* ADDITIONAL DETAILS...\n- Doppler radar indicated heavy rain due to stationary\nthunderstorms across the Ector and Ravenna areas of Fannin\nCounty. Radar estimates up to 3 inches of rain has fallen in\nthe past hour. Low lying and/or poor drainage areas will\nexperience minor flooding in the advisory area.\n- Some locations that will experience flooding include...\nBonham, Savoy, Ector, Trenton, Ravenna, Lake Bonham, Bonham\nState Park, Randolph, Boyd, Ridings, Ely, Cotton Center,\nIvanhoe, Sowells Bluff, Gober and Duplex.",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-11T22:07:00-05:00",
+          "expires": "2025-08-12T01:00:00-05:00",
+          "areaDesc": "Fannin, TX",
+          "sameCodes": [
+            "048147"
+          ]
+        }
+      ]
     }
   },
   {
@@ -797,18 +847,18 @@
       "temperature": {
         "value": 36.666666666666664,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT3H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 35,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -915,25 +965,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 13,
+        "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -945,25 +995,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35.55555555555556,
+        "value": 36.111111111111114,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1035,25 +1085,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 35,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T12:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T12:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T12:00:00+00:00/PT3H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -1084,24 +1134,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.486ac5edd082aeab292d2999300479c2c03b4392.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued August 11 at 6:58PM CDT until August 11 at 10:00PM CDT by NWS Amarillo TX",
-          "description": "FFWAMA\n\nThe National Weather Service in Amarillo has issued a\n\n* Flash Flood Warning for...\nCentral Carson County in the panhandle of Texas...\n\n* Until 1000 PM CDT.\n\n* At 658 PM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 2 and 3 inches of rain\nhave fallen. The expected rainfall rate is 1 to 2 inches in 1\nhour. Flash flooding is ongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nPanhandle and White Deer.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-08-11T18:58:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Carson, TX",
-          "sameCodes": [
-            "048065"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -1112,25 +1145,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1170,21 +1203,6 @@
         "validTime": null
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.be54ef2ed943ab7a36b855a4cccd107df83fdd7c.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued August 11 at 6:44PM CDT until August 11 at 9:45PM CDT by NWS Norman OK",
-          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of northern Texas, including the following\ncounty, Wichita.\n\n* WHEN...Until 945 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 644 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1 and 2.5 inches of\nrain have fallen.\n- Additional rainfall amounts of 1 to 2 inches are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nIowa Park.\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-08-11T18:44:00-05:00",
-          "expires": "2025-08-11T21:45:00-05:00",
-          "areaDesc": "Wichita, TX",
-          "sameCodes": [
-            "048485"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.d1a671d054814841c088167bda950f9962349542.001.1",
           "event": "Flood Watch",
@@ -1303,15 +1321,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4a438c796270556178e5490fd29ea0f3dd2820e5.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.f00cc13a5c429d13b6fb197b3bbf0f41f5aae08a.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:23PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
-          "description": "SVRAMA\n\nThe National Weather Service in Amarillo has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Collingsworth County in the Panhandle of Texas...\nSoutheastern Donley County in the Panhandle of Texas...\n\n* Until 1030 PM CDT.\n\n* At 922 PM CDT, a severe thunderstorm was located 7 miles northeast\nof Hedley, or 14 miles north of Memphis, moving southeast at 15\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\nHail damage to vehicles is expected.\n\n* Locations impacted include...\nWellington, Hedley, and Quail.",
+          "headline": "Severe Thunderstorm Warning issued August 11 at 10:22PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
+          "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.  However, gusty\nwinds and heavy rain are still possible with this thunderstorm.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-08-11T21:23:00-05:00",
-          "expires": "2025-08-11T22:30:00-05:00",
+          "effective": "2025-08-11T22:22:00-05:00",
+          "expires": "2025-08-11T22:32:00-05:00",
           "areaDesc": "Collingsworth, TX; Donley, TX",
           "sameCodes": [
             "048087",
@@ -1449,25 +1467,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35.55555555555556,
+        "value": 35,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1498,25 +1516,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.dd68b5cb9f4d78518ae12b429686419ede15133e.002.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:26PM CDT until August 11 at 9:45PM CDT by NWS Amarillo TX",
-          "description": "At 925 PM CDT, a severe thunderstorm was located 8 miles west of\nCanadian, moving east at 5 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible. Hail\ndamage to vehicles is expected.\n\nThis severe thunderstorm will remain over mainly rural areas of east\ncentral Roberts and west central Hemphill Counties.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:26:00-05:00",
-          "expires": "2025-08-11T21:45:00-05:00",
-          "areaDesc": "Hemphill, TX; Roberts, TX",
-          "sameCodes": [
-            "048211",
-            "048393"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -1527,25 +1527,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 14,
+        "value": 24,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -1557,25 +1557,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1677,25 +1677,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 11,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       }
     }
   },
@@ -1955,23 +1955,23 @@
       "temperature": {
         "value": 36.111111111111114,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -1983,42 +1983,56 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 21,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.89f665e459929ca444107e509295c947fc8ff30f.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.74f17d72eedc1a448a74f12ac31a145c813e6173.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 11 at 10:20PM CDT until August 12 at 12:30AM CDT by NWS Lubbock TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of the Panhandle of Texas, including the\nfollowing county, Hall.\n\n* WHEN...Until 1230 AM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways. Overflowing poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 1020 PM CDT, Doppler radar indicated heavy rain due to\nslow-moving thunderstorms. Minor flooding is ongoing or\nexpected to begin shortly in the advisory area. Up to 2\ninches of rain have fallen.\n- Additional rainfall amounts up to 1 inch are possible over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nLakeview and Plaska Community.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-11T22:20:00-05:00",
+          "expires": "2025-08-12T00:30:00-05:00",
+          "areaDesc": "Hall, TX",
+          "sameCodes": [
+            "048191"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6dcd7971ccf992283c3ee30b71313e46b8da7d15.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 11 at 9:32PM CDT by NWS Lubbock TX",
-          "description": "At 931 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 11 miles southwest of Memphis to Childress to 7\nmiles south of Kirkland. Movement was northeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nChildress, Memphis, Kirkland, Estelline, Lakeview, and Plaska\nCommunity.",
+          "headline": "Special Weather Statement issued August 11 at 10:05PM CDT by NWS Lubbock TX",
+          "description": "At 1005 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Brice to 12 miles north of Childress.\nThese storms were nearly stationary.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nMemphis, Brice, Estelline, Lakeview, and Plaska Community.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-11T21:32:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Hall; Childress; Cottle",
+          "effective": "2025-08-11T22:05:00-05:00",
+          "expires": "2025-08-11T22:30:00-05:00",
+          "areaDesc": "Hall; Childress",
           "sameCodes": [
             "048191",
-            "048075",
-            "048101"
+            "048075"
           ]
         }
       ]
@@ -2034,23 +2048,23 @@
       "temperature": {
         "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -2092,25 +2106,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 32,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -2306,25 +2320,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -2336,25 +2350,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT4H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       }
     }
   },
@@ -2702,25 +2716,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35.55555555555556,
+        "value": 36.111111111111114,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -2751,27 +2765,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.4bd8adae43c0bbc95640193b3795d9b8de319f69.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:30PM CDT until August 11 at 10:00PM CDT by NWS Amarillo TX",
-          "description": "At 930 PM CDT, a severe thunderstorm was located over Wildorado, or\n10 miles east of Vega, moving southeast at 25 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\n\nLocations impacted include...\nAmarillo, Vega, Wildorado, and Bushland.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:30:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Deaf Smith, TX; Oldham, TX; Potter, TX; Randall, TX",
-          "sameCodes": [
-            "048117",
-            "048359",
-            "048375",
-            "048381"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -2864,24 +2858,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4bd8adae43c0bbc95640193b3795d9b8de319f69.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:30PM CDT until August 11 at 10:00PM CDT by NWS Amarillo TX",
-          "description": "At 930 PM CDT, a severe thunderstorm was located over Wildorado, or\n10 miles east of Vega, moving southeast at 25 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\n\nLocations impacted include...\nAmarillo, Vega, Wildorado, and Bushland.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:30:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Deaf Smith, TX; Oldham, TX; Potter, TX; Randall, TX",
-          "sameCodes": [
-            "048117",
-            "048359",
-            "048375",
-            "048381"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.c1855eef6abd6e5814442fd1d777d83e269d921d.001.1",
           "event": "Flood Advisory",
           "headline": "Flood Advisory issued August 11 at 9:07PM CDT until August 12 at 12:15AM CDT by NWS Amarillo TX",
@@ -2938,25 +2914,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 13,
+        "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -2998,25 +2974,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -3124,25 +3100,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -3186,23 +3162,23 @@
       "temperature": {
         "value": 36.666666666666664,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -3299,25 +3275,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.dd68b5cb9f4d78518ae12b429686419ede15133e.002.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:26PM CDT until August 11 at 9:45PM CDT by NWS Amarillo TX",
-          "description": "At 925 PM CDT, a severe thunderstorm was located 8 miles west of\nCanadian, moving east at 5 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible. Hail\ndamage to vehicles is expected.\n\nThis severe thunderstorm will remain over mainly rural areas of east\ncentral Roberts and west central Hemphill Counties.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:26:00-05:00",
-          "expires": "2025-08-11T21:45:00-05:00",
-          "areaDesc": "Hemphill, TX; Roberts, TX",
-          "sameCodes": [
-            "048211",
-            "048393"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -3350,33 +3308,15 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4bd8adae43c0bbc95640193b3795d9b8de319f69.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:30PM CDT until August 11 at 10:00PM CDT by NWS Amarillo TX",
-          "description": "At 930 PM CDT, a severe thunderstorm was located over Wildorado, or\n10 miles east of Vega, moving southeast at 25 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\n\nLocations impacted include...\nAmarillo, Vega, Wildorado, and Bushland.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:30:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Deaf Smith, TX; Oldham, TX; Potter, TX; Randall, TX",
-          "sameCodes": [
-            "048117",
-            "048359",
-            "048375",
-            "048381"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.73ef0ddb3327bd19863ae54b07e5aa38c45d41aa.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.a8dac200bd80c0d4d1bb9b634c098f44a3171607.001.1",
           "event": "Flood Advisory",
-          "headline": "Flood Advisory issued August 11 at 7:17PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of the Panhandle of Texas, including the\nfollowing counties, Potter and Randall.\n\n* WHEN...Until 1030 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 717 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Some locations that will experience flooding include...\nAmarillo, Canyon, Lake Tanglewood, Mescalero Park and\nTimbercreek Canyon.\n- http://www.weather.gov/safety/flood",
+          "headline": "Flood Advisory issued August 11 at 10:25PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
+          "description": "The Flood Advisory will expire at 1030 PM CDT this evening for a\nportion of the Panhandle of Texas, including the following areas,\nPotter and Randall.\n\nThe heavy rain has ended. Flooding is no longer expected to pose a\nthreat. Please continue to heed remaining road closures.",
           "severity": "Minor",
           "urgency": "Expected",
           "certainty": "Likely",
-          "effective": "2025-08-11T19:17:00-05:00",
-          "expires": "2025-08-11T22:30:00-05:00",
+          "effective": "2025-08-11T22:25:00-05:00",
+          "expires": "2025-08-11T22:35:00-05:00",
           "areaDesc": "Potter, TX; Randall, TX",
           "sameCodes": [
             "048375",
@@ -3394,42 +3334,41 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 22,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.89f665e459929ca444107e509295c947fc8ff30f.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.6dcd7971ccf992283c3ee30b71313e46b8da7d15.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 11 at 9:32PM CDT by NWS Lubbock TX",
-          "description": "At 931 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 11 miles southwest of Memphis to Childress to 7\nmiles south of Kirkland. Movement was northeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nChildress, Memphis, Kirkland, Estelline, Lakeview, and Plaska\nCommunity.",
+          "headline": "Special Weather Statement issued August 11 at 10:05PM CDT by NWS Lubbock TX",
+          "description": "At 1005 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Brice to 12 miles north of Childress.\nThese storms were nearly stationary.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nMemphis, Brice, Estelline, Lakeview, and Plaska Community.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-11T21:32:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Hall; Childress; Cottle",
+          "effective": "2025-08-11T22:05:00-05:00",
+          "expires": "2025-08-11T22:30:00-05:00",
+          "areaDesc": "Hall; Childress",
           "sameCodes": [
             "048191",
-            "048075",
-            "048101"
+            "048075"
           ]
         }
       ]
@@ -3443,20 +3382,20 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 61,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 22,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -3475,23 +3414,23 @@
       "temperature": {
         "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -3653,20 +3592,20 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 18,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -3713,25 +3652,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -3775,23 +3714,23 @@
       "temperature": {
         "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -4079,25 +4018,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 12,
+        "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -4169,25 +4108,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35.55555555555556,
+        "value": 36.666666666666664,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 36,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -4385,25 +4324,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT10H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT9H"
       }
     }
   },
@@ -4445,25 +4384,25 @@
     },
     "data": {
       "temperature": {
-        "value": 36.111111111111114,
+        "value": 36.666666666666664,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -4505,25 +4444,25 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 16,
+        "value": 24,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -4535,25 +4474,25 @@
     },
     "data": {
       "temperature": {
-        "value": 36.111111111111114,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -4751,25 +4690,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35,
+        "value": 35.55555555555556,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -4952,23 +4891,23 @@
       "temperature": {
         "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT3H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 10,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT10H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT9H"
       }
     }
   },
@@ -5040,36 +4979,51 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT4H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.46e7445dc8e462ccae9b88a8b4dc20337113da3b.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.51eebc183cf35c85884a80712d40c7598e889a8e.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 11 at 10:21PM CDT until August 11 at 11:00PM CDT by NWS Lubbock TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...Northeastern portions of Castro County in the Panhandle of\nTexas.\n\n* WHEN...Until 1100 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways. Overflowing poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 1021 PM CDT, Doppler radar indicated continuing light to\nmoderate rain due to slow-moving thunderstorms. This combined\nwith several inches of rainfall which fell earlier in the\nevening will result in minor flooding in the advisory area.\n- Some locations that will experience flooding include...\nNazareth.",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-11T22:21:00-05:00",
+          "expires": "2025-08-11T23:00:00-05:00",
+          "areaDesc": "Castro, TX",
+          "sameCodes": [
+            "048069"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.31a5b9ee2c21aedb628bf0f6367ca8cf67379415.001.1",
           "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued August 11 at 9:06PM CDT until August 11 at 10:30PM CDT by NWS Lubbock TX",
-          "description": "At 906 PM CDT, Doppler radar indicated heavy rain has largely ended\nacross the warned area, but light to moderate rain continues. Up to\n4 inches of rain have fallen between Hart and Nazareth. Additional\nrainfall is possible as more thunderstorms move into the area over\nthe next hour. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nHart.",
+          "headline": "Flash Flood Warning issued August 11 at 10:07PM CDT until August 11 at 10:30PM CDT by NWS Lubbock TX",
+          "description": "At 1007 PM CDT, Doppler radar indicated heavy rain has largely ended\nacross the warned area, but light rain continues. Up to 4.5 inches\nof rain have fallen between Hart and Nazareth. Additional rainfall\nis possible as more thunderstorms move into the area over the next\nhour. Flash flooding is ongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nHart.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Likely",
-          "effective": "2025-08-11T21:06:00-05:00",
+          "effective": "2025-08-11T22:07:00-05:00",
           "expires": "2025-08-11T22:30:00-05:00",
           "areaDesc": "Castro, TX",
           "sameCodes": [
@@ -5117,20 +5071,20 @@
     },
     "data": {
       "temperature": {
-        "value": 37.77777777777778,
+        "value": 38.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -5207,26 +5161,44 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 16,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
-      }
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.564dec20d5da356ac157e92cb4561e70e997b158.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued August 11 at 10:07PM CDT until August 11 at 11:45PM CDT by NWS Lubbock TX",
+          "description": "At 1007 PM CDT, Doppler radar and automated rain gauges indicated\nslow-moving thunderstorms producing heavy rain across the warned\narea. Up to 4 inches of rain have fallen. Additional rainfall\namounts up to 1 inch are possible in the warned area. Flash flooding\nis ongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nVigo Park.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-08-11T22:07:00-05:00",
+          "expires": "2025-08-11T23:45:00-05:00",
+          "areaDesc": "Briscoe, TX; Swisher, TX",
+          "sameCodes": [
+            "048045",
+            "048437"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5395,18 +5367,18 @@
       "temperature": {
         "value": 36.666666666666664,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 13,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -5455,23 +5427,23 @@
       "temperature": {
         "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5485,23 +5457,23 @@
       "temperature": {
         "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5727,25 +5699,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 35,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5817,25 +5789,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35.55555555555556,
+        "value": 36.111111111111114,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -5877,25 +5849,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 9,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT4H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       }
     }
   },
@@ -6027,25 +5999,25 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -6307,25 +6279,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 16,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       }
     }
   },
@@ -6547,25 +6519,25 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T12:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T12:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T12:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T12:00:00+00:00/P1DT19H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -6637,25 +6609,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 35,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -7067,45 +7039,26 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 20,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT10H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.89f665e459929ca444107e509295c947fc8ff30f.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 11 at 9:32PM CDT by NWS Lubbock TX",
-          "description": "At 931 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 11 miles southwest of Memphis to Childress to 7\nmiles south of Kirkland. Movement was northeast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nChildress, Memphis, Kirkland, Estelline, Lakeview, and Plaska\nCommunity.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:32:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Hall; Childress; Cottle",
-          "sameCodes": [
-            "048191",
-            "048075",
-            "048101"
-          ]
-        }
-      ]
+        "validTime": "2025-08-11T21:00:00+00:00/PT9H"
+      }
     }
   },
   {
@@ -7116,25 +7069,25 @@
     },
     "data": {
       "temperature": {
-        "value": 36.111111111111114,
+        "value": 37.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -7208,18 +7161,18 @@
       "temperature": {
         "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 18,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -7288,21 +7241,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4cfa3a8000f4335aa468e9a755e2520c8fa63ef4.002.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:29PM CDT until August 11 at 9:45PM CDT by NWS Amarillo TX",
-          "description": "At 928 PM CDT, a severe thunderstorm was located over Wayside, or 20\nmiles northeast of Tulia, moving southeast at 20 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\n\nLocations impacted include...\nWayside.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:29:00-05:00",
-          "expires": "2025-08-11T21:45:00-05:00",
-          "areaDesc": "Armstrong, TX",
-          "sameCodes": [
-            "048011"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.bfb8d1c2edd7e8db051d5ffe4a8738106828816d.001.1",
           "event": "Flood Advisory",
           "headline": "Flood Advisory issued August 11 at 8:16PM CDT until August 11 at 11:15PM CDT by NWS Amarillo TX",
@@ -7351,19 +7289,34 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4a438c796270556178e5490fd29ea0f3dd2820e5.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.f00cc13a5c429d13b6fb197b3bbf0f41f5aae08a.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:23PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
-          "description": "SVRAMA\n\nThe National Weather Service in Amarillo has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Collingsworth County in the Panhandle of Texas...\nSoutheastern Donley County in the Panhandle of Texas...\n\n* Until 1030 PM CDT.\n\n* At 922 PM CDT, a severe thunderstorm was located 7 miles northeast\nof Hedley, or 14 miles north of Memphis, moving southeast at 15\nmph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\nHail damage to vehicles is expected.\n\n* Locations impacted include...\nWellington, Hedley, and Quail.",
+          "headline": "Severe Thunderstorm Warning issued August 11 at 10:22PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
+          "description": "The storm which prompted the warning has moved out of the area.\nTherefore, the warning will be allowed to expire.  However, gusty\nwinds and heavy rain are still possible with this thunderstorm.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-08-11T21:23:00-05:00",
-          "expires": "2025-08-11T22:30:00-05:00",
+          "effective": "2025-08-11T22:22:00-05:00",
+          "expires": "2025-08-11T22:32:00-05:00",
           "areaDesc": "Collingsworth, TX; Donley, TX",
           "sameCodes": [
             "048087",
             "048129"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.c072d1465f301904b31bd8ed63719211e81c933d.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 11 at 10:22PM CDT by NWS Amarillo TX",
+          "description": "At 1021 PM CDT, Doppler radar was tracking a strong thunderstorm 5\nmiles northwest of Dodson, or 7 miles southeast of Wellington, moving\nnortheast at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nWellington and Dodson.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-11T22:22:00-05:00",
+          "expires": "2025-08-11T22:45:00-05:00",
+          "areaDesc": "Collingsworth",
+          "sameCodes": [
+            "048087"
           ]
         }
       ]
@@ -7437,25 +7390,25 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 10,
+        "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -7497,48 +7450,18 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
-        "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
-      },
-      "visibility": {
-        "value": 16093.44,
-        "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
-      }
-    }
-  },
-  {
-    "countyName": "Lynn",
-    "coordinates": {
-      "latitude": 33.17685487,
-      "longitude": -101.8160235
-    },
-    "data": {
-      "temperature": {
-        "value": 31.11111111111111,
-        "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
-      },
-      "relativeHumidity": {
-        "value": 39,
-        "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
-      },
-      "hazards": [],
-      "probabilityOfPrecipitation": {
-        "value": 12,
         "unit": "wmoUnit:percent",
         "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
@@ -7550,6 +7473,36 @@
     }
   },
   {
+    "countyName": "Lynn",
+    "coordinates": {
+      "latitude": 33.17685487,
+      "longitude": -101.8160235
+    },
+    "data": {
+      "temperature": {
+        "value": 31.666666666666668,
+        "unit": "wmoUnit:degC",
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
+      },
+      "relativeHumidity": {
+        "value": 38,
+        "unit": "wmoUnit:percent",
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
+      },
+      "hazards": [],
+      "probabilityOfPrecipitation": {
+        "value": 18,
+        "unit": "wmoUnit:percent",
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
+      },
+      "visibility": {
+        "value": 16093.44,
+        "unit": "wmoUnit:m",
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
+      }
+    }
+  },
+  {
     "countyName": "Lavaca",
     "coordinates": {
       "latitude": 29.38437003,
@@ -7557,25 +7510,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35,
+        "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/PT17H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT16H"
       }
     }
   },
@@ -8229,25 +8182,25 @@
     },
     "data": {
       "temperature": {
-        "value": 35.55555555555556,
+        "value": 36.111111111111114,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 10,
+        "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
+        "validTime": "2025-08-11T21:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -8259,25 +8212,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -8349,25 +8302,25 @@
     },
     "data": {
       "temperature": {
-        "value": 34.44444444444444,
+        "value": 35,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 35,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 14,
+        "value": 20,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT12H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT11H"
       }
     }
   },
@@ -8441,23 +8394,23 @@
       "temperature": {
         "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T19:00:00+00:00/PT2H"
+        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T19:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-11T20:00:00+00:00/P1DT17H"
       }
     }
   },
@@ -8581,19 +8534,17 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4bd8adae43c0bbc95640193b3795d9b8de319f69.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 11 at 9:30PM CDT until August 11 at 10:00PM CDT by NWS Amarillo TX",
-          "description": "At 930 PM CDT, a severe thunderstorm was located over Wildorado, or\n10 miles east of Vega, moving southeast at 25 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\n\nLocations impacted include...\nAmarillo, Vega, Wildorado, and Bushland.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-11T21:30:00-05:00",
-          "expires": "2025-08-11T22:00:00-05:00",
-          "areaDesc": "Deaf Smith, TX; Oldham, TX; Potter, TX; Randall, TX",
+          "id": "urn:oid:2.49.0.1.840.0.a8dac200bd80c0d4d1bb9b634c098f44a3171607.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 11 at 10:25PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
+          "description": "The Flood Advisory will expire at 1030 PM CDT this evening for a\nportion of the Panhandle of Texas, including the following areas,\nPotter and Randall.\n\nThe heavy rain has ended. Flooding is no longer expected to pose a\nthreat. Please continue to heed remaining road closures.",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-11T22:25:00-05:00",
+          "expires": "2025-08-11T22:35:00-05:00",
+          "areaDesc": "Potter, TX; Randall, TX",
           "sameCodes": [
-            "048117",
-            "048359",
             "048375",
             "048381"
           ]
@@ -8627,22 +8578,6 @@
           "areaDesc": "Armstrong, TX; Randall, TX",
           "sameCodes": [
             "048011",
-            "048381"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.73ef0ddb3327bd19863ae54b07e5aa38c45d41aa.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued August 11 at 7:17PM CDT until August 11 at 10:30PM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of the Panhandle of Texas, including the\nfollowing counties, Potter and Randall.\n\n* WHEN...Until 1030 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 717 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Some locations that will experience flooding include...\nAmarillo, Canyon, Lake Tanglewood, Mescalero Park and\nTimbercreek Canyon.\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-08-11T19:17:00-05:00",
-          "expires": "2025-08-11T22:30:00-05:00",
-          "areaDesc": "Potter, TX; Randall, TX",
-          "sameCodes": [
-            "048375",
             "048381"
           ]
         }
@@ -8873,20 +8808,20 @@
     },
     "data": {
       "temperature": {
-        "value": 37.77777777777778,
+        "value": 38.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 31,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -8963,25 +8898,25 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 10,
+        "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-11T20:00:00+00:00/PT1H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-11T20:00:00+00:00/PT7H"
+        "validTime": "2025-08-11T21:00:00+00:00/PT6H"
       }
     }
   }
