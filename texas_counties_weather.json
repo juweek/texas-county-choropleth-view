@@ -37,25 +37,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -67,25 +67,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -97,25 +97,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -127,25 +127,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -329,7 +329,26 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T12:00:00+00:00/PT2H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.754b3024dcf00a4c55e8bcd6081bfabc8077302e.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued August 19 at 4:03PM CDT by NWS Houston/Galveston TX",
+          "description": "AQAHGX\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued an\nOzone Action Day for the Houston, Galveston, and Brazoria area for\nWednesday, August 20, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone pollution in the Houston, Galveston, and\nsurrounding areas on Wednesday. You can help prevent ozone pollution by\nsharing a ride, walking, riding a bicycle, taking your lunch to work,\navoiding drive through lanes, conserving energy and keeping your vehicle\nproperly tuned.\n\nFor more information on ozone:\nOzone: The Facts www.tceq.texas.gov/airquality/monops/ozonefacts.html\nEPA AirNow: www.airnow.gov/?city=Houston&state=TX&country=USA\nTake Care of Texas:\nwww.takecareoftexas.org/conservation-tips/keep-our-air-clean",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-08-19T16:03:00-05:00",
+          "expires": "2025-08-20T20:15:00-05:00",
+          "areaDesc": "Inland Harris; Inland Brazoria; Inland Galveston; Coastal Harris; Coastal Brazoria; Coastal Galveston; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+          "sameCodes": [
+            "048201",
+            "048039",
+            "048167"
+          ]
+        }
+      ]
     }
   },
   {
@@ -340,20 +359,20 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 32.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -362,23 +381,34 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c3c9d0b5ee75cc6fe18173bd42d9709deb9b6118.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.8435f0e860b5789c5858f9fa345c9acf392041be.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 19 at 4:47PM CDT until August 19 at 6:30PM CDT by NWS Brownsville TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...A portion of Deep South Texas, including the following\ncounty, Hidalgo.\n\n* WHEN...Until 630 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 447 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1 and 2 inches of rain\nhave fallen.\n- Additional rainfall amounts of 1 to 2 inches are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nHarlingen, Weslaco, Alamo, Donna, Mercedes, Elsa, Edcouch, La\nVilla, Olivarez, Mila Doce, Maria Alicia P Munoz Elementary\nSchool, Lyndon B Johnson Elementary School, Midway North,\nElsa Police Department, Weslaco Mid Valley Airport, Edcouch-\nElsa High School, Edcouch Volunteer Fire Department, Edcouch\nCity Hall, Satiago Garcia Elementary School and Edcouch\nPolice Department.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-19T16:47:00-05:00",
+          "expires": "2025-08-19T18:30:00-05:00",
+          "areaDesc": "Hidalgo, TX",
+          "sameCodes": [
+            "048215"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f0a1d4865dd41dd14448fd57e18d2e25148af44e.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:39PM CDT by NWS Brownsville TX",
-          "description": "At 338 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from 10 miles northeast of San\nRafael Ranch Airport to 6 miles east of Puerto Rico to near Lasara\nElementary School. Movement was south at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nEdinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes,\nRaymondville, and Hidalgo.",
+          "headline": "Special Weather Statement issued August 19 at 4:28PM CDT by NWS Brownsville TX",
+          "description": "At 427 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from North Alamo to Harlon Block Sports Complex to\nRatamosa. Movement was southwest at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPharr, Harlingen, Weslaco, San Juan, Alamo, Donna, Mercedes, Hidalgo,\nLa Feria, and Elsa.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:39:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Jim Hogg; Brooks; Inland Kenedy; Starr; Southern Hidalgo; Inland Willacy; Northern Hidalgo",
+          "effective": "2025-08-19T16:28:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Southern Hidalgo; Inland Cameron",
           "sameCodes": [
-            "048247",
-            "048047",
-            "048261",
-            "048427",
             "048215",
-            "048489"
+            "048061"
           ]
         }
       ]
@@ -552,7 +582,26 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T12:00:00+00:00/PT2H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.754b3024dcf00a4c55e8bcd6081bfabc8077302e.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued August 19 at 4:03PM CDT by NWS Houston/Galveston TX",
+          "description": "AQAHGX\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued an\nOzone Action Day for the Houston, Galveston, and Brazoria area for\nWednesday, August 20, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone pollution in the Houston, Galveston, and\nsurrounding areas on Wednesday. You can help prevent ozone pollution by\nsharing a ride, walking, riding a bicycle, taking your lunch to work,\navoiding drive through lanes, conserving energy and keeping your vehicle\nproperly tuned.\n\nFor more information on ozone:\nOzone: The Facts www.tceq.texas.gov/airquality/monops/ozonefacts.html\nEPA AirNow: www.airnow.gov/?city=Houston&state=TX&country=USA\nTake Care of Texas:\nwww.takecareoftexas.org/conservation-tips/keep-our-air-clean",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-08-19T16:03:00-05:00",
+          "expires": "2025-08-20T20:15:00-05:00",
+          "areaDesc": "Inland Harris; Inland Brazoria; Inland Galveston; Coastal Harris; Coastal Brazoria; Coastal Galveston; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+          "sameCodes": [
+            "048201",
+            "048039",
+            "048167"
+          ]
+        }
+      ]
     }
   },
   {
@@ -563,25 +612,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 90,
+        "value": 81,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 5,
+        "value": 20,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT5H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       }
     }
   },
@@ -593,25 +642,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 80,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT5H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       }
     }
   },
@@ -875,48 +924,26 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c3c9d0b5ee75cc6fe18173bd42d9709deb9b6118.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:39PM CDT by NWS Brownsville TX",
-          "description": "At 338 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from 10 miles northeast of San\nRafael Ranch Airport to 6 miles east of Puerto Rico to near Lasara\nElementary School. Movement was south at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nEdinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes,\nRaymondville, and Hidalgo.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:39:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Jim Hogg; Brooks; Inland Kenedy; Starr; Southern Hidalgo; Inland Willacy; Northern Hidalgo",
-          "sameCodes": [
-            "048247",
-            "048047",
-            "048261",
-            "048427",
-            "048215",
-            "048489"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -1068,25 +1095,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P1DT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -1098,25 +1125,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT8H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT6H"
       }
     }
   },
@@ -1248,26 +1275,45 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT18H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/PT16H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.71096aa3d641ed53b6c655b4d7da34592619e0dd.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:14PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 414 PM CDT, Doppler radar was tracking a strong thunderstorm over\nPearson, or near Devine, moving southwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDevine, Lytle, Natalia, Moore, Biry, Pearson, Noonan, Yancey,\nBigfoot, Schattel, and Three Oaks.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:14:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Medina; Frio; Atascosa",
+          "sameCodes": [
+            "048325",
+            "048163",
+            "048013"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1550,41 +1596,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.5b2871f5e35078e1fdfe5b1f985edbb44359f877.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 19 at 4:00PM CDT until August 19 at 4:45PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Milam County in central Texas...\nSoutheastern Bell County in central Texas...\nSouth central Falls County in central Texas...\n\n* Until 445 PM CDT.\n\n* At 359 PM CDT, a severe thunderstorm was located near Rosebud, or 8\nmiles north of Cameron, moving southwest at 20 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nBuckholts around 420 PM CDT.\nRogers around 430 PM CDT.\n\nOther locations impacted by this severe thunderstorm include Barclay,\nBen Arnold, Cyclone, Heidenheimer, Wilson, Yarrelton, Pettibone,\nSparks, Davilla, and Silver City.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-19T16:00:00-05:00",
-          "expires": "2025-08-19T16:45:00-05:00",
-          "areaDesc": "Bell, TX; Falls, TX; Milam, TX",
-          "sameCodes": [
-            "048027",
-            "048145",
-            "048331"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.351beffb00d4ac04d2eb820b3d0835b1bafe0f89.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:37PM CDT by NWS Fort Worth TX",
-          "description": "At 337 PM CDT, Doppler radar was tracking a strong thunderstorm 8\nmiles northwest of Calvert, or 17 miles northwest of Hearne, moving\nwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nRosebud around 400 PM CDT.\n\nOther locations impacted by this storm include Wilderville, Barclay,\nBen Arnold, Baileyville, Cyclone, Wilson, Maysfield, Yarrelton,\nCrossroads, and Pettibone.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:37:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Bell; Falls; Milam; Robertson",
-          "sameCodes": [
-            "048027",
-            "048145",
-            "048331",
-            "048395"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.fe943f46029c60fe90d66f8d1a7a6ba61ba83180.001.1",
           "event": "Heat Advisory",
           "headline": "Heat Advisory issued August 19 at 11:45AM CDT until August 20 at 7:00PM CDT by NWS Fort Worth TX",
@@ -1649,25 +1660,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1D"
+        "validTime": "2025-08-19T15:00:00+00:00/PT22H"
       }
     }
   },
@@ -1711,23 +1722,23 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -1739,25 +1750,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 86,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -1993,25 +2004,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -2438,44 +2449,42 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.b15a474fcba9c32619d2f729e738f745d3f61f0b.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.997c094a45df95672f655456e91e2d0354e6afc8.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS Austin/San Antonio TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 7 miles north of Alamo Village to near Dabney\nto 10 miles northwest of Frio Town. Movement was southwest at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDel Rio, Eagle Pass, Uvalde, Crystal City, Brackettville, Spofford,\nQuemado, La Pryor, Batesville, Darling, Laughlin AFB, Las Colonias,\nUvalde Estates, Dabney, Cline, Anacacho, Loma Vista, Alamo Village,\nBlewett, and Paloma.",
+          "headline": "Special Weather Statement issued August 19 at 5:01PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 501 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Paloma to 9 miles northeast of Loma Vista.\nMovement was southwest at 45 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nEagle Pass, Crystal City, Carrizo Springs, Big Wells, La Pryor,\nBatesville, El Indio, Asherton, Chula Vista, Chula Vista-River Spur,\nDarling, Las Colonias, Brundage, Chaparral Wildlife Management Area,\nLight, Carrizo Hill, Loma Vista, Gilson Groves, Las Vegas, and\nRosita.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T17:00:00-05:00",
-          "areaDesc": "Val Verde; Kinney; Uvalde; Maverick; Zavala",
+          "effective": "2025-08-19T17:01:00-05:00",
+          "expires": "2025-08-19T18:00:00-05:00",
+          "areaDesc": "Maverick; Zavala; Dimmit",
           "sameCodes": [
-            "048465",
-            "048271",
-            "048463",
             "048323",
-            "048507"
+            "048507",
+            "048127"
           ]
         }
       ]
@@ -2489,25 +2498,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -2519,25 +2528,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 91,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -2579,25 +2588,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -2813,25 +2822,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 83,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -2843,25 +2852,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -3377,25 +3386,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT17H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT15H"
       }
     }
   },
@@ -3701,25 +3710,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P1DT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/P1DT1H"
       }
     }
   },
@@ -3812,44 +3821,41 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 61,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT16H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.b15a474fcba9c32619d2f729e738f745d3f61f0b.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS Austin/San Antonio TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 7 miles north of Alamo Village to near Dabney\nto 10 miles northwest of Frio Town. Movement was southwest at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDel Rio, Eagle Pass, Uvalde, Crystal City, Brackettville, Spofford,\nQuemado, La Pryor, Batesville, Darling, Laughlin AFB, Las Colonias,\nUvalde Estates, Dabney, Cline, Anacacho, Loma Vista, Alamo Village,\nBlewett, and Paloma.",
-          "severity": "Moderate",
-          "urgency": "Expected",
+          "id": "urn:oid:2.49.0.1.840.0.e474cacd5e3f8307ff88dc3a28375541993b8d30.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued August 19 at 4:48PM CDT until August 19 at 5:30PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nSouth central Kinney County in south central Texas...\nNorthwestern Maverick County in south central Texas...\n\n* Until 530 PM CDT.\n\n* At 448 PM CDT, a severe thunderstorm was located near Spofford,\nmoving southwest at 25 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nEagle Pass, Quemado, Paloma, Radar Base, Normandy, Darling, Siesta\nAcres, Fabrica, Elm Creek, Laughlin AFB Aux Field, and Seco Mines.",
+          "severity": "Severe",
+          "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T17:00:00-05:00",
-          "areaDesc": "Val Verde; Kinney; Uvalde; Maverick; Zavala",
+          "effective": "2025-08-19T16:48:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Kinney, TX; Maverick, TX",
           "sameCodes": [
-            "048465",
             "048271",
-            "048463",
-            "048323",
-            "048507"
+            "048323"
           ]
         }
       ]
@@ -4002,19 +4008,51 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4b9a256a02271252515dd2b8c3c341ade1b85789.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9225b5f08e977371f4f1cc700e0ebbff0933a9ef.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued August 19 at 5:00PM CDT until August 19 at 5:30PM CDT by NWS San Angelo TX",
+          "description": "SVRSJT\n\nThe National Weather Service in San Angelo has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Sutton County in west central Texas...\n\n* Until 530 PM CDT.\n\n* At 500 PM CDT, a severe thunderstorm was located near The\nIntersection Of Ranch Road 2596 And Ranch Road 864, or 16 miles\neast of Sonora, moving southwest at 5 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will remain over mainly rural areas of\ncentral Sutton County, including the following locations... The\nIntersection Of Ranch Road 2596 And Ranch Road 864.\n\nThis includes Interstate 10 between Mile Markers 402 and 419.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-08-19T17:00:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Sutton, TX",
+          "sameCodes": [
+            "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.dea6e16c2210613fdfa2021b2b35c7213a8d819c.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 4:00PM CDT by NWS San Angelo TX",
-          "description": "At 400 PM CDT, Doppler radar was tracking a strong thunderstorm 7\nmiles south of I-10 Near The Crockett-Sutton County Line, or 17 miles\nwest of Sonora, moving southwest at 15 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nThe Intersection Of Highway 163 And Ranch Road 1973 and The\nIntersection Of I-10 And Ranch Road 1989.\n\nThis includes Interstate 10 between Mile Markers 386 and 390, and\nbetween Mile Markers 394 and 395.",
+          "headline": "Special Weather Statement issued August 19 at 4:45PM CDT by NWS San Angelo TX",
+          "description": "At 445 PM CDT, Doppler radar was tracking a strong thunderstorm 7\nmiles southwest of Sonora, moving southwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nSonora, The Intersection Of Us-\n277 And Ranch Road 189, The Intersection Of I-\n10 And Ranch Road 1989, and Us-277 Near The Sutton-\nEdwards County Line.\n\nThis includes Interstate 10 between Mile Markers 385 and 410.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T16:00:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Crockett; Sutton",
+          "effective": "2025-08-19T16:45:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Sutton",
           "sameCodes": [
-            "048105",
             "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.fc7be16a0fea7bdd1b7508a11313f99634125330.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:42PM CDT by NWS San Angelo TX",
+          "description": "At 442 PM CDT, Doppler radar was tracking a strong thunderstorm over\nI-10 Near The Sutton-Kimble County Line, or near Roosevelt, moving\nsouthwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Telegraph, South Llano River State Park, Roosevelt, Cleo,\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, and I-10 Near\nThe Sutton-Kimble County Line.\n\nThis includes Interstate 10 between Mile Markers 409 and 462.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:42:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Schleicher; Sutton; Menard; Kimble",
+          "sameCodes": [
+            "048413",
+            "048435",
+            "048327",
+            "048267"
           ]
         }
       ]
@@ -4028,25 +4066,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT17H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT15H"
       }
     }
   },
@@ -4088,26 +4126,45 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 80,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.997c094a45df95672f655456e91e2d0354e6afc8.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 5:01PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 501 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Paloma to 9 miles northeast of Loma Vista.\nMovement was southwest at 45 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nEagle Pass, Crystal City, Carrizo Springs, Big Wells, La Pryor,\nBatesville, El Indio, Asherton, Chula Vista, Chula Vista-River Spur,\nDarling, Las Colonias, Brundage, Chaparral Wildlife Management Area,\nLight, Carrizo Hill, Loma Vista, Gilson Groves, Las Vegas, and\nRosita.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T17:01:00-05:00",
+          "expires": "2025-08-19T18:00:00-05:00",
+          "areaDesc": "Maverick; Zavala; Dimmit",
+          "sameCodes": [
+            "048323",
+            "048507",
+            "048127"
+          ]
+        }
+      ]
     }
   },
   {
@@ -4278,25 +4335,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 61,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -4308,48 +4365,26 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c3c9d0b5ee75cc6fe18173bd42d9709deb9b6118.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:39PM CDT by NWS Brownsville TX",
-          "description": "At 338 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from 10 miles northeast of San\nRafael Ranch Airport to 6 miles east of Puerto Rico to near Lasara\nElementary School. Movement was south at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nEdinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes,\nRaymondville, and Hidalgo.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:39:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Jim Hogg; Brooks; Inland Kenedy; Starr; Southern Hidalgo; Inland Willacy; Northern Hidalgo",
-          "sameCodes": [
-            "048247",
-            "048047",
-            "048261",
-            "048427",
-            "048215",
-            "048489"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -4360,25 +4395,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 89,
+        "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 8,
+        "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT23H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT21H"
       }
     }
   },
@@ -4412,17 +4447,20 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.2a45738fb8f59f3be5f21237f8e997587ca003c9.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.fc7be16a0fea7bdd1b7508a11313f99634125330.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:50PM CDT by NWS San Angelo TX",
-          "description": "At 350 PM CDT, Doppler radar was tracking a strong thunderstorm over\nJunction, moving southwest at 15 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Telegraph, South Llano River State Park, Segovia, Us-\n83 Near The Kerr-Kimble County Line, and Us-377 Near The Kimble-\nEdwards County Line.\n\nThis includes Interstate 10 between Mile Markers 442 and 464.",
+          "headline": "Special Weather Statement issued August 19 at 4:42PM CDT by NWS San Angelo TX",
+          "description": "At 442 PM CDT, Doppler radar was tracking a strong thunderstorm over\nI-10 Near The Sutton-Kimble County Line, or near Roosevelt, moving\nsouthwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Telegraph, South Llano River State Park, Roosevelt, Cleo,\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, and I-10 Near\nThe Sutton-Kimble County Line.\n\nThis includes Interstate 10 between Mile Markers 409 and 462.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:50:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Kimble",
+          "effective": "2025-08-19T16:42:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Schleicher; Sutton; Menard; Kimble",
           "sameCodes": [
+            "048413",
+            "048435",
+            "048327",
             "048267"
           ]
         }
@@ -4557,26 +4595,44 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 72,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 4,
+        "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f0a1d4865dd41dd14448fd57e18d2e25148af44e.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:28PM CDT by NWS Brownsville TX",
+          "description": "At 427 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from North Alamo to Harlon Block Sports Complex to\nRatamosa. Movement was southwest at 25 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nPharr, Harlingen, Weslaco, San Juan, Alamo, Donna, Mercedes, Hidalgo,\nLa Feria, and Elsa.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:28:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Southern Hidalgo; Inland Cameron",
+          "sameCodes": [
+            "048215",
+            "048061"
+          ]
+        }
+      ]
     }
   },
   {
@@ -4617,25 +4673,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 78,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -4719,25 +4775,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 7,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT16H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT14H"
       }
     }
   },
@@ -4970,38 +5026,19 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.5b2871f5e35078e1fdfe5b1f985edbb44359f877.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 19 at 4:00PM CDT until August 19 at 4:45PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Milam County in central Texas...\nSoutheastern Bell County in central Texas...\nSouth central Falls County in central Texas...\n\n* Until 445 PM CDT.\n\n* At 359 PM CDT, a severe thunderstorm was located near Rosebud, or 8\nmiles north of Cameron, moving southwest at 20 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nBuckholts around 420 PM CDT.\nRogers around 430 PM CDT.\n\nOther locations impacted by this severe thunderstorm include Barclay,\nBen Arnold, Cyclone, Heidenheimer, Wilson, Yarrelton, Pettibone,\nSparks, Davilla, and Silver City.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-19T16:00:00-05:00",
-          "expires": "2025-08-19T16:45:00-05:00",
-          "areaDesc": "Bell, TX; Falls, TX; Milam, TX",
-          "sameCodes": [
-            "048027",
-            "048145",
-            "048331"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.351beffb00d4ac04d2eb820b3d0835b1bafe0f89.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.aacae705432aa218dc44d23ac4e22955804b6c72.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:37PM CDT by NWS Fort Worth TX",
-          "description": "At 337 PM CDT, Doppler radar was tracking a strong thunderstorm 8\nmiles northwest of Calvert, or 17 miles northwest of Hearne, moving\nwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nRosebud around 400 PM CDT.\n\nOther locations impacted by this storm include Wilderville, Barclay,\nBen Arnold, Baileyville, Cyclone, Wilson, Maysfield, Yarrelton,\nCrossroads, and Pettibone.",
+          "headline": "Special Weather Statement issued August 19 at 4:43PM CDT by NWS Fort Worth TX",
+          "description": "At 442 PM CDT, Doppler radar was tracking a strong thunderstorm over\nRogers, or 14 miles southeast of Temple, moving southwest at 25 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nHolland around 455 PM CDT.\nBartlett around 500 PM CDT.\n\nOther locations impacted by this storm include Minerva, Cedar Valley,\nSan Gabriel, Heidenheimer, Sharp, Youngsport, Pettibone, Prairie\nDell, Sparks, and Davilla.\n\nThis includes Interstate 35 between mile markers 278 and 302.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:37:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Bell; Falls; Milam; Robertson",
+          "effective": "2025-08-19T16:43:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Bell; Milam",
           "sameCodes": [
             "048027",
-            "048145",
-            "048331",
-            "048395"
+            "048331"
           ]
         },
         {
@@ -5237,25 +5274,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -5319,47 +5356,16 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.4b9a256a02271252515dd2b8c3c341ade1b85789.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 4:00PM CDT by NWS San Angelo TX",
-          "description": "At 400 PM CDT, Doppler radar was tracking a strong thunderstorm 7\nmiles south of I-10 Near The Crockett-Sutton County Line, or 17 miles\nwest of Sonora, moving southwest at 15 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nThe Intersection Of Highway 163 And Ranch Road 1973 and The\nIntersection Of I-10 And Ranch Road 1989.\n\nThis includes Interstate 10 between Mile Markers 386 and 390, and\nbetween Mile Markers 394 and 395.",
-          "severity": "Moderate",
+          "id": "urn:oid:2.49.0.1.840.0.9c5d5757897124cc502abe91a7a30c97b8dd3794.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 19 at 4:35PM CDT until August 19 at 6:30PM CDT by NWS San Angelo TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of west central Texas, including the following\ncounty, Crockett.\n\n* WHEN...Until 630 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 435 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1.5 and 2 inches of\nrain have fallen.\n- Additional rainfall amounts of 0.25 to 0.75 inches are\nexpected over the area. This additional rain will result in\nminor flooding.\n- Some locations that will experience flooding include...\nmainly rural areas of Southeastern Crockett County\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
           "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T16:00:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Crockett; Sutton",
-          "sameCodes": [
-            "048105",
-            "048435"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64f7dfe167835b9fbf2c8a95a3537120b5f69922.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:47PM CDT by NWS San Angelo TX",
-          "description": "At 347 PM CDT, Doppler radar was tracking a strong thunderstorm near\nIraan Municipal Airport, or 17 miles north of Sheffield, moving\nsouthwest at 10 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nThis storm will remain over mainly rural areas of north central\nCrockett County.\n\nThis includes Interstate 10 near Mile Marker 327.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:47:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Crockett",
-          "sameCodes": [
-            "048105"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.621fbcd3fee47fe735e7f5a70ab622c051a82e80.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:44PM CDT by NWS San Angelo TX",
-          "description": "At 344 PM CDT, Doppler radar was tracking a strong thunderstorm 7\nmiles southwest of Ozona, moving southwest at 15 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nThe Intersection Of Ranch Road 2083 And Highway 405 and The\nIntersection Of Highway 163 And Ranch Road 1973.\n\nThis includes Interstate 10 between Mile Markers 352 and 362.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:44:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Crockett",
+          "certainty": "Likely",
+          "effective": "2025-08-19T16:35:00-05:00",
+          "expires": "2025-08-19T18:30:00-05:00",
+          "areaDesc": "Crockett, TX",
           "sameCodes": [
             "048105"
           ]
@@ -5375,26 +5381,45 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT12H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/PT10H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.71096aa3d641ed53b6c655b4d7da34592619e0dd.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:14PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 414 PM CDT, Doppler radar was tracking a strong thunderstorm over\nPearson, or near Devine, moving southwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDevine, Lytle, Natalia, Moore, Biry, Pearson, Noonan, Yancey,\nBigfoot, Schattel, and Three Oaks.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:14:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Medina; Frio; Atascosa",
+          "sameCodes": [
+            "048325",
+            "048163",
+            "048013"
+          ]
+        }
+      ]
     }
   },
   {
@@ -5642,25 +5667,25 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 56,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -5753,44 +5778,58 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT17H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT15H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.b15a474fcba9c32619d2f729e738f745d3f61f0b.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.997c094a45df95672f655456e91e2d0354e6afc8.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS Austin/San Antonio TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 7 miles north of Alamo Village to near Dabney\nto 10 miles northwest of Frio Town. Movement was southwest at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDel Rio, Eagle Pass, Uvalde, Crystal City, Brackettville, Spofford,\nQuemado, La Pryor, Batesville, Darling, Laughlin AFB, Las Colonias,\nUvalde Estates, Dabney, Cline, Anacacho, Loma Vista, Alamo Village,\nBlewett, and Paloma.",
+          "headline": "Special Weather Statement issued August 19 at 5:01PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 501 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Paloma to 9 miles northeast of Loma Vista.\nMovement was southwest at 45 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nEagle Pass, Crystal City, Carrizo Springs, Big Wells, La Pryor,\nBatesville, El Indio, Asherton, Chula Vista, Chula Vista-River Spur,\nDarling, Las Colonias, Brundage, Chaparral Wildlife Management Area,\nLight, Carrizo Hill, Loma Vista, Gilson Groves, Las Vegas, and\nRosita.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T17:00:00-05:00",
-          "areaDesc": "Val Verde; Kinney; Uvalde; Maverick; Zavala",
+          "effective": "2025-08-19T17:01:00-05:00",
+          "expires": "2025-08-19T18:00:00-05:00",
+          "areaDesc": "Maverick; Zavala; Dimmit",
           "sameCodes": [
-            "048465",
-            "048271",
-            "048463",
             "048323",
-            "048507"
+            "048507",
+            "048127"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.e474cacd5e3f8307ff88dc3a28375541993b8d30.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued August 19 at 4:48PM CDT until August 19 at 5:30PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nSouth central Kinney County in south central Texas...\nNorthwestern Maverick County in south central Texas...\n\n* Until 530 PM CDT.\n\n* At 448 PM CDT, a severe thunderstorm was located near Spofford,\nmoving southwest at 25 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nEagle Pass, Quemado, Paloma, Radar Base, Normandy, Darling, Siesta\nAcres, Fabrica, Elm Creek, Laughlin AFB Aux Field, and Seco Mines.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:48:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Kinney, TX; Maverick, TX",
+          "sameCodes": [
+            "048271",
+            "048323"
           ]
         }
       ]
@@ -5834,25 +5873,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P1DT7H"
+        "validTime": "2025-08-19T16:00:00+00:00/P1DT6H"
       }
     }
   },
@@ -5864,25 +5903,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 72,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1D"
+        "validTime": "2025-08-19T15:00:00+00:00/PT22H"
       }
     }
   },
@@ -6182,47 +6221,26 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b15a474fcba9c32619d2f729e738f745d3f61f0b.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS Austin/San Antonio TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 7 miles north of Alamo Village to near Dabney\nto 10 miles northwest of Frio Town. Movement was southwest at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDel Rio, Eagle Pass, Uvalde, Crystal City, Brackettville, Spofford,\nQuemado, La Pryor, Batesville, Darling, Laughlin AFB, Las Colonias,\nUvalde Estates, Dabney, Cline, Anacacho, Loma Vista, Alamo Village,\nBlewett, and Paloma.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T17:00:00-05:00",
-          "areaDesc": "Val Verde; Kinney; Uvalde; Maverick; Zavala",
-          "sameCodes": [
-            "048465",
-            "048271",
-            "048463",
-            "048323",
-            "048507"
-          ]
-        }
-      ]
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
+      }
     }
   },
   {
@@ -6374,25 +6392,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 6,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -6464,25 +6482,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -6524,48 +6542,26 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c3c9d0b5ee75cc6fe18173bd42d9709deb9b6118.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:39PM CDT by NWS Brownsville TX",
-          "description": "At 338 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from 10 miles northeast of San\nRafael Ranch Airport to 6 miles east of Puerto Rico to near Lasara\nElementary School. Movement was south at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nEdinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes,\nRaymondville, and Hidalgo.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:39:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Jim Hogg; Brooks; Inland Kenedy; Starr; Southern Hidalgo; Inland Willacy; Northern Hidalgo",
-          "sameCodes": [
-            "048247",
-            "048047",
-            "048261",
-            "048427",
-            "048215",
-            "048489"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -6689,23 +6685,23 @@
       "temperature": {
         "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -6766,7 +6762,27 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T14:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.fc7be16a0fea7bdd1b7508a11313f99634125330.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:42PM CDT by NWS San Angelo TX",
+          "description": "At 442 PM CDT, Doppler radar was tracking a strong thunderstorm over\nI-10 Near The Sutton-Kimble County Line, or near Roosevelt, moving\nsouthwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Telegraph, South Llano River State Park, Roosevelt, Cleo,\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, and I-10 Near\nThe Sutton-Kimble County Line.\n\nThis includes Interstate 10 between Mile Markers 409 and 462.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:42:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Schleicher; Sutton; Menard; Kimble",
+          "sameCodes": [
+            "048413",
+            "048435",
+            "048327",
+            "048267"
+          ]
+        }
+      ]
     }
   },
   {
@@ -6873,48 +6889,26 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c3c9d0b5ee75cc6fe18173bd42d9709deb9b6118.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:39PM CDT by NWS Brownsville TX",
-          "description": "At 338 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from 10 miles northeast of San\nRafael Ranch Airport to 6 miles east of Puerto Rico to near Lasara\nElementary School. Movement was south at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nEdinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes,\nRaymondville, and Hidalgo.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:39:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Jim Hogg; Brooks; Inland Kenedy; Starr; Southern Hidalgo; Inland Willacy; Northern Hidalgo",
-          "sameCodes": [
-            "048247",
-            "048047",
-            "048261",
-            "048427",
-            "048215",
-            "048489"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -6955,25 +6949,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -6985,25 +6979,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1D"
+        "validTime": "2025-08-19T15:00:00+00:00/PT22H"
       }
     }
   },
@@ -7043,24 +7037,6 @@
         "validTime": "2025-08-19T14:00:00+00:00/P1DT17H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.351beffb00d4ac04d2eb820b3d0835b1bafe0f89.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:37PM CDT by NWS Fort Worth TX",
-          "description": "At 337 PM CDT, Doppler radar was tracking a strong thunderstorm 8\nmiles northwest of Calvert, or 17 miles northwest of Hearne, moving\nwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nRosebud around 400 PM CDT.\n\nOther locations impacted by this storm include Wilderville, Barclay,\nBen Arnold, Baileyville, Cyclone, Wilson, Maysfield, Yarrelton,\nCrossroads, and Pettibone.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:37:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Bell; Falls; Milam; Robertson",
-          "sameCodes": [
-            "048027",
-            "048145",
-            "048331",
-            "048395"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.fe943f46029c60fe90d66f8d1a7a6ba61ba83180.001.1",
           "event": "Heat Advisory",
@@ -7267,62 +7243,26 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b15a474fcba9c32619d2f729e738f745d3f61f0b.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS Austin/San Antonio TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 7 miles north of Alamo Village to near Dabney\nto 10 miles northwest of Frio Town. Movement was southwest at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDel Rio, Eagle Pass, Uvalde, Crystal City, Brackettville, Spofford,\nQuemado, La Pryor, Batesville, Darling, Laughlin AFB, Las Colonias,\nUvalde Estates, Dabney, Cline, Anacacho, Loma Vista, Alamo Village,\nBlewett, and Paloma.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T17:00:00-05:00",
-          "areaDesc": "Val Verde; Kinney; Uvalde; Maverick; Zavala",
-          "sameCodes": [
-            "048465",
-            "048271",
-            "048463",
-            "048323",
-            "048507"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.2e21f7da614ee672fd9ffe69ab36750811c2a2d3.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 19 at 3:36PM CDT until August 19 at 4:15PM CDT by NWS Austin/San Antonio TX",
-          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nUvalde County in south central Texas...\n\n* Until 415 PM CDT.\n\n* At 336 PM CDT, a severe thunderstorm was located near Concan, or 17\nmiles south of Vanderpool, moving southwest at 40 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nUvalde, Knippa, Uvalde Estates, Laguna, Montell, Dabney, Blewett,\nCline, Garner State Park, Reagan Wells, and Concan.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:36:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Uvalde, TX",
-          "sameCodes": [
-            "048463"
-          ]
-        }
-      ]
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+      }
     }
   },
   {
@@ -7393,26 +7333,44 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT17H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/PT15H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.c91ca3105c806b2b25e1f8ab542d6fd647fd708c.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:29PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 429 PM CDT, Doppler radar was tracking a strong thunderstorm over\nTimberwood Park, or 12 miles north of San Antonio Int Airport, moving\nsouthwest at 20 mph.\n\nHAZARD...Winds in excess of 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nSan Antonio, San Antonio Int Airport, Helotes, Fair Oaks Ranch,\nWindcrest, Bulverde, Shavano Park, Hollywood Park, Cross Mountain,\nTimberwood Park, Leon Springs, The Dominion, Government Canyon State\nNatural Area, Castle Hills, Hill Country Village, Grey Forest,\nAnhalt, Specht Store, Fiesta Texas, and Scenic Oaks.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:29:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Bexar; Comal",
+          "sameCodes": [
+            "048029",
+            "048091"
+          ]
+        }
+      ]
     }
   },
   {
@@ -7495,25 +7453,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -7696,25 +7654,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 85,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 8,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
       }
     }
   },
@@ -7965,23 +7923,23 @@
       "temperature": {
         "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 56,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -8042,25 +8000,7 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T14:00:00+00:00/P1DT17H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.a2afa4bba084eba8ae3ed1379c43d19f0a0857f6.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS San Angelo TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking a strong thunderstorm over\nBallinger, moving southwest at 15 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBallinger, Hatchel, Benoit, Rowena, The Intersection Of Us-\n83 And Ranch Road 1929, Ballinger Lake, and Us-83 Near The Concho-\nRunnels County Line.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Runnels; Concho",
-          "sameCodes": [
-            "048399",
-            "048095"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -8240,7 +8180,39 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T12:00:00+00:00/P1DT19H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.b01a340743dcd72178fdabcd734eb17a4963ee2d.001.1",
+          "event": "Flash Flood Warning",
+          "headline": "Flash Flood Warning issued August 19 at 3:47PM MDT until August 19 at 5:45PM MDT by NWS El Paso Tx/Santa Teresa NM",
+          "description": "FFWEPZ\n\nThe National Weather Service in El Paso Tx/Santa Teresa has issued a\n\n* Flash Flood Warning for...\nSouthwestern Hudspeth County in western Texas...\n\n* Until 545 PM MDT.\n\n* At 347 PM MDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 1 and 1.5 inches of\nrain have fallen. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nmainly rural areas of Southwestern Hudspeth County",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Likely",
+          "effective": "2025-08-19T15:47:00-06:00",
+          "expires": "2025-08-19T17:45:00-06:00",
+          "areaDesc": "Hudspeth, TX",
+          "sameCodes": [
+            "048229"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.7d9eabb4b47e942dc5255fc90a49f65616e73d5c.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued August 19 at 3:36PM MDT until August 19 at 5:30PM MDT by NWS El Paso Tx/Santa Teresa NM",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of western Texas, including the following\ncounty, Hudspeth.\n\n* WHEN...Until 530 PM MDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 336 PM MDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Up to 1 inch of rain has\nfallen.\n- Some locations that may experience flooding include...\nFort Quitman.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-08-19T15:36:00-06:00",
+          "expires": "2025-08-19T17:30:00-06:00",
+          "areaDesc": "Hudspeth, TX",
+          "sameCodes": [
+            "048229"
+          ]
+        }
+      ]
     }
   },
   {
@@ -8362,26 +8334,43 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 88,
+        "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 9,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/P1DT18H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/P1DT16H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.aa18869e2453a25f7aaa5464d280a67c2a478562.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:39PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 439 PM CDT, Doppler radar was tracking a strong thunderstorm near\nGranger Dam, or 7 miles northeast of Granger, moving southwest at 30\nmph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nRound Rock, Georgetown, Taylor, Granger, Serenada, Hutto, Bartlett,\nJarrell, Thrall, Weir, Georgetown Dam, Granger Dam, Coupland, Sun\nCity, Laneport, Waterloo, Schwertner, Jonah, Sandoval, and Theon.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:39:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Williamson",
+          "sameCodes": [
+            "048491"
+          ]
+        }
+      ]
     }
   },
   {
@@ -8872,25 +8861,25 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -8902,26 +8891,45 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT18H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/PT16H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.71096aa3d641ed53b6c655b4d7da34592619e0dd.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:14PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 414 PM CDT, Doppler radar was tracking a strong thunderstorm over\nPearson, or near Devine, moving southwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nDevine, Lytle, Natalia, Moore, Biry, Pearson, Noonan, Yancey,\nBigfoot, Schattel, and Three Oaks.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:14:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Medina; Frio; Atascosa",
+          "sameCodes": [
+            "048325",
+            "048163",
+            "048013"
+          ]
+        }
+      ]
     }
   },
   {
@@ -8992,48 +9000,26 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 77,
+        "value": 65,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 3,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c3c9d0b5ee75cc6fe18173bd42d9709deb9b6118.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:39PM CDT by NWS Brownsville TX",
-          "description": "At 338 PM CDT, Doppler radar was tracking a cluster of strong\nthunderstorms along a line extending from 10 miles northeast of San\nRafael Ranch Airport to 6 miles east of Puerto Rico to near Lasara\nElementary School. Movement was south at 35 mph.\n\nHAZARD...Wind gusts up to 40 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nEdinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes,\nRaymondville, and Hidalgo.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-08-19T15:39:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Jim Hogg; Brooks; Inland Kenedy; Starr; Southern Hidalgo; Inland Willacy; Northern Hidalgo",
-          "sameCodes": [
-            "048247",
-            "048047",
-            "048261",
-            "048427",
-            "048215",
-            "048489"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -9277,25 +9263,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -9370,25 +9356,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT18H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT16H"
       }
     }
   },
@@ -9400,25 +9386,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -9430,25 +9416,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 92,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 11,
+        "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT5H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       }
     }
   },
@@ -9572,19 +9558,19 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.a2afa4bba084eba8ae3ed1379c43d19f0a0857f6.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.197925ca9c78e04d9c34ebc1e889687df51e6e2f.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:58PM CDT by NWS San Angelo TX",
-          "description": "At 358 PM CDT, Doppler radar was tracking a strong thunderstorm over\nBallinger, moving southwest at 15 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBallinger, Hatchel, Benoit, Rowena, The Intersection Of Us-\n83 And Ranch Road 1929, Ballinger Lake, and Us-83 Near The Concho-\nRunnels County Line.",
+          "headline": "Special Weather Statement issued August 19 at 4:57PM CDT by NWS San Angelo TX",
+          "description": "At 457 PM CDT, Doppler radar was tracking a strong thunderstorm near\nBrady Lake, moving southwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Melvin, Brady Lake, Calf Creek, Placid, Rochelle, and The\nIntersection Of Us-190 And Ranch Road 1311.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:58:00-05:00",
-          "expires": "2025-08-19T16:30:00-05:00",
-          "areaDesc": "Runnels; Concho",
+          "effective": "2025-08-19T16:57:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Concho; McCulloch",
           "sameCodes": [
-            "048399",
-            "048095"
+            "048095",
+            "048307"
           ]
         }
       ]
@@ -9647,7 +9633,26 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T12:00:00+00:00/P1DT12H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.754b3024dcf00a4c55e8bcd6081bfabc8077302e.001.1",
+          "event": "Air Quality Alert",
+          "headline": "Air Quality Alert issued August 19 at 4:03PM CDT by NWS Houston/Galveston TX",
+          "description": "AQAHGX\n\nThe Texas Commission on Environmental Quality (TCEQ) has issued an\nOzone Action Day for the Houston, Galveston, and Brazoria area for\nWednesday, August 20, 2025.\n\nAtmospheric conditions are expected to be favorable for producing\nhigh levels of ozone pollution in the Houston, Galveston, and\nsurrounding areas on Wednesday. You can help prevent ozone pollution by\nsharing a ride, walking, riding a bicycle, taking your lunch to work,\navoiding drive through lanes, conserving energy and keeping your vehicle\nproperly tuned.\n\nFor more information on ozone:\nOzone: The Facts www.tceq.texas.gov/airquality/monops/ozonefacts.html\nEPA AirNow: www.airnow.gov/?city=Houston&state=TX&country=USA\nTake Care of Texas:\nwww.takecareoftexas.org/conservation-tips/keep-our-air-clean",
+          "severity": "Unknown",
+          "urgency": "Unknown",
+          "certainty": "Unknown",
+          "effective": "2025-08-19T16:03:00-05:00",
+          "expires": "2025-08-20T20:15:00-05:00",
+          "areaDesc": "Inland Harris; Inland Brazoria; Inland Galveston; Coastal Harris; Coastal Brazoria; Coastal Galveston; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+          "sameCodes": [
+            "048201",
+            "048039",
+            "048167"
+          ]
+        }
+      ]
     }
   },
   {
@@ -10042,7 +10047,24 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T14:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.9bc09248e0e1546a92cb6c29783a3c081ce4573e.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:52PM CDT by NWS San Angelo TX",
+          "description": "At 452 PM CDT, Doppler radar was tracking a strong thunderstorm over\nSan Saba, moving southwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nSan Saba, Algerita, Sloan, and Harkeyville.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:52:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "San Saba",
+          "sameCodes": [
+            "048411"
+          ]
+        }
+      ]
     }
   },
   {
@@ -10072,7 +10094,27 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T14:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.fc7be16a0fea7bdd1b7508a11313f99634125330.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:42PM CDT by NWS San Angelo TX",
+          "description": "At 442 PM CDT, Doppler radar was tracking a strong thunderstorm over\nI-10 Near The Sutton-Kimble County Line, or near Roosevelt, moving\nsouthwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Telegraph, South Llano River State Park, Roosevelt, Cleo,\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, and I-10 Near\nThe Sutton-Kimble County Line.\n\nThis includes Interstate 10 between Mile Markers 409 and 462.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:42:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Schleicher; Sutton; Menard; Kimble",
+          "sameCodes": [
+            "048413",
+            "048435",
+            "048327",
+            "048267"
+          ]
+        }
+      ]
     }
   },
   {
@@ -10142,38 +10184,19 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.5b2871f5e35078e1fdfe5b1f985edbb44359f877.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued August 19 at 4:00PM CDT until August 19 at 4:45PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Milam County in central Texas...\nSoutheastern Bell County in central Texas...\nSouth central Falls County in central Texas...\n\n* Until 445 PM CDT.\n\n* At 359 PM CDT, a severe thunderstorm was located near Rosebud, or 8\nmiles north of Cameron, moving southwest at 20 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nBuckholts around 420 PM CDT.\nRogers around 430 PM CDT.\n\nOther locations impacted by this severe thunderstorm include Barclay,\nBen Arnold, Cyclone, Heidenheimer, Wilson, Yarrelton, Pettibone,\nSparks, Davilla, and Silver City.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-08-19T16:00:00-05:00",
-          "expires": "2025-08-19T16:45:00-05:00",
-          "areaDesc": "Bell, TX; Falls, TX; Milam, TX",
-          "sameCodes": [
-            "048027",
-            "048145",
-            "048331"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.351beffb00d4ac04d2eb820b3d0835b1bafe0f89.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.aacae705432aa218dc44d23ac4e22955804b6c72.001.1",
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued August 19 at 3:37PM CDT by NWS Fort Worth TX",
-          "description": "At 337 PM CDT, Doppler radar was tracking a strong thunderstorm 8\nmiles northwest of Calvert, or 17 miles northwest of Hearne, moving\nwest at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nRosebud around 400 PM CDT.\n\nOther locations impacted by this storm include Wilderville, Barclay,\nBen Arnold, Baileyville, Cyclone, Wilson, Maysfield, Yarrelton,\nCrossroads, and Pettibone.",
+          "headline": "Special Weather Statement issued August 19 at 4:43PM CDT by NWS Fort Worth TX",
+          "description": "At 442 PM CDT, Doppler radar was tracking a strong thunderstorm over\nRogers, or 14 miles southeast of Temple, moving southwest at 25 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nThis strong thunderstorm will be near...\nHolland around 455 PM CDT.\nBartlett around 500 PM CDT.\n\nOther locations impacted by this storm include Minerva, Cedar Valley,\nSan Gabriel, Heidenheimer, Sharp, Youngsport, Pettibone, Prairie\nDell, Sparks, and Davilla.\n\nThis includes Interstate 35 between mile markers 278 and 302.",
           "severity": "Moderate",
           "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-08-19T15:37:00-05:00",
-          "expires": "2025-08-19T16:15:00-05:00",
-          "areaDesc": "Bell; Falls; Milam; Robertson",
+          "effective": "2025-08-19T16:43:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Bell; Milam",
           "sameCodes": [
             "048027",
-            "048145",
-            "048331",
-            "048395"
+            "048331"
           ]
         },
         {
@@ -10290,7 +10313,25 @@
         "value": 16093.44,
         "unit": "wmoUnit:m",
         "validTime": "2025-08-19T14:00:00+00:00/P1DT17H"
-      }
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.197925ca9c78e04d9c34ebc1e889687df51e6e2f.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:57PM CDT by NWS San Angelo TX",
+          "description": "At 457 PM CDT, Doppler radar was tracking a strong thunderstorm near\nBrady Lake, moving southwest at 20 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Melvin, Brady Lake, Calf Creek, Placid, Rochelle, and The\nIntersection Of Us-190 And Ranch Road 1311.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:57:00-05:00",
+          "expires": "2025-08-19T17:30:00-05:00",
+          "areaDesc": "Concho; McCulloch",
+          "sameCodes": [
+            "048095",
+            "048307"
+          ]
+        }
+      ]
     }
   },
   {
@@ -10463,25 +10504,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -10493,26 +10534,44 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT17H"
-      }
+        "validTime": "2025-08-19T15:00:00+00:00/PT15H"
+      },
+      "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.c91ca3105c806b2b25e1f8ab542d6fd647fd708c.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued August 19 at 4:29PM CDT by NWS Austin/San Antonio TX",
+          "description": "At 429 PM CDT, Doppler radar was tracking a strong thunderstorm over\nTimberwood Park, or 12 miles north of San Antonio Int Airport, moving\nsouthwest at 20 mph.\n\nHAZARD...Winds in excess of 40 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nSan Antonio, San Antonio Int Airport, Helotes, Fair Oaks Ranch,\nWindcrest, Bulverde, Shavano Park, Hollywood Park, Cross Mountain,\nTimberwood Park, Leon Springs, The Dominion, Government Canyon State\nNatural Area, Castle Hills, Hill Country Village, Grey Forest,\nAnhalt, Specht Store, Fiesta Texas, and Scenic Oaks.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-08-19T16:29:00-05:00",
+          "expires": "2025-08-19T17:15:00-05:00",
+          "areaDesc": "Bexar; Comal",
+          "sameCodes": [
+            "048029",
+            "048091"
+          ]
+        }
+      ]
     }
   },
   {
@@ -10583,25 +10642,25 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   },
@@ -10673,25 +10732,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 94,
+        "value": 78,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 8,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T13:00:00+00:00/PT2H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T13:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
       }
     }
   },
@@ -11122,20 +11181,20 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 63,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -11212,25 +11271,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-08-19T15:00:00+00:00/PT3H"
+        "validTime": "2025-08-19T16:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-08-19T15:00:00+00:00/P3DT1H"
+        "validTime": "2025-08-19T16:00:00+00:00/P3D"
       }
     }
   }
