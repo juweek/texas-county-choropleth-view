@@ -158,25 +158,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -228,6 +228,22 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.bcf316ba564aaf782dc89e700bbaa16a89674797.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued October 24 at 9:24PM CDT until October 25 at 12:30AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Burnet and Llano.\n\n* WHEN...Until 1230 AM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 924 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Up to 2 inches of rain have\nfallen.\n- Additional rainfall amounts up to 2 inches are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBurnet, Marble Falls, Kingsland, Llano, Bertram, Buchanan\nDam, Gainesville, Granite Shoals, Horseshoe Bay, Meadowlakes,\nBuchanan Lake Village, Highland Haven, Castell, Bluffton,\nInks Lake State Park, Stolz, Tow, Longhorn Cavern State Park,\nLone Grove and Baby Head.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-10-24T21:24:00-05:00",
+          "expires": "2025-10-25T00:30:00-05:00",
+          "areaDesc": "Burnet, TX; Llano, TX",
+          "sameCodes": [
+            "048053",
+            "048299"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.08b85e4f76eba03cb149092025152ef17b4f9eab.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -311,23 +327,23 @@
       "temperature": {
         "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 59,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -409,6 +425,24 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.01b26943e5db40f6df8f5c4ba41ce7dc30735ecb.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:27PM CDT by NWS Fort Worth TX",
+          "description": "At 927 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Midlothian to near Aquilla Lake. Movement\nwas east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nCedar Hill, Midlothian, Hillsboro, Itasca, Maypearl, Carl's\nCorner, and Aquilla Lake around 930 PM CDT.\nWaxahachie, Ovilla, and Oak Leaf around 935 PM CDT.\nGlenn Heights, Red Oak, and Bynum around 940 PM CDT.\nItaly around 945 PM CDT.\nEnnis and Palmer around 955 PM CDT.\nBardwell, Bardwell Lake, and Navarro Mills Lake around 1000 PM\nCDT.\nBlooming Grove around 1005 PM CDT.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:27:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Johnson; Ellis; Hill; Navarro",
+          "sameCodes": [
+            "048251",
+            "048139",
+            "048217",
+            "048349"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
@@ -599,18 +633,18 @@
       "temperature": {
         "value": 33.888888888888886,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 0,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1224,24 +1258,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.ce5c9829e9bed5d90cdc44ae08e1469c8329f486.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued October 24 at 8:00PM CDT until October 24 at 9:30PM CDT by NWS Amarillo TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...A portion of the Panhandle of Texas, including the\nfollowing county, Lipscomb.\n\n* WHEN...Until 930 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 800 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Between 1 and 2 inches of rain\nhave fallen.\n- Some locations that will experience flooding include...\nmainly rural areas of Southeastern Lipscomb County\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-10-24T20:00:00-05:00",
-          "expires": "2025-10-24T21:30:00-05:00",
-          "areaDesc": "Lipscomb, TX",
-          "sameCodes": [
-            "048295"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -1362,20 +1379,20 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -1392,25 +1409,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -1520,25 +1537,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -2159,21 +2176,6 @@
             "048439",
             "048497"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.89535ae37e387242afa4a015b3d5f0661c3f9e98.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:16PM CDT until October 24 at 9:00PM CDT by NWS Fort Worth TX",
-          "description": "At 816 PM CDT, a severe thunderstorm was located 10 miles north of\nLampasas, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nCopperas Cove, Lampasas, Kempner, Colorado Bend State Park, Lometa,\nIzoro, Rumley, Adamsville, Nix, and Moline.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:16:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Lampasas, TX",
-          "sameCodes": [
-            "048281"
-          ]
         }
       ]
     }
@@ -2484,25 +2486,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 73,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -2554,6 +2556,22 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.8138c5903af9dafc6b7c6ecc2cba71d4406b471c.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 9:22PM CDT until October 24 at 10:15PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Kerr County in south central Texas...\nNortheastern Edwards County in south central Texas...\n\n* Until 1015 PM CDT.\n\n* At 922 PM CDT, a severe thunderstorm was located 7 miles southwest\nof Telegraph, or 20 miles southwest of Junction, moving east at 35\nmph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nKerr Wildlife Management Area.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:22:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Edwards, TX; Kerr, TX",
+          "sameCodes": [
+            "048137",
+            "048265"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.08b85e4f76eba03cb149092025152ef17b4f9eab.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -2877,25 +2895,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -2985,19 +3003,18 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c4beff9399e1fa3f9240cf1bf85856efcdda505d.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.36903b5e011f6f4946ccfb781d01d87e0c539317.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:22PM CDT until October 24 at 9:30PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nJohnson County in north central Texas...\nTarrant County in north central Texas...\nHill County in central Texas...\n\n* Until 930 PM CDT.\n\n* At 821 PM CDT, severe thunderstorms were located along a line\nextending from near Azle to near Meridian, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Severe thunderstorms will be near...\nFort Worth, Benbrook, White Settlement, Azle, Briar, Eagle\nMountain, Pecan Acres, Pelican Bay, Godley, and Cleburne State\nPark around 825 PM CDT.\nCleburne, Lake Worth, Westworth Village, Haslet, and Lake Whitney\naround 830 PM CDT.\nBurleson, Saginaw, River Oaks, Sansom Park, and Lake Pat Cleburne\naround 835 PM CDT.\nCrowley, Joshua, Edgecliff Village, Blue Mound, Blum, and\nEdgecliff around 840 PM CDT.\nHaltom City, Keller, Watauga, Everman, Keene, and Cross Timber\naround 845 PM CDT.\nForest Hill, Richland Hills, Rendon, North Richland Hills,\nWhitney, and Lake Whitney State Park around 850 PM CDT.\nArlington, Hurst, Southlake, Colleyville, Kennedale, Alvarado, and\nCovington around 855 PM CDT.\nMansfield, Euless, Bedford, Grapevine, Pantego, and Aquilla Lake\naround 900 PM CDT.",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 9:21PM CDT until October 24 at 10:15PM CDT by NWS Fort Worth TX",
+          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nEastern Tarrant County in north central Texas...\nDallas County in north central Texas...\n\n* Until 1015 PM CDT.\n\n* At 920 PM CDT, severe thunderstorms were located along a line\nextending from near Keller to Arlington, moving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Severe thunderstorms will be near...\nDallas, Fort Worth, Arlington, Irving, Grand Prairie, Euless,\nDesoto, Bedford, Grapevine, and Cedar Hill around 925 PM CDT.\nCarrollton, Lancaster, Farmers Branch, and Cockrell Hill around\n930 PM CDT.\nDallas Love Field around 935 PM CDT.\nUniversity Park, Addison, Highland Park, and Hutchins around 940\nPM CDT.\nMesquite, Richardson, and Balch Springs around 945 PM CDT.\nGarland around 950 PM CDT.\nRowlett and Sachse around 955 PM CDT.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-10-24T20:22:00-05:00",
-          "expires": "2025-10-24T21:30:00-05:00",
-          "areaDesc": "Hill, TX; Johnson, TX; Tarrant, TX",
+          "effective": "2025-10-24T21:21:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Dallas, TX; Tarrant, TX",
           "sameCodes": [
-            "048217",
-            "048251",
+            "048113",
             "048439"
           ]
         },
@@ -3543,25 +3560,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT5H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       }
     }
   },
@@ -3726,23 +3743,23 @@
       "temperature": {
         "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -3824,6 +3841,25 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f21836056dbe60c4447cb5970b9c1b18503c6a53.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:20PM CDT by NWS Fort Worth TX",
+          "description": "At 920 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from Laguna Park to near Fort Hood. Movement was\neast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nStrong thunderstorms will be near...\nKilleen, Fort Hood, Laguna Park, Valley Mills, and Crawford around\n925 PM CDT.\nHarker Heights, McGregor, and Belton Lake around 930 PM CDT.\nNolanville around 935 PM CDT.\nWaco, Mother Neff State Park, and Lake Waco around 940 PM CDT.\nMorgan's Point Resort and West around 950 PM CDT.\nTemple, Belton, Woodway, and Moody around 955 PM CDT.\nLacy-Lakeview around 1000 PM CDT.\nHewitt around 1005 PM CDT.\n\nOther locations impacted by these storms include Whitson, Rock Creek,\nMoffat, Willow Grove, Cedar Shores, Oglesby, Owl Creek, Meadow Grove,\nWoodland, and Gholson.\n\nThis includes Interstate 35 between mile markers 284 and 301, between\nmile markers 315 and 317, and between mile markers 319 and 361.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:20:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Bosque; Hill; Coryell; Bell; McLennan",
+          "sameCodes": [
+            "048035",
+            "048217",
+            "048099",
+            "048027",
+            "048309"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
@@ -4146,25 +4182,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -4416,6 +4452,25 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.f21836056dbe60c4447cb5970b9c1b18503c6a53.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:20PM CDT by NWS Fort Worth TX",
+          "description": "At 920 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from Laguna Park to near Fort Hood. Movement was\neast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nStrong thunderstorms will be near...\nKilleen, Fort Hood, Laguna Park, Valley Mills, and Crawford around\n925 PM CDT.\nHarker Heights, McGregor, and Belton Lake around 930 PM CDT.\nNolanville around 935 PM CDT.\nWaco, Mother Neff State Park, and Lake Waco around 940 PM CDT.\nMorgan's Point Resort and West around 950 PM CDT.\nTemple, Belton, Woodway, and Moody around 955 PM CDT.\nLacy-Lakeview around 1000 PM CDT.\nHewitt around 1005 PM CDT.\n\nOther locations impacted by these storms include Whitson, Rock Creek,\nMoffat, Willow Grove, Cedar Shores, Oglesby, Owl Creek, Meadow Grove,\nWoodland, and Gholson.\n\nThis includes Interstate 35 between mile markers 284 and 301, between\nmile markers 315 and 317, and between mile markers 319 and 361.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:20:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Bosque; Hill; Coryell; Bell; McLennan",
+          "sameCodes": [
+            "048035",
+            "048217",
+            "048099",
+            "048027",
+            "048309"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
           "headline": "Severe Thunderstorm Watch issued October 24 at 8:16PM CDT until October 25 at 12:00AM CDT by NWS Fort Worth TX",
@@ -4454,23 +4509,6 @@
             "048439",
             "048497"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.4e2aa5a782f321f491bc73685803f146a279e41b.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:07PM CDT until October 24 at 9:00PM CDT by NWS Fort Worth TX",
-          "description": "At 806 PM CDT, severe thunderstorms were located along a line\nextending from near Lipan to near Meridian State Park, moving east at\n30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nGranbury, Glen Rose, Meridian State Park, Oak Trail Shores,\nDinosaur Valley State Park, and Squaw Creek Reservoir around 810\nPM CDT.\nMeridian around 815 PM CDT.\nPecan Plantation around 820 PM CDT.\nLake Whitney around 835 PM CDT.\n\nOther locations impacted by these severe thunderstorms include Walnut\nSprings, Eulogy, Stockton Bend, Kopperl, Brazos Point, Mambrino,\nTolar, Morgan, Acton, and Lake Granbury.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:07:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Bosque, TX; Hood, TX; Somervell, TX",
-          "sameCodes": [
-            "048035",
-            "048221",
-            "048425"
-          ]
         }
       ]
     }
@@ -4483,25 +4521,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -4584,20 +4622,40 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c4beff9399e1fa3f9240cf1bf85856efcdda505d.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:22PM CDT until October 24 at 9:30PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nJohnson County in north central Texas...\nTarrant County in north central Texas...\nHill County in central Texas...\n\n* Until 930 PM CDT.\n\n* At 821 PM CDT, severe thunderstorms were located along a line\nextending from near Azle to near Meridian, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Severe thunderstorms will be near...\nFort Worth, Benbrook, White Settlement, Azle, Briar, Eagle\nMountain, Pecan Acres, Pelican Bay, Godley, and Cleburne State\nPark around 825 PM CDT.\nCleburne, Lake Worth, Westworth Village, Haslet, and Lake Whitney\naround 830 PM CDT.\nBurleson, Saginaw, River Oaks, Sansom Park, and Lake Pat Cleburne\naround 835 PM CDT.\nCrowley, Joshua, Edgecliff Village, Blue Mound, Blum, and\nEdgecliff around 840 PM CDT.\nHaltom City, Keller, Watauga, Everman, Keene, and Cross Timber\naround 845 PM CDT.\nForest Hill, Richland Hills, Rendon, North Richland Hills,\nWhitney, and Lake Whitney State Park around 850 PM CDT.\nArlington, Hurst, Southlake, Colleyville, Kennedale, Alvarado, and\nCovington around 855 PM CDT.\nMansfield, Euless, Bedford, Grapevine, Pantego, and Aquilla Lake\naround 900 PM CDT.",
-          "severity": "Severe",
-          "urgency": "Immediate",
+          "id": "urn:oid:2.49.0.1.840.0.01b26943e5db40f6df8f5c4ba41ce7dc30735ecb.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:27PM CDT by NWS Fort Worth TX",
+          "description": "At 927 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Midlothian to near Aquilla Lake. Movement\nwas east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nCedar Hill, Midlothian, Hillsboro, Itasca, Maypearl, Carl's\nCorner, and Aquilla Lake around 930 PM CDT.\nWaxahachie, Ovilla, and Oak Leaf around 935 PM CDT.\nGlenn Heights, Red Oak, and Bynum around 940 PM CDT.\nItaly around 945 PM CDT.\nEnnis and Palmer around 955 PM CDT.\nBardwell, Bardwell Lake, and Navarro Mills Lake around 1000 PM\nCDT.\nBlooming Grove around 1005 PM CDT.",
+          "severity": "Moderate",
+          "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-10-24T20:22:00-05:00",
-          "expires": "2025-10-24T21:30:00-05:00",
-          "areaDesc": "Hill, TX; Johnson, TX; Tarrant, TX",
+          "effective": "2025-10-24T21:27:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Johnson; Ellis; Hill; Navarro",
           "sameCodes": [
-            "048217",
             "048251",
-            "048439"
+            "048139",
+            "048217",
+            "048349"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f21836056dbe60c4447cb5970b9c1b18503c6a53.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:20PM CDT by NWS Fort Worth TX",
+          "description": "At 920 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from Laguna Park to near Fort Hood. Movement was\neast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nStrong thunderstorms will be near...\nKilleen, Fort Hood, Laguna Park, Valley Mills, and Crawford around\n925 PM CDT.\nHarker Heights, McGregor, and Belton Lake around 930 PM CDT.\nNolanville around 935 PM CDT.\nWaco, Mother Neff State Park, and Lake Waco around 940 PM CDT.\nMorgan's Point Resort and West around 950 PM CDT.\nTemple, Belton, Woodway, and Moody around 955 PM CDT.\nLacy-Lakeview around 1000 PM CDT.\nHewitt around 1005 PM CDT.\n\nOther locations impacted by these storms include Whitson, Rock Creek,\nMoffat, Willow Grove, Cedar Shores, Oglesby, Owl Creek, Meadow Grove,\nWoodland, and Gholson.\n\nThis includes Interstate 35 between mile markers 284 and 301, between\nmile markers 315 and 317, and between mile markers 319 and 361.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:20:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Bosque; Hill; Coryell; Bell; McLennan",
+          "sameCodes": [
+            "048035",
+            "048217",
+            "048099",
+            "048027",
+            "048309"
           ]
         },
         {
@@ -4726,25 +4784,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -4793,56 +4851,26 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
-      "hazards": [
-        {
-          "phenomenon": "SV",
-          "significance": "A",
-          "eventNumber": 629,
-          "validTime": "2025-10-24T22:00:00+00:00/PT7H"
-        }
-      ],
+      "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
-            "048435"
-          ]
-        }
-      ]
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
+      }
     }
   },
   {
@@ -5196,25 +5224,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 63,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -5296,6 +5324,23 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.a3088f7d6f2a89db29ceb0933ff70283cdc41bb4.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 8:51PM CDT until October 24 at 9:45PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Kinney County in south central Texas...\nWestern Edwards County in south central Texas...\nVal Verde County in south central Texas...\n\n* Until 945 PM CDT.\n\n* At 851 PM CDT, severe thunderstorms were located along a line\nextending from 12 miles northeast of Juno to 17 miles west of Loma\nAlta to near Seminole Canyon State Park to 18 miles west of Box\nCanyon, moving east at 25 mph.\n\nHAZARD...70 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to\nmobile homes, roofs, and outbuildings.\n\n* Locations impacted include...\nDel Rio, Comstock, Juno, Loma Alta, Lake View, Amistad Acres,\nLaughlin AFB, Shumla, Carta Valley, Cienegas Terrace, Amistad\nVillage, Black Brush Point, Seminole Canyon State Park, Box Canyon,\nVal Verde Park, Diablo East, Governors Landing, Long Point, Pecos\nRiver Boat Ramp, and 277 South Boat Ramp.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:51:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Edwards, TX; Kinney, TX; Val Verde, TX",
+          "sameCodes": [
+            "048137",
+            "048271",
+            "048465"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.08b85e4f76eba03cb149092025152ef17b4f9eab.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -5513,14 +5558,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5533,63 +5578,47 @@
       "probabilityOfPrecipitation": {
         "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT6H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.298854f4ab6f47f61da9143bce53a992cf0dcbe6.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:24PM CDT until October 24 at 8:45PM CDT by NWS San Angelo TX",
-          "description": "At 823 PM CDT, a severe thunderstorm was located 14 miles south of\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 17 miles\nsoutheast of Sonora, moving east at 35 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nThe Intersection Of Ranch Road 2596 And Ranch Road 864 and Us-\n277 Near The Sutton-Edwards County Line.\n\nThis includes Interstate 10 between Mile Markers 403 and 433.",
+          "id": "urn:oid:2.49.0.1.840.0.bc260839d952e3365c76abd729e1ec53b77fbb4f.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:10PM CDT by NWS San Angelo TX",
+          "description": "At 910 PM CDT, Doppler radar was tracking a strong thunderstorm over\nThe Intersection Of Us-\n277 And Ranch Road 189, or 14 miles south of Sonora, moving east at\n50 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nThe Intersection Of Us-277 And Ranch Road 189 and Us-\n277 Near The Sutton-Edwards County Line.\n\nThis includes Interstate 10 between Mile Markers 413 and 421.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:10:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Sutton",
+          "sameCodes": [
+            "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6e15169bf94fa657d337e01d49ca49e0f65b7e96.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 24 at 9:01PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
+          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nKIMBLE                MASON                 MCCULLOCH\nMENARD                SAN SABA              SUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, CHAPPEL, CHEROKEE, CLEO, ERNA,\nFIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT, JUNCTION,\nKATEMCY, KOOCKVILLE, LOHN, LONDON, LOYAL VALLEY, MASON, MENARD,\nPONTOTOC, ROCHELLE, ROOSEVELT, SAN SABA, SEGOVIA, SONORA,\nSTREETER, TELEGRAPH, AND VOCA.",
           "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:24:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Sutton, TX",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-10-24T21:01:00-05:00",
+          "expires": "2025-10-25T00:00:00-05:00",
+          "areaDesc": "Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
           "sameCodes": [
-            "048435"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.afb488093899959fe6b77c4fbc2c8b7e6dddb45b.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 8:10PM CDT by NWS San Angelo TX",
-          "description": "At 808 PM CDT, Doppler radar was tracking a strong thunderstorm 12\nmiles south of The Intersection Of Highway 163 And Ranch Road 1973,\nor 14 miles northwest of Juno, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nThis storm will remain over mainly rural areas of southeastern\nCrockett and southwestern Sutton Counties.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:10:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Crockett; Sutton",
-          "sameCodes": [
-            "048105",
-            "048435"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.1405b62b48724f855dbe5cf8e86d5ee05c848a84.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 7:40PM CDT by NWS San Angelo TX",
-          "description": "At 739 PM CDT, Doppler radar was tracking a strong thunderstorm near\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 15 miles\nsouthwest of Fort Mckavett, moving east at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Menard, Eden, Telegraph, South Llano River State Park,\nRoosevelt, Fort Mckavett, Live Oak, The Intersection Of Us-\n83 And Ranch Road 1773, The Intersection Of Us-\n87 And Ranch Road 2134, Adams, The Intersection Of Ranch Road 2596\nAnd Ranch Road 864, Camp Sol Mayer, Us-83 Near The Menard-\nConcho County Line, Cleo, Us-83 Near The Kimble-\nMenard County Line, I-10 Near The Sutton-\nKimble County Line, The Intersection Of Us-\n190 And Ranch Road 2084, The Intersection Of Us-\n83 And Highway 29, and Us-377 Near The Kimble-Edwards County Line.\n\nPeople attending Junction Eagle Stadium, Eden Sanders Field, and\nMenard Findlay Field should seek safe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 407 and 460.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T19:40:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Tom Green; Concho; Schleicher; Sutton; Menard; Kimble",
-          "sameCodes": [
-            "048451",
-            "048095",
-            "048413",
-            "048435",
+            "048267",
+            "048307",
+            "048319",
             "048327",
-            "048267"
+            "048411",
+            "048435"
           ]
         },
         {
@@ -5605,27 +5634,6 @@
           "areaDesc": "Schleicher, TX; Sutton, TX",
           "sameCodes": [
             "048413",
-            "048435"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
             "048435"
           ]
         }
@@ -5993,25 +6001,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT8H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT7H"
       }
     }
   },
@@ -6023,20 +6031,20 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 32.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 3,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6176,12 +6184,12 @@
       "temperature": {
         "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT3H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -6194,14 +6202,68 @@
       "probabilityOfPrecipitation": {
         "value": 5,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT6H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.fab4d04dc0ca6ec967d378fd7f62020dfbe115e4.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 9:29PM CDT until October 24 at 10:30PM CDT by NWS San Angelo TX",
+          "description": "SVRSJT\n\nThe National Weather Service in San Angelo has issued a\n\n* Severe Thunderstorm Warning for...\nSouthern Kimble County in west central Texas...\n\n* Until 1030 PM CDT.\n\n* At 928 PM CDT, a severe thunderstorm was located over Telegraph,\nmoving east at 40 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nSegovia around 945 PM CDT.\n\nOther locations impacted by this severe thunderstorm include Us-\n377 Near The Kimble-Edwards County Line, I-10 Near The Kimble-\nKerr County Line, The Intersection Of I-10 And Us 290, and Us-\n83 Near The Kerr-Kimble County Line.\n\nThis includes Interstate 10 between Mile Markers 461 and 477.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:29:00-05:00",
+          "expires": "2025-10-24T22:30:00-05:00",
+          "areaDesc": "Kimble, TX",
+          "sameCodes": [
+            "048267"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6e15169bf94fa657d337e01d49ca49e0f65b7e96.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 24 at 9:01PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
+          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nKIMBLE                MASON                 MCCULLOCH\nMENARD                SAN SABA              SUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, CHAPPEL, CHEROKEE, CLEO, ERNA,\nFIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT, JUNCTION,\nKATEMCY, KOOCKVILLE, LOHN, LONDON, LOYAL VALLEY, MASON, MENARD,\nPONTOTOC, ROCHELLE, ROOSEVELT, SAN SABA, SEGOVIA, SONORA,\nSTREETER, TELEGRAPH, AND VOCA.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-10-24T21:01:00-05:00",
+          "expires": "2025-10-25T00:00:00-05:00",
+          "areaDesc": "Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
+          "sameCodes": [
+            "048267",
+            "048307",
+            "048319",
+            "048327",
+            "048411",
+            "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.903d787d94c86cadec5b7a104c24f3c2dc15ece8.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 8:39PM CDT by NWS San Angelo TX",
+          "description": "At 838 PM CDT, Doppler radar was tracking a strong thunderstorm near\nUs-83 Near The Kimble-\nMenard County Line, or 8 miles west of London, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Junction, Mason, Menard, Eden, Melvin, Art, Brady Lake, Yates\nCrossing, Saline, Streeter, Camp Air, Hilda, Calf Creek, Grit,\nKatemcy, Roosevelt, Voca, Telegraph, and Fredonia.\n\nPeople attending Junction Eagle Stadium, Rochelle Hornet Pride\nStadium, Eden Sanders Field, and Menard Findlay Field should seek\nsafe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 438 and 476.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:39:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Concho; McCulloch; Menard; Kimble; Mason",
+          "sameCodes": [
+            "048095",
+            "048307",
+            "048327",
+            "048267",
+            "048319"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.717a403c2d5b590cb05df2e35706a832eb7ba087.001.1",
           "event": "Flood Advisory",
@@ -6216,47 +6278,6 @@
           "sameCodes": [
             "048267",
             "048327"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.1405b62b48724f855dbe5cf8e86d5ee05c848a84.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 7:40PM CDT by NWS San Angelo TX",
-          "description": "At 739 PM CDT, Doppler radar was tracking a strong thunderstorm near\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 15 miles\nsouthwest of Fort Mckavett, moving east at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Menard, Eden, Telegraph, South Llano River State Park,\nRoosevelt, Fort Mckavett, Live Oak, The Intersection Of Us-\n83 And Ranch Road 1773, The Intersection Of Us-\n87 And Ranch Road 2134, Adams, The Intersection Of Ranch Road 2596\nAnd Ranch Road 864, Camp Sol Mayer, Us-83 Near The Menard-\nConcho County Line, Cleo, Us-83 Near The Kimble-\nMenard County Line, I-10 Near The Sutton-\nKimble County Line, The Intersection Of Us-\n190 And Ranch Road 2084, The Intersection Of Us-\n83 And Highway 29, and Us-377 Near The Kimble-Edwards County Line.\n\nPeople attending Junction Eagle Stadium, Eden Sanders Field, and\nMenard Findlay Field should seek safe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 407 and 460.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T19:40:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Tom Green; Concho; Schleicher; Sutton; Menard; Kimble",
-          "sameCodes": [
-            "048451",
-            "048095",
-            "048413",
-            "048435",
-            "048327",
-            "048267"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
-            "048435"
           ]
         }
       ]
@@ -6397,20 +6418,20 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 33.333333333333336,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 52,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -6559,6 +6580,22 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.bcf316ba564aaf782dc89e700bbaa16a89674797.001.1",
+          "event": "Flood Advisory",
+          "headline": "Flood Advisory issued October 24 at 9:24PM CDT until October 25 at 12:30AM CDT by NWS Austin/San Antonio TX",
+          "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of south central Texas, including the following\ncounties, Burnet and Llano.\n\n* WHEN...Until 1230 AM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 924 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Up to 2 inches of rain have\nfallen.\n- Additional rainfall amounts up to 2 inches are expected over\nthe area. This additional rain will result in minor flooding.\n- Some locations that will experience flooding include...\nBurnet, Marble Falls, Kingsland, Llano, Bertram, Buchanan\nDam, Gainesville, Granite Shoals, Horseshoe Bay, Meadowlakes,\nBuchanan Lake Village, Highland Haven, Castell, Bluffton,\nInks Lake State Park, Stolz, Tow, Longhorn Cavern State Park,\nLone Grove and Baby Head.\n- http://www.weather.gov/safety/flood",
+          "severity": "Minor",
+          "urgency": "Expected",
+          "certainty": "Likely",
+          "effective": "2025-10-24T21:24:00-05:00",
+          "expires": "2025-10-25T00:30:00-05:00",
+          "areaDesc": "Burnet, TX; Llano, TX",
+          "sameCodes": [
+            "048053",
+            "048299"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.08b85e4f76eba03cb149092025152ef17b4f9eab.001.1",
           "event": "Severe Thunderstorm Watch",
@@ -6845,14 +6882,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -6865,14 +6902,53 @@
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT9H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT7H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6e15169bf94fa657d337e01d49ca49e0f65b7e96.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 24 at 9:01PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
+          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nKIMBLE                MASON                 MCCULLOCH\nMENARD                SAN SABA              SUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, CHAPPEL, CHEROKEE, CLEO, ERNA,\nFIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT, JUNCTION,\nKATEMCY, KOOCKVILLE, LOHN, LONDON, LOYAL VALLEY, MASON, MENARD,\nPONTOTOC, ROCHELLE, ROOSEVELT, SAN SABA, SEGOVIA, SONORA,\nSTREETER, TELEGRAPH, AND VOCA.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-10-24T21:01:00-05:00",
+          "expires": "2025-10-25T00:00:00-05:00",
+          "areaDesc": "Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
+          "sameCodes": [
+            "048267",
+            "048307",
+            "048319",
+            "048327",
+            "048411",
+            "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.903d787d94c86cadec5b7a104c24f3c2dc15ece8.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 8:39PM CDT by NWS San Angelo TX",
+          "description": "At 838 PM CDT, Doppler radar was tracking a strong thunderstorm near\nUs-83 Near The Kimble-\nMenard County Line, or 8 miles west of London, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Junction, Mason, Menard, Eden, Melvin, Art, Brady Lake, Yates\nCrossing, Saline, Streeter, Camp Air, Hilda, Calf Creek, Grit,\nKatemcy, Roosevelt, Voca, Telegraph, and Fredonia.\n\nPeople attending Junction Eagle Stadium, Rochelle Hornet Pride\nStadium, Eden Sanders Field, and Menard Findlay Field should seek\nsafe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 438 and 476.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:39:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Concho; McCulloch; Menard; Kimble; Mason",
+          "sameCodes": [
+            "048095",
+            "048307",
+            "048327",
+            "048267",
+            "048319"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.98424fd24917041ff6fef3f1b0eaca219daac0a4.001.1",
           "event": "Flood Advisory",
@@ -6888,27 +6964,6 @@
             "048307",
             "048319",
             "048411"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
-            "048435"
           ]
         }
       ]
@@ -7073,25 +7128,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -7143,6 +7198,25 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT8H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.f21836056dbe60c4447cb5970b9c1b18503c6a53.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:20PM CDT by NWS Fort Worth TX",
+          "description": "At 920 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from Laguna Park to near Fort Hood. Movement was\neast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nStrong thunderstorms will be near...\nKilleen, Fort Hood, Laguna Park, Valley Mills, and Crawford around\n925 PM CDT.\nHarker Heights, McGregor, and Belton Lake around 930 PM CDT.\nNolanville around 935 PM CDT.\nWaco, Mother Neff State Park, and Lake Waco around 940 PM CDT.\nMorgan's Point Resort and West around 950 PM CDT.\nTemple, Belton, Woodway, and Moody around 955 PM CDT.\nLacy-Lakeview around 1000 PM CDT.\nHewitt around 1005 PM CDT.\n\nOther locations impacted by these storms include Whitson, Rock Creek,\nMoffat, Willow Grove, Cedar Shores, Oglesby, Owl Creek, Meadow Grove,\nWoodland, and Gholson.\n\nThis includes Interstate 35 between mile markers 284 and 301, between\nmile markers 315 and 317, and between mile markers 319 and 361.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:20:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Bosque; Hill; Coryell; Bell; McLennan",
+          "sameCodes": [
+            "048035",
+            "048217",
+            "048099",
+            "048027",
+            "048309"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.002.1",
           "event": "Severe Thunderstorm Watch",
@@ -7329,6 +7403,24 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.01b26943e5db40f6df8f5c4ba41ce7dc30735ecb.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:27PM CDT by NWS Fort Worth TX",
+          "description": "At 927 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Midlothian to near Aquilla Lake. Movement\nwas east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nCedar Hill, Midlothian, Hillsboro, Itasca, Maypearl, Carl's\nCorner, and Aquilla Lake around 930 PM CDT.\nWaxahachie, Ovilla, and Oak Leaf around 935 PM CDT.\nGlenn Heights, Red Oak, and Bynum around 940 PM CDT.\nItaly around 945 PM CDT.\nEnnis and Palmer around 955 PM CDT.\nBardwell, Bardwell Lake, and Navarro Mills Lake around 1000 PM\nCDT.\nBlooming Grove around 1005 PM CDT.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:27:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Johnson; Ellis; Hill; Navarro",
+          "sameCodes": [
+            "048251",
+            "048139",
+            "048217",
+            "048349"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
           "headline": "Severe Thunderstorm Watch issued October 24 at 8:16PM CDT until October 25 at 12:00AM CDT by NWS Fort Worth TX",
@@ -7426,23 +7518,23 @@
       "temperature": {
         "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -7508,58 +7600,27 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.afb488093899959fe6b77c4fbc2c8b7e6dddb45b.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 8:10PM CDT by NWS San Angelo TX",
-          "description": "At 808 PM CDT, Doppler radar was tracking a strong thunderstorm 12\nmiles south of The Intersection Of Highway 163 And Ranch Road 1973,\nor 14 miles northwest of Juno, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nThis storm will remain over mainly rural areas of southeastern\nCrockett and southwestern Sutton Counties.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:10:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Crockett; Sutton",
-          "sameCodes": [
-            "048105",
-            "048435"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.71737250fc961636b022db275297e4e2397de588.001.1",
-          "event": "Flood Advisory",
-          "headline": "Flood Advisory issued October 24 at 7:57PM CDT until October 24 at 9:15PM CDT by NWS San Angelo TX",
-          "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...A portion of west central Texas, including the following\ncounty, Crockett.\n\n* WHEN...Until 915 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 756 PM CDT, Doppler radar indicated only a few light\nshowers north of Interstate 10 in Crockett County. Minor\nflooding is ongoing or expected to begin shortly in the\nadvisory area. Between 1 and 2 inches of rain have fallen.\n- Additional rainfall amounts up to 0.1 inches are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nOzona, The Intersection Of I-10 And Highway 405, The\nIntersection Of I-10 And Highway 290, The Intersection Of Us\n190 And Highway 163, Ft Lancaster and I-10 Near The Crockett-\nPecos County Line.\n- People attending Ozona Lion Stadium should seek shelter\nimmediately.\n\nThis includes Interstate 10 between Mile Markers 328 and 379.\n\nThis includes the following Low Water Crossings...\ncrossings along County Road 208, Live Oak crossing Live Oak\nCreek, Live Oak Road crossing Live Oak Creek, crossings along\nCounty Road 411 and crossings along County Road 401.\n- http://www.weather.gov/safety/flood",
-          "severity": "Minor",
-          "urgency": "Expected",
-          "certainty": "Likely",
-          "effective": "2025-10-24T19:57:00-05:00",
-          "expires": "2025-10-24T21:15:00-05:00",
-          "areaDesc": "Crockett, TX",
-          "sameCodes": [
-            "048105"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.4e5853d41d4ce9f882697e4b90fe830ad4b3b8e5.001.1",
           "event": "Flood Advisory",
@@ -7841,6 +7902,22 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.36903b5e011f6f4946ccfb781d01d87e0c539317.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 9:21PM CDT until October 24 at 10:15PM CDT by NWS Fort Worth TX",
+          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nEastern Tarrant County in north central Texas...\nDallas County in north central Texas...\n\n* Until 1015 PM CDT.\n\n* At 920 PM CDT, severe thunderstorms were located along a line\nextending from near Keller to Arlington, moving east at 45 mph.\n\nHAZARD...65 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Severe thunderstorms will be near...\nDallas, Fort Worth, Arlington, Irving, Grand Prairie, Euless,\nDesoto, Bedford, Grapevine, and Cedar Hill around 925 PM CDT.\nCarrollton, Lancaster, Farmers Branch, and Cockrell Hill around\n930 PM CDT.\nDallas Love Field around 935 PM CDT.\nUniversity Park, Addison, Highland Park, and Hutchins around 940\nPM CDT.\nMesquite, Richardson, and Balch Springs around 945 PM CDT.\nGarland around 950 PM CDT.\nRowlett and Sachse around 955 PM CDT.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:21:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Dallas, TX; Tarrant, TX",
+          "sameCodes": [
+            "048113",
+            "048439"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
           "headline": "Severe Thunderstorm Watch issued October 24 at 8:16PM CDT until October 25 at 12:00AM CDT by NWS Fort Worth TX",
@@ -7973,25 +8050,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 66,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 70,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT5H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       }
     }
   },
@@ -8182,23 +8259,23 @@
       "temperature": {
         "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 68,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT5H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       }
     }
   },
@@ -8586,6 +8663,23 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.a3088f7d6f2a89db29ceb0933ff70283cdc41bb4.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 8:51PM CDT until October 24 at 9:45PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Kinney County in south central Texas...\nWestern Edwards County in south central Texas...\nVal Verde County in south central Texas...\n\n* Until 945 PM CDT.\n\n* At 851 PM CDT, severe thunderstorms were located along a line\nextending from 12 miles northeast of Juno to 17 miles west of Loma\nAlta to near Seminole Canyon State Park to 18 miles west of Box\nCanyon, moving east at 25 mph.\n\nHAZARD...70 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to\nmobile homes, roofs, and outbuildings.\n\n* Locations impacted include...\nDel Rio, Comstock, Juno, Loma Alta, Lake View, Amistad Acres,\nLaughlin AFB, Shumla, Carta Valley, Cienegas Terrace, Amistad\nVillage, Black Brush Point, Seminole Canyon State Park, Box Canyon,\nVal Verde Park, Diablo East, Governors Landing, Long Point, Pecos\nRiver Boat Ramp, and 277 South Boat Ramp.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:51:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Edwards, TX; Kinney, TX; Val Verde, TX",
+          "sameCodes": [
+            "048137",
+            "048271",
+            "048465"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.d91dbc8f8d8170641af3270e7a79869970c57c3d.001.1",
           "event": "Flood Advisory",
           "headline": "Flood Advisory issued October 24 at 8:23PM CDT until October 24 at 11:30PM CDT by NWS Austin/San Antonio TX",
@@ -8632,21 +8726,6 @@
             "048463",
             "048465",
             "048491"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.e5c22fb0ba533767f379f0dd46058546975d3874.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 8:13PM CDT by NWS Austin/San Antonio TX",
-          "description": "At 813 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 9 miles west of Pandale to 9 miles southwest of\nPumpville to 27 miles southwest of Langtry. Movement was east at 25\nmph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nComstock, Langtry, Shumla, Box Canyon, Pandale, Pumpville, Amistad\nAcres, Seminole Canyon State Park, Pecos River Boat Ramp, and Bakers\nCrossing.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:13:00-05:00",
-          "expires": "2025-10-24T21:15:00-05:00",
-          "areaDesc": "Val Verde",
-          "sameCodes": [
-            "048465"
           ]
         },
         {
@@ -8831,25 +8910,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 12,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -8970,25 +9049,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 10,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -9000,25 +9079,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 87,
+        "value": 97,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -9030,20 +9109,20 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": null,
@@ -9129,23 +9208,23 @@
       "temperature": {
         "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -9157,48 +9236,26 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.1405b62b48724f855dbe5cf8e86d5ee05c848a84.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 7:40PM CDT by NWS San Angelo TX",
-          "description": "At 739 PM CDT, Doppler radar was tracking a strong thunderstorm near\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 15 miles\nsouthwest of Fort Mckavett, moving east at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Menard, Eden, Telegraph, South Llano River State Park,\nRoosevelt, Fort Mckavett, Live Oak, The Intersection Of Us-\n83 And Ranch Road 1773, The Intersection Of Us-\n87 And Ranch Road 2134, Adams, The Intersection Of Ranch Road 2596\nAnd Ranch Road 864, Camp Sol Mayer, Us-83 Near The Menard-\nConcho County Line, Cleo, Us-83 Near The Kimble-\nMenard County Line, I-10 Near The Sutton-\nKimble County Line, The Intersection Of Us-\n190 And Ranch Road 2084, The Intersection Of Us-\n83 And Highway 29, and Us-377 Near The Kimble-Edwards County Line.\n\nPeople attending Junction Eagle Stadium, Eden Sanders Field, and\nMenard Findlay Field should seek safe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 407 and 460.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T19:40:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Tom Green; Concho; Schleicher; Sutton; Menard; Kimble",
-          "sameCodes": [
-            "048451",
-            "048095",
-            "048413",
-            "048435",
-            "048327",
-            "048267"
-          ]
-        }
-      ]
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
+      }
     }
   },
   {
@@ -9209,14 +9266,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -9229,14 +9286,53 @@
       "probabilityOfPrecipitation": {
         "value": 13,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT6H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6e15169bf94fa657d337e01d49ca49e0f65b7e96.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 24 at 9:01PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
+          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nKIMBLE                MASON                 MCCULLOCH\nMENARD                SAN SABA              SUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, CHAPPEL, CHEROKEE, CLEO, ERNA,\nFIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT, JUNCTION,\nKATEMCY, KOOCKVILLE, LOHN, LONDON, LOYAL VALLEY, MASON, MENARD,\nPONTOTOC, ROCHELLE, ROOSEVELT, SAN SABA, SEGOVIA, SONORA,\nSTREETER, TELEGRAPH, AND VOCA.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-10-24T21:01:00-05:00",
+          "expires": "2025-10-25T00:00:00-05:00",
+          "areaDesc": "Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
+          "sameCodes": [
+            "048267",
+            "048307",
+            "048319",
+            "048327",
+            "048411",
+            "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.903d787d94c86cadec5b7a104c24f3c2dc15ece8.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 8:39PM CDT by NWS San Angelo TX",
+          "description": "At 838 PM CDT, Doppler radar was tracking a strong thunderstorm near\nUs-83 Near The Kimble-\nMenard County Line, or 8 miles west of London, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Junction, Mason, Menard, Eden, Melvin, Art, Brady Lake, Yates\nCrossing, Saline, Streeter, Camp Air, Hilda, Calf Creek, Grit,\nKatemcy, Roosevelt, Voca, Telegraph, and Fredonia.\n\nPeople attending Junction Eagle Stadium, Rochelle Hornet Pride\nStadium, Eden Sanders Field, and Menard Findlay Field should seek\nsafe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 438 and 476.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:39:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Concho; McCulloch; Menard; Kimble; Mason",
+          "sameCodes": [
+            "048095",
+            "048307",
+            "048327",
+            "048267",
+            "048319"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.717a403c2d5b590cb05df2e35706a832eb7ba087.001.1",
           "event": "Flood Advisory",
@@ -9251,47 +9347,6 @@
           "sameCodes": [
             "048267",
             "048327"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.1405b62b48724f855dbe5cf8e86d5ee05c848a84.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 7:40PM CDT by NWS San Angelo TX",
-          "description": "At 739 PM CDT, Doppler radar was tracking a strong thunderstorm near\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 15 miles\nsouthwest of Fort Mckavett, moving east at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Menard, Eden, Telegraph, South Llano River State Park,\nRoosevelt, Fort Mckavett, Live Oak, The Intersection Of Us-\n83 And Ranch Road 1773, The Intersection Of Us-\n87 And Ranch Road 2134, Adams, The Intersection Of Ranch Road 2596\nAnd Ranch Road 864, Camp Sol Mayer, Us-83 Near The Menard-\nConcho County Line, Cleo, Us-83 Near The Kimble-\nMenard County Line, I-10 Near The Sutton-\nKimble County Line, The Intersection Of Us-\n190 And Ranch Road 2084, The Intersection Of Us-\n83 And Highway 29, and Us-377 Near The Kimble-Edwards County Line.\n\nPeople attending Junction Eagle Stadium, Eden Sanders Field, and\nMenard Findlay Field should seek safe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 407 and 460.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T19:40:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Tom Green; Concho; Schleicher; Sutton; Menard; Kimble",
-          "sameCodes": [
-            "048451",
-            "048095",
-            "048413",
-            "048435",
-            "048327",
-            "048267"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
-            "048435"
           ]
         }
       ]
@@ -9333,21 +9388,6 @@
         "validTime": "2025-10-24T19:00:00+00:00/PT2H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c1255d9f357ba5ebf409179cb635b6d98fe71645.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:25PM CDT until October 24 at 9:00PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nParker County in north central Texas...\n\n* Until 900 PM CDT.\n\n* At 825 PM CDT, a severe thunderstorm was located over Hudson Oaks,\nor near Weatherford, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nWeatherford, Willow Park, Aledo, Hudson Oaks, Annetta, and Lake\nWeatherford around 830 PM CDT.\n\nOther locations impacted by this severe thunderstorm include Agnes,\nPeaster, Tin Top, Horseshoe Bend, Annetta South, Annetta North,\nHighland Addition, Sanctuary, La Junta, and Cresson.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:25:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Parker, TX",
-          "sameCodes": [
-            "048367"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
@@ -9489,20 +9529,20 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -9590,18 +9630,36 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c365ded18d5e0ad05f1497003dca4284efc849f0.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.8138c5903af9dafc6b7c6ecc2cba71d4406b471c.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:19PM CDT until October 24 at 9:15PM CDT by NWS Austin/San Antonio TX",
-          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Edwards County in south central Texas...\n\n* Until 915 PM CDT.\n\n* At 819 PM CDT, a severe thunderstorm was located 22 miles south of\nSonora, moving east at 40 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nRocksprings, Devil's Sinkhole State Natural Area, Us-\n377 Near The Kimble-Edwards County Line, and Us-\n277 Near The Sutton-Edwards County Line.",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 9:22PM CDT until October 24 at 10:15PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Kerr County in south central Texas...\nNortheastern Edwards County in south central Texas...\n\n* Until 1015 PM CDT.\n\n* At 922 PM CDT, a severe thunderstorm was located 7 miles southwest\nof Telegraph, or 20 miles southwest of Junction, moving east at 35\nmph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nKerr Wildlife Management Area.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2025-10-24T20:19:00-05:00",
-          "expires": "2025-10-24T21:15:00-05:00",
-          "areaDesc": "Edwards, TX",
+          "effective": "2025-10-24T21:22:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Edwards, TX; Kerr, TX",
           "sameCodes": [
-            "048137"
+            "048137",
+            "048265"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.a3088f7d6f2a89db29ceb0933ff70283cdc41bb4.001.1",
+          "event": "Severe Thunderstorm Warning",
+          "headline": "Severe Thunderstorm Warning issued October 24 at 8:51PM CDT until October 24 at 9:45PM CDT by NWS Austin/San Antonio TX",
+          "description": "SVREWX\n\nThe National Weather Service in Austin San Antonio has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Kinney County in south central Texas...\nWestern Edwards County in south central Texas...\nVal Verde County in south central Texas...\n\n* Until 945 PM CDT.\n\n* At 851 PM CDT, severe thunderstorms were located along a line\nextending from 12 miles northeast of Juno to 17 miles west of Loma\nAlta to near Seminole Canyon State Park to 18 miles west of Box\nCanyon, moving east at 25 mph.\n\nHAZARD...70 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect considerable tree damage. Damage is likely to\nmobile homes, roofs, and outbuildings.\n\n* Locations impacted include...\nDel Rio, Comstock, Juno, Loma Alta, Lake View, Amistad Acres,\nLaughlin AFB, Shumla, Carta Valley, Cienegas Terrace, Amistad\nVillage, Black Brush Point, Seminole Canyon State Park, Box Canyon,\nVal Verde Park, Diablo East, Governors Landing, Long Point, Pecos\nRiver Boat Ramp, and 277 South Boat Ramp.",
+          "severity": "Severe",
+          "urgency": "Immediate",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:51:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Edwards, TX; Kinney, TX; Val Verde, TX",
+          "sameCodes": [
+            "048137",
+            "048271",
+            "048465"
           ]
         },
         {
@@ -10251,25 +10309,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -10347,23 +10405,6 @@
             "048425",
             "048439",
             "048497"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.4e2aa5a782f321f491bc73685803f146a279e41b.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:07PM CDT until October 24 at 9:00PM CDT by NWS Fort Worth TX",
-          "description": "At 806 PM CDT, severe thunderstorms were located along a line\nextending from near Lipan to near Meridian State Park, moving east at\n30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nGranbury, Glen Rose, Meridian State Park, Oak Trail Shores,\nDinosaur Valley State Park, and Squaw Creek Reservoir around 810\nPM CDT.\nMeridian around 815 PM CDT.\nPecan Plantation around 820 PM CDT.\nLake Whitney around 835 PM CDT.\n\nOther locations impacted by these severe thunderstorms include Walnut\nSprings, Eulogy, Stockton Bend, Kopperl, Brazos Point, Mambrino,\nTolar, Morgan, Acton, and Lake Granbury.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:07:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Bosque, TX; Hood, TX; Somervell, TX",
-          "sameCodes": [
-            "048035",
-            "048221",
-            "048425"
           ]
         }
       ]
@@ -10650,25 +10691,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 7,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -10680,25 +10721,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -10991,25 +11032,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -11105,25 +11146,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -11246,23 +11287,23 @@
       "temperature": {
         "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -11304,25 +11345,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 81,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -11334,25 +11375,25 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -12349,25 +12390,25 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 75,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT8H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT7H"
       }
     }
   },
@@ -12469,20 +12510,20 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 32.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 59,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 6,
+        "value": 4,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -12593,25 +12634,7 @@
         "value": null,
         "unit": null,
         "validTime": null
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.dbba2779f64fdbe23988ecde3620b7fbd1ab17c6.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 8:17PM CDT by NWS Amarillo TX",
-          "description": "At 817 PM CDT, Doppler radar was tracking a strong thunderstorm 8\nmiles north of Happy, or 9 miles southeast of Canyon, moving\nsoutheast at 15 mph.\n\nHAZARD...Half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor hail damage to vegetation is possible.\n\nLocations impacted include...\nWayside and Palo Duro Canyon.\n\nThis includes Interstate 27 between mile markers 91 and 101.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:17:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048381",
-            "048011"
-          ]
-        }
-      ]
+      }
     }
   },
   {
@@ -12712,25 +12735,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 61,
+        "value": 55,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   },
@@ -12980,25 +13003,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -13040,25 +13063,25 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 18.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       }
     }
   },
@@ -13182,27 +13205,46 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.903d787d94c86cadec5b7a104c24f3c2dc15ece8.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 8:39PM CDT by NWS San Angelo TX",
+          "description": "At 838 PM CDT, Doppler radar was tracking a strong thunderstorm near\nUs-83 Near The Kimble-\nMenard County Line, or 8 miles west of London, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Junction, Mason, Menard, Eden, Melvin, Art, Brady Lake, Yates\nCrossing, Saline, Streeter, Camp Air, Hilda, Calf Creek, Grit,\nKatemcy, Roosevelt, Voca, Telegraph, and Fredonia.\n\nPeople attending Junction Eagle Stadium, Rochelle Hornet Pride\nStadium, Eden Sanders Field, and Menard Findlay Field should seek\nsafe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 438 and 476.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:39:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Concho; McCulloch; Menard; Kimble; Mason",
+          "sameCodes": [
+            "048095",
+            "048307",
+            "048327",
+            "048267",
+            "048319"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.5363b87b0312ce6d3718006f528d7c194e7b71c4.001.1",
           "event": "Flood Advisory",
@@ -13216,26 +13258,6 @@
           "areaDesc": "Concho, TX",
           "sameCodes": [
             "048095"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.1405b62b48724f855dbe5cf8e86d5ee05c848a84.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 7:40PM CDT by NWS San Angelo TX",
-          "description": "At 739 PM CDT, Doppler radar was tracking a strong thunderstorm near\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 15 miles\nsouthwest of Fort Mckavett, moving east at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Menard, Eden, Telegraph, South Llano River State Park,\nRoosevelt, Fort Mckavett, Live Oak, The Intersection Of Us-\n83 And Ranch Road 1773, The Intersection Of Us-\n87 And Ranch Road 2134, Adams, The Intersection Of Ranch Road 2596\nAnd Ranch Road 864, Camp Sol Mayer, Us-83 Near The Menard-\nConcho County Line, Cleo, Us-83 Near The Kimble-\nMenard County Line, I-10 Near The Sutton-\nKimble County Line, The Intersection Of Us-\n190 And Ranch Road 2084, The Intersection Of Us-\n83 And Highway 29, and Us-377 Near The Kimble-Edwards County Line.\n\nPeople attending Junction Eagle Stadium, Eden Sanders Field, and\nMenard Findlay Field should seek safe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 407 and 460.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T19:40:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Tom Green; Concho; Schleicher; Sutton; Menard; Kimble",
-          "sameCodes": [
-            "048451",
-            "048095",
-            "048413",
-            "048435",
-            "048327",
-            "048267"
           ]
         }
       ]
@@ -13721,14 +13743,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -13741,14 +13763,34 @@
       "probabilityOfPrecipitation": {
         "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT6H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6e15169bf94fa657d337e01d49ca49e0f65b7e96.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 24 at 9:01PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
+          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nKIMBLE                MASON                 MCCULLOCH\nMENARD                SAN SABA              SUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, CHAPPEL, CHEROKEE, CLEO, ERNA,\nFIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT, JUNCTION,\nKATEMCY, KOOCKVILLE, LOHN, LONDON, LOYAL VALLEY, MASON, MENARD,\nPONTOTOC, ROCHELLE, ROOSEVELT, SAN SABA, SEGOVIA, SONORA,\nSTREETER, TELEGRAPH, AND VOCA.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-10-24T21:01:00-05:00",
+          "expires": "2025-10-25T00:00:00-05:00",
+          "areaDesc": "Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
+          "sameCodes": [
+            "048267",
+            "048307",
+            "048319",
+            "048327",
+            "048411",
+            "048435"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.98424fd24917041ff6fef3f1b0eaca219daac0a4.001.1",
           "event": "Flood Advisory",
@@ -13765,27 +13807,6 @@
             "048319",
             "048411"
           ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
-            "048435"
-          ]
         }
       ]
     }
@@ -13800,45 +13821,25 @@
       "temperature": {
         "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.1405b62b48724f855dbe5cf8e86d5ee05c848a84.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 7:40PM CDT by NWS San Angelo TX",
-          "description": "At 739 PM CDT, Doppler radar was tracking a strong thunderstorm near\nThe Intersection Of Ranch Road 2596 And Ranch Road 864, or 15 miles\nsouthwest of Fort Mckavett, moving east at 40 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nJunction, Menard, Eden, Telegraph, South Llano River State Park,\nRoosevelt, Fort Mckavett, Live Oak, The Intersection Of Us-\n83 And Ranch Road 1773, The Intersection Of Us-\n87 And Ranch Road 2134, Adams, The Intersection Of Ranch Road 2596\nAnd Ranch Road 864, Camp Sol Mayer, Us-83 Near The Menard-\nConcho County Line, Cleo, Us-83 Near The Kimble-\nMenard County Line, I-10 Near The Sutton-\nKimble County Line, The Intersection Of Us-\n190 And Ranch Road 2084, The Intersection Of Us-\n83 And Highway 29, and Us-377 Near The Kimble-Edwards County Line.\n\nPeople attending Junction Eagle Stadium, Eden Sanders Field, and\nMenard Findlay Field should seek safe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 407 and 460.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T19:40:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Tom Green; Concho; Schleicher; Sutton; Menard; Kimble",
-          "sameCodes": [
-            "048451",
-            "048095",
-            "048413",
-            "048435",
-            "048327",
-            "048267"
-          ]
-        },
         {
           "id": "urn:oid:2.49.0.1.840.0.dea513d8ba748d3f834e7c341805f0c88640c3bf.001.1",
           "event": "Flood Advisory",
@@ -14125,14 +14126,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 52,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "hazards": [
         {
@@ -14145,14 +14146,53 @@
       "probabilityOfPrecipitation": {
         "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT6H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT4H"
       },
       "alerts": [
+        {
+          "id": "urn:oid:2.49.0.1.840.0.6e15169bf94fa657d337e01d49ca49e0f65b7e96.002.1",
+          "event": "Severe Thunderstorm Watch",
+          "headline": "Severe Thunderstorm Watch issued October 24 at 9:01PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
+          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 6 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nKIMBLE                MASON                 MCCULLOCH\nMENARD                SAN SABA              SUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, CHAPPEL, CHEROKEE, CLEO, ERNA,\nFIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT, JUNCTION,\nKATEMCY, KOOCKVILLE, LOHN, LONDON, LOYAL VALLEY, MASON, MENARD,\nPONTOTOC, ROCHELLE, ROOSEVELT, SAN SABA, SEGOVIA, SONORA,\nSTREETER, TELEGRAPH, AND VOCA.",
+          "severity": "Severe",
+          "urgency": "Future",
+          "certainty": "Possible",
+          "effective": "2025-10-24T21:01:00-05:00",
+          "expires": "2025-10-25T00:00:00-05:00",
+          "areaDesc": "Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
+          "sameCodes": [
+            "048267",
+            "048307",
+            "048319",
+            "048327",
+            "048411",
+            "048435"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.903d787d94c86cadec5b7a104c24f3c2dc15ece8.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 8:39PM CDT by NWS San Angelo TX",
+          "description": "At 838 PM CDT, Doppler radar was tracking a strong thunderstorm near\nUs-83 Near The Kimble-\nMenard County Line, or 8 miles west of London, moving east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nBrady, Junction, Mason, Menard, Eden, Melvin, Art, Brady Lake, Yates\nCrossing, Saline, Streeter, Camp Air, Hilda, Calf Creek, Grit,\nKatemcy, Roosevelt, Voca, Telegraph, and Fredonia.\n\nPeople attending Junction Eagle Stadium, Rochelle Hornet Pride\nStadium, Eden Sanders Field, and Menard Findlay Field should seek\nsafe shelter immediately!\n\nThis includes Interstate 10 between Mile Markers 438 and 476.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T20:39:00-05:00",
+          "expires": "2025-10-24T21:45:00-05:00",
+          "areaDesc": "Concho; McCulloch; Menard; Kimble; Mason",
+          "sameCodes": [
+            "048095",
+            "048307",
+            "048327",
+            "048267",
+            "048319"
+          ]
+        },
         {
           "id": "urn:oid:2.49.0.1.840.0.98424fd24917041ff6fef3f1b0eaca219daac0a4.001.1",
           "event": "Flood Advisory",
@@ -14168,27 +14208,6 @@
             "048307",
             "048319",
             "048411"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.64231dee07e5806ad7762de4f035a73b85ec8375.002.1",
-          "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued October 24 at 6:52PM CDT until October 25 at 12:00AM CDT by NWS San Angelo TX",
-          "description": "SEVERE THUNDERSTORM WATCH 629 REMAINS VALID UNTIL MIDNIGHT CDT\nTONIGHT FOR THE FOLLOWING AREAS\n\nIN TEXAS THIS WATCH INCLUDES 7 COUNTIES\n\nIN WEST CENTRAL TEXAS\n\nBROWN                 KIMBLE                MASON\nMCCULLOCH             MENARD                SAN SABA\nSUTTON\n\nTHIS INCLUDES THE CITIES OF BRADY, BROWNWOOD, CHAPPEL, CHEROKEE,\nCLEO, ERNA, FIFE, FORT MCKAVETT, FREDONIA, HARKEYVILLE, HEXT,\nINDIAN CREEK, JUNCTION, KATEMCY, KOOCKVILLE, LOHN, LONDON,\nLOYAL VALLEY, MASON, MENARD, PONTOTOC, ROCHELLE, ROOSEVELT,\nSAN SABA, SEGOVIA, SONORA, STREETER, TELEGRAPH, AND VOCA.",
-          "severity": "Severe",
-          "urgency": "Future",
-          "certainty": "Possible",
-          "effective": "2025-10-24T18:52:00-05:00",
-          "expires": "2025-10-25T00:00:00-05:00",
-          "areaDesc": "Brown, TX; Kimble, TX; McCulloch, TX; Mason, TX; Menard, TX; San Saba, TX; Sutton, TX",
-          "sameCodes": [
-            "048049",
-            "048267",
-            "048307",
-            "048319",
-            "048327",
-            "048411",
-            "048435"
           ]
         }
       ]
@@ -14243,20 +14262,21 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c4beff9399e1fa3f9240cf1bf85856efcdda505d.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:22PM CDT until October 24 at 9:30PM CDT by NWS Fort Worth TX",
-          "description": "SVRFWD\n\nThe National Weather Service in Fort Worth has issued a\n\n* Severe Thunderstorm Warning for...\nJohnson County in north central Texas...\nTarrant County in north central Texas...\nHill County in central Texas...\n\n* Until 930 PM CDT.\n\n* At 821 PM CDT, severe thunderstorms were located along a line\nextending from near Azle to near Meridian, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Severe thunderstorms will be near...\nFort Worth, Benbrook, White Settlement, Azle, Briar, Eagle\nMountain, Pecan Acres, Pelican Bay, Godley, and Cleburne State\nPark around 825 PM CDT.\nCleburne, Lake Worth, Westworth Village, Haslet, and Lake Whitney\naround 830 PM CDT.\nBurleson, Saginaw, River Oaks, Sansom Park, and Lake Pat Cleburne\naround 835 PM CDT.\nCrowley, Joshua, Edgecliff Village, Blue Mound, Blum, and\nEdgecliff around 840 PM CDT.\nHaltom City, Keller, Watauga, Everman, Keene, and Cross Timber\naround 845 PM CDT.\nForest Hill, Richland Hills, Rendon, North Richland Hills,\nWhitney, and Lake Whitney State Park around 850 PM CDT.\nArlington, Hurst, Southlake, Colleyville, Kennedale, Alvarado, and\nCovington around 855 PM CDT.\nMansfield, Euless, Bedford, Grapevine, Pantego, and Aquilla Lake\naround 900 PM CDT.",
-          "severity": "Severe",
-          "urgency": "Immediate",
+          "id": "urn:oid:2.49.0.1.840.0.01b26943e5db40f6df8f5c4ba41ce7dc30735ecb.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:27PM CDT by NWS Fort Worth TX",
+          "description": "At 927 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from near Midlothian to near Aquilla Lake. Movement\nwas east at 35 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nStrong thunderstorms will be near...\nCedar Hill, Midlothian, Hillsboro, Itasca, Maypearl, Carl's\nCorner, and Aquilla Lake around 930 PM CDT.\nWaxahachie, Ovilla, and Oak Leaf around 935 PM CDT.\nGlenn Heights, Red Oak, and Bynum around 940 PM CDT.\nItaly around 945 PM CDT.\nEnnis and Palmer around 955 PM CDT.\nBardwell, Bardwell Lake, and Navarro Mills Lake around 1000 PM\nCDT.\nBlooming Grove around 1005 PM CDT.",
+          "severity": "Moderate",
+          "urgency": "Expected",
           "certainty": "Observed",
-          "effective": "2025-10-24T20:22:00-05:00",
-          "expires": "2025-10-24T21:30:00-05:00",
-          "areaDesc": "Hill, TX; Johnson, TX; Tarrant, TX",
+          "effective": "2025-10-24T21:27:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Johnson; Ellis; Hill; Navarro",
           "sameCodes": [
-            "048217",
             "048251",
-            "048439"
+            "048139",
+            "048217",
+            "048349"
           ]
         },
         {
@@ -14491,25 +14511,25 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       }
     }
   },
@@ -14702,25 +14722,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 73,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 9656.064,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       }
     }
   },
@@ -15069,22 +15089,6 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.dbba2779f64fdbe23988ecde3620b7fbd1ab17c6.001.1",
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 24 at 8:17PM CDT by NWS Amarillo TX",
-          "description": "At 817 PM CDT, Doppler radar was tracking a strong thunderstorm 8\nmiles north of Happy, or 9 miles southeast of Canyon, moving\nsoutheast at 15 mph.\n\nHAZARD...Half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor hail damage to vegetation is possible.\n\nLocations impacted include...\nWayside and Palo Duro Canyon.\n\nThis includes Interstate 27 between mile markers 91 and 101.",
-          "severity": "Moderate",
-          "urgency": "Expected",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:17:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Randall; Armstrong; Palo Duro Canyon",
-          "sameCodes": [
-            "048381",
-            "048011"
-          ]
-        },
-        {
           "id": "urn:oid:2.49.0.1.840.0.fc5a80679408c9bc276b0f360373b3fbf49b1d79.001.1",
           "event": "Flash Flood Warning",
           "headline": "Flash Flood Warning issued October 24 at 7:49PM CDT until October 24 at 11:00PM CDT by NWS Amarillo TX",
@@ -15176,23 +15180,6 @@
             "048425",
             "048439",
             "048497"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.4e2aa5a782f321f491bc73685803f146a279e41b.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued October 24 at 8:07PM CDT until October 24 at 9:00PM CDT by NWS Fort Worth TX",
-          "description": "At 806 PM CDT, severe thunderstorms were located along a line\nextending from near Lipan to near Meridian State Park, moving east at\n30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nThese severe storms will be near...\nGranbury, Glen Rose, Meridian State Park, Oak Trail Shores,\nDinosaur Valley State Park, and Squaw Creek Reservoir around 810\nPM CDT.\nMeridian around 815 PM CDT.\nPecan Plantation around 820 PM CDT.\nLake Whitney around 835 PM CDT.\n\nOther locations impacted by these severe thunderstorms include Walnut\nSprings, Eulogy, Stockton Bend, Kopperl, Brazos Point, Mambrino,\nTolar, Morgan, Acton, and Lake Granbury.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2025-10-24T20:07:00-05:00",
-          "expires": "2025-10-24T21:00:00-05:00",
-          "areaDesc": "Bosque, TX; Hood, TX; Somervell, TX",
-          "sameCodes": [
-            "048035",
-            "048221",
-            "048425"
           ]
         }
       ]
@@ -15295,6 +15282,25 @@
       },
       "alerts": [
         {
+          "id": "urn:oid:2.49.0.1.840.0.f21836056dbe60c4447cb5970b9c1b18503c6a53.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 24 at 9:20PM CDT by NWS Fort Worth TX",
+          "description": "At 920 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from Laguna Park to near Fort Hood. Movement was\neast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nStrong thunderstorms will be near...\nKilleen, Fort Hood, Laguna Park, Valley Mills, and Crawford around\n925 PM CDT.\nHarker Heights, McGregor, and Belton Lake around 930 PM CDT.\nNolanville around 935 PM CDT.\nWaco, Mother Neff State Park, and Lake Waco around 940 PM CDT.\nMorgan's Point Resort and West around 950 PM CDT.\nTemple, Belton, Woodway, and Moody around 955 PM CDT.\nLacy-Lakeview around 1000 PM CDT.\nHewitt around 1005 PM CDT.\n\nOther locations impacted by these storms include Whitson, Rock Creek,\nMoffat, Willow Grove, Cedar Shores, Oglesby, Owl Creek, Meadow Grove,\nWoodland, and Gholson.\n\nThis includes Interstate 35 between mile markers 284 and 301, between\nmile markers 315 and 317, and between mile markers 319 and 361.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2025-10-24T21:20:00-05:00",
+          "expires": "2025-10-24T22:15:00-05:00",
+          "areaDesc": "Bosque; Hill; Coryell; Bell; McLennan",
+          "sameCodes": [
+            "048035",
+            "048217",
+            "048099",
+            "048027",
+            "048309"
+          ]
+        },
+        {
           "id": "urn:oid:2.49.0.1.840.0.eab46d638bafc4200a8a3b94add0df0cd8293a84.003.1",
           "event": "Severe Thunderstorm Watch",
           "headline": "Severe Thunderstorm Watch issued October 24 at 8:16PM CDT until October 25 at 12:00AM CDT by NWS Fort Worth TX",
@@ -15375,43 +15381,26 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 19.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 71,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T18:00:00+00:00/PT3H"
-      },
-      "alerts": [
-        {
-          "id": "urn:oid:2.49.0.1.840.0.c22fe6c3719e833b073aa57a5a6d4f30fe06f008.001.1",
-          "event": "Flash Flood Warning",
-          "headline": "Flash Flood Warning issued October 24 at 7:42PM CDT until October 24 at 8:45PM CDT by NWS San Angelo TX",
-          "description": "At 742 PM CDT, Doppler radar indicated thunderstorms producing light\nto moderate rain across the warned area. Between 1 and 2 inches of\nrain have fallen. Additional rainfall amounts up to 0.5 inches are\npossible in the warned area. Flash flooding is ongoing or expected\nto begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nAbilene, Tye, Buffalo Gap, Caps, Dyess Afb, Potosi, View, Hamby,\nImpact and Kirby Lake.\n\nPeople attending Shotwell Stadium should seek shelter immediately.\n\nThis includes Interstate 20 between Mile Markers 275 and 292.\n\nThis includes the following Low Water Crossings...\nIntersections along Sammons Street, Butternut Underpass, Curry Lane\nfrom Clack Street to Catclaw Drive, Texas Avenue at Arnold\nBoulevard, Intersections along Buttonwillow Parkway, South 27th\nStreet at Catclaw Creek, FM 3308 crossing Draw, 2000 block of Oak\nStreet, North 6th Street and Willis and Antilley Rd. crossing Button\nWillow Creek.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Likely",
-          "effective": "2025-10-24T19:42:00-05:00",
-          "expires": "2025-10-24T20:45:00-05:00",
-          "areaDesc": "Taylor, TX",
-          "sameCodes": [
-            "048441"
-          ]
-        }
-      ]
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
+      }
     }
   },
   {
@@ -15422,20 +15411,20 @@
     },
     "data": {
       "temperature": {
-        "value": 33.888888888888886,
+        "value": 34.44444444444444,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT2H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": null,
@@ -15557,25 +15546,25 @@
     },
     "data": {
       "temperature": {
-        "value": 22.22222222222222,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 57,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT1H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
         "value": 11,
         "unit": "wmoUnit:percent",
-        "validTime": "2025-10-24T19:00:00+00:00/PT2H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2025-10-24T19:00:00+00:00/PT14H"
+        "validTime": "2025-10-24T20:00:00+00:00/PT13H"
       }
     }
   }
