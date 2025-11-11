@@ -4,14 +4,16 @@ import { normalizeCountyName } from '@/services/countyService';
 // Get color based on data type and value
 export const getColor = (county: CountyData, dataType: DataType): string => {
   if (dataType === 'temperature') {
-    const temp = county.data.temperature.value;
+    const temp = county.data.temperature?.value ?? null;
+    if (temp === null || temp === undefined) return '#F7FCFD';
     if (temp < 0) return '#9CA3AF'; // Cold blue
     if (temp < 10) return '#F7FCFD';
     if (temp < 20) return '#FFD166'; // Warm yellow
     if (temp < 30) return '#FF9966'; // Orange
     return '#FF5F5F'; // Hot red
   } else if (dataType === 'precipitation') {
-    const precipProbability = county.data.probabilityOfPrecipitation.value;
+    const precipProbability = county.data.probabilityOfPrecipitation?.value ?? null;
+    if (precipProbability === null || precipProbability === undefined) return '#F7FCFD';
     if (precipProbability === 0) return '#FFFFFF'; // White for 0%
     if (precipProbability <= 20) return '#E6F0FF'; // Very light blue
     if (precipProbability <= 40) return '#B3D9FF'; // Light blue
@@ -19,10 +21,10 @@ export const getColor = (county: CountyData, dataType: DataType): string => {
     if (precipProbability <= 80) return '#4DA6FF'; // Darker blue
     return '#1A8CFF'; // Darkest blue for 81-100%
   } else if (dataType === 'hazards') {
-    return county.data.hazards.length > 0 ? '#FF5F5F' : '#F7FCFD';
+    return (county.data.hazards?.length ?? 0) > 0 ? '#FF5F5F' : '#F7FCFD';
   } else if (dataType === 'visibility') {
-    const visibility = county.data.visibility.value;
-    if (!visibility) return '#F7FCFD'; // Gray for null values
+    const visibility = county.data.visibility?.value ?? null;
+    if (visibility === null || visibility === undefined) return '#F7FCFD'; // Gray for null values
     if (visibility < 1000) return '#FF5F5F'; // Very poor visibility
     if (visibility < 5000) return '#FF9966'; // Poor visibility
     if (visibility < 10000) return '#FFD166'; // Moderate visibility

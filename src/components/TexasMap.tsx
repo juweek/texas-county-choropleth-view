@@ -10,7 +10,7 @@ interface TexasMapProps {
 }
 
 const TexasMap: React.FC<TexasMapProps> = ({ counties, lastUpdated }) => {
-  const [dataType, setDataType] = useState<DataType>('precipitation');
+  const [dataType, setDataType] = useState<DataType>('alerts');
   const [selectedCounty, setSelectedCounty] = useState<CountyData | null>(null);
   const [hoveredCounty, setHoveredCounty] = useState<CountyData | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

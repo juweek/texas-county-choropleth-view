@@ -228,7 +228,15 @@ def get_county_weather(county, texas_alerts=None):
                 "latitude": county["latitude"],
                 "longitude": county["longitude"]
             },
-            "data": {}
+            "data": {
+                # Initialize with safe defaults so frontend always has keys
+                "temperature": {"value": None, "unit": None, "validTime": None},
+                "relativeHumidity": {"value": None, "unit": None, "validTime": None},
+                "hazards": [],
+                "probabilityOfPrecipitation": {"value": 0, "unit": "%", "validTime": None},
+                "visibility": {"value": None, "unit": None, "validTime": None},
+                "alerts": []
+            }
         }
         
         # Add temperature if available
