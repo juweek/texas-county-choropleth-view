@@ -4,13 +4,22 @@ import { normalizeCountyName } from '@/services/countyService';
 // Get color based on data type and value
 export const getColor = (county: CountyData, dataType: DataType): string => {
   if (dataType === 'temperature') {
-    const temp = county.data.temperature?.value ?? null;
-    if (temp === null || temp === undefined) return '#F7FCFD';
-    if (temp < 0) return '#9CA3AF'; // Cold blue
-    if (temp < 10) return '#F7FCFD';
-    if (temp < 20) return '#FFD166'; // Warm yellow
-    if (temp < 30) return '#FF9966'; // Orange
-    return '#FF5F5F'; // Hot red
+    const tempC = county.data.temperature?.value ?? null;
+    if (tempC === null || tempC === undefined) return '#F7FCFD'; // neutral for missing
+    const tempF = (tempC * 9) / 5 + 32;
+    // 10°F bins (ColorBrewer-like palette across cool→warm)
+    if (tempF < 0) return '#313695';
+    if (tempF < 10) return '#3f88bf';
+    if (tempF < 20) return '#4575b4';
+    if (tempF < 30) return '#74add1';
+    if (tempF < 40) return '#abd9e9';
+    if (tempF < 50) return '#e0f3f8';
+    if (tempF < 60) return '#ffffbf';
+    if (tempF < 70) return '#fee090';
+    if (tempF < 80) return '#fdae61';
+    if (tempF < 90) return '#f46d43';
+    if (tempF < 100) return '#d73027';
+    return '#7f0000'; // ≥ 100°F
   } else if (dataType === 'precipitation') {
     const precipProbability = county.data.probabilityOfPrecipitation?.value ?? null;
     if (precipProbability === null || precipProbability === undefined) return '#F7FCFD';
@@ -24,36 +33,41 @@ export const getColor = (county: CountyData, dataType: DataType): string => {
     return (county.data.hazards?.length ?? 0) > 0 ? '#FF5F5F' : '#F7FCFD';
   } else if (dataType === 'visibility') {
     const visibility = county.data.visibility?.value ?? null;
-    if (visibility === null || visibility === undefined) return '#F7FCFD'; // Gray for null values
-    if (visibility < 1000) return '#FF5F5F'; // Very poor visibility
-    if (visibility < 5000) return '#FF9966'; // Poor visibility
-    if (visibility < 10000) return '#FFD166'; // Moderate visibility
-    return '#F7FCFD'; // Good visibility
+    // Good-only highlighting:
+    // - Not available => gray
+    // - Good (>= 10km) => green
+    // - Otherwise => neutral light color
+    if (visibility === null || visibility === undefined) return '#9CA3AF'; // Not available
+    if (visibility >= 10000) return '#22C55E'; // Good visibility
+    return '#F7FCFD'; // Neutral for non-good values
   } else if (dataType === 'alerts') {
-    // Check if county has alerts
-    if (!county.data.alerts || county.data.alerts.length === 0) {
-      return '#F7FCFD'; // No alerts - blue
+    const alerts = county.data.alerts ?? [];
+    const hazardsCount = county.data.hazards?.length ?? 0;
+    // Prefer alerts if present
+    if (alerts.length > 0) {
+      // Find the most severe alert
+      let highestSeverity = 'minor';
+      alerts.forEach(alert => {
+        const severity = alert.severity?.toLowerCase();
+        if (severity === 'extreme') highestSeverity = 'extreme';
+        else if (severity === 'severe' && highestSeverity !== 'extreme') highestSeverity = 'severe';
+        else if (severity === 'moderate' && !['extreme', 'severe'].includes(highestSeverity)) highestSeverity = 'moderate';
+      });
+      switch (highestSeverity) {
+        case 'extreme':
+        case 'severe':
+          return '#FF0000'; // severe
+        case 'moderate':
+          return '#FFA500'; // moderate
+        default:
+          return '#FFFF00'; // minor
+      }
     }
-    
-    // Find the most severe alert
-    let highestSeverity = 'minor';
-    county.data.alerts.forEach(alert => {
-      const severity = alert.severity?.toLowerCase();
-      if (severity === 'extreme') highestSeverity = 'extreme';
-      else if (severity === 'severe' && highestSeverity !== 'extreme') highestSeverity = 'severe';
-      else if (severity === 'moderate' && !['extreme', 'severe'].includes(highestSeverity)) highestSeverity = 'moderate';
-    });
-    
-    // Return color based on severity
-    switch (highestSeverity) {
-      case 'extreme':
-      case 'severe':
-        return '#FF0000'; // Red for severe alerts
-      case 'moderate':
-        return '#FFA500'; // Orange for moderate alerts
-      default:
-        return '#FFFF00'; // Yellow for minor alerts
+    // Otherwise, show hazards presence
+    if (hazardsCount > 0) {
+      return '#8b5cf6'; // violet for hazards present
     }
+    return 'rgba(0,0,0,0)'; // No alerts/hazards -> no fill
   }
   return '#9CA3AF'; // Default gray
 };

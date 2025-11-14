@@ -111,7 +111,7 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
     if (meters < 1000) return 'bg-red-500 text-white';
     if (meters < 5000) return 'bg-orange-500';
     if (meters < 10000) return 'bg-yellow-400';
-    return 'bg-blue-500 text-white';
+    return 'bg-green-500 text-white';
   };
 
   // Get visibility label
@@ -134,6 +134,26 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
     return 'bg-blue-500 text-white';
   };
 
+  // Get temperature category (Fahrenheit) + badge color; bins every 20°F
+  const getTemperatureBadge = (celsius: number | null | undefined) => {
+    if (celsius === null || celsius === undefined) {
+      return { label: 'Not available', className: 'bg-gray-400 text-white' };
+    }
+    const f = (celsius * 9/5) + 32;
+    if (f < 0) return { label: '< 0°F', className: 'bg-[#313695] text-white' };
+    if (f < 10) return { label: '0–10°F', className: 'bg-[#3f88bf] text-white' };
+    if (f < 20) return { label: '10–20°F', className: 'bg-[#4575b4] text-white' };
+    if (f < 30) return { label: '20–30°F', className: 'bg-[#74add1] text-black' };
+    if (f < 40) return { label: '30–40°F', className: 'bg-[#abd9e9] text-black' };
+    if (f < 50) return { label: '40–50°F', className: 'bg-[#e0f3f8] text-black' };
+    if (f < 60) return { label: '50–60°F', className: 'bg-[#ffffbf] text-black' };
+    if (f < 70) return { label: '60–70°F', className: 'bg-[#fee090] text-black' };
+    if (f < 80) return { label: '70–80°F', className: 'bg-[#fdae61] text-white' };
+    if (f < 90) return { label: '80–90°F', className: 'bg-[#f46d43] text-white' };
+    if (f < 100) return { label: '90–100°F', className: 'bg-[#d73027] text-white' };
+    return { label: '≥ 100°F', className: 'bg-[#7f0000] text-white' };
+  };
+
   return (
     <Card 
       className={`z-10 p-2 max-w-[300px] bg-white/90 backdrop-blur-sm ${position === 'fixed' ? 'absolute' : 'fixed'}`}
@@ -141,39 +161,37 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
     >
       <h3 className="font-bold text-md">{county.countyName} County</h3>
       <div className="space-y-1 text-xs">
-        <p>Temperature: {formatTemperature(county.data.temperature.value)}</p>
+        <p className="flex items-center gap-2">
+          <span>Temperature: {county.data.temperature.value !== null && county.data.temperature.value !== undefined ? formatTemperature(county.data.temperature.value) : 'Not available'}</span>
+          <Badge className={getTemperatureBadge(county.data.temperature.value).className}>
+            {getTemperatureBadge(county.data.temperature.value).label}
+          </Badge>
+        </p>
         <p>Humidity: {county.data.relativeHumidity.value}%</p>
         
-        {/* Only show visibility if it's not exactly 10 miles */}
-        {(county.data.visibility.value === null || 
-          Math.abs((county.data.visibility.value / 1609.34) - 10.0) > 0.01) && (
-          <p>
-            Visibility: {' '}
-            {activeTab === 'visibility' ? (
-              <Badge className={getVisibilityBadgeColor(county.data.visibility.value)}>
-                {getVisibilityLabel(county.data.visibility.value)}
-              </Badge>
-            ) : (
-              formatVisibility(county.data.visibility.value)
-            )}
-          </p>
-        )}
+        {/* Always show visibility row */}
+        <p>
+          Visibility: {' '}
+          {activeTab === 'visibility' ? (
+            <Badge className={getVisibilityBadgeColor(county.data.visibility.value)}>
+              {getVisibilityLabel(county.data.visibility.value)}
+            </Badge>
+          ) : (
+            formatVisibility(county.data.visibility.value)
+          )}
+        </p>
         
-        {/* Only show hazards if they exist */}
-        {county.data.hazards && county.data.hazards.length > 0 && (
-          <div>
-            <p>Hazards: </p>
-            {activeTab === 'hazards' ? (
-              <div className="mt-1 flex flex-wrap gap-1">
-                {county.data.hazards.map((hazard, index) => (
-                  <Badge key={index} className="bg-red-500 text-white">
-                    {getHazardDisplayText(hazard)}
-                  </Badge>
-                ))}
-              </div>
-            ) : (
-              <p>{formatHazards(county.data.hazards)}</p>
-            )}
+        {/* Hazards shown within Alerts context when no explicit alerts */}
+        {activeTab === 'alerts' && (!hasAlerts) && county.data.hazards && county.data.hazards.length > 0 && (
+          <div className="mt-3">
+            <p className="font-semibold">Hazards:</p>
+            <div className="mt-1 flex flex-wrap gap-1">
+              {county.data.hazards.map((hazard, index) => (
+                <Badge key={index} className="bg-[#8b5cf6] text-white">
+                  {getHazardDisplayText(hazard)}
+                </Badge>
+              ))}
+            </div>
           </div>
         )}
         
@@ -191,7 +209,7 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
           </p>
         )}
         
-        {/* Alerts section - only show detailed badges when alerts tab is active */}
+        {/* Alerts section */}
         {hasAlerts && county.data.alerts && (
           <div className="mt-3">
             <p className="font-semibold">Active Alerts:</p>
@@ -210,6 +228,14 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
             ) : (
               <p>{county.data.alerts.length} active alert(s)</p>
             )}
+          </div>
+        )}
+        {!hasAlerts && activeTab === 'alerts' && (!(county.data.hazards && county.data.hazards.length > 0)) && (
+          <div className="mt-3">
+            <p className="font-semibold">Alerts:</p>
+            <div className="mt-1">
+              <Badge className="bg-gray-400 text-white">No Alerts</Badge>
+            </div>
           </div>
         )}
         

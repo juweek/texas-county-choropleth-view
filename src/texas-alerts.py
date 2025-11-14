@@ -8,7 +8,7 @@ import io
 import os
 import argparse
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 
 # Set up argument parser
@@ -173,15 +173,78 @@ def get_gridpoint_url(lat, lon):
         return None
 
 # Function to extract the latest value from a time series
+def _parse_duration_to_timedelta(duration_str: str) -> timedelta:
+    # Simple ISO8601 duration parser supporting hours (PTxH), minutes (PTxM), seconds (PTxS)
+    # Examples: PT1H, PT3H, PT30M, PT1H30M
+    if not duration_str or not duration_str.startswith("PT"):
+        return timedelta(0)
+    hours = 0
+    minutes = 0
+    seconds = 0
+    # Remove leading PT
+    d = duration_str[2:]
+    num = ''
+    for ch in d:
+        if ch.isdigit():
+            num += ch
+        elif ch == 'H':
+            hours = int(num or 0)
+            num = ''
+        elif ch == 'M':
+            minutes = int(num or 0)
+            num = ''
+        elif ch == 'S':
+            seconds = int(num or 0)
+            num = ''
+    return timedelta(hours=hours, minutes=minutes, seconds=seconds)
+
+
 def extract_latest_value(time_series):
     if not time_series or "values" not in time_series or not time_series["values"]:
         return {"value": None, "unit": None, "validTime": None}
-    
-    latest = time_series["values"][0]
+
+    unit = time_series.get("uom")
+    values = time_series["values"]
+
+    # Current time in UTC for comparison
+    now_utc = datetime.now(pytz.UTC)
+
+    chosen = None
+    closest = None
+    closest_delta = None
+
+    for entry in values:
+        # validTime format like "2025-08-26T11:00:00+00:00/PT3H"
+        vt = entry.get("validTime")
+        if not vt or "/" not in vt:
+            continue
+        start_str, dur_str = vt.split("/", 1)
+        try:
+            start_dt = datetime.fromisoformat(start_str)
+            if start_dt.tzinfo is None:
+                start_dt = start_dt.replace(tzinfo=pytz.UTC)
+        except Exception:
+            continue
+        end_dt = start_dt + _parse_duration_to_timedelta(dur_str)
+
+        # Prefer interval covering now
+        if start_dt <= now_utc <= end_dt:
+            chosen = entry
+            break
+
+        # Track closest start time to now as fallback
+        delta = abs((start_dt - now_utc).total_seconds())
+        if closest is None or delta < closest_delta:
+            closest = entry
+            closest_delta = delta
+
+    if chosen is None:
+        chosen = closest or values[0]
+
     return {
-        "value": latest["value"],
-        "unit": time_series.get("uom"),
-        "validTime": latest["validTime"]
+        "value": chosen.get("value"),
+        "unit": unit,
+        "validTime": chosen.get("validTime")
     }
 
 # Function to extract hazards information
