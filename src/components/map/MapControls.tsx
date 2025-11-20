@@ -63,7 +63,10 @@ const MapControls: React.FC<MapControlsProps> = ({ dataType, onDataTypeChange })
             <Legend 
               title="Visibility" 
               items={[
-                { color: '#22C55E', label: 'Available' },
+                { color: '#ef4444', label: '< 0.6 mi' },
+                { color: '#f97316', label: '0.6–3.1 mi' },
+                { color: '#facc15', label: '3.1–6.2 mi' },
+                { color: '#22C55E', label: '≥ 6.2 mi' },
                 { color: '#9CA3AF', label: 'Not available' }
               ]} 
             />

@@ -26,7 +26,7 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
   const formatVisibility = (meters: number | null) => {
     if (meters === null) return 'Not available';
     const miles = meters / 1609.34;
-    return `${(miles).toFixed(1)} miles`;
+    return `${miles.toFixed(1)} miles`;
   };
 
   // Format hazards properly
@@ -114,14 +114,11 @@ const CountyDetailCard: React.FC<CountyDetailCardProps> = ({
     return 'bg-green-500 text-white';
   };
 
-  // Get visibility label
+  // Get visibility label (numeric only, no qualitative category)
   const getVisibilityLabel = (meters: number | null) => {
     if (meters === null) return 'Not available';
     const miles = (meters / 1609.34).toFixed(1);
-    if (meters < 1000) return `Very poor (${miles} mi)`;
-    if (meters < 5000) return `Poor (${miles} mi)`;
-    if (meters < 10000) return `Moderate (${miles} mi)`;
-    return `Good (${miles} mi)`;
+    return `${miles} mi`;
   };
 
   // Get precipitation badge color

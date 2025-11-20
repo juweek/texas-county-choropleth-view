@@ -33,13 +33,17 @@ export const getColor = (county: CountyData, dataType: DataType): string => {
     return (county.data.hazards?.length ?? 0) > 0 ? '#FF5F5F' : '#F7FCFD';
   } else if (dataType === 'visibility') {
     const visibility = county.data.visibility?.value ?? null;
-    // Good-only highlighting:
+    // Category-based coloring aligned with detail pill:
     // - Not available => gray
-    // - Good (>= 10km) => green
-    // - Otherwise => neutral light color
+    // - Very poor (<1km) => red
+    // - Poor (1–5km) => orange
+    // - Moderate (5–10km) => yellow
+    // - Good (>=10km) => green
     if (visibility === null || visibility === undefined) return '#9CA3AF'; // Not available
-    if (visibility >= 10000) return '#22C55E'; // Good visibility
-    return '#F7FCFD'; // Neutral for non-good values
+    if (visibility < 1000) return '#ef4444';       // red-500
+    if (visibility < 5000) return '#f97316';       // orange-500
+    if (visibility < 10000) return '#facc15';      // yellow-400
+    return '#22C55E';                               // green-500
   } else if (dataType === 'alerts') {
     const alerts = county.data.alerts ?? [];
     const hazardsCount = county.data.hazards?.length ?? 0;
