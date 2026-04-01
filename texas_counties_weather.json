@@ -7,16 +7,23 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 32,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "SV",
+          "significance": "A",
+          "eventNumber": 81,
+          "validTime": "2026-04-01T01:00:00+00:00/PT3H"
+        }
+      ],
       "probabilityOfPrecipitation": {
         "value": 29,
         "unit": "wmoUnit:percent",
@@ -29,33 +36,41 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.1a6c17d384558cc786eb6aa2e272fee02b643447.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9184a2b369f631ead458245e7a0fb72ded3ae7ab.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued March 31 at 8:25PM CDT by NWS Norman OK",
+          "description": "At 825 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 5 miles south of Eldorado to 11 miles southeast\nof Swearingen. Movement was east at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nVernon, Quanah, Crowell, Chillicothe, Margaret, Medicine Mound,\nThalia, Rayland, and Copper Breaks State Park.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2026-03-31T20:25:00-05:00",
+          "expires": "2026-03-31T21:15:00-05:00",
+          "areaDesc": "Hardeman; Foard; Wilbarger; Knox",
+          "sameCodes": [
+            "048197",
+            "048155",
+            "048487",
+            "048275"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.035e7ecd6030c452c27a566df7be757e2f7caf7f.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued March 31 at 4:36PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n81 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 16 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nCANADIAN              GRADY                 KINGFISHER\n\nIN NORTHWEST OKLAHOMA\n\nBLAINE                DEWEY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              GREER\nHARMON                JACKSON               KIOWA\nTILLMAN\n\nIN WESTERN OKLAHOMA\n\nBECKHAM               CUSTER                ROGER MILLS\nWASHITA\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, BURNS FLAT,\nCHEYENNE, CHICKASHA, CLINTON, CONCHO, CORDELL, CROWELL, EL RENO,\nELK CITY, FREDERICK, GEARY, GRANITE, HAMMON, HENNESSEY, HINTON,\nHOBART, HOLLIS, KINGFISHER, KNOX CITY, LAWTON, LEEDEY, MANGUM,\nMUNDAY, MUSTANG, OKARCHE, OKEENE, QUANAH, SAYRE, SEILING,\nSENTINEL, SNYDER, TALOGA, TUTTLE, VERNON, VICI, WATONGA,\nWEATHERFORD, AND YUKON.",
+          "headline": "Severe Thunderstorm Watch issued March 31 at 8:21PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
+          "description": "SEVERE THUNDERSTORM WATCH 81 REMAINS VALID UNTIL 11 PM CDT THIS\nEVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 6 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nGRADY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              JACKSON\nKIOWA                 TILLMAN\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, CHICKASHA, CROWELL,\nFREDERICK, HINTON, HOBART, KNOX CITY, LAWTON, MUNDAY, QUANAH,\nSNYDER, TUTTLE, AND VERNON.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2026-03-31T16:36:00-05:00",
+          "effective": "2026-03-31T20:21:00-05:00",
           "expires": "2026-03-31T23:00:00-05:00",
-          "areaDesc": "Beckham, OK; Blaine, OK; Caddo, OK; Canadian, OK; Comanche, OK; Custer, OK; Dewey, OK; Grady, OK; Greer, OK; Harmon, OK; Jackson, OK; Kingfisher, OK; Kiowa, OK; Roger Mills, OK; Tillman, OK; Washita, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
+          "areaDesc": "Caddo, OK; Comanche, OK; Grady, OK; Jackson, OK; Kiowa, OK; Tillman, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
           "sameCodes": [
-            "040009",
-            "040011",
             "040015",
-            "040017",
             "040031",
-            "040039",
-            "040043",
             "040051",
-            "040055",
-            "040057",
             "040065",
-            "040073",
             "040075",
-            "040129",
             "040141",
-            "040149",
             "048155",
             "048197",
             "048275",
@@ -73,14 +88,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -104,14 +119,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 12,
+        "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -129,7 +144,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -173,14 +188,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -204,14 +219,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -229,7 +244,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -273,14 +288,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -304,14 +319,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -335,14 +350,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -366,14 +381,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 52,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -397,14 +412,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -428,14 +443,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 74,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -459,14 +474,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 14,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -490,14 +505,14 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -521,14 +536,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -552,14 +567,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -583,14 +598,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -614,14 +629,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -645,14 +660,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -676,14 +691,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 25,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -707,25 +722,25 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT6H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T17:00:00+00:00/PT15H"
+        "validTime": "2026-03-31T18:00:00+00:00/PT14H"
       },
       "alerts": []
     }
@@ -738,14 +753,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20.555555555555557,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 35,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -769,14 +784,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -800,14 +815,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -831,14 +846,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -862,14 +877,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 67,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -893,14 +908,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 52,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -924,14 +939,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 19,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -949,7 +964,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT19H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -993,14 +1008,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1024,14 +1039,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 14,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T21:00:00+00:00/PT4H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1089,20 +1104,20 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 2,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": 16093.44,
@@ -1120,14 +1135,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1151,14 +1166,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 27,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1182,14 +1197,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1213,14 +1228,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1244,14 +1259,14 @@
     },
     "data": {
       "temperature": {
-        "value": 24.444444444444443,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1275,14 +1290,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 21.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 29,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1306,14 +1321,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1337,14 +1352,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1368,14 +1383,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1399,14 +1414,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1430,14 +1445,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1461,14 +1476,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 31,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1492,14 +1507,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 21,
+        "value": 25,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1517,7 +1532,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -1561,14 +1576,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1592,14 +1607,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T21:00:00+00:00/PT4H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1623,14 +1638,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1654,14 +1669,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1685,14 +1700,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 14,
+        "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1710,7 +1725,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -1754,14 +1769,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 25,
+        "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -1819,14 +1834,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1850,14 +1865,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 56,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1881,14 +1896,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1912,14 +1927,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1943,14 +1958,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -1974,14 +1989,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2005,14 +2020,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2036,14 +2051,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 20,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2061,7 +2076,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT19H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -2095,14 +2110,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2126,14 +2141,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2157,14 +2172,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2182,7 +2197,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -2226,16 +2241,23 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "SV",
+          "significance": "A",
+          "eventNumber": 81,
+          "validTime": "2026-04-01T01:00:00+00:00/PT3H"
+        }
+      ],
       "probabilityOfPrecipitation": {
         "value": 25,
         "unit": "wmoUnit:percent",
@@ -2248,33 +2270,41 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.1a6c17d384558cc786eb6aa2e272fee02b643447.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9184a2b369f631ead458245e7a0fb72ded3ae7ab.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued March 31 at 8:25PM CDT by NWS Norman OK",
+          "description": "At 825 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 5 miles south of Eldorado to 11 miles southeast\nof Swearingen. Movement was east at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nVernon, Quanah, Crowell, Chillicothe, Margaret, Medicine Mound,\nThalia, Rayland, and Copper Breaks State Park.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2026-03-31T20:25:00-05:00",
+          "expires": "2026-03-31T21:15:00-05:00",
+          "areaDesc": "Hardeman; Foard; Wilbarger; Knox",
+          "sameCodes": [
+            "048197",
+            "048155",
+            "048487",
+            "048275"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.035e7ecd6030c452c27a566df7be757e2f7caf7f.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued March 31 at 4:36PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n81 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 16 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nCANADIAN              GRADY                 KINGFISHER\n\nIN NORTHWEST OKLAHOMA\n\nBLAINE                DEWEY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              GREER\nHARMON                JACKSON               KIOWA\nTILLMAN\n\nIN WESTERN OKLAHOMA\n\nBECKHAM               CUSTER                ROGER MILLS\nWASHITA\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, BURNS FLAT,\nCHEYENNE, CHICKASHA, CLINTON, CONCHO, CORDELL, CROWELL, EL RENO,\nELK CITY, FREDERICK, GEARY, GRANITE, HAMMON, HENNESSEY, HINTON,\nHOBART, HOLLIS, KINGFISHER, KNOX CITY, LAWTON, LEEDEY, MANGUM,\nMUNDAY, MUSTANG, OKARCHE, OKEENE, QUANAH, SAYRE, SEILING,\nSENTINEL, SNYDER, TALOGA, TUTTLE, VERNON, VICI, WATONGA,\nWEATHERFORD, AND YUKON.",
+          "headline": "Severe Thunderstorm Watch issued March 31 at 8:21PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
+          "description": "SEVERE THUNDERSTORM WATCH 81 REMAINS VALID UNTIL 11 PM CDT THIS\nEVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 6 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nGRADY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              JACKSON\nKIOWA                 TILLMAN\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, CHICKASHA, CROWELL,\nFREDERICK, HINTON, HOBART, KNOX CITY, LAWTON, MUNDAY, QUANAH,\nSNYDER, TUTTLE, AND VERNON.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2026-03-31T16:36:00-05:00",
+          "effective": "2026-03-31T20:21:00-05:00",
           "expires": "2026-03-31T23:00:00-05:00",
-          "areaDesc": "Beckham, OK; Blaine, OK; Caddo, OK; Canadian, OK; Comanche, OK; Custer, OK; Dewey, OK; Grady, OK; Greer, OK; Harmon, OK; Jackson, OK; Kingfisher, OK; Kiowa, OK; Roger Mills, OK; Tillman, OK; Washita, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
+          "areaDesc": "Caddo, OK; Comanche, OK; Grady, OK; Jackson, OK; Kiowa, OK; Tillman, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
           "sameCodes": [
-            "040009",
-            "040011",
             "040015",
-            "040017",
             "040031",
-            "040039",
-            "040043",
             "040051",
-            "040055",
-            "040057",
             "040065",
-            "040073",
             "040075",
-            "040129",
             "040141",
-            "040149",
             "048155",
             "048197",
             "048275",
@@ -2292,14 +2322,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T21:00:00+00:00/PT4H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2323,14 +2353,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 17,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2381,14 +2411,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2412,14 +2442,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2443,14 +2473,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -2468,7 +2498,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -2512,14 +2542,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2543,14 +2573,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2574,14 +2604,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2605,14 +2635,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 30,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2636,14 +2666,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2667,14 +2697,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2698,14 +2728,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2729,14 +2759,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 32,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2760,14 +2790,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 16,
+        "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2791,14 +2821,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2822,14 +2852,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2853,14 +2883,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 20,
+        "value": 25,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2884,14 +2914,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2915,14 +2945,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2946,14 +2976,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 19,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -2977,14 +3007,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3008,14 +3038,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 24,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3026,7 +3056,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT6H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT5H"
       },
       "alerts": []
     }
@@ -3039,14 +3069,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3070,14 +3100,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3101,14 +3131,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3132,14 +3162,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3163,14 +3193,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3194,14 +3224,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T22:00:00+00:00/PT3H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3225,14 +3255,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 31.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 31,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3256,14 +3286,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3287,14 +3317,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3318,14 +3348,14 @@
     },
     "data": {
       "temperature": {
-        "value": 22.77777777777778,
+        "value": 20,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 22,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3349,14 +3379,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 27,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -3374,7 +3404,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT3H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT2H"
       },
       "alerts": [
         {
@@ -3408,14 +3438,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 70,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3439,14 +3469,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3470,14 +3500,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3501,14 +3531,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 25,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3532,14 +3562,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 17.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 32,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3563,14 +3593,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.88888888888889,
+        "value": 15.555555555555555,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 32,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3594,14 +3624,14 @@
     },
     "data": {
       "temperature": {
-        "value": 20,
+        "value": 17.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 25,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3625,14 +3655,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 68,
+        "value": 77,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3656,14 +3686,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 76,
+        "value": 87,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3687,14 +3717,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3718,14 +3748,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3749,14 +3779,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3780,14 +3810,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3811,14 +3841,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T22:00:00+00:00/PT3H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3842,14 +3872,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3873,14 +3903,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3904,14 +3934,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3935,14 +3965,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3966,14 +3996,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -3997,14 +4027,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4028,14 +4058,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4053,7 +4083,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -4097,14 +4127,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4128,14 +4158,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4159,14 +4189,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4190,14 +4220,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T22:00:00+00:00/PT3H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4221,14 +4251,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4252,14 +4282,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 84,
+        "value": 90,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4283,14 +4313,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4314,14 +4344,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 19,
+        "value": 25,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4345,14 +4375,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 22,
+        "value": 28,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4370,7 +4400,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT19H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -4404,14 +4434,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 56,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4435,14 +4465,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.77777777777778,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 32,
+        "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4466,14 +4496,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4497,14 +4527,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 21,
+        "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4522,7 +4552,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT19H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
@@ -4556,14 +4586,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4587,14 +4617,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 17,
+        "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4618,14 +4648,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4649,20 +4679,20 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "visibility": {
         "value": 16093.44,
@@ -4680,14 +4710,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4711,14 +4741,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4742,14 +4772,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4773,14 +4803,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 20,
+        "value": 26,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4804,14 +4834,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4835,14 +4865,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4866,14 +4896,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 12,
+        "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -4891,7 +4921,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -4935,14 +4965,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4953,7 +4983,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T17:00:00+00:00/PT14H"
+        "validTime": "2026-03-31T18:00:00+00:00/PT13H"
       },
       "alerts": []
     }
@@ -4966,14 +4996,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -4997,14 +5027,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5022,7 +5052,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -5066,14 +5096,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 29,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5097,14 +5127,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 57,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5128,14 +5158,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 22,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5159,14 +5189,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5190,14 +5220,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 16,
+        "value": 21,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5215,7 +5245,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -5259,14 +5289,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5290,14 +5320,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5321,14 +5351,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5352,14 +5382,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 56,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5383,14 +5413,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 50,
+        "value": 61,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5414,20 +5444,20 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 2,
+        "value": 1,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT2H"
       },
       "visibility": {
         "value": 16093.44,
@@ -5445,14 +5475,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5476,14 +5506,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5507,14 +5537,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 48,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5538,14 +5568,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 40,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5569,14 +5599,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 56,
+        "value": 67,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5600,14 +5630,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5631,14 +5661,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5662,14 +5692,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 36,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5693,14 +5723,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 36,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5724,14 +5754,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 46,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5755,14 +5785,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5786,14 +5816,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.22222222222222,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5817,14 +5847,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 12,
+        "value": 15,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -5842,7 +5872,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -5886,14 +5916,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5917,14 +5947,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 82,
+        "value": 93,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5935,7 +5965,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T17:00:00+00:00/PT12H"
+        "validTime": "2026-03-31T18:00:00+00:00/PT11H"
       },
       "alerts": []
     }
@@ -5948,14 +5978,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 54,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -5979,14 +6009,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 24,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T22:00:00+00:00/PT3H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6010,14 +6040,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 54,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6041,14 +6071,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 28,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T22:00:00+00:00/PT3H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6072,14 +6102,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6103,14 +6133,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6134,14 +6164,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6165,16 +6195,23 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "SV",
+          "significance": "A",
+          "eventNumber": 81,
+          "validTime": "2026-04-01T01:00:00+00:00/PT3H"
+        }
+      ],
       "probabilityOfPrecipitation": {
         "value": 30,
         "unit": "wmoUnit:percent",
@@ -6187,36 +6224,65 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.1a6c17d384558cc786eb6aa2e272fee02b643447.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9184a2b369f631ead458245e7a0fb72ded3ae7ab.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued March 31 at 8:25PM CDT by NWS Norman OK",
+          "description": "At 825 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 5 miles south of Eldorado to 11 miles southeast\nof Swearingen. Movement was east at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nVernon, Quanah, Crowell, Chillicothe, Margaret, Medicine Mound,\nThalia, Rayland, and Copper Breaks State Park.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2026-03-31T20:25:00-05:00",
+          "expires": "2026-03-31T21:15:00-05:00",
+          "areaDesc": "Hardeman; Foard; Wilbarger; Knox",
+          "sameCodes": [
+            "048197",
+            "048155",
+            "048487",
+            "048275"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.035e7ecd6030c452c27a566df7be757e2f7caf7f.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued March 31 at 4:36PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n81 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 16 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nCANADIAN              GRADY                 KINGFISHER\n\nIN NORTHWEST OKLAHOMA\n\nBLAINE                DEWEY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              GREER\nHARMON                JACKSON               KIOWA\nTILLMAN\n\nIN WESTERN OKLAHOMA\n\nBECKHAM               CUSTER                ROGER MILLS\nWASHITA\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, BURNS FLAT,\nCHEYENNE, CHICKASHA, CLINTON, CONCHO, CORDELL, CROWELL, EL RENO,\nELK CITY, FREDERICK, GEARY, GRANITE, HAMMON, HENNESSEY, HINTON,\nHOBART, HOLLIS, KINGFISHER, KNOX CITY, LAWTON, LEEDEY, MANGUM,\nMUNDAY, MUSTANG, OKARCHE, OKEENE, QUANAH, SAYRE, SEILING,\nSENTINEL, SNYDER, TALOGA, TUTTLE, VERNON, VICI, WATONGA,\nWEATHERFORD, AND YUKON.",
+          "headline": "Severe Thunderstorm Watch issued March 31 at 8:21PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
+          "description": "SEVERE THUNDERSTORM WATCH 81 REMAINS VALID UNTIL 11 PM CDT THIS\nEVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 6 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nGRADY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              JACKSON\nKIOWA                 TILLMAN\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, CHICKASHA, CROWELL,\nFREDERICK, HINTON, HOBART, KNOX CITY, LAWTON, MUNDAY, QUANAH,\nSNYDER, TUTTLE, AND VERNON.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2026-03-31T16:36:00-05:00",
+          "effective": "2026-03-31T20:21:00-05:00",
           "expires": "2026-03-31T23:00:00-05:00",
-          "areaDesc": "Beckham, OK; Blaine, OK; Caddo, OK; Canadian, OK; Comanche, OK; Custer, OK; Dewey, OK; Grady, OK; Greer, OK; Harmon, OK; Jackson, OK; Kingfisher, OK; Kiowa, OK; Roger Mills, OK; Tillman, OK; Washita, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
+          "areaDesc": "Caddo, OK; Comanche, OK; Grady, OK; Jackson, OK; Kiowa, OK; Tillman, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
           "sameCodes": [
-            "040009",
-            "040011",
             "040015",
-            "040017",
             "040031",
-            "040039",
-            "040043",
             "040051",
-            "040055",
-            "040057",
             "040065",
-            "040073",
             "040075",
-            "040129",
             "040141",
-            "040149",
             "048155",
             "048197",
             "048275",
+            "048487"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.e4557d3da46b807a0ff518e62131f49344cef397.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued March 31 at 8:00PM CDT by NWS Norman OK",
+          "description": "At 759 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 4 miles northeast of Lone Wolf to near\nEldorado. Movement was east at 25 mph.\n\nHAZARD...Wind gusts of 40 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nAltus, Hobart, Snyder, Tipton, Blair, Olustee, Eldorado, Lone Wolf,\nMountain Park, Roosevelt, Martha, Elmer, Headrick, Friendship,\nCooperton, Altus Air Force Base, Tom Steed Reservoir, Warren, Fargo,\nand Humphreys.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2026-03-31T20:00:00-05:00",
+          "expires": "2026-03-31T20:45:00-05:00",
+          "areaDesc": "Greer; Kiowa; Jackson; Tillman; Comanche; Hardeman; Wilbarger",
+          "sameCodes": [
+            "040055",
+            "040075",
+            "040065",
+            "040141",
+            "040031",
+            "048197",
             "048487"
           ]
         }
@@ -6231,14 +6297,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 16,
+        "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6256,7 +6322,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -6300,14 +6366,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 22.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 84,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6318,7 +6384,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T17:00:00+00:00/PT12H"
+        "validTime": "2026-03-31T18:00:00+00:00/PT11H"
       },
       "alerts": []
     }
@@ -6331,14 +6397,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 37,
+        "value": 43,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6362,14 +6428,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 44,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6393,14 +6459,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 20,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6424,14 +6490,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.666666666666668,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 48,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6462,14 +6528,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 17,
+        "value": 19,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -6543,14 +6609,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 26,
+        "value": 32,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T22:00:00+00:00/PT3H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6574,14 +6640,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6605,14 +6671,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6636,14 +6702,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 60,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6667,14 +6733,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 42,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6698,14 +6764,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6729,9 +6795,9 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
         "value": 15,
@@ -6794,20 +6860,20 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT6H"
       },
       "visibility": {
         "value": 16093.44,
@@ -6825,14 +6891,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 23,
+        "value": 29,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6856,14 +6922,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 69,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6874,7 +6940,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T17:00:00+00:00/PT14H"
+        "validTime": "2026-03-31T18:00:00+00:00/PT13H"
       },
       "alerts": []
     }
@@ -6887,14 +6953,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6918,14 +6984,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6949,14 +7015,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -6980,16 +7046,23 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
-      "hazards": [],
+      "hazards": [
+        {
+          "phenomenon": "SV",
+          "significance": "A",
+          "eventNumber": 81,
+          "validTime": "2026-04-01T01:00:00+00:00/PT3H"
+        }
+      ],
       "probabilityOfPrecipitation": {
         "value": 34,
         "unit": "wmoUnit:percent",
@@ -7002,36 +7075,65 @@
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.1a6c17d384558cc786eb6aa2e272fee02b643447.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.9184a2b369f631ead458245e7a0fb72ded3ae7ab.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued March 31 at 8:25PM CDT by NWS Norman OK",
+          "description": "At 825 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 5 miles south of Eldorado to 11 miles southeast\nof Swearingen. Movement was east at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nVernon, Quanah, Crowell, Chillicothe, Margaret, Medicine Mound,\nThalia, Rayland, and Copper Breaks State Park.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2026-03-31T20:25:00-05:00",
+          "expires": "2026-03-31T21:15:00-05:00",
+          "areaDesc": "Hardeman; Foard; Wilbarger; Knox",
+          "sameCodes": [
+            "048197",
+            "048155",
+            "048487",
+            "048275"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.035e7ecd6030c452c27a566df7be757e2f7caf7f.002.1",
           "event": "Severe Thunderstorm Watch",
-          "headline": "Severe Thunderstorm Watch issued March 31 at 4:36PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
-          "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH\n81 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 16 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nCANADIAN              GRADY                 KINGFISHER\n\nIN NORTHWEST OKLAHOMA\n\nBLAINE                DEWEY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              GREER\nHARMON                JACKSON               KIOWA\nTILLMAN\n\nIN WESTERN OKLAHOMA\n\nBECKHAM               CUSTER                ROGER MILLS\nWASHITA\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, BURNS FLAT,\nCHEYENNE, CHICKASHA, CLINTON, CONCHO, CORDELL, CROWELL, EL RENO,\nELK CITY, FREDERICK, GEARY, GRANITE, HAMMON, HENNESSEY, HINTON,\nHOBART, HOLLIS, KINGFISHER, KNOX CITY, LAWTON, LEEDEY, MANGUM,\nMUNDAY, MUSTANG, OKARCHE, OKEENE, QUANAH, SAYRE, SEILING,\nSENTINEL, SNYDER, TALOGA, TUTTLE, VERNON, VICI, WATONGA,\nWEATHERFORD, AND YUKON.",
+          "headline": "Severe Thunderstorm Watch issued March 31 at 8:21PM CDT until March 31 at 11:00PM CDT by NWS Norman OK",
+          "description": "SEVERE THUNDERSTORM WATCH 81 REMAINS VALID UNTIL 11 PM CDT THIS\nEVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 6 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nGRADY\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE              JACKSON\nKIOWA                 TILLMAN\n\nIN TEXAS THIS WATCH INCLUDES 4 COUNTIES\n\nIN NORTHERN TEXAS\n\nFOARD                 HARDEMAN              KNOX\nWILBARGER\n\nTHIS INCLUDES THE CITIES OF ALTUS, ANADARKO, CHICKASHA, CROWELL,\nFREDERICK, HINTON, HOBART, KNOX CITY, LAWTON, MUNDAY, QUANAH,\nSNYDER, TUTTLE, AND VERNON.",
           "severity": "Severe",
           "urgency": "Future",
           "certainty": "Possible",
-          "effective": "2026-03-31T16:36:00-05:00",
+          "effective": "2026-03-31T20:21:00-05:00",
           "expires": "2026-03-31T23:00:00-05:00",
-          "areaDesc": "Beckham, OK; Blaine, OK; Caddo, OK; Canadian, OK; Comanche, OK; Custer, OK; Dewey, OK; Grady, OK; Greer, OK; Harmon, OK; Jackson, OK; Kingfisher, OK; Kiowa, OK; Roger Mills, OK; Tillman, OK; Washita, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
+          "areaDesc": "Caddo, OK; Comanche, OK; Grady, OK; Jackson, OK; Kiowa, OK; Tillman, OK; Foard, TX; Hardeman, TX; Knox, TX; Wilbarger, TX",
           "sameCodes": [
-            "040009",
-            "040011",
             "040015",
-            "040017",
             "040031",
-            "040039",
-            "040043",
             "040051",
-            "040055",
-            "040057",
             "040065",
-            "040073",
             "040075",
-            "040129",
             "040141",
-            "040149",
             "048155",
             "048197",
             "048275",
+            "048487"
+          ]
+        },
+        {
+          "id": "urn:oid:2.49.0.1.840.0.e4557d3da46b807a0ff518e62131f49344cef397.001.1",
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued March 31 at 8:00PM CDT by NWS Norman OK",
+          "description": "At 759 PM CDT, Doppler radar was tracking strong thunderstorms along\na line extending from 4 miles northeast of Lone Wolf to near\nEldorado. Movement was east at 25 mph.\n\nHAZARD...Wind gusts of 40 mph and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nAltus, Hobart, Snyder, Tipton, Blair, Olustee, Eldorado, Lone Wolf,\nMountain Park, Roosevelt, Martha, Elmer, Headrick, Friendship,\nCooperton, Altus Air Force Base, Tom Steed Reservoir, Warren, Fargo,\nand Humphreys.",
+          "severity": "Moderate",
+          "urgency": "Expected",
+          "certainty": "Observed",
+          "effective": "2026-03-31T20:00:00-05:00",
+          "expires": "2026-03-31T20:45:00-05:00",
+          "areaDesc": "Greer; Kiowa; Jackson; Tillman; Comanche; Hardeman; Wilbarger",
+          "sameCodes": [
+            "040055",
+            "040075",
+            "040065",
+            "040141",
+            "040031",
+            "048197",
             "048487"
           ]
         }
@@ -7046,14 +7148,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 45,
+        "value": 53,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7077,14 +7179,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 25,
+        "value": 31,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7102,38 +7204,23 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT19H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT18H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c4d9d86c5fcc5cd1d76232a8c89a039670e35c1d.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.06ed4a2afc8bfcf0f2d54fdb7adfbda7d0ed052a.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued March 31 at 7:24PM CDT until March 31 at 8:30PM CDT by NWS Lubbock TX",
-          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern King County in northwestern Texas...\nSouthern Cottle County in northwestern Texas...\n\n* Until 830 PM CDT.\n\n* At 723 PM CDT, a severe thunderstorm was located 6 miles west of\nSwearingen, or 8 miles north of Paducah, moving southeast at 15\nmph.\n\nHAZARD...Golf ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nPaducah, Grow, Finney, Delwin, Chalk, and Hackberry.",
+          "headline": "Severe Thunderstorm Warning issued March 31 at 8:30PM CDT until March 31 at 9:30PM CDT by NWS Lubbock TX",
+          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern King County in northwestern Texas...\nSouthern Cottle County in northwestern Texas...\n\n* Until 930 PM CDT.\n\n* At 829 PM CDT, a severe thunderstorm was located over Chalk, or 10\nmiles south of Paducah, moving south at 15 mph.\n\nHAZARD...70 mph wind gusts and half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect considerable\ntree damage. Wind damage is also likely to mobile homes,\nroofs, and outbuildings.\n\n* Locations impacted include...\nGrow, Finney, Delwin, Chalk, and Hackberry.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2026-03-31T19:24:00-05:00",
-          "expires": "2026-03-31T20:30:00-05:00",
+          "effective": "2026-03-31T20:30:00-05:00",
+          "expires": "2026-03-31T21:30:00-05:00",
           "areaDesc": "Cottle, TX; King, TX",
           "sameCodes": [
             "048101",
             "048269"
-          ]
-        },
-        {
-          "id": "urn:oid:2.49.0.1.840.0.b8f3fc1005b8c8d6c79de0185b2b2a71dd2bb5c0.001.1",
-          "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued March 31 at 7:19PM CDT until March 31 at 8:00PM CDT by NWS Lubbock TX",
-          "description": "At 718 PM CDT, severe thunderstorms were located along a line\nextending from 6 miles northwest of Swearingen to 5 miles northwest\nof Paducah, moving southeast at 15 mph.\n\nHAZARD...Golf ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect wind\ndamage to roofs, siding, and trees.\n\nLocations impacted include...\nSwearingen.",
-          "severity": "Severe",
-          "urgency": "Immediate",
-          "certainty": "Observed",
-          "effective": "2026-03-31T19:19:00-05:00",
-          "expires": "2026-03-31T20:00:00-05:00",
-          "areaDesc": "Cottle, TX",
-          "sameCodes": [
-            "048101"
           ]
         },
         {
@@ -7167,14 +7254,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 34,
+        "value": 40,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7198,14 +7285,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 30,
+        "value": 39,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7229,14 +7316,14 @@
     },
     "data": {
       "temperature": {
-        "value": 17.77777777777778,
+        "value": 14.444444444444445,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 29,
+        "value": 37,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7260,14 +7347,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 75,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7291,14 +7378,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 71,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7322,14 +7409,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.333333333333332,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 24,
+        "value": 33,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7353,14 +7440,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 21.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 39,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7391,14 +7478,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7422,14 +7509,14 @@
     },
     "data": {
       "temperature": {
-        "value": 18.333333333333332,
+        "value": 15,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 31,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7453,14 +7540,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 12,
+        "value": 16,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7478,7 +7565,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -7522,14 +7609,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7553,14 +7640,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7584,14 +7671,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 29.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 15,
+        "value": 18,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7609,7 +7696,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
@@ -7653,14 +7740,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 62,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7684,14 +7771,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 33,
+        "value": 38,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7715,14 +7802,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30.555555555555557,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 14,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -7780,14 +7867,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 64,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7811,14 +7898,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7842,25 +7929,25 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 23.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 76,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
-        "value": 1,
+        "value": 0,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT5H"
       },
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T17:00:00+00:00/PT14H"
+        "validTime": "2026-03-31T18:00:00+00:00/PT13H"
       },
       "alerts": []
     }
@@ -7873,14 +7960,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7904,14 +7991,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7935,14 +8022,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7966,14 +8053,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 51,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -7997,14 +8084,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 47,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8028,14 +8115,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8059,14 +8146,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 45,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8090,14 +8177,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.666666666666668,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 58,
+        "value": 66,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8121,14 +8208,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.77777777777778,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8152,14 +8239,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8183,14 +8270,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.11111111111111,
+        "value": 28.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 19,
+        "value": 24,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8214,14 +8301,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8245,14 +8332,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8276,14 +8363,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8307,14 +8394,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 30.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 28,
+        "value": 34,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8325,7 +8412,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT6H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT5H"
       },
       "alerts": []
     }
@@ -8338,14 +8425,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 56,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8369,14 +8456,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 50,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8400,14 +8487,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 44,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8431,14 +8518,14 @@
     },
     "data": {
       "temperature": {
-        "value": 31.666666666666668,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 31,
+        "value": 35,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8456,19 +8543,19 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1DT6H"
+        "validTime": "2026-03-31T19:00:00+00:00/P1DT5H"
       },
       "alerts": [
         {
-          "id": "urn:oid:2.49.0.1.840.0.c4d9d86c5fcc5cd1d76232a8c89a039670e35c1d.001.1",
+          "id": "urn:oid:2.49.0.1.840.0.06ed4a2afc8bfcf0f2d54fdb7adfbda7d0ed052a.001.1",
           "event": "Severe Thunderstorm Warning",
-          "headline": "Severe Thunderstorm Warning issued March 31 at 7:24PM CDT until March 31 at 8:30PM CDT by NWS Lubbock TX",
-          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nNortheastern King County in northwestern Texas...\nSouthern Cottle County in northwestern Texas...\n\n* Until 830 PM CDT.\n\n* At 723 PM CDT, a severe thunderstorm was located 6 miles west of\nSwearingen, or 8 miles north of Paducah, moving southeast at 15\nmph.\n\nHAZARD...Golf ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nPaducah, Grow, Finney, Delwin, Chalk, and Hackberry.",
+          "headline": "Severe Thunderstorm Warning issued March 31 at 8:30PM CDT until March 31 at 9:30PM CDT by NWS Lubbock TX",
+          "description": "SVRLUB\n\nThe National Weather Service in Lubbock Texas has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern King County in northwestern Texas...\nSouthern Cottle County in northwestern Texas...\n\n* Until 930 PM CDT.\n\n* At 829 PM CDT, a severe thunderstorm was located over Chalk, or 10\nmiles south of Paducah, moving south at 15 mph.\n\nHAZARD...70 mph wind gusts and half dollar size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect considerable\ntree damage. Wind damage is also likely to mobile homes,\nroofs, and outbuildings.\n\n* Locations impacted include...\nGrow, Finney, Delwin, Chalk, and Hackberry.",
           "severity": "Severe",
           "urgency": "Immediate",
           "certainty": "Observed",
-          "effective": "2026-03-31T19:24:00-05:00",
-          "expires": "2026-03-31T20:30:00-05:00",
+          "effective": "2026-03-31T20:30:00-05:00",
+          "expires": "2026-03-31T21:30:00-05:00",
           "areaDesc": "Cottle, TX; King, TX",
           "sameCodes": [
             "048101",
@@ -8506,14 +8593,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 25.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 53,
+        "value": 62,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8537,14 +8624,14 @@
     },
     "data": {
       "temperature": {
-        "value": 33.333333333333336,
+        "value": 31.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 31,
+        "value": 36,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8568,14 +8655,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 49,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8599,14 +8686,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 46,
+        "value": 52,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8630,14 +8717,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 22.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 20,
+        "value": 23,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -8695,14 +8782,14 @@
     },
     "data": {
       "temperature": {
-        "value": 27.77777777777778,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 55,
+        "value": 60,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8726,14 +8813,14 @@
     },
     "data": {
       "temperature": {
-        "value": 23.88888888888889,
+        "value": 20.555555555555557,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 22,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8757,14 +8844,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 26.666666666666668,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 43,
+        "value": 47,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-03-31T23:00:00+00:00/PT2H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8788,14 +8875,14 @@
     },
     "data": {
       "temperature": {
-        "value": 26.11111111111111,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 64,
+        "value": 74,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8819,14 +8906,14 @@
     },
     "data": {
       "temperature": {
-        "value": 21.11111111111111,
+        "value": 18.88888888888889,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 26,
+        "value": 30,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8850,14 +8937,14 @@
     },
     "data": {
       "temperature": {
-        "value": 29.444444444444443,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 41,
+        "value": 49,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8881,14 +8968,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25.555555555555557,
+        "value": 23.333333333333332,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 69,
+        "value": 82,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8912,14 +8999,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.88888888888889,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 38,
+        "value": 42,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8943,14 +9030,14 @@
     },
     "data": {
       "temperature": {
-        "value": 32.22222222222222,
+        "value": 30,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 36,
+        "value": 41,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -8974,14 +9061,14 @@
     },
     "data": {
       "temperature": {
-        "value": 25,
+        "value": 24.444444444444443,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 79,
+        "value": 85,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -9005,14 +9092,14 @@
     },
     "data": {
       "temperature": {
-        "value": 28.333333333333332,
+        "value": 26.11111111111111,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 51,
+        "value": 58,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [],
       "probabilityOfPrecipitation": {
@@ -9036,14 +9123,14 @@
     },
     "data": {
       "temperature": {
-        "value": 30,
+        "value": 27.22222222222222,
         "unit": "wmoUnit:degC",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "relativeHumidity": {
-        "value": 13,
+        "value": 17,
         "unit": "wmoUnit:percent",
-        "validTime": "2026-04-01T00:00:00+00:00/PT1H"
+        "validTime": "2026-04-01T01:00:00+00:00/PT1H"
       },
       "hazards": [
         {
@@ -9061,7 +9148,7 @@
       "visibility": {
         "value": 16093.44,
         "unit": "wmoUnit:m",
-        "validTime": "2026-03-31T18:00:00+00:00/P1D"
+        "validTime": "2026-03-31T19:00:00+00:00/PT23H"
       },
       "alerts": [
         {
